@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "lethal-company",
+  "status": "active",
+  "name": "Lethal Company",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1966720/Lethal_Company/"
+    }
+  ],
+  "accessibility": {
+    "description": "Partially accessible.",
+    "coverage": "partial",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/LethalCompany/Blind",
+    "primaryModId": "lethal-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/52628/"
+    }
+  ],
+  "releaseYear": "2023"
+}

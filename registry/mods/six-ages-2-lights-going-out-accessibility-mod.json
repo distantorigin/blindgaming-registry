@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "six-ages-2-lights-going-out-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "six-ages-2-lights-going-out"
+  ],
+  "name": "Six Ages 2: Lights Going Out Accessibility Mod",
+  "homeUrl": "https://github.com/HappyStarfish/six-ages-2-accessibility/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/HappyStarfish/six-ages-2-accessibility"
+  },
+  "links": []
+}

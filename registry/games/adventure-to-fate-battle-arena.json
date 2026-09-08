@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-to-fate-battle-arena",
+  "status": "active",
+  "name": "Adventure To Fate: Battle Arena",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/adventure-to-fate-battle-arena-jrpg/id946785876"
+    }
+  ],
+  "accessibility": {
+    "description": "This iOS arena RPG is playable with VoiceOver, with updates adding spoken combat information, room labels, and equipment hints. Community reports also describe awkward map navigation, overlapping screens, and unclear controls. Most detailed accessibility reports are from older iOS releases.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer VoiceOver release notes on the App Store",
+      "url": "https://apps.apple.com/us/app/adventure-to-fate-battle-arena-jrpg/id946785876"
+    },
+    {
+      "name": "AppleVis accessibility report and player workarounds",
+      "url": "https://www.applevis.com/apps/ios/games/adventure-fate-battle-arena-jrpg"
+    }
+  ],
+  "releaseYear": "2015"
+}

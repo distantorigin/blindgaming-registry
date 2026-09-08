@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "celtic-tribes",
+  "status": "active",
+  "name": "Celtic Tribes",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/celtic-tribes-strategy-mmo/id564769273"
+    }
+  ],
+  "accessibility": {
+    "description": "Build and manage a Celtic village using VoiceOver on iOS. The German blindness federation describes the iOS game as largely accessible, while players report awkward map navigation and building controls. Its Android version is reported not playable with TalkBack.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "German blindness federation game accessibility guidance",
+      "url": "https://www.dbsv.org/computerspiele.html"
+    },
+    {
+      "name": "Publisher catalog",
+      "url": "https://xyrality.com/"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "dbz-kakarot-access",
+  "status": "active",
+  "gameIds": [
+    "dragon-ball-z-kakarot"
+  ],
+  "name": "DBZ Kakarot Access",
+  "homeUrl": "https://github.com/Ali-Bueno/dbz-kakarot-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Ali-Bueno/dbz-kakarot-access"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/alibueno",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "blippo-plus",
+  "status": "active",
+  "name": "Blippo Plus",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3323850/Blippo/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Blippo%2B/Blind",
+    "primaryModId": "blippo-access"
+  },
+  "releaseYear": "2025"
+}

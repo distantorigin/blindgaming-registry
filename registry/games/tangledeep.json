@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "tangledeep",
+  "status": "active",
+  "name": "Tangledeep",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/628770/Tangledeep/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/tangledeep"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/tangledeep"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "tangledeep-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59611/"
+    }
+  ],
+  "releaseYear": "2018"
+}

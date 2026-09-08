@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "blackbox",
+  "status": "active",
+  "name": "Blackbox",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/blackbox/id962969578"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS game combines VoiceOver navigation with sound and haptic feedback that communicate its sensor-based puzzles without sight. AppleVis corroborates readable elements and labeled controls. Challenges can require device movement, sound, particular times, or real-world conditions; accessibility feedback does not remove those puzzle requirements.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Blackbox accessibility and player discussion",
+      "url": "https://www.applevis.com/apps/ios/games/blackbox"
+    },
+    {
+      "name": "Developer press kit: Blackbox sound, haptic, and VoiceOver interfaces",
+      "url": "https://www.blackboxpuzzles.com/press/"
+    }
+  ],
+  "releaseYear": "2016"
+}

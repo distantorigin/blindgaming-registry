@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "cryptmaster",
+  "status": "active",
+  "name": "Cryptmaster",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1885110/Cryptmaster/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/cryptmaster"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/cryptmaster"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Cryptmaster/Blind",
+    "primaryModId": "cryptmaster-access"
+  },
+  "releaseYear": "2024"
+}

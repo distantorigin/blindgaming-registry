@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Build a record with the submission tool
+    url: https://blindgaming.net/submit
+    about: Builds game and mod records, checks them against this repository's validator, and prefills one of the forms below.

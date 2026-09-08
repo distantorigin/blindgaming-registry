@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "tangledeep-access",
+  "status": "active",
+  "gameIds": [
+    "tangledeep"
+  ],
+  "name": "Tangledeep Access",
+  "homeUrl": "https://github.com/Destranis/tangledeep_access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Destranis/tangledeep_access"
+  },
+  "links": []
+}

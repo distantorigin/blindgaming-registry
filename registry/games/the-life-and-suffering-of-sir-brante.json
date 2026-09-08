@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "the-life-and-suffering-of-sir-brante",
+  "status": "active",
+  "name": "The Life and Suffering of Sir Brante",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1272160/The_Life_and_Suffering_of_Sir_Brante/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/the_life_and_suffering_of_sir_brante"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/the-life-and-suffering-of-sir-brante"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "brante-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59815/"
+    }
+  ],
+  "releaseYear": "2021"
+}

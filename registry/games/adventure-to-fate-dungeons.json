@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-to-fate-dungeons",
+  "status": "active",
+  "name": "Adventure To Fate: Dungeons",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/adventure-to-fate-dungeons/id6743055907"
+    }
+  ],
+  "accessibility": {
+    "description": "This iOS dungeon crawler supports VoiceOver for menus, character creation, exploration, and turn-based battles. Spoken navigation and detailed action logs describe progress, with optional vibration cues. Blind players helped test the game; the developer continues to refine navigation and battle layouts.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official game website",
+      "url": "https://adventuretofate.com/"
+    },
+    {
+      "name": "AppleVis developer updates and player reports",
+      "url": "https://www.applevis.com/forum/ios-ipados-gaming/adventure-fate-dungeons"
+    }
+  ],
+  "releaseYear": "2025"
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "blind-duel",
+  "status": "active",
+  "gameIds": [
+    "yu-gi-oh-master-duel"
+  ],
+  "name": "Blind Duel",
+  "homeUrl": "https://github.com/realamethyst/blindduel",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/realamethyst/blindduel"
+  },
+  "links": []
+}

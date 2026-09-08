@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "deep-rock-galactic-survivor",
+  "status": "active",
+  "name": "Deep Rock Galactic Survivor",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2321470/Deep_Rock_Galactic_Survivor/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/deep-rock-galactic-survivor"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/DeepRockGalactic/Blind",
+    "primaryModId": "drg-access"
+  },
+  "releaseYear": "2020"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "1428-shadows-over-silesia",
+  "status": "active",
+  "name": "1428: Shadows Over Silesia",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1228500/1428_Shadows_over_Silesia/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/1428_shadows_over_silesia"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with audio description.",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/ShadowsOverSilesia/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/46437/"
+    }
+  ],
+  "releaseYear": "2022"
+}

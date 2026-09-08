@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "battlecry",
+  "status": "active",
+  "name": "BattleCry: World War Game",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/battlecry-world-war-game/id855212379"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS game supports VoiceOver, and blind players report sustained play of its military strategy and alliance systems. Some actionable text is not identified as a button. Older reports describe inaccessible sound/profile settings and anti-bot checks that required sighted or developer assistance; later players report improvements, but those limitations have not been independently retested.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "App Store: developer VoiceOver support and blind-player reviews",
+      "url": "https://apps.apple.com/us/app/battlecry-world-war-game/id855212379"
+    },
+    {
+      "name": "AppleVis: BattleCry accessibility, control labeling, and anti-bot limitations",
+      "url": "https://www.applevis.com/apps/ios/games/battlecry-world-war-game"
+    }
+  ],
+  "releaseYear": "2014"
+}

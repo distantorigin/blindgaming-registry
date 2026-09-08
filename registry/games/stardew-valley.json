@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "stardew-valley",
+  "status": "active",
+  "name": "Stardew Valley",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/413150/Stardew_Valley/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/stardew_valley"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible. Combat and the time needed to complete some tasks remain limitations; additional mods can help address them.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/StardewValley/Blind",
+    "primaryModId": "stardew-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/43264/"
+    }
+  ],
+  "releaseYear": "2016"
+}

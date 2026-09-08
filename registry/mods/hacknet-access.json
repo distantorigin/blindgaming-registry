@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "hacknet-access",
+  "status": "active",
+  "gameIds": [
+    "hacknet"
+  ],
+  "name": "Hacknet Access",
+  "homeUrl": "https://github.com/zersiax/HacknetAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/zersiax/HacknetAccess"
+  },
+  "links": []
+}

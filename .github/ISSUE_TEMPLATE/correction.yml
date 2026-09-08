@@ -1,0 +1,25 @@
+name: Correct or retire a record
+description: Report something wrong with a record already in the registry.
+title: "Correction: "
+labels: ["registry", "correction"]
+body:
+  - type: input
+    id: record
+    attributes:
+      label: Which record?
+      description: The registry ID, or a link to its page on blindgaming.net.
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What should change?
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Supporting links or notes
+      description: Optional context for curator review. Published IDs and filenames are permanent; a record is archived rather than deleted.
+    validations:
+      required: false

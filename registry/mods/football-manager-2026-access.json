@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "football-manager-2026-access",
+  "status": "active",
+  "gameIds": [
+    "football-manager"
+  ],
+  "name": "Football Manager 2026 Access",
+  "framework": "Game-specific",
+  "homeUrl": "https://github.com/GreenBeanGravy/FM26Access/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/GreenBeanGravy/FM26Access"
+  },
+  "links": []
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "digimon-world-next-order",
+  "status": "active",
+  "name": "Digimon World: Next Order",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1530160/Digimon_World_Next_Order/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/digimon-world-next-order"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/DigimonWorldNextOrder/Blind",
+    "primaryModId": "digimonnoaccess"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58858/"
+    }
+  ],
+  "releaseYear": "2016"
+}

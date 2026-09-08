@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "mt2-access",
+  "status": "active",
+  "gameIds": [
+    "monster-train-2"
+  ],
+  "name": "MT2 Access",
+  "homeUrl": "https://github.com/amerikrainian/mt2-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/amerikrainian/mt2-access"
+  },
+  "links": []
+}

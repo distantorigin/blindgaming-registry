@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "against-the-storm",
+  "status": "active",
+  "name": "Against the Storm",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1336490/Against_the_Storm/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/against_the_storm"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/against-the-storm"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/AgainstTheStorm/Blind",
+    "primaryModId": "ats-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58558/"
+    }
+  ],
+  "releaseYear": "2023"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-v",
+  "status": "active",
+  "name": "Final Fantasy V",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1173810/FINAL_FANTASY_V/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/final-fantasy-v-2d-remaster"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible and fully completable.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/FinalFantasyV/Blind",
+    "primaryModId": "ff5-screen-reader"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58424/"
+    }
+  ],
+  "releaseYear": "1992"
+}

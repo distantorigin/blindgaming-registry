@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "europe-empire-2027",
+  "status": "active",
+  "name": "Europe Empire 2027",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/europe-empire-2027/id1642138076"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.igindis.europeempire2027"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer documents a built-in accessibility mode for this European nation strategy game on iOS and Android. Turn off VoiceOver or TalkBack before opening the game, then tap three times with three fingers at launch to enable the mode. Navigate using swipes and double taps. The extent of accessibility across all game features has not been independently assessed.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "iOS accessibility-mode instructions",
+      "url": "https://apps.apple.com/us/app/europe-empire-2027/id1642138076"
+    },
+    {
+      "name": "Official developer catalog",
+      "url": "https://apps.apple.com/us/developer/eran-gindi/id1594641623"
+    },
+    {
+      "name": "Android accessibility-mode instructions",
+      "url": "https://play.google.com/store/apps/details?id=com.igindis.europeempire2027"
+    }
+  ]
+}

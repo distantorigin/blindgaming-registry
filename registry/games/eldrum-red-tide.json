@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "eldrum-red-tide",
+  "status": "active",
+  "name": "Eldrum: Red Tide",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/eldrum-red-tide-text-rpg/id1630815537"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.gotterdammerung.redtide"
+    }
+  ],
+  "accessibility": {
+    "description": "This text-based role-playing adventure supports screen readers on iOS and Android. Blind players report playing its branching story and turn-based combat, and the Android listing explicitly documents screen-reader support. The first act is free; continuing requires the full-game purchase.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official game website",
+      "url": "https://eldrum.com/red-tide"
+    },
+    {
+      "name": "Android screen-reader support statement",
+      "url": "https://play.google.com/store/apps/details?id=com.gotterdammerung.redtide"
+    },
+    {
+      "name": "AppleVis developer announcement and player discussion",
+      "url": "https://www.applevis.com/comment/141002"
+    }
+  ],
+  "releaseYear": "2022"
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "cookie-clicker-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "cookie-clicker"
+  ],
+  "name": "Cookie Clicker Accessibility Mod",
+  "homeUrl": "https://github.com/FioraXena/Cookie-Clicker-Enhanced-NVDA-Accessibility-Steam-Only-",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/FioraXena/Cookie-Clicker-Enhanced-NVDA-Accessibility-Steam-Only-"
+  },
+  "links": []
+}

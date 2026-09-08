@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "her-story",
+  "status": "active",
+  "name": "Her Story",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/368370/Her_Story/"
+    }
+  ],
+  "accessibility": {
+    "description": "The paid Patreon prerelease makes the database/search interface usable, but end-to-end completion is unconfirmed and players flag potentially visual investigation clues.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "hear-her-story"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60074/"
+    }
+  ],
+  "releaseYear": "2015"
+}

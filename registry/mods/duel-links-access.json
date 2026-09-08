@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "duel-links-access",
+  "status": "active",
+  "gameIds": [
+    "yu-gi-oh-duel-links"
+  ],
+  "name": "Duel Links Access",
+  "homeUrl": "https://github.com/zersiax/DuelLinksAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/zersiax/DuelLinksAccess"
+  },
+  "links": []
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "race-to-nowhere",
+  "status": "active",
+  "name": "Race To Nowhere",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/race-to-nowhere/id6762063887"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS travel board game supports VoiceOver for destinations, flight costs, cards, scores, and opponent turns. Updates 1.24 and 1.25 address obstructing map overlays and disappearing controls reported by blind players.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer game website",
+      "url": "https://stillpointgames.com/racetonowhere/"
+    },
+    {
+      "name": "AppleVis accessibility report and developer fixes",
+      "url": "https://www.applevis.com/apps/ios/games/race-nowhere"
+    }
+  ],
+  "releaseYear": "2026"
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "loco-motive-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "loco-motive"
+  ],
+  "name": "Loco Motive Accessibility Mod",
+  "homeUrl": "https://github.com/Lirin111/LocoMotive-Accessibility-Mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Lirin111/LocoMotive-Accessibility-Mod"
+  },
+  "links": []
+}

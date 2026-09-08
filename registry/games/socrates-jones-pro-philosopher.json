@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "socrates-jones-pro-philosopher",
+  "status": "active",
+  "name": "Socrates Jones: Pro Philosopher",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2120060/Socrates_Jones_Pro_Philosopher/"
+    }
+  ],
+  "accessibility": {
+    "description": "Dialogue, UI, debates, evidence, logs, settings, cinematics, and title screens are covered. The missing dependency packaging report was addressed in v1.0.1.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "socratic-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60159/"
+    }
+  ],
+  "releaseYear": "2023"
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "skyrim-access",
+  "status": "active",
+  "gameIds": [
+    "the-elder-scrolls-v-skyrim-special-edition"
+  ],
+  "name": "Skyrim Access",
+  "framework": "SKSE plugin (C++)",
+  "homeUrl": "https://gitlab.com/SkyrimAccessibilityProject/SkyrimAccessMod",
+  "releaseSource": {
+    "kind": "nexus",
+    "repositoryUrl": "https://www.nexusmods.com/skyrimspecialedition/mods/181131"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net: Skyrim Special Edition accessibility guide",
+      "url": "https://forum.audiogames.net/topic/59408/skyrim-special-edition-accessibility-guide/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net: Skyrim Access v1.9.0 release",
+      "url": "https://forum.audiogames.net/topic/59731/skyrim-access-v190-release/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Download Skyrim Access on Nexus Mods",
+      "url": "https://www.nexusmods.com/skyrimspecialedition/mods/181131",
+      "requiresPayment": false
+    }
+  ]
+}

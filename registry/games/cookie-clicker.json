@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "cookie-clicker",
+  "status": "active",
+  "name": "Cookie Clicker",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1454400/Cookie_Clicker/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "cookie-clicker-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58430/"
+    }
+  ],
+  "releaseYear": "2021"
+}

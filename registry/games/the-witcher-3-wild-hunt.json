@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "the-witcher-3-wild-hunt",
+  "status": "active",
+  "name": "The Witcher 3: Wild Hunt",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/292030/The_Witcher_3_Wild_Hunt/"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer estimates about 80% playable, including expansions. Boats and some quest-specific interactions are not covered; test builds are currently paid Patreon access.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "witcher-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59928/"
+    }
+  ],
+  "releaseYear": "2015"
+}

@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "beyond-the-chiron-gate",
+  "status": "active",
+  "name": "Beyond the Chiron Gate",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2960700/"
+    },
+    {
+      "store": "appstore",
+      "url": "https://apps.apple.com/us/app/beyond-the-chiron-gate/id1624155440"
+    }
+  ],
+  "accessibility": {
+    "description": "The Windows and iOS editions have built-in screen-reader support. Windows players report completing runs, with an older report identifying inaccessible hover tooltips. The developer also confirms iOS accessibility and says typing is optional. An iOS VoiceOver player reports extensive play but describes accidental action selection after Continue in a 2022 build. Resolution of these older issues has not been independently verified.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "App Store: iOS VoiceOver player report and action-selection caveat",
+      "url": "https://apps.apple.com/us/app/beyond-the-chiron-gate/id1624155440"
+    },
+    {
+      "name": "AudioGames.net: Beiond the Chiron gate, a new text based scify roguelike",
+      "url": "https://forum.audiogames.net/topic/44948/beiond-the-chiron-gate-a-new-text-based-scify-roguelike/"
+    },
+    {
+      "name": "Windows screen-reader testing and tooltip limitations",
+      "url": "https://itch.io/t/2098169/question-about-the-windows-version"
+    },
+    {
+      "name": "Developer: iOS and PC accessibility and optional typing",
+      "url": "https://itch.io/t/3474529/some-questions"
+    },
+    {
+      "name": "Developer explanation of Steam and desktop edition equivalence",
+      "url": "https://spacegoblingames.itch.io/beyond-the-chiron-gate/devlog/730965/steam-release"
+    }
+  ],
+  "releaseYear": "2024"
+}

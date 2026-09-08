@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "id": "dawncaster",
+  "status": "active",
+  "name": "DawnCaster",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3966890/Dawncaster__The_RPG_Cardventure/"
+    },
+    {
+      "store": "appstore",
+      "url": "https://apps.apple.com/us/app/dawncaster-deckbuilding-rpg/id1555459868"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=games.WanderlostInteractive.Dawncaster"
+    }
+  ],
+  "accessibility": {
+    "description": "Built-in Accessibility Mode provides spoken cards, menus, combat information and character descriptions. Mobile navigation uses swipes and double-taps; some focus and loading issues have been reported. Mobile results conflict: AccessWorld and AppleVis describe playable versions, but a June 2026 iOS/iPadOS test reported VoiceOver failure. Confirm that the accessibility mode works on your device before purchasing additional content.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Dawncaster/Blind"
+  },
+  "resources": [
+    {
+      "name": "June 2026 conflicting mobile test",
+      "url": "https://blindgaming.no/en/accessible-games/dawncaster/"
+    },
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/50769/"
+    },
+    {
+      "name": "AccessWorld review and mobile controls",
+      "url": "https://www.afb.org/aw/spring2026/dawncaster-review"
+    },
+    {
+      "name": "AppleVis iOS accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/dawncaster-deckbuilding-rpg"
+    },
+    {
+      "name": "Android player accessibility report",
+      "url": "https://www.reddit.com/r/Blind/comments/1evnk20/"
+    }
+  ],
+  "releaseYear": "2026"
+}

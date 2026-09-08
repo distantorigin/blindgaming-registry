@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "evelyns-farm",
+  "status": "active",
+  "name": "Evelyn's Farm",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/evelyns-farm/id1490259856"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS adventure supports VoiceOver for its story, tasks and resource management. AppleVis reports that all controls and information are readable; on long task lists, a skipped choice can be reached by touch exploration or swiping back.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Evelyn's Farm accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/evelyns-farm"
+    }
+  ]
+}

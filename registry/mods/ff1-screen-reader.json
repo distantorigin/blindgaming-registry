@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ff1-screen-reader",
+  "status": "active",
+  "gameIds": [
+    "final-fantasy"
+  ],
+  "name": "FF1 Screen Reader",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/bladestorm360/FF1-Screen-Reader",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/bladestorm360/FF1-Screen-Reader"
+  },
+  "links": []
+}

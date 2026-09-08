@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "brilliant-shadows-part-1-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "brilliant-shadows-part-1"
+  ],
+  "name": "Brilliant Shadows Part 1 Accessibility Mod",
+  "homeUrl": "https://github.com/shaysters/brilliant-shadows-accessibility-mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/shaysters/brilliant-shadows-accessibility-mod"
+  },
+  "links": []
+}

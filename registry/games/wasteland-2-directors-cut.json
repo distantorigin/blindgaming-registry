@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "id": "wasteland-2-directors-cut",
+  "status": "active",
+  "name": "Wasteland 2: Director's Cut",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/240760/"
+    },
+    {
+      "store": "gog",
+      "primary": false,
+      "url": "https://www.gog.com/en/game/wasteland_2_directors_cut_digital_classic_edition"
+    },
+    {
+      "store": "humble",
+      "primary": false,
+      "url": "https://www.humblebundle.com/store/wasteland-2-directors-cut"
+    }
+  ],
+  "accessibility": {
+    "description": "The Wasteland 2 Accessibility Mod adds screen-reader or Windows speech output for interfaces, dialogue, exploration and combat. Requires the Windows Director's Cut edition from Steam or GOG, not the original executable. The public beta includes an installer and uses MelonLoader 0.5.7; the author warns that newer loader versions crash this game. Accessibility is still in development and a complete playthrough has not been independently verified.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "wasteland-2-accessibility"
+  },
+  "resources": [
+    {
+      "name": "Installation, Director's Cut requirements and controls",
+      "url": "https://github.com/Berenion/wasteland2-accessibility-mod"
+    },
+    {
+      "name": "Public beta downloads and release notes",
+      "url": "https://github.com/Berenion/wasteland2-accessibility-mod/releases"
+    }
+  ],
+  "releaseYear": "2015"
+}

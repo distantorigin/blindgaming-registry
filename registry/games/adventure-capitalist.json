@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-capitalist",
+  "status": "active",
+  "name": "AdVenture Capitalist",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/346900/AdVenture_Capitalist/"
+    }
+  ],
+  "accessibility": {
+    "description": "All reached systems are accessible; late-game systems, events, planet completion, store purchases, and real-money transactions have limited or no testing.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "adcap-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60188/"
+    }
+  ],
+  "releaseYear": "2015"
+}

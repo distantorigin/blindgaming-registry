@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "songs-of-conquest",
+  "status": "active",
+  "name": "Songs of Conquest",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/867210/Songs_of_Conquest/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/songs_of_conquest"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/songs-of-conquest"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "songs-of-conquest-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59372/"
+    }
+  ],
+  "releaseYear": "2024"
+}

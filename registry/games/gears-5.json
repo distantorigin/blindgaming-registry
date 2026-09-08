@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "gears-5",
+  "status": "active",
+  "name": "Gears 5",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1097840/Gears_5/"
+    },
+    {
+      "store": "xbox",
+      "url": "https://www.xbox.com/en-US/games/store/x/C2KDNLT2H7DM"
+    }
+  ],
+  "accessibility": {
+    "description": "Only Hoard mode and Escape mode are accessible. Main issues you will have in both modes is picking up ammo or weapons. The game is still very fun, especially with a group of people. LB in both modes is your friend.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Gears5/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/40745/"
+    }
+  ],
+  "releaseYear": "2019"
+}

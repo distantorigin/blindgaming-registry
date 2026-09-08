@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "hearthstone",
+  "status": "active",
+  "name": "Hearthstone",
+  "stores": [
+    {
+      "store": "battlenet",
+      "primary": true,
+      "url": "https://shop.battle.net/en-us/product/hearthstone"
+    }
+  ],
+  "accessibility": {
+    "description": "Playable on Windows with the free, community-maintained Hearthstone Access mod, which adds keyboard controls and screen-reader support. Most game modes are supported, including traditional Hearthstone, Battlegrounds, and Arena. Mercenaries is unsupported, and some Tavern Brawls and older solo adventures have incomplete access. Reapply the mod after game updates; major patches may require waiting for a compatible mod update. This accessibility path does not cover macOS or mobile versions.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "hearthstone-access"
+  },
+  "resources": [
+    {
+      "name": "Hearthstone Access community version and known limitations",
+      "url": "https://hearthstoneaccess.com/"
+    },
+    {
+      "name": "Hearthstone Access community changelog",
+      "url": "https://hearthstoneaccess.com/changelog.html"
+    },
+    {
+      "name": "Hearthstone Access keyboard commands",
+      "url": "https://hearthstoneaccess.com/commands.html"
+    },
+    {
+      "name": "Hearthstone Access FAQ and Windows requirements",
+      "url": "https://hearthstoneaccess.com/faq.html"
+    }
+  ],
+  "releaseYear": "2014"
+}

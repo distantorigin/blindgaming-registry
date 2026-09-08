@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-prom-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "monster-prom"
+  ],
+  "name": "Monster Prom Accessibility Mod",
+  "homeUrl": "https://github.com/shaysters/MonsterProm-Accessibility-Mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/shaysters/MonsterProm-Accessibility-Mod"
+  },
+  "links": []
+}

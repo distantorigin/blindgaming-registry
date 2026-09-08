@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "2xko",
+  "status": "active",
+  "name": "2XKO",
+  "stores": [
+    {
+      "store": "psn",
+      "primary": true,
+      "url": "https://store.playstation.com/en-us/concept/10005841"
+    },
+    {
+      "store": "xbox",
+      "url": "https://www.xbox.com/en-US/games/store/2xko/9pnwbq5561ck"
+    }
+  ],
+  "accessibility": {
+    "description": "Has a built-in screen reader.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/2XKO/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57318/"
+    }
+  ],
+  "releaseYear": "2026"
+}

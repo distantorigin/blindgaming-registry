@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "hand-of-fate-access",
+  "status": "active",
+  "gameIds": [
+    "hand-of-fate"
+  ],
+  "name": "hand of Fate Access",
+  "homeUrl": "https://github.com/rashadnaqeeb/hand-of-fate-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/rashadnaqeeb/hand-of-fate-access"
+  },
+  "links": []
+}

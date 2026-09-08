@@ -1,0 +1,71 @@
+name: Add a mod
+description: Propose an accessibility mod and the games it makes playable.
+title: "Add mod: "
+labels: ["registry", "mod"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The submission tool at https://blindgaming.net/submit creates the record
+        JSON for you. If this mod makes a game playable that is not already
+        in the registry, include both records or describe the game below.
+
+        A merged mod submission needs both sides linked: the mod lists the game
+        in `gameIds`, and a mod-based game points back with `primaryModId`. You can also
+        describe the mod and its games in plain text for a maintainer to review.
+  - type: textarea
+    id: record
+    attributes:
+      label: Mod record JSON
+      description: The proposed contents of registry/mods/<id>.json. Leave blank if you are describing the mod in prose below.
+      render: json
+    validations:
+      required: false
+  - type: textarea
+    id: game_record
+    attributes:
+      label: Companion game record JSON
+      description: If this mod makes a new game playable, paste the proposed registry/games/<id>.json here. Leave blank if the game already exists or you are describing it below.
+      render: json
+    validations:
+      required: false
+  - type: input
+    id: name
+    attributes:
+      label: Mod name
+    validations:
+      required: false
+  - type: input
+    id: games
+    attributes:
+      label: Which games does it make accessible?
+      description: Name each game. If you know their registry IDs, list those. If a game is not in the registry yet, include its store page or paste a companion game record above.
+    validations:
+      required: false
+  - type: textarea
+    id: game_details
+    attributes:
+      label: Game details, if any
+      description: If any covered game is not already in the registry and the game record is not pasted above, include the game name, store page, and what the mod makes accessible.
+    validations:
+      required: false
+  - type: input
+    id: home
+    attributes:
+      label: Mod home page
+    validations:
+      required: false
+  - type: textarea
+    id: links
+    attributes:
+      label: Download and other links
+      description: Where to download the mod, plus any discussion or funding links. Note whether a download requires payment.
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Supporting links or notes
+      description: Optional context for curator review, such as reviews, wiki pages, forum threads, or developer statements.
+    validations:
+      required: false

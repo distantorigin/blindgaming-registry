@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "slots-and-daggers",
+  "status": "active",
+  "name": "Slots and Daggers",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3631290/Slots__Daggers/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/SlotsAndDaggers/Blind",
+    "primaryModId": "slots-and-daggers-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57985/"
+    }
+  ],
+  "releaseYear": "2025"
+}

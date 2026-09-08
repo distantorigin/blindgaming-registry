@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "vcmi-access",
+  "status": "active",
+  "gameIds": [
+    "heroes-of-might-and-magic-3"
+  ],
+  "name": "VCMI Access",
+  "framework": "VCMI engine fork",
+  "homeUrl": "https://github.com/HappyStarfish/VcmiAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/HappyStarfish/VcmiAccess"
+  },
+  "links": []
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "tag-v1-0-0-yes",
+  "status": "active",
+  "gameIds": [
+    "teenage-mutant-ninja-turtles-shredders-revenge"
+  ],
+  "name": "TMNT: Shredder's Revenge Accessibility Mod",
+  "homeUrl": "https://github.com/Lirin111/tmnt-shredders-revenge-accessibility",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Lirin111/tmnt-shredders-revenge-accessibility"
+  },
+  "links": []
+}

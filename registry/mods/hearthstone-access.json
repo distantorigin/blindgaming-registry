@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "hearthstone-access",
+  "status": "active",
+  "gameIds": [
+    "hearthstone"
+  ],
+  "name": "Hearthstone Access",
+  "framework": "Windows keyboard and screen-reader patch",
+  "homeUrl": "https://hearthstoneaccess.com/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/antonshusharin/DevTools"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Hearthstone Access Discord",
+      "url": "https://discord.gg/WZWRenbuRe",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Automatic patch installer",
+      "url": "https://github.com/leibylucw/hearthstone-access-patcher/releases/latest",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Community patch and installation instructions",
+      "url": "https://hearthstoneaccess.com/downloads.html",
+      "requiresPayment": false
+    }
+  ]
+}

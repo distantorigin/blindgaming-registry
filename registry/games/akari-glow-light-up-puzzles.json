@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "akari-glow-light-up-puzzles",
+  "status": "active",
+  "name": "Akari Glow: Light Up Puzzles",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/akari-glow-light-up-puzzles/id6759948370"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS puzzle game provides VoiceOver feedback for nonvisual play. The developer advertises VoiceOver support, and release notes describe more reliable announcements and improved puzzle feedback. Molitvan's blind-accessible games list reports full accessibility; this has not been independently playtested for this registry.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Molitvan: blind-accessible games list",
+      "url": "https://github.com/Molitvan/blind-accessible-games-list"
+    },
+    {
+      "name": "Developer introduction: Akari Glow and VoiceOver support",
+      "url": "https://www.reddit.com/r/iosgaming/comments/1t7z2e6/dev_i_made_akari_glow_a_calm_light_up_puzzle_for/"
+    }
+  ],
+  "releaseYear": "2026"
+}

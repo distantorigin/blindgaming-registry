@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "crusader-kings-iii",
+  "status": "active",
+  "name": "Crusader Kings III",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1158310/Crusader_Kings_III/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully playable with OCR. The mod relies on live text recognition rather than sending text directly to a screen reader.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/CrusaderKingsIII/Blind",
+    "primaryModId": "ck3-ocr-support-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/50554/"
+    }
+  ],
+  "releaseYear": "2020"
+}

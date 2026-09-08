@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "injustice-2-access-kit",
+  "status": "active",
+  "gameIds": [
+    "injustice-2"
+  ],
+  "name": "Injustice 2 Access Kit",
+  "framework": "Reloaded-II and .NET 9",
+  "homeUrl": "https://www.gigasoundproject.com/mods/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60181/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Direct download",
+      "url": "https://www.gigasoundproject.com/mods/files/Injustice2-Accessibility-0.6.0.zip",
+      "requiresPayment": false
+    }
+  ]
+}

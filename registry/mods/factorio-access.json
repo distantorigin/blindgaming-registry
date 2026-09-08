@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "factorio-access",
+  "status": "active",
+  "gameIds": [
+    "factorio"
+  ],
+  "name": "Factorio Access",
+  "framework": "Factorio Lua + Python launcher",
+  "homeUrl": "https://github.com/Factorio-Access/FactorioAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Factorio-Access/FactorioAccess"
+  },
+  "links": []
+}

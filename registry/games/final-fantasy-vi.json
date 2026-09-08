@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-vi",
+  "status": "active",
+  "name": "Final Fantasy VI",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1173820/FINAL_FANTASY_VI/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/final-fantasy-vi-remastered"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible and fully completable.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/FinalFantasyVI/Blind",
+    "primaryModId": "ff6-screen-reader"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57710/"
+    }
+  ],
+  "releaseYear": "1994"
+}

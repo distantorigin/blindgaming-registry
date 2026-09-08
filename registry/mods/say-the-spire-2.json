@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "say-the-spire-2",
+  "status": "active",
+  "gameIds": [
+    "slay-the-spire-2"
+  ],
+  "name": "Say the Spire 2",
+  "framework": "Godot / C#",
+  "homeUrl": "https://github.com/bradjrenshaw/say-the-spire2",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/bradjrenshaw/say-the-spire2"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Chaosbringer216's Mods Discord",
+      "url": "https://discord.gg/xMPnpKYaHd",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/bradjrenshaw",
+      "requiresPayment": false
+    }
+  ]
+}

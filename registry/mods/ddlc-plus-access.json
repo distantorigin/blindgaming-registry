@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "ddlc-plus-access",
+  "status": "active",
+  "gameIds": [
+    "doki-doki-literature-club-plus"
+  ],
+  "name": "DDLC Plus Access",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://justsayori.com/",
+  "links": []
+}

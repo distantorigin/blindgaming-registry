@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "death-and-access",
+  "status": "active",
+  "gameIds": [
+    "death-and-taxes"
+  ],
+  "name": "Death and Access",
+  "homeUrl": "https://github.com/ObjectInSpace/Death-and-access/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ObjectInSpace/Death-and-access"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "PayPal",
+      "url": "https://paypal.me/justsendyourcash",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess",
+      "requiresPayment": false
+    }
+  ]
+}

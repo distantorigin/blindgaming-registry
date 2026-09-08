@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-to-fate-future-arena",
+  "status": "active",
+  "name": "Adventure To Fate Future Arena",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/adventure-to-fate-future-arena/id1084641332"
+    }
+  ],
+  "accessibility": {
+    "description": "This iOS arena RPG supports VoiceOver for combat, equipment, crafting, and character development. AppleVis reports readable elements and labeled controls, with some navigation limitations: the stats screen may require left and right swipes instead of touch exploration. Older reports also describe character-creation layout problems on small screens.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official game website",
+      "url": "https://adventuretofate.com/future-arena"
+    },
+    {
+      "name": "AppleVis accessibility report and device caveats",
+      "url": "https://www.applevis.com/apps/ios/games/adventure-fate-future-arena"
+    }
+  ],
+  "releaseYear": "2021"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mtg-arena",
+  "status": "active",
+  "name": "MTG Arena",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2141910/Magic_The_Gathering_Arena/"
+    }
+  ],
+  "accessibility": {
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/MTGArena/Blind",
+    "primaryModId": "accessible-arena"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59099/"
+    }
+  ],
+  "releaseYear": "2023"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "black-hole",
+  "status": "active",
+  "gameIds": [
+    "balatro"
+  ],
+  "name": "Black Hole",
+  "framework": "Lovely / LÖVE (Lua)",
+  "homeUrl": "https://github.com/Aurelius7309/BlackHole",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Aurelius7309/BlackHole"
+  },
+  "links": []
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "smac-access",
+  "status": "active",
+  "gameIds": [
+    "sid-meiers-alpha-centauri"
+  ],
+  "name": "SMAC Access",
+  "homeUrl": "https://github.com/HappyStarfish/smac-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/HappyStarfish/smac-access"
+  },
+  "links": []
+}

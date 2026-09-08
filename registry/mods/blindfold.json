@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "blindfold",
+  "status": "active",
+  "gameIds": [
+    "balatro"
+  ],
+  "name": "Blindfold",
+  "framework": "Lovely / LÖVE (Lua)",
+  "homeUrl": "https://github.com/bradjrenshaw/blindfold",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/bradjrenshaw/blindfold"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/bradjrenshaw",
+      "requiresPayment": false
+    }
+  ]
+}

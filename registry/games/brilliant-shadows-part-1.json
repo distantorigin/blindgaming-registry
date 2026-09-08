@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "brilliant-shadows-part-1",
+  "status": "active",
+  "name": "Brilliant Shadows Part 1",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/409920/Brilliant_Shadows__Part_One_of_the_Book_of_Gray_Magic/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/BrilliantShadows-PartOneOfTheBookOfGrayMagic/Blind",
+    "primaryModId": "brilliant-shadows-part-1-accessibility-mod"
+  },
+  "releaseYear": "2015"
+}

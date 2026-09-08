@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "pastel-parade-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "pastel-parade"
+  ],
+  "name": "Pastel Parade Accessibility Mod",
+  "homeUrl": "https://chikutaku-luyi.itch.io/ppa11y",
+  "links": []
+}

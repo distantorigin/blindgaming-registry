@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "six-ages-ride-like-the-wind-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "six-ages-ride-like-the-wind"
+  ],
+  "name": "Six Ages: Ride Like the Wind Accessibility Mod",
+  "homeUrl": "https://github.com/HappyStarfish/six-ages-1-accessibility/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/HappyStarfish/six-ages-1-accessibility"
+  },
+  "links": []
+}

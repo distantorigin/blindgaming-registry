@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "hand-of-fate",
+  "status": "active",
+  "name": "Hand of Fate",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/266510/Hand_of_Fate/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/hand_of_fate"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/hand-of-fate"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/HandOfFate/Blind",
+    "primaryModId": "hand-of-fate-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59466/"
+    }
+  ],
+  "releaseYear": "2015"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "yu-gi-oh-duel-links",
+  "status": "active",
+  "name": "Yu Gi Oh: Duel Links",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/601510/YuGiOh_Duel_Links/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/YuGiOh:DuelLinks/Blind",
+    "primaryModId": "duel-links-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59726/"
+    }
+  ],
+  "releaseYear": "2017"
+}

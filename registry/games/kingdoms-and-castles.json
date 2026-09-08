@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "kingdoms-and-castles",
+  "status": "active",
+  "name": "Kingdoms and Castles",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/569480/Kingdoms_and_Castles/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/kingdoms_castles"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/KingdomsAndCastles/Blind",
+    "primaryModId": "kc-accessibility"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58897/"
+    }
+  ],
+  "releaseYear": "2017"
+}

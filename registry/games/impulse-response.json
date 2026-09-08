@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "impulse-response",
+  "status": "active",
+  "name": "Impulse Response",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/4672520/Impulse_Response/"
+    }
+  ],
+  "accessibility": {
+    "description": "3D first-person audiogame. Controller-compatible with haptic feedback.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/ImpulseResponse/Blind"
+  },
+  "releaseYear": "2026"
+}

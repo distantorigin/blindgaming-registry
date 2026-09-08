@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "galactic-colonies",
+  "status": "active",
+  "name": "Galactic Colonies",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/galactic-colonies/id1240422237"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.MetalPop.RandomCity"
+    }
+  ],
+  "accessibility": {
+    "description": "A built-in accessibility mode provides speech and touch navigation. iOS players report unreliable map focus, interrupted speech and difficulties with some ads and advanced colony actions. ONCE's Android assessment requires disabling TalkBack and system magnification, then using the game's accessibility mode; braille output is unavailable in that mode. These reports concern older versions, and current coverage has not been retested.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "ONCE Android accessibility assessment (October 2020, Spanish PDF)",
+      "url": "https://club.once.es/afiliados/servicios/autonomia-personal-y-tecnologia/tiflotecnologia/valoraciones-de-accesibilidad-de-aplicaciones-para-moviles/galactic-colonies/galactic-colonies-android"
+    },
+    {
+      "name": "AppleVis: Galactic Colonies accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/galactic-colonies"
+    }
+  ]
+}

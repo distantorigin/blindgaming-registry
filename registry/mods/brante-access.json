@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "brante-access",
+  "status": "active",
+  "gameIds": [
+    "the-life-and-suffering-of-sir-brante"
+  ],
+  "name": "Brante Access",
+  "homeUrl": "https://github.com/rashadnaqeeb/brante-access/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/rashadnaqeeb/brante-access"
+  },
+  "links": []
+}

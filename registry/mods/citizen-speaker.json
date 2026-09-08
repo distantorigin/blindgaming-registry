@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "citizen-speaker",
+  "status": "active",
+  "gameIds": [
+    "citizen-sleeper"
+  ],
+  "name": "Citizen Speaker",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/EarthboundPromoter/Citizen-Speaker",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/EarthboundPromoter/Citizen-Speaker"
+  },
+  "links": []
+}

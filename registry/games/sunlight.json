@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sunlight",
+  "status": "active",
+  "name": "Sunlight",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1451120/Sunlight/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "tags": [
+      "blind"
+    ]
+  },
+  "releaseYear": "2021"
+}

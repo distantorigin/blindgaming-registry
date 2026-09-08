@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "worldbox-access",
+  "status": "active",
+  "gameIds": [
+    "worldbox"
+  ],
+  "name": "WorldBox Access",
+  "homeUrl": "https://github.com/Makenann/WorldBoxAccess/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Makenann/WorldBoxAccess"
+  },
+  "links": []
+}

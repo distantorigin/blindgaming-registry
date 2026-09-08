@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "words-of-power-ii",
+  "status": "active",
+  "gameIds": [
+    "rift-wizard-3"
+  ],
+  "name": "Words of Power II",
+  "framework": "Python mod",
+  "homeUrl": "https://github.com/EarthboundPromoter/Words-of-Power-II",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/EarthboundPromoter/Words-of-Power-II"
+  },
+  "links": []
+}

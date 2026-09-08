@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "six-ages-ride-like-the-wind-ios",
+  "status": "active",
+  "name": "Six Ages: Ride Like the Wind (iOS)",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/six-ages-ride-like-the-wind/id934012726"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS version has native VoiceOver support for clan management, story choices, and exploration. An alternative exploration interface avoids manipulating the visual hex map, and contextual help explains the screens. This record covers the iOS build.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis detailed accessibility review",
+      "url": "https://www.applevis.com/forum/ios-ipados-gaming/review-six-ages-ride-wind"
+    },
+    {
+      "name": "Official game website",
+      "url": "https://www.sixages.com/"
+    }
+  ],
+  "releaseYear": "2018"
+}

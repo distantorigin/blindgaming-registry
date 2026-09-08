@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "baby-adopter",
+  "status": "active",
+  "name": "Baby Adopter",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/baby-adopter/id425135290"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.x2line.android.babyadopter.lite"
+    }
+  ],
+  "accessibility": {
+    "description": "Care for a virtual baby, furnish rooms and collect creatures using VoiceOver on iOS or TalkBack on Android. Current store instructions describe accessible Egg Match, Free Cell and Nono Blocks controls. Older versions had inaccessible mini-games; support varies by mini-game and version.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer catalog",
+      "url": "https://x2line.com/"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-ix",
+  "status": "active",
+  "name": "Final Fantasy IX",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/377840/FINAL_FANTASY_IX/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/final_fantasy_ix"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/final-fantasy-ix"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility is incomplete, and development is paused indefinitely.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "fork-of-the-memoria-engine"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57710/"
+    }
+  ],
+  "releaseYear": "2016"
+}

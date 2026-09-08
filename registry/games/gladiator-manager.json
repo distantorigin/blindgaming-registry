@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "gladiator-manager",
+  "status": "active",
+  "name": "Gladiator Manager",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1251970/Gladiator_Manager/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible, though some controls can be cumbersome.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/GladiatorManager/Blind",
+    "primaryModId": "gladiator-manager-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58967/"
+    }
+  ],
+  "releaseYear": "2021"
+}

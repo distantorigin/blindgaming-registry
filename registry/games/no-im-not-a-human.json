@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "no-im-not-a-human",
+  "status": "active",
+  "name": "No, I'm not a Human",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3180070/No_Im_not_a_Human/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/No,I%27mNotAHuman/Blind",
+    "primaryModId": "i-m-a-blind-human"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59653/"
+    }
+  ],
+  "releaseYear": "2025"
+}

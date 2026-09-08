@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "baby-adopter-galaxy",
+  "status": "active",
+  "name": "Baby Adopter Galaxy",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/baby-adopter-galaxy/id1272609777"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.x2line.android.babyadopterspace"
+    }
+  ],
+  "accessibility": {
+    "description": "Care for children during a space voyage using VoiceOver on iOS or TalkBack on Android. The iOS publisher documents spoken planet identities and positions in Planet Match, with a hold-and-swipe move gesture. Older player reports disagree about the mini-game, so its accessibility should not be assumed to match the main care screens.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis walkthrough and Planet Match discussion",
+      "url": "https://www.applevis.com/podcasts/baby-adopter-galaxy-ios-take-care-your-virtual-baby-while-space-travel"
+    },
+    {
+      "name": "Developer catalog",
+      "url": "https://x2line.com/"
+    }
+  ]
+}

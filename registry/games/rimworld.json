@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "rimworld",
+  "status": "active",
+  "name": "Rimworld",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/294100/RimWorld/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/rimworld"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/rimworld"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Rimworld/Blind",
+    "primaryModId": "rimworld-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58003/"
+    }
+  ],
+  "releaseYear": "2018"
+}

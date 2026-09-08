@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "example-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "example-game"
+  ],
+  "name": "Example Accessibility Mod",
+  "framework": "Python mod",
+  "homeUrl": "https://github.com/blindgaming-example/example-accessibility-mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/blindgaming-example/example-accessibility-mod"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/blindgaming-example/example-accessibility-mod/releases",
+      "requiresPayment": false
+    }
+  ]
+}

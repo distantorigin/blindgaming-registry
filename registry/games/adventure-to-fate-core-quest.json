@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-to-fate-core-quest",
+  "status": "active",
+  "name": "Adventure To Fate: Core Quest",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/adventure-to-fate-core-quest/id6529525011"
+    }
+  ],
+  "accessibility": {
+    "description": "This iOS role-playing game supports VoiceOver throughout menus, combat, and exploration. Its Battle Arena mode provides direct access to fights and character progression for players who find the grid navigation difficult. VoiceOver can also read the action and combat logs line by line.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official game website",
+      "url": "https://adventuretofate.com/core-quest"
+    },
+    {
+      "name": "AppleVis developer updates and player reports",
+      "url": "https://www.applevis.com/forum/ios-ipados-gaming/adventure-fate-core-quest"
+    }
+  ],
+  "releaseYear": "2025"
+}

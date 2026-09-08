@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "lords-and-knights-x-mas",
+  "status": "active",
+  "name": "Lords & Knights - X-Mas",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/lords-knights-x-mas/id575835825"
+    }
+  ],
+  "accessibility": {
+    "description": "This separate holiday edition declares VoiceOver support on iOS. A player report describes fewer VoiceOver and video-prompt issues than in the standard edition, but newsletter reward and interface issues remain. Full gameplay has not been independently retested for this registry.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "German blindness federation game accessibility guidance",
+      "url": "https://www.dbsv.org/computerspiele.html"
+    },
+    {
+      "name": "Publisher catalog",
+      "url": "https://xyrality.com/"
+    }
+  ]
+}

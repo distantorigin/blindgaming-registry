@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "bazaar-access",
+  "status": "active",
+  "gameIds": [
+    "the-bazaar"
+  ],
+  "name": "Bazaar Access",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/Ali-Bueno/bazaar-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Ali-Bueno/bazaar-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net: Bazaar Access: an accesibility mod for The Bazaar (updated January 12)",
+      "url": "https://forum.audiogames.net/topic/58335/bazaar-access-an-accesibility-mod-for-the-bazaar-updated-january-12/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Mod downloads and release notes",
+      "url": "https://github.com/Ali-Bueno/bazaar-access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

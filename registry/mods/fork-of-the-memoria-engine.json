@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "fork-of-the-memoria-engine",
+  "status": "active",
+  "gameIds": [
+    "final-fantasy-ix"
+  ],
+  "name": "fork of the Memoria engine",
+  "homeUrl": "https://github.com/BlindGuyNW/FF6ScreenReader",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/BlindGuyNW/FF6ScreenReader"
+  },
+  "links": []
+}

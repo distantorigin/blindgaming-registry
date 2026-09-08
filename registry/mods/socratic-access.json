@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "socratic-access",
+  "status": "active",
+  "gameIds": [
+    "socrates-jones-pro-philosopher"
+  ],
+  "name": "SocraticAccess",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/zelzel1407/SocraticAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/zelzel1407/SocraticAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60159/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GitHub releases",
+      "url": "https://github.com/zelzel1407/SocraticAccess/releases",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "id": "brok-the-investigator",
+  "status": "active",
+  "name": "Brok the Investigator",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/949480/BROK_the_InvestiGator/"
+    },
+    {
+      "store": "appstore",
+      "url": "https://apps.apple.com/us/app/brok-the-investigator/id6465624119"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/brok_the_investigator"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.cowcat.brok"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/brok-the-investigator"
+    },
+    {
+      "store": "psn",
+      "url": "https://store.playstation.com/en-us/product/UP1778-PPSA10974_00-BROKPS5000000000"
+    },
+    {
+      "store": "switch",
+      "url": "https://www.nintendo.com/us/store/products/brok-the-investigator-switch/"
+    },
+    {
+      "store": "xbox",
+      "url": "https://www.xbox.com/en-US/games/store/x/9P7G0WL4Z7RF"
+    }
+  ],
+  "accessibility": {
+    "description": "Built-in narration, descriptions of characters and scenes, adapted puzzles and positional combat audio support blind play, including on iOS and Android. Puzzles and fights can be skipped, and spoken instructions can be repeated. The mobile download includes the first chapter; the full adventure requires an in-app unlock.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/BrokTheInvestiGator/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/47916/"
+    },
+    {
+      "name": "Accessibility feature overview",
+      "url": "https://www.accessibility.org.au/brok-the-investigator-is-a-win-for-accessibility-features-for-gamers-who-are-blind-or-with-low-vision/"
+    },
+    {
+      "name": "Developer and supported platforms",
+      "url": "https://www.cowcatgames.com/"
+    }
+  ],
+  "releaseYear": "2022"
+}

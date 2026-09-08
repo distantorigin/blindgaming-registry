@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "wasteland-2-accessibility",
+  "status": "active",
+  "gameIds": [
+    "wasteland-2-directors-cut"
+  ],
+  "name": "Wasteland 2 Accessibility Mod",
+  "framework": "MelonLoader 0.5.7 (C#)",
+  "homeUrl": "https://github.com/Berenion/wasteland2-accessibility-mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Berenion/wasteland2-accessibility-mod"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Mod downloads and release notes",
+      "url": "https://github.com/Berenion/wasteland2-accessibility-mod/releases",
+      "requiresPayment": false
+    }
+  ]
+}

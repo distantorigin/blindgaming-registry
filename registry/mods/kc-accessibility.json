@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "kc-accessibility",
+  "status": "active",
+  "gameIds": [
+    "kingdoms-and-castles"
+  ],
+  "name": "KC Accessibility",
+  "homeUrl": "https://github.com/chripa85/kc-accessibility/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/chripa85/kc-accessibility"
+  },
+  "links": []
+}

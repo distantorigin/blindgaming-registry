@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "super-auto-pets",
+  "status": "active",
+  "name": "Super Auto Pets",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1714040/Super_Auto_Pets/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/SuperAutoPets/Blind",
+    "primaryModId": "sap-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58964/"
+    }
+  ],
+  "releaseYear": "2021"
+}

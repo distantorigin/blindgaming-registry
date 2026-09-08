@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-of-the-old-republic",
+  "status": "active",
+  "gameIds": [
+    "star-wars-knights-of-the-old-republic"
+  ],
+  "name": "Voice of the Old Republic",
+  "framework": "Windows patch (Prism)",
+  "homeUrl": "https://github.com/JeanStiletto/voice-of-the-old-republic",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/JeanStiletto/voice-of-the-old-republic"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Mod downloads and release notes",
+      "url": "https://github.com/JeanStiletto/voice-of-the-old-republic/releases",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-train",
+  "status": "active",
+  "name": "Monster Train",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1102190/Monster_Train/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/monster_train"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/monster-train"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/MonsterTrain/Blind",
+    "primaryModId": "monster-tra11y"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58412/"
+    }
+  ],
+  "releaseYear": "2020"
+}

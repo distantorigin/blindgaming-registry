@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "beacon-pines",
+  "status": "active",
+  "name": "Beacon Pines",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1269640/Beacon_Pines/"
+    }
+  ],
+  "accessibility": {
+    "description": "The paid Patreon prerelease provides dialogue, surroundings/exits, positional beacons, objectives, and aiming help, but completion is unconfirmed and aiming detection is imperfect.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "beacon-pines-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60186/"
+    }
+  ],
+  "releaseYear": "2022"
+}

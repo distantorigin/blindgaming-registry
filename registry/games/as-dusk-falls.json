@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "as-dusk-falls",
+  "status": "active",
+  "name": "As Dusk Falls",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1341820/As_Dusk_Falls/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/as_dusk_falls"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/as-dusk-falls"
+    },
+    {
+      "store": "xbox",
+      "url": "https://www.xbox.com/en-US/games/store/x/9NR7XDNVP5SW"
+    }
+  ],
+  "accessibility": {
+    "description": "Supports text-to-speech and audio description, except on PS4.",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/AsDuskFalls/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/45692/"
+    }
+  ],
+  "releaseYear": "2022"
+}

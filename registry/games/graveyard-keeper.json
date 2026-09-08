@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "graveyard-keeper",
+  "status": "active",
+  "name": "Graveyard Keeper",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/599140/"
+    },
+    {
+      "store": "gog",
+      "primary": false,
+      "url": "https://www.gog.com/en/game/graveyard_keeper"
+    },
+    {
+      "store": "humble",
+      "primary": false,
+      "url": "https://www.humblebundle.com/store/graveyard-keeper"
+    }
+  ],
+  "accessibility": {
+    "description": "The Graveyard Keeper Accessibility Mod adds screen-reader or Windows speech output and keyboard controls for menus and gameplay. Use the Windows Steam build or the separate 32-bit GOG bundle; GOG is tested less thoroughly. The opening intro subtitles and manual fishing are not accessible, but automatic fishing is available. The mod configuration manager is not accessible. Linux and macOS support is unverified.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "graveyard-keeper-accessibility"
+  },
+  "resources": [
+    {
+      "name": "Installation, GOG build requirements and limitations",
+      "url": "https://github.com/Svenja001/Graveyard-Keeper-Accessibility-Mod"
+    }
+  ],
+  "releaseYear": "2018"
+}

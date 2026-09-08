@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "land-of-livia",
+  "status": "active",
+  "name": "Land of Livia",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/land-of-livia/id1052641617"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS game provides VoiceOver support for quests, menus and interactions, supplemented by sound and haptic feedback. AppleVis reports full accessibility. For finding relevant locations with VoiceOver, the developer recommends the Pathfinder tab; direct map navigation can be cumbersome.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Land of Livia official accessibility features",
+      "url": "https://landoflivia.com/"
+    },
+    {
+      "name": "AppleVis: Land of Livia accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/land-livia-epic-fantasy"
+    },
+    {
+      "name": "Developer response about VoiceOver map navigation (April 2026)",
+      "url": "https://www.reddit.com/r/ADHDgaming/comments/1k6g0kb/land_of_livia_escape_into_a_world_designed_to/"
+    }
+  ]
+}

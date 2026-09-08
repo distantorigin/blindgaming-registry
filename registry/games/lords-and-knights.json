@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "lords-and-knights",
+  "status": "active",
+  "name": "Lords & Knights",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/lords-knights-mobile-kings/id421864154"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS strategy game is playable with VoiceOver, but labels, focus movement and the map can be difficult to navigate. ONCE testing found duplicate or mismatched controls and poorly structured rewards screens. Android TalkBack support is not established; the German blindness federation reports the Android version is not playable with TalkBack.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "ONCE April 2025 VoiceOver assessment",
+      "url": "https://club.once.es/afiliados/servicios/autonomia-personal-y-tecnologia/tiflotecnologia/valoraciones-de-accesibilidad-de-aplicaciones-para-moviles/lords-knights-medieval-mmo/lords-knights-ios.pdf/@@download/file/Lords%20%26%20Knights%20%28IOS%29.pdf"
+    },
+    {
+      "name": "German blindness federation game accessibility guidance",
+      "url": "https://www.dbsv.org/computerspiele.html"
+    },
+    {
+      "name": "Publisher catalog",
+      "url": "https://xyrality.com/"
+    }
+  ]
+}

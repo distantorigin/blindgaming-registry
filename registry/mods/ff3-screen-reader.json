@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ff3-screen-reader",
+  "status": "active",
+  "gameIds": [
+    "final-fantasy-iii"
+  ],
+  "name": "FF3 Screen Reader",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/bladestorm360/FF3-Screen-Reader",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/bladestorm360/FF3-Screen-Reader"
+  },
+  "links": []
+}

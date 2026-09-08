@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "vampire-the-masquerade-coteries-of-new-york",
+  "status": "active",
+  "name": "Vampire: The Masquerade - Coteries of New York",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1096410/Vampire_The_Masquerade__Coteries_of_New_York/"
+    }
+  ],
+  "accessibility": {
+    "description": "Menus, dialogue, choices, journal, glossary, quests, status, transitions, endings, and credits are reported accessible; Steam is tested and a player also reports GOG working.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "coteries-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59738/"
+    }
+  ],
+  "releaseYear": "2019"
+}

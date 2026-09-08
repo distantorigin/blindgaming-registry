@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "sunless-sea-access",
+  "status": "active",
+  "gameIds": [
+    "sunless-sea"
+  ],
+  "name": "Sunless Sea Access",
+  "homeUrl": "https://git.alex19ep.me/alex19EP/SunlessSeaAccess",
+  "links": []
+}

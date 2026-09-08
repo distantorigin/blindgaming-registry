@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "date-everything-access",
+  "status": "active",
+  "gameIds": [
+    "date-everything"
+  ],
+  "name": "Date Everything Access",
+  "homeUrl": "https://github.com/ObjectInSpace/date-everything-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ObjectInSpace/date-everything-access"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "PayPal",
+      "url": "https://paypal.me/justsendyourcash",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess",
+      "requiresPayment": false
+    }
+  ]
+}

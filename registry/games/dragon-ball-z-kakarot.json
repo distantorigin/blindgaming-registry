@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-ball-z-kakarot",
+  "status": "active",
+  "name": "Dragon Ball Z Kakarot",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/851850/DRAGON_BALL_Z_KAKAROT/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/dragon-ball-z-kakarot"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "dbz-kakarot-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59785/"
+    }
+  ],
+  "releaseYear": "2020"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "the-jackbox-party-pack-8",
+  "status": "active",
+  "name": "The Jackbox Party Pack 8",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1552350/The_Jackbox_Party_Pack_8/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/the-jackbox-party-pack-8"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible. Menus are not narrated, but room codes are read aloud. The player web interface works with screen readers, and word and trivia minigames are fully accessible.",
+    "tags": [
+      "blind"
+    ]
+  }
+}

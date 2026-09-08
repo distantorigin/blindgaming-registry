@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "stray-gods",
+  "status": "active",
+  "name": "Stray Gods",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1920780/Stray_Gods_The_Roleplaying_Musical/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/stray_gods_the_roleplaying_musical"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/stray-gods-the-roleplaying-musical"
+    },
+    {
+      "store": "switch",
+      "url": "https://www.nintendo.com/us/store/products/stray-gods-the-roleplaying-musical-switch/"
+    }
+  ],
+  "accessibility": {
+    "description": "Partially accessible. Includes audio description and accessible gameplay, but no menu narration.",
+    "tags": [
+      "audio-description",
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/48995/"
+    }
+  ],
+  "releaseYear": "2023"
+}

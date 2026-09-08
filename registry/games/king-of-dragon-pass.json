@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "king-of-dragon-pass",
+  "status": "active",
+  "name": "King of Dragon Pass",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/king-of-dragon-pass/id335545504"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS edition includes native VoiceOver support for its story choices and clan management interface. A Sharp describes it as completely accessible, and AppleVis reports readable elements and labeled controls. This assessment applies to the iOS edition; accessibility of the Android and desktop ports is not established by these sources.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "A Sharp: King of Dragon Pass",
+      "url": "https://www.a-sharp.com/kodp/"
+    },
+    {
+      "name": "AppleVis: King of Dragon Pass accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/king-dragon-pass"
+    }
+  ]
+}

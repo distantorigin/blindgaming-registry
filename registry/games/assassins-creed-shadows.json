@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "assassins-creed-shadows",
+  "status": "active",
+  "name": "Assassin's Creed Shadows",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3159330/Assassins_Creed_Shadows/"
+    },
+    {
+      "store": "xbox",
+      "url": "https://www.xbox.com/en-US/games/store/assassins-creed-shadows/9P42LWGMC7K4"
+    }
+  ],
+  "accessibility": {
+    "description": "Has many accessibility features, but not fully accessible for blind gamers.",
+    "tags": [
+      "audio-description"
+    ]
+  },
+  "releaseYear": "2025"
+}

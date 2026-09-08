@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "bitlife-dogs-doglife",
+  "status": "active",
+  "name": "BitLife Dogs - DogLife",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/bitlife-dogs-doglife/id1589129140"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS game uses an integrated accessibility layer for VoiceOver. AppleVis reports readable text and labeled controls, but some players encountered startup or privacy-prompt problems and needed to toggle VoiceOver or use the app's system settings. A May 2026 player report confirms DogLife remained accessible despite a separate BitLife regression.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: DogLife accessibility and startup workarounds",
+      "url": "https://www.applevis.com/apps/ios/games/bitlife-dogs-doglife"
+    },
+    {
+      "name": "May 2026 player comparison of BitLife and DogLife VoiceOver access",
+      "url": "https://www.reddit.com/r/BitLifeApp/comments/1t25743/voiceover_accessibility_on_bitlife_doglife_and/"
+    }
+  ],
+  "releaseYear": "2021"
+}

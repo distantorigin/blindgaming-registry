@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "street-fighter-6",
+  "status": "active",
+  "name": "Street Fighter 6",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1364780/Street_Fighter_6/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/street-fighter-6"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Streetfighter6/Blind",
+    "primaryModId": "sf6-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59490/"
+    }
+  ],
+  "releaseYear": "2023"
+}

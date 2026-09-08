@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "baby-adopter-pro",
+  "status": "active",
+  "name": "Baby Adopter Pro",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/baby-adopter-pro/id428754657"
+    }
+  ],
+  "accessibility": {
+    "description": "The paid Baby Adopter edition supports VoiceOver for baby care and room management. Egg Match and Free Cell have spoken controls, but the developer has reported that Veggie Battle does not support VoiceOver. This record covers the iOS Pro app, not the free edition.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis report and developer replies",
+      "url": "https://www.applevis.com/apps/ios/games/baby-adopter-pro"
+    },
+    {
+      "name": "Developer catalog",
+      "url": "https://x2line.com/"
+    }
+  ]
+}

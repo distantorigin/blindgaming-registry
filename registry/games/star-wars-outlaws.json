@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "star-wars-outlaws",
+  "status": "active",
+  "name": "Star Wars: Outlaws",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2842040/Star_Wars_Outlaws/"
+    },
+    {
+      "store": "switch",
+      "url": "https://www.nintendo.com/us/store/products/star-wars-outlaws-gold-edition-switch-2/"
+    },
+    {
+      "store": "xbox",
+      "url": "https://www.xbox.com/en-US/games/store/star-wars-outlaws/9p87s3np6sr2"
+    }
+  ],
+  "accessibility": {
+    "tags": [
+      "audio-description"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/53648/"
+    }
+  ],
+  "releaseYear": "2024"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "shoot-for-the-stars-journey",
+  "status": "active",
+  "name": "Shoot for the Stars: Journey",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/shoot-for-the-stars-journey/id6771251009"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=games.leifenberg.shootforthestars"
+    }
+  ],
+  "accessibility": {
+    "description": "The survival and colony-building game supports VoiceOver on iOS and TalkBack on Android. Developer updates address focus jumping during resource updates, combat controls, crafting, and return-to-game dialogs. Earlier blind-player reports found substantial focus problems; use an updated build. On iOS, remaining-time announcements can be enabled in Settings under Accessibility.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer game page",
+      "url": "https://leifenberg.itch.io/shoot-for-the-stars-journey-home"
+    },
+    {
+      "name": "AppleVis player reports and developer accessibility changelog",
+      "url": "https://www.applevis.com/apps/ios/games/shoot-stars-journey"
+    }
+  ],
+  "releaseYear": "2026"
+}

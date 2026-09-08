@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "ftl-faster-than-light",
+  "status": "active",
+  "name": "FTL: Faster Than Light",
+  "stores": [
+    {
+      "store": "gog",
+      "primary": true,
+      "url": "https://www.gog.com/en/game/faster_than_light"
+    },
+    {
+      "store": "steam",
+      "url": "https://store.steampowered.com/app/212680/FTL_Faster_Than_Light/"
+    }
+  ],
+  "accessibility": {
+    "description": "Full core-game access is reported only for the exact supported unmodified English GOG Windows 1.6.22 build; Steam, other GOG executables, Hyperspace, and Multiverse are not supported yet.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "ftl-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60205/"
+    }
+  ],
+  "releaseYear": "2012"
+}

@@ -1,0 +1,5 @@
+# Curators own registry records; maintainers also review trust-boundary changes.
+/registry/ @distantorigin
+/schemas/ @distantorigin
+/validator/ @distantorigin
+/.github/ @distantorigin

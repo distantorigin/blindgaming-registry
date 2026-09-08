@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "the-drifter-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "the-drifter"
+  ],
+  "name": "The Drifter Accessibility Mod",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/Lirin111/the-drifter-accessibility-mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Lirin111/the-drifter-accessibility-mod"
+  },
+  "links": []
+}

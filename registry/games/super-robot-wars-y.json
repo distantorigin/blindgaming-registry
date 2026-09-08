@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "super-robot-wars-y",
+  "status": "active",
+  "name": "Super Robot Wars Y",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1909950/SUPER_ROBOT_WARS_Y/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/super-robot-wars-y"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/SuperRobotWarsY/Blind",
+    "primaryModId": "srwy-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58669/"
+    }
+  ],
+  "releaseYear": "2025"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-tra11y",
+  "status": "active",
+  "gameIds": [
+    "monster-train"
+  ],
+  "name": "Monster Tra11y",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/ogomez92/monster_tra11y/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ogomez92/monster_tra11y"
+  },
+  "links": []
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "i-m-a-blind-human",
+  "status": "active",
+  "gameIds": [
+    "no-im-not-a-human"
+  ],
+  "name": "I'm a blind human",
+  "homeUrl": "https://github.com/ObjectInSpace/im-a-blind-human",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ObjectInSpace/im-a-blind-human"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "PayPal",
+      "url": "https://paypal.me/justsendyourcash",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess",
+      "requiresPayment": false
+    }
+  ]
+}

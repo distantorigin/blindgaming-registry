@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "sequvo-music-puzzle-game",
+  "status": "active",
+  "name": "Sequvo: Music Puzzle Game",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/sequvo-music-puzzle-game/id6760843901"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.wallaceinteractive.sequvo"
+    }
+  ],
+  "accessibility": {
+    "description": "The music puzzle game supports VoiceOver on iOS and TalkBack on Android through menus, level selection, and puzzle play. Match and transform musical patterns using accessible controls. Developer updates address screen-reader navigation and prevent game audio from interrupting TalkBack.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "App Store VoiceOver release notes",
+      "url": "https://apps.apple.com/us/app/sequvo-music-puzzle-game/id6760843901"
+    },
+    {
+      "name": "Google Play TalkBack release notes",
+      "url": "https://play.google.com/store/apps/details?id=com.wallaceinteractive.sequvo"
+    },
+    {
+      "name": "AppleVis accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/sequvo-music-puzzle-game"
+    }
+  ],
+  "releaseYear": "2026"
+}

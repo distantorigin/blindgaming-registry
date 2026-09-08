@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "who-wants-to-be-a-millionaire",
+  "status": "active",
+  "name": "Who wants to be a millionaire?",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1356240/Who_Wants_To_Be_A_Millionaire/"
+    }
+  ],
+  "accessibility": {
+    "description": "Partially accessible.",
+    "coverage": "partial",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "who-wants-to-be-a-millionaire-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58369/"
+    }
+  ],
+  "releaseYear": "2020"
+}

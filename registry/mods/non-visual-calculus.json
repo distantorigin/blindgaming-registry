@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "non-visual-calculus",
+  "status": "active",
+  "gameIds": [
+    "disco-elysium"
+  ],
+  "name": "Non-Visual Calculus",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/rashadnaqeeb/NonVisualCalculus",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/rashadnaqeeb/NonVisualCalculus"
+  },
+  "links": []
+}

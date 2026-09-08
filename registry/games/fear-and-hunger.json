@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fear-and-hunger",
+  "status": "active",
+  "name": "Fear and Hunger",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1002300/Fear__Hunger/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "fear-and-hunger-accessibility"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59637/"
+    }
+  ],
+  "releaseYear": "2019"
+}

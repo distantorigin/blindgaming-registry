@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "hand-of-fate-2-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "hand-of-fate-2"
+  ],
+  "name": "Hand of Fate 2 Accessibility Mod",
+  "homeUrl": "https://github.com/Lirin111/HandOfFate2-AccessibilityMod/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Lirin111/HandOfFate2-AccessibilityMod"
+  },
+  "links": []
+}

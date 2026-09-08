@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "life-is-strange-before-the-storm",
+  "status": "active",
+  "name": "Life is Strange: Before the Storm",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/554620/"
+    },
+    {
+      "store": "gog",
+      "primary": false,
+      "url": "https://www.gog.com/en/game/life_is_strange_before_the_storm"
+    },
+    {
+      "store": "humble",
+      "primary": false,
+      "url": "https://www.humblebundle.com/store/life-is-strange-before-the-storm"
+    }
+  ],
+  "accessibility": {
+    "description": "Before the Storm Access adds screen-reader or Windows speech output for menus, choices, journal, messages and backtalk, plus walking directions. Requires the original 64-bit Windows edition; the author identifies Steam and GOG as supported paths. It does not support the remaster or console editions. Some journal and message fixes in the published release are still marked as awaiting in-game testing, so complete coverage is not independently confirmed.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "before-the-storm-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: Before the Storm Access: screenreader mod for Life Is Strange",
+      "url": "https://forum.audiogames.net/topic/59900/before-the-storm-access-screenreader-mod-for-life-is-strange/"
+    },
+    {
+      "name": "Installation and accessibility controls",
+      "url": "https://github.com/ObjectInSpace/BeforeTheStormAccess"
+    },
+    {
+      "name": "Published release testing status",
+      "url": "https://github.com/ObjectInSpace/BeforeTheStormAccess/blob/v0.7.0/project_status.md"
+    }
+  ],
+  "releaseYear": "2017"
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "football-manager",
+  "status": "active",
+  "name": "Football Manager",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3551340/Football_Manager_26/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/football-manager-2026"
+    }
+  ],
+  "accessibility": {
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/FootballManager/Blind",
+    "primaryModId": "football-manager-2026-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59869/"
+    }
+  ],
+  "releaseYear": "2025"
+}

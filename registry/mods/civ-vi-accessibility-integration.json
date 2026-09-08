@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "civ-vi-accessibility-integration",
+  "status": "active",
+  "gameIds": [
+    "sid-meiers-civilization-vi"
+  ],
+  "name": "Civ VI Accessibility Integration",
+  "framework": "Civilization script (Lua)",
+  "homeUrl": "https://github.com/flat-arther/Civ-VI-Accessibility-Integration",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/flat-arther/Civ-VI-Accessibility-Integration"
+  },
+  "links": []
+}

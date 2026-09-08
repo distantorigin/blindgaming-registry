@@ -1,0 +1,53 @@
+{
+  "schemaVersion": 1,
+  "id": "the-jackbox-party-pack-11",
+  "status": "active",
+  "name": "The Jackbox Party Pack 11",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3364070/"
+    },
+    {
+      "store": "humble",
+      "primary": false,
+      "url": "https://www.humblebundle.com/store/the-jackbox-party-pack-11"
+    },
+    {
+      "store": "psn",
+      "primary": false,
+      "url": "https://store.playstation.com/en-us/product/UP2139-PPSA29371_00-0098826392284174"
+    },
+    {
+      "store": "switch",
+      "primary": false,
+      "url": "https://www.nintendo.com/us/store/products/the-jackbox-party-pack-11-switch/"
+    },
+    {
+      "store": "xbox",
+      "primary": false,
+      "url": "https://www.xbox.com/en-us/games/store/the-jackbox-party-pack-11/9PJWRQRJTHNT"
+    }
+  ],
+  "accessibility": {
+    "description": "The player web controllers support screen readers in selected games. Jackbox lists Suspectives as compatible; Hear Say has accessibility settings and received video alt text improvements. Doominate and Legends of Trivia have qualifications, including image questions needing description, and Cookie Haus is an inaccessible drawing game. Host menus and setup are not established as independently accessible, so sighted hosting may be needed. This is not full coverage of all five games.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official screen-reader compatibility by minigame",
+      "url": "https://support.jackboxgames.com/hc/en-us/articles/15794836346775-Which-games-or-packs-work-best-with-screen-readers"
+    },
+    {
+      "name": "Party Pack 11 accessibility update",
+      "url": "https://www.jackboxgames.com/blog/party-pack-11-free-content-update"
+    }
+  ],
+  "releaseYear": "2025"
+}

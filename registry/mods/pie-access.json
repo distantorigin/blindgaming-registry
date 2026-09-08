@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "pie-access",
+  "status": "active",
+  "gameIds": [
+    "plague-inc-evolved"
+  ],
+  "name": "Pie Access",
+  "homeUrl": "https://arctic-labs.com/p/pie-access",
+  "links": []
+}

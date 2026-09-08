@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-iii",
+  "status": "active",
+  "name": "Final Fantasy III",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1173790/FINAL_FANTASY_III/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/final-fantasy-iii-2d-remaster"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible. See the linked mod documentation for details.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/FinalFantasyIII/Blind",
+    "primaryModId": "ff3-screen-reader"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58424/"
+    }
+  ],
+  "releaseYear": "1990"
+}

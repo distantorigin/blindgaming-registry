@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-prom",
+  "status": "active",
+  "name": "Monster Prom",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/743450/Monster_Prom/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/monster_prom"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/monster-prom"
+    }
+  ],
+  "accessibility": {
+    "description": "Limited accessibility information is available.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/MonsterProm/Blind",
+    "primaryModId": "monster-prom-accessibility-mod"
+  },
+  "releaseYear": "2018"
+}

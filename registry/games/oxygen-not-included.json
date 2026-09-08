@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "oxygen-not-included",
+  "status": "active",
+  "name": "Oxygen not Included",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/457140/Oxygen_Not_Included/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/OxygenNotIncluded/Blind",
+    "primaryModId": "oni-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58825/"
+    }
+  ],
+  "releaseYear": "2019"
+}

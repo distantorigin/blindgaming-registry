@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "rhythm-doctor",
+  "status": "active",
+  "name": "Rhythm Doctor",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/774181/Rhythm_Doctor/"
+    },
+    {
+      "store": "xbox",
+      "url": "https://www.xbox.com/en-US/games/store/x/9PHVMW9R92FX"
+    }
+  ],
+  "accessibility": {
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/RhythmDoctor/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57003/"
+    }
+  ],
+  "releaseYear": "2025"
+}

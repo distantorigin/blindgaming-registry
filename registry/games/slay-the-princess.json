@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "slay-the-princess",
+  "status": "active",
+  "name": "Slay the Princess",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1989270/Slay_the_Princess/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/slay_the_princess"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/slay-the-princess"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/SlayThePrincess/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/49944/"
+    }
+  ],
+  "releaseYear": "2023"
+}

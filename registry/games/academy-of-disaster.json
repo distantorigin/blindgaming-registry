@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "academy-of-disaster",
+  "status": "active",
+  "name": "Academy of Disaster",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/academy-of-disaster/id1124589089"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS interactive novel is playable with VoiceOver. AppleVis reports readable story text and labeled controls, while Molitvan's blind-accessible games list notes minor accessibility bugs without identifying the affected controls. That detailed AppleVis test used an older version, so current behavior is reported rather than independently checked.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Molitvan: blind-accessible games list",
+      "url": "https://github.com/Molitvan/blind-accessible-games-list"
+    },
+    {
+      "name": "AppleVis: Academy of Disaster accessibility",
+      "url": "https://www.applevis.com/apps/ios/games/academy-disaster"
+    }
+  ],
+  "releaseYear": "2016"
+}

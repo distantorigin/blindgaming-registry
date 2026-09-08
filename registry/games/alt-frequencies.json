@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "alt-frequencies",
+  "status": "active",
+  "name": "Alt Frequencies",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1035050/AltFrequencies/"
+    },
+    {
+      "store": "switch",
+      "url": "https://www.nintendo.com/us/store/products/alt-frequencies-switch/"
+    }
+  ],
+  "accessibility": {
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/AltFrequencies/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/28946/"
+    }
+  ],
+  "releaseYear": "2019"
+}

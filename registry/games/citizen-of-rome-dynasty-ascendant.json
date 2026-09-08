@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "id": "citizen-of-rome-dynasty-ascendant",
+  "status": "active",
+  "name": "Citizen of Rome - Dynasty Ascendant",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1063790/"
+    },
+    {
+      "store": "appstore",
+      "url": "https://apps.apple.com/us/app/citizen-of-rome/id1469244787"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=net.rangergo.rome"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer documents built-in screen-reader support across the desktop, iOS, and Android editions and explicitly confirms blind accessibility for iOS. The family and dynasty simulation runs offline. Accessibility is developer-reported; current mobile builds and individual screen-reader combinations have not been independently playtested here.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer accessibility information and desktop, iOS, and Android support discussion",
+      "url": "https://citizenofrome.itch.io/rome"
+    },
+    {
+      "name": "AudioGames.net: Citizen of Rome accessibility update",
+      "url": "https://forum.audiogames.net/topic/46233/citizen-of-rome-accessibility-update/"
+    },
+    {
+      "name": "Official game website",
+      "url": "https://rome.rangergo.net/"
+    }
+  ],
+  "releaseYear": "2019"
+}

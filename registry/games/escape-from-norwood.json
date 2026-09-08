@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "escape-from-norwood",
+  "status": "active",
+  "name": "Escape from Norwood",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2372150/Escape_from_Norwood/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/EscapeFromNorwood/Blind"
+  },
+  "releaseYear": "2023"
+}

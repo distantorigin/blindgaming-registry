@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "six-ages-ride-like-the-wind",
+  "status": "active",
+  "name": "Six Ages: Ride Like the Wind",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/881420/Six_Ages_Ride_Like_the_Wind/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/six_ages_ride_like_the_wind"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "six-ages-ride-like-the-wind-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/25249/"
+    }
+  ],
+  "releaseYear": "2019"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "teenage-mutant-ninja-turtles-shredders-revenge",
+  "status": "active",
+  "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1361510/Teenage_Mutant_Ninja_Turtles_Shredders_Revenge/"
+    }
+  ],
+  "accessibility": {
+    "description": "The mod supports the DLC. Some players report problems with copies purchased in a game-and-DLC bundle; purchasing the DLC separately is the reported workaround.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/TeenageMutantNinjaTurtles:Shredder%27sRevenge/Blind",
+    "primaryModId": "tag-v1-0-0-yes"
+  },
+  "releaseYear": "2022"
+}

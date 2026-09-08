@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "the-last-of-us-part-i",
+  "status": "active",
+  "name": "The Last of Us Part I",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1888930/The_Last_of_Us_Part_I/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/the-last-of-us-part-i"
+    },
+    {
+      "store": "psn",
+      "url": "https://store.playstation.com/en-us/product/UP9000-PPSA03396_00-THELASTOFUSPART1"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with audio description.",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/TheLastOfUsPartIRemastered/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/46090/"
+    }
+  ],
+  "releaseYear": "2023"
+}

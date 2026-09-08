@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "drg-access",
+  "status": "active",
+  "gameIds": [
+    "deep-rock-galactic-survivor"
+  ],
+  "name": "DRG Access",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/Ali-Bueno/drg-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Ali-Bueno/drg-access"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/alibueno",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "darkest-dungeon",
+  "status": "active",
+  "name": "Darkest Dungeon",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/262060/"
+    },
+    {
+      "store": "humble",
+      "primary": false,
+      "url": "https://www.humblebundle.com/store/darkest-dungeon"
+    }
+  ],
+  "accessibility": {
+    "description": "The Blindest Dungeon mod adds screen-reader output, keyboard navigation, dungeon exploration and combat controls on Windows. The author reports that the base game and much of the DLC are completable. The mod is in public beta: Butcher's Circus is not accessible and the Color of Madness endless mode is not fully tested. macOS and Linux support is unfinished.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "blindest-dungeon"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: Blindest Dungeon: an accessibility mod for Darkest Dungeon",
+      "url": "https://forum.audiogames.net/topic/60150/blindest-dungeon-an-accessibility-mod-for-darkest-dungeon/"
+    },
+    {
+      "name": "Mod installation, controls and limitations",
+      "url": "https://github.com/Vicorin/Blindest-Dungeon"
+    }
+  ],
+  "releaseYear": "2016"
+}

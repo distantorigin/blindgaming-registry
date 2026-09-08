@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "terraria",
+  "status": "active",
+  "name": "Terraria",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/105600/Terraria/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/terraria"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/terraria"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Terraria/Blind",
+    "primaryModId": "terraria-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57669/"
+    }
+  ],
+  "releaseYear": "2011"
+}

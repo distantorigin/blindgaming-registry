@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "srwy-access",
+  "status": "active",
+  "gameIds": [
+    "super-robot-wars-y"
+  ],
+  "name": "SRWY Access",
+  "homeUrl": "https://github.com/stephenso1120-cmyk/SRWY-Accessibility/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/stephenso1120-cmyk/SRWY-Accessibility"
+  },
+  "links": []
+}

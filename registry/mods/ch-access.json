@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "ch-access",
+  "status": "active",
+  "gameIds": [
+    "clicker-heroes"
+  ],
+  "name": "CH Access",
+  "homeUrl": "https://github.com/shotgunspoon/ch_patcher",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/shotgunspoon/ch_patcher"
+  },
+  "links": []
+}

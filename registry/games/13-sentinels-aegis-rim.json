@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "13-sentinels-aegis-rim",
+  "status": "active",
+  "name": "13 Sentinels: Aegis Rim",
+  "stores": [
+    {
+      "store": "psn",
+      "primary": true,
+      "url": "https://store.playstation.com/en-us/product/UP0177-CUSA19610_00-BSTUBCUSA1961000"
+    }
+  ],
+  "accessibility": {
+    "description": "A blind-player guide reports that the PS4 game, also playable on PS5, can be completed without sighted assistance using menu and gameplay workarounds. OCR through PlayStation Remote Play is needed for the upgrades menu and Mystery Files and helps with other text. This is guide-assisted play, not built-in screen-reader narration. The linked guide does not establish the same accessibility on Nintendo Switch.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Blind-player guide, controls and OCR requirements",
+      "url": "https://breakdownwalls.net/wp-content/uploads/2021/02/13-Sentinels-Guide.html"
+    },
+    {
+      "name": "AudioGames.net: 13 Sentinels: Aegis Rim guide discussion",
+      "url": "https://forum.audiogames.net/post/596042/"
+    }
+  ],
+  "releaseYear": "2020"
+}

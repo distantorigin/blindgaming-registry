@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rift-wizard-3",
+  "status": "active",
+  "name": "Rift Wizard 3",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/4366330/Rift_Wizard_3/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "words-of-power-ii"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59717/"
+    }
+  ],
+  "releaseYear": "2026"
+}

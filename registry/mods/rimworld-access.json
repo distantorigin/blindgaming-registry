@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "rimworld-access",
+  "status": "active",
+  "gameIds": [
+    "rimworld"
+  ],
+  "name": "RimWorld Access",
+  "framework": "Harmony (C#)",
+  "homeUrl": "https://github.com/AccessMods/rimworld_access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/AccessMods/rimworld_access"
+  },
+  "links": []
+}

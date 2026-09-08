@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "date-everything",
+  "status": "active",
+  "name": "Date Everything!",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2201320/Date_Everything/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/date-everything"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/DateEverything/Blind",
+    "primaryModId": "date-everything-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59655/"
+    }
+  ],
+  "releaseYear": "2025"
+}

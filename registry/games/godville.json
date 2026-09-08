@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "godville",
+  "status": "active",
+  "name": "Godville",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/godville/id353421868"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS game's hero diary and most controls are reported to work with VoiceOver. AppleVis notes difficulties with dungeons and the forum in older versions, with later comments reporting improvements. Current end-to-end coverage has not been retested. A persistent internet connection is required.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Godville official website",
+      "url": "https://godvillegame.com/"
+    },
+    {
+      "name": "AppleVis: Godville accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/godville"
+    }
+  ]
+}

@@ -1,0 +1,354 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blindgaming.net/schemas/v1/common.schema.json",
+  "$defs": {
+    "registryId": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 80,
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "displayText": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^\\S(?:[\\s\\S]*\\S)?$",
+      "allOf": [
+        {
+          "pattern": "^[^\\u0000-\\u001F\\u007F\\u202A-\\u202E\\u2066-\\u2069]*$"
+        }
+      ]
+    },
+    "httpsUrl": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 2048,
+      "format": "uri",
+      "pattern": "^https://[^/?#]+(?:/[^?#]*)?(?:\\?[^#]*)?$"
+    },
+    "archiveDate": {
+      "type": "string",
+      "format": "date",
+      "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$"
+    },
+    "releaseYear": {
+      "type": "string",
+      "pattern": "^[0-9]{4}$"
+    },
+    "store": {
+      "type": "string",
+      "enum": [
+        "steam",
+        "gog",
+        "humble",
+        "battlenet",
+        "psn",
+        "xbox",
+        "switch",
+        "appstore",
+        "googleplay"
+      ]
+    },
+    "storeKey": {
+      "type": "string",
+      "minLength": 1,
+      "maxLength": 160
+    },
+    "coverage": {
+      "description": "How much of the game is playable. Says nothing about who checked.",
+      "type": "string",
+      "enum": [
+        "full",
+        "mostly",
+        "partial",
+        "none"
+      ]
+    },
+    "confidence": {
+      "description": "Confidence assigned to the coverage claim. Absent means nobody has assessed it.",
+      "type": "string",
+      "enum": [
+        "verified",
+        "reported"
+      ]
+    },
+    "accessPath": {
+      "description": "How access is achieved. Absent means unknown.",
+      "type": "string",
+      "enum": [
+        "native",
+        "mod"
+      ]
+    },
+    "registryTag": {
+      "type": "string",
+      "enum": [
+        "blind",
+        "audio-description"
+      ]
+    },
+    "storeEntry": {
+      "type": "object",
+      "properties": {
+        "store": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/store"
+        },
+        "primary": {
+          "type": "boolean"
+        },
+        "url": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+        }
+      },
+      "required": [
+        "store",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "storeList": {
+      "description": "Storefront listings. Exactly one entry is primary. At most one listing per store.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 9,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/storeEntry"
+      },
+      "contains": {
+        "type": "object",
+        "properties": {
+          "primary": {
+            "const": true
+          }
+        },
+        "required": [
+          "primary"
+        ]
+      },
+      "minContains": 1,
+      "maxContains": 1
+    },
+    "reservedStoreMap": {
+      "description": "Store identities an archived record keeps claimed, keyed by store.",
+      "type": "object",
+      "minProperties": 1,
+      "maxProperties": 9,
+      "propertyNames": {
+        "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/store"
+      },
+      "additionalProperties": {
+        "type": "array",
+        "minItems": 1,
+        "maxItems": 16,
+        "uniqueItems": true,
+        "items": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/storeKey"
+        }
+      }
+    },
+    "resourceEntry": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+          "maxLength": 120
+        },
+        "url": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+        }
+      },
+      "required": [
+        "name",
+        "url"
+      ],
+      "additionalProperties": false
+    },
+    "resourceList": {
+      "description": "External resource links.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/resourceEntry"
+      }
+    },
+    "accessibility": {
+      "type": "object",
+      "properties": {
+        "description": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+          "maxLength": 4000
+        },
+        "coverage": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/coverage"
+        },
+        "confidence": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/confidence"
+        },
+        "accessVia": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/accessPath"
+        },
+        "tags": {
+          "type": "array",
+          "minItems": 0,
+          "maxItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/registryTag"
+          }
+        },
+        "wikiRatingUrl": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+        },
+        "primaryModId": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/registryId"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "accessVia": {
+                "const": "mod"
+              }
+            },
+            "required": [
+              "accessVia"
+            ]
+          },
+          "then": {
+            "required": [
+              "primaryModId"
+            ]
+          },
+          "else": {
+            "not": {
+              "required": [
+                "primaryModId"
+              ]
+            }
+          }
+        },
+        {
+          "if": {
+            "required": [
+              "confidence"
+            ]
+          },
+          "then": {
+            "required": [
+              "coverage"
+            ]
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    },
+    "releaseSource": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "github",
+            "nexus"
+          ]
+        },
+        "repositoryUrl": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+        }
+      },
+      "required": [
+        "kind",
+        "repositoryUrl"
+      ],
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "github"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "repositoryUrl": {
+                "pattern": "^https://github\\.com/[^/?#]+/[^/?#]+$"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "nexus"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "repositoryUrl": {
+                "pattern": "^https://(www\\.)?nexusmods\\.com/[a-z0-9]+/mods/[0-9]+$"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "modLink": {
+      "type": "object",
+      "properties": {
+        "kind": {
+          "type": "string",
+          "enum": [
+            "download",
+            "discussion",
+            "funding"
+          ]
+        },
+        "label": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+          "maxLength": 120
+        },
+        "url": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+        },
+        "requiresPayment": {
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "kind",
+        "label",
+        "url",
+        "requiresPayment"
+      ],
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "download"
+              }
+            },
+            "required": [
+              "kind"
+            ]
+          },
+          "else": {
+            "properties": {
+              "requiresPayment": {
+                "const": false
+              }
+            }
+          }
+        }
+      ],
+      "unevaluatedProperties": false
+    }
+  }
+}

@@ -1,0 +1,83 @@
+name: Registry validation
+
+"on":
+  pull_request:
+    types: [opened, reopened, synchronize, labeled, unlabeled]
+
+permissions:
+  contents: read
+
+jobs:
+  registry-validation:
+    name: registry-validation
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout protected base validator
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: base
+      - name: Checkout pristine base registry data
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: base-data
+      - name: Checkout proposed registry data
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          path: proposed
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Set up uv
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9
+        with:
+          version: 0.10.0
+      - name: Install base validator
+        working-directory: base
+        run: uv sync --locked --extra test
+      - name: Validate proposed registry
+        working-directory: base
+        env:
+          ALLOW_MASS_CHANGE: ${{ contains(github.event.pull_request.labels.*.name, 'registry-mass-change-approved') }}
+        run: |
+          uv run blindgaming-registry validate --root ../proposed --base ../base-data ${{ env.ALLOW_MASS_CHANGE == 'true' && '--allow-mass-change' || '' }}
+          uv run blindgaming-registry format --root ../proposed --check
+
+  validator-development:
+    name: validator-development
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout proposed validator
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          ref: ${{ github.event.pull_request.merge_commit_sha }}
+          path: proposed
+          fetch-depth: 0
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065
+        with:
+          python-version: "3.12"
+      - name: Set up uv
+        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9
+        with:
+          version: 0.10.0
+      - name: Detect proposed validator changes
+        id: validator-changes
+        working-directory: proposed
+        run: |
+          if git diff --quiet ${{ github.event.pull_request.base.sha }} HEAD -- validator schemas pyproject.toml uv.lock .github/workflows/validate.yml; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+      - name: Test proposed validator changes
+        if: ${{ steps.validator-changes.outputs.changed == 'true' }}
+        working-directory: proposed
+        run: uv run --extra test python -m pytest validator/tests -q

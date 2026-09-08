@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "chicken-police-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "chicken-police"
+  ],
+  "name": "Chicken Police Accessibility Mod",
+  "homeUrl": "https://github.com/Berenion/Chicken-Police-Accessibility-Mod/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Berenion/Chicken-Police-Accessibility-Mod"
+  },
+  "links": []
+}

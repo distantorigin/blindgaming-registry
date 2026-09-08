@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "citizen-sleeper",
+  "status": "active",
+  "name": "Citizen Sleeper",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1578650/Citizen_Sleeper/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/citizen_sleeper"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/citizen-sleeper"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "citizen-speaker"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59836/"
+    }
+  ],
+  "releaseYear": "2022"
+}

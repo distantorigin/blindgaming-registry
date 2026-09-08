@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "harkest-dungeon",
+  "status": "active",
+  "gameIds": [
+    "darkest-dungeon-ii"
+  ],
+  "name": "Harkest Dungeon",
+  "framework": "BepInEx 5 (C#)",
+  "homeUrl": "https://github.com/amerikrainian/harkest-dungeon",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/amerikrainian/harkest-dungeon"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60138/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GitHub releases",
+      "url": "https://github.com/amerikrainian/harkest-dungeon/releases",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-iv",
+  "status": "active",
+  "name": "Final Fantasy IV",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1173800/FINAL_FANTASY_IV/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/final-fantasy-iv-2d-remaster"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible. See the linked mod documentation for details.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/FinalFantasyIV/Blind",
+    "primaryModId": "ff4-screen-reader"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58424/"
+    }
+  ],
+  "releaseYear": "1991"
+}

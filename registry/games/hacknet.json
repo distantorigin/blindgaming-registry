@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "hacknet",
+  "status": "active",
+  "name": "Hacknet",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/365450/Hacknet/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/hacknet"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/hacknet"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Hacknet/Blind",
+    "primaryModId": "hacknet-access"
+  },
+  "releaseYear": "2015"
+}

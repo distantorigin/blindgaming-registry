@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "resident-evil-6",
+  "status": "active",
+  "name": "Resident Evil 6",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/221040/"
+    },
+    {
+      "store": "psn",
+      "primary": false,
+      "url": "https://store.playstation.com/en-us/concept/232116/"
+    }
+  ],
+  "accessibility": {
+    "description": "Reported blind play uses the route-guide camera orientation, directional sound and autoaimed quickshots, with OCR or memorized menus. The PC listing is supported by Molitvan's blind-accessible games list; a separate firsthand PS4 account documents these techniques and their limits. Some puzzles and quick-time events require sighted assistance, navigation can catch on obstacles, and pickups lack locating sounds. This is partial, workaround-based access rather than built-in screen-reader narration; the PS4 edition also runs on PS5.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "PC accessibility report in Molitvan's blind-accessible games list",
+      "url": "https://github.com/Molitvan/blind-accessible-games-list/blob/1f409f644a2d1f7cbe3f13daef54c9b48fc232ea/README.md"
+    }
+  ],
+  "releaseYear": "2013"
+}

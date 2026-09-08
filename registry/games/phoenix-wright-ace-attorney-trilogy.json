@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "phoenix-wright-ace-attorney-trilogy",
+  "status": "active",
+  "name": "Phoenix Wright: Ace Attorney Trilogy",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/787480/Phoenix_Wright_Ace_Attorney_Trilogy/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/phoenix-wright-ace-attorney-trilogy"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/PhoenixWrightAceAttorneyTrilogy/Blind",
+    "primaryModId": "phoenix-wright-ace-attorney-trilogy-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58240/"
+    }
+  ],
+  "releaseYear": "2012"
+}

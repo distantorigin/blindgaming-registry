@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "blippo-access",
+  "status": "active",
+  "gameIds": [
+    "blippo-plus"
+  ],
+  "name": "Blippo Access",
+  "homeUrl": "https://github.com/zersiax/BlippoAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/zersiax/BlippoAccess"
+  },
+  "links": []
+}

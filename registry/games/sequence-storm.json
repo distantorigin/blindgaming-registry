@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "sequence-storm",
+  "status": "active",
+  "name": "Sequence Storm",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/630640/Sequence_Storm/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/SequenceStorm/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/30069/"
+    }
+  ],
+  "releaseYear": "2018"
+}

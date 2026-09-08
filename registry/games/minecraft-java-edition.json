@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "minecraft-java-edition",
+  "status": "archived",
+  "name": "Minecraft: Java Edition",
+  "stores": [
+    {
+      "store": "xbox",
+      "primary": true,
+      "url": "https://www.xbox.com/en-US/games/store/minecraft-java-edition/9PJ8266BHFWN"
+    }
+  ],
+  "reservedStores": {
+    "xbox": [
+      "9PJ8266BHFWN"
+    ]
+  },
+  "accessibility": {
+    "description": "Supports vanilla survival, building, inventory management, combat, navigation, multiplayer, and speech across platforms. Players still need to learn spatial navigation, and the mod is undergoing bug fixes.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "united-minecraft"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60149/"
+    }
+  ],
+  "releaseYear": "2011",
+  "archivedAt": "2026-09-07",
+  "archiveReason": "Only sold outside supported storefronts; the Microsoft Store PC page is classified as Xbox"
+}

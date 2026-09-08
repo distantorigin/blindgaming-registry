@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sf6-access",
+  "status": "active",
+  "gameIds": [
+    "street-fighter-6"
+  ],
+  "name": "SF6 Access",
+  "framework": "Native injection",
+  "homeUrl": "https://github.com/Ali-Bueno/sf6Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Ali-Bueno/sf6Access"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/alibueno",
+      "requiresPayment": false
+    }
+  ]
+}

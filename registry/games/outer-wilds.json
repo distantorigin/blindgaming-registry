@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "outer-wilds",
+  "status": "active",
+  "name": "Outer Wilds",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/753640/Outer_Wilds/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/outer-wilds"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/OuterWilds/Blind",
+    "primaryModId": "outer-wilds-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58968/"
+    }
+  ],
+  "releaseYear": "2019"
+}

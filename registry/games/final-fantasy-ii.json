@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-ii",
+  "status": "active",
+  "name": "Final Fantasy II",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1173780/FINAL_FANTASY_II/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/final-fantasy-ii"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible. See the linked mod documentation for details.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/FinalFantasyII/Blind",
+    "primaryModId": "ff2-screen-reader"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58424/"
+    }
+  ],
+  "releaseYear": "1988"
+}

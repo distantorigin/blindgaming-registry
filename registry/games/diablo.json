@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "diablo",
+  "status": "active",
+  "name": "Diablo",
+  "stores": [
+    {
+      "store": "gog",
+      "primary": true,
+      "url": "https://www.gog.com/en/game/diablo"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "diablo-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58466/"
+    }
+  ],
+  "releaseYear": "1997"
+}

@@ -1,0 +1,52 @@
+{
+  "schemaVersion": 1,
+  "id": "the-elder-scrolls-v-skyrim-special-edition",
+  "status": "active",
+  "name": "The Elder Scrolls V: Skyrim Special Edition",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/489830/"
+    },
+    {
+      "store": "gog",
+      "primary": false,
+      "url": "https://www.gog.com/en/game/the_elder_scrolls_v_skyrim_special_edition"
+    },
+    {
+      "store": "humble",
+      "primary": false,
+      "url": "https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-special-edition"
+    }
+  ],
+  "accessibility": {
+    "description": "Skyrim Access adds speech, navigation assistance and audio cues to the Windows Special and Anniversary editions. Installation requires SKSE, the matching Address Library and SkyUI; use the current guide for the exact Steam or GOG runtime and dependencies. Accessibility is a work in progress, and browsing or installing Creations still needs sighted assistance. Console editions and the standalone Anniversary Upgrade DLC are not replacements for the required PC base game.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "skyrim-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: Skyrim Special Edition accessibility guide",
+      "url": "https://forum.audiogames.net/topic/59408/skyrim-special-edition-accessibility-guide/"
+    },
+    {
+      "name": "AudioGames.net: Skyrim Access v1.9.0 release",
+      "url": "https://forum.audiogames.net/topic/59731/skyrim-access-v190-release/"
+    },
+    {
+      "name": "Current installation requirements and accessibility controls",
+      "url": "https://gitlab.com/SkyrimAccessibilityProject/SkyrimAccessMod/-/blob/main/README.md"
+    },
+    {
+      "name": "Skyrim Access download and version compatibility",
+      "url": "https://www.nexusmods.com/skyrimspecialedition/mods/181131"
+    }
+  ],
+  "releaseYear": "2016"
+}

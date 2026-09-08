@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "monster-train-2",
+  "status": "active",
+  "name": "Monster Train 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2742830/Monster_Train_2/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/monster-train-2"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/MonsterTrain2/Blind",
+    "primaryModId": "mt2-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59229/"
+    }
+  ],
+  "releaseYear": "2025"
+}

@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "iron-lung-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "iron-lung"
+  ],
+  "name": "Iron Lung Accessibility Mod",
+  "homeUrl": "https://github.com/liliancoghlan1-tech/iron-lung-accessibility",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/liliancoghlan1-tech/iron-lung-accessibility"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Buy Me a Coffee",
+      "url": "https://buymeacoffee.com/liliancogha",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/Lily4080",
+      "requiresPayment": false
+    }
+  ]
+}

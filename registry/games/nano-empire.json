@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "nano-empire",
+  "status": "active",
+  "name": "Nano Empire",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/nano-empire/id994354970"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS strategy game supports VoiceOver for its text, locations and actions. AppleVis reports all elements readable and controls labeled, with occasional focus jumps to the status bar when activating an item. Current compatibility has not been retested; the listed app version dates from 2016.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Nano Empire accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/nano-empire"
+    }
+  ]
+}

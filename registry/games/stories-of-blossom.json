@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "stories-of-blossom",
+  "status": "active",
+  "name": "Stories of Blossom",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1581680/Stories_of_Blossom/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with audio description.",
+    "tags": [
+      "audio-description",
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/49307/"
+    }
+  ],
+  "releaseYear": "2023"
+}

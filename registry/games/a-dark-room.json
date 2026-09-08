@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "a-dark-room",
+  "status": "active",
+  "name": "A Dark Room",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/a-dark-room/id736683061"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS edition supports VoiceOver throughout its text adventure, resource management, exploration, and combat. The developer documents complete nonvisual play, corroborated by AppleVis player reports; App Store release notes also describe subsequent VoiceOver improvements.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: A Dark Room accessibility and player discussion",
+      "url": "https://www.applevis.com/apps/ios/games/dark-room"
+    },
+    {
+      "name": "Developer: A Dark Room VoiceOver support",
+      "url": "https://www.applevis.com/forum/ios-ipados-gaming/dark-room-ios-now-100-playable-voiceover"
+    }
+  ],
+  "releaseYear": "2013"
+}

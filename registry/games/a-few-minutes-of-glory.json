@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "a-few-minutes-of-glory",
+  "status": "active",
+  "name": "A Few Minutes of Glory",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/a-few-minutes-of-glory/id1447578204"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS game supports VoiceOver for its text-based real-time strategy interface. AppleVis reports readable controls, military statistics, and campaign powers. An extra-slow speed setting gives screen-reader users more time to review resources and issue orders; the game still requires timed decisions.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "App Store: VoiceOver support and extra-slow speed release notes",
+      "url": "https://apps.apple.com/us/app/a-few-minutes-of-glory/id1447578204"
+    },
+    {
+      "name": "Developer website",
+      "url": "https://jksgames.wordpress.com/"
+    },
+    {
+      "name": "AppleVis: A Few Minutes of Glory accessibility and controls",
+      "url": "https://www.applevis.com/apps/ios/games/few-minutes-glory"
+    }
+  ],
+  "releaseYear": "2019"
+}

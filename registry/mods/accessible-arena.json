@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "accessible-arena",
+  "status": "active",
+  "gameIds": [
+    "mtg-arena"
+  ],
+  "name": "Accessible Arena",
+  "framework": "Game-specific",
+  "homeUrl": "https://github.com/JeanStiletto/AccessibleArena",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/JeanStiletto/AccessibleArena"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/jeanstiletto",
+      "requiresPayment": false
+    }
+  ]
+}

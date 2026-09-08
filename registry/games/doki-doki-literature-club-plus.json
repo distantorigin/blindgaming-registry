@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "doki-doki-literature-club-plus",
+  "status": "active",
+  "name": "Doki Doki Literature Club Plus",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1388880/Doki_Doki_Literature_Club_Plus/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/DokiDokiLiteratureClubPlus/Blind",
+    "primaryModId": "ddlc-plus-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57788/"
+    }
+  ],
+  "releaseYear": "2021"
+}

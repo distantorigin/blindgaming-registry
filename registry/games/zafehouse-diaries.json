@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "zafehouse-diaries",
+  "status": "active",
+  "name": "Zafehouse: Diaries",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/249360/Zafehouse_Diaries/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/zafehouse_diaries"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "zafehouse-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59734/"
+    }
+  ]
+}

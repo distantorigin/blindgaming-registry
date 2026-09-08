@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "roller-coaster-tycoon-2",
+  "status": "active",
+  "name": "Roller Coaster Tycoon 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/285330/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/rollercoaster_tycoon_2"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/rollercoaster-tycoon-2-triple-thrill-pack"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/RollercoasterTycoon2/Blind",
+    "primaryModId": "openrct2-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59674/"
+    }
+  ],
+  "releaseYear": "2002"
+}

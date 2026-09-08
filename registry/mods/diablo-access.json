@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "diablo-access",
+  "status": "active",
+  "gameIds": [
+    "diablo"
+  ],
+  "name": "Diablo Access",
+  "framework": "DevilutionX engine fork",
+  "homeUrl": "https://github.com/mojsior/diablo-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/mojsior/diablo-access"
+  },
+  "links": []
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "pvz-a11y",
+  "status": "active",
+  "gameIds": [
+    "plants-vs-zombies"
+  ],
+  "name": "PvZ A11y",
+  "framework": "Desktop companion",
+  "homeUrl": "https://github.com/CG8516/PvZA11y",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/CG8516/PvZA11y"
+  },
+  "links": []
+}

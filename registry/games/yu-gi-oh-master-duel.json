@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "yu-gi-oh-master-duel",
+  "status": "active",
+  "name": "Yu Gi Oh: Master Duel",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1449850/YuGiOh_Master_Duel/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Yu-Gi-OhMasterDuels/Blind",
+    "primaryModId": "blind-duel"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59138/"
+    }
+  ],
+  "releaseYear": "2022"
+}

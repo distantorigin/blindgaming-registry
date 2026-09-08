@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "adofai-access",
+  "status": "active",
+  "gameIds": [
+    "a-dance-of-fire-and-ice"
+  ],
+  "name": "ADOFAI Access",
+  "homeUrl": "https://molitvan.me/projects/adofai-access",
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/C0C31Y1RUK",
+      "requiresPayment": false
+    }
+  ]
+}

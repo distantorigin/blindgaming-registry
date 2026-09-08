@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "marvel-snap",
+  "status": "active",
+  "name": "Marvel Snap",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1997040/MARVEL_SNAP/"
+    }
+  ],
+  "accessibility": {
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/MarvelSnap/Blind",
+    "primaryModId": "snap-access"
+  },
+  "releaseYear": "2023"
+}

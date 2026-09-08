@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "moonlight-access",
+  "status": "active",
+  "gameIds": [
+    "moonlight-peaks"
+  ],
+  "name": "Moonlight Access",
+  "framework": "BepInEx 5 (C#)",
+  "homeUrl": "https://www.nexusmods.com/moonlightpeaks/mods/137",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/59989/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Nexus Mods",
+      "url": "https://www.nexusmods.com/moonlightpeaks/mods/137",
+      "requiresPayment": false
+    }
+  ]
+}

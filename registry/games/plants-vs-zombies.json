@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "plants-vs-zombies",
+  "status": "active",
+  "name": "Plants vs Zombies",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3590/Plants_vs_Zombies_GOTY_Edition/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/PlantsVsZombiesGameOfTheYearEdition/Blind",
+    "primaryModId": "pvz-a11y"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/50364/"
+    }
+  ],
+  "releaseYear": "2009"
+}

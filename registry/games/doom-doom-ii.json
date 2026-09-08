@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "doom-doom-ii",
+  "status": "active",
+  "name": "Doom + Doom II",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2280/DOOM__DOOM_II/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/doom_doom_ii"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/doom-doom-ii"
+    }
+  ],
+  "accessibility": {
+    "description": "Limited accessibility information is available.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "toby-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57129/"
+    }
+  ],
+  "releaseYear": "2007"
+}

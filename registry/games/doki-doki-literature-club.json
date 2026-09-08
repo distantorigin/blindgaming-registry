@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "doki-doki-literature-club",
+  "status": "active",
+  "name": "Doki Doki Literature Club",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/698780/Doki_Doki_Literature_Club/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57093/"
+    }
+  ],
+  "releaseYear": "2017"
+}

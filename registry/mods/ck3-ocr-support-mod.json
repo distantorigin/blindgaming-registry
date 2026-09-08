@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "ck3-ocr-support-mod",
+  "status": "active",
+  "gameIds": [
+    "crusader-kings-iii"
+  ],
+  "name": "CK3 OCR Support Mod",
+  "framework": "Paradox script",
+  "homeUrl": "https://forum.paradoxplaza.com/forum/threads/mod-ocr-support-a-mod-for-blind-and-visually-impaired-players.1619475/",
+  "links": []
+}

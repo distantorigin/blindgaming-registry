@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "blind-drive",
+  "status": "active",
+  "name": "Blind Drive",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1300600/Blind_Drive/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible. An audio-based game designed to be played by ear.",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/39689/"
+    }
+  ]
+}

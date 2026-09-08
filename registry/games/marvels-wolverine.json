@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "marvels-wolverine",
+  "status": "active",
+  "name": "Marvel's Wolverine",
+  "stores": [
+    {
+      "store": "psn",
+      "primary": true,
+      "url": "https://store.playstation.com/en-us/concept/10002861"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility details are not yet documented in this record.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Marvel%27sWolverine/Blind"
+  },
+  "releaseYear": "2026"
+}

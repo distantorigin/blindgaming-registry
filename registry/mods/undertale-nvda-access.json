@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "undertale-nvda-access",
+  "status": "active",
+  "gameIds": [
+    "undertale"
+  ],
+  "name": "Undertale NVDA Access",
+  "framework": "Game-specific",
+  "homeUrl": "https://github.com/liliancoghlan1-tech/undertale-nvda-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/liliancoghlan1-tech/undertale-nvda-access"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Buy Me a Coffee",
+      "url": "https://buymeacoffee.com/liliancogha",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/Lily4080",
+      "requiresPayment": false
+    }
+  ]
+}

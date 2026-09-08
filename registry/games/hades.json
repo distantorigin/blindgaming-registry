@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hades",
+  "status": "active",
+  "name": "Hades",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1145360/Hades/"
+    }
+  ],
+  "accessibility": {
+    "description": "Playable, though some sections can be difficult. Menus and other interface elements support screen readers through Tolk, so OCR is no longer required.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Hades/Blind",
+    "primaryModId": "hades-accessibility-mods"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/41735/"
+    }
+  ],
+  "releaseYear": "2020"
+}

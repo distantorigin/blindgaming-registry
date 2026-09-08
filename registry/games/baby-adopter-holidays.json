@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "baby-adopter-holidays",
+  "status": "active",
+  "name": "Baby Adopter Holidays",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/baby-adopter-holidays/id481873578"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.x2line.android.babyadopterholidays"
+    }
+  ],
+  "accessibility": {
+    "description": "The holiday-themed Baby Adopter game supports VoiceOver on iOS and TalkBack on Android for its care interface. Current store instructions describe spoken Free Cell controls on iOS and Nono Blocks controls on Android; the available mini-games differ between editions.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer catalog",
+      "url": "https://x2line.com/"
+    }
+  ]
+}

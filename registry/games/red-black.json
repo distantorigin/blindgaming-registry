@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "red-black",
+  "status": "active",
+  "name": "Red & Black",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2365780/_RedBlack/"
+    }
+  ],
+  "accessibility": {
+    "description": "Playable, though using some accessibility features can be cumbersome.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/RedAndBlack/Blind"
+  },
+  "releaseYear": "2023"
+}

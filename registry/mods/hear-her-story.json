@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "hear-her-story",
+  "status": "active",
+  "gameIds": [
+    "her-story"
+  ],
+  "name": "Hear Her Story",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://www.patreon.com/prismaccess/posts/hear-her-story-166860217",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60074/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Patreon download",
+      "url": "https://www.patreon.com/prismaccess/posts/hear-her-story-166860217",
+      "requiresPayment": true
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess/",
+      "requiresPayment": false
+    }
+  ]
+}

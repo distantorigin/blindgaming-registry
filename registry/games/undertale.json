@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "undertale",
+  "status": "active",
+  "name": "Undertale",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/391540/Undertale/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/undertale"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/undertale"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "undertale-nvda-access"
+  },
+  "releaseYear": "2015"
+}

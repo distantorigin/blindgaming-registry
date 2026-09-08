@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "zafehouse-access",
+  "status": "active",
+  "gameIds": [
+    "zafehouse-diaries"
+  ],
+  "name": "Zafehouse Access",
+  "homeUrl": "https://github.com/Vicorin/Zafehouse-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Vicorin/Zafehouse-Access"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/axdelvegames",
+      "requiresPayment": false
+    }
+  ]
+}

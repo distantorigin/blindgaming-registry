@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "hades-ii-access",
+  "status": "active",
+  "gameIds": [
+    "hades-ii"
+  ],
+  "name": "Hades II Access",
+  "framework": "Hell2Modding (Lua)",
+  "homeUrl": "https://github.com/flat-arther/FlatArther-HadesIIAccess-Public",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/flat-arther/FlatArther-HadesIIAccess-Public"
+  },
+  "links": []
+}

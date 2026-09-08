@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "path-of-adventure",
+  "status": "active",
+  "name": "Path of Adventure",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/path-of-adventure/id1449457468"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.keeweed.pathofadventure"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS and Android store descriptions explicitly support screen readers for this text-based adventure. AppleVis reports full VoiceOver access, including headings for navigating combat, statistics and inventory. Resurrections and undo actions are optional purchases.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Path of Adventure accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/path-adventure"
+    },
+    {
+      "name": "Path of Adventure official accessibility information",
+      "url": "https://www.pathofadventure.com/"
+    }
+  ]
+}

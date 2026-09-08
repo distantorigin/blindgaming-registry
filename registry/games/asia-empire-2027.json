@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "asia-empire-2027",
+  "status": "active",
+  "name": "Asia Empire 2027",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/asia-empire-2027/id1642138105"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.igindis.asiaempire2027"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer documents a built-in accessibility mode for this Asian nation strategy game on iOS and Android. Turn off VoiceOver or TalkBack before opening the game, then tap three times with three fingers at launch to enable the mode. Navigate using swipes and double taps. The extent of accessibility across all game features has not been independently assessed.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "iOS accessibility-mode instructions",
+      "url": "https://apps.apple.com/us/app/asia-empire-2027/id1642138105"
+    },
+    {
+      "name": "Official developer catalog",
+      "url": "https://apps.apple.com/us/developer/eran-gindi/id1594641623"
+    },
+    {
+      "name": "Official Android download and blind-friendly designation",
+      "url": "https://igindisgames.itch.io/asia-empire-2027"
+    },
+    {
+      "name": "Android accessibility-mode instructions",
+      "url": "https://play.google.com/store/apps/details?id=com.igindis.asiaempire2027"
+    }
+  ]
+}

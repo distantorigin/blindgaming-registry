@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "oni-access",
+  "status": "active",
+  "gameIds": [
+    "oxygen-not-included"
+  ],
+  "name": "ONI Access",
+  "framework": "Game-specific C#",
+  "homeUrl": "https://github.com/rashadnaqeeb/OniAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/rashadnaqeeb/OniAccess"
+  },
+  "links": []
+}

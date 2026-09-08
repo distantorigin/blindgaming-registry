@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "conjury",
+  "status": "active",
+  "name": "Conjury",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2684520/Conjury/"
+    },
+    {
+      "store": "appstore",
+      "url": "https://apps.apple.com/us/app/conjury/id6468274110"
+    }
+  ],
+  "accessibility": {
+    "description": "The built-in accessibility interface reads cards, combat information and menus on PC and iOS. Swipe navigation and speech make the turn-based game playable without sight; occasional focus delays and transient dialogue that cannot be reviewed have been reported. Android accessibility was previously reported, but its Google Play listing is currently unavailable.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Conjury/Blind"
+  },
+  "resources": [
+    {
+      "name": "AccessWorld accessibility review",
+      "url": "https://afb.org/blog/entry/conjury-unity-accessibility"
+    },
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/50222/"
+    },
+    {
+      "name": "Mobile release and accessibility discussion",
+      "url": "https://www.reddit.com/r/Blind/comments/181pad0/game_release_accessibility_conjury_deck_building/"
+    }
+  ],
+  "releaseYear": "2023"
+}

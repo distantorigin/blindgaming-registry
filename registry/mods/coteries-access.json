@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "coteries-access",
+  "status": "active",
+  "gameIds": [
+    "vampire-the-masquerade-coteries-of-new-york"
+  ],
+  "name": "CoteriesAccess",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/jpavonabian/Vampire-The-Masquerade---Coteries-of-New-York-Access-Mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/jpavonabian/Vampire-The-Masquerade---Coteries-of-New-York-Access-Mod"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/59738/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GitHub releases",
+      "url": "https://github.com/jpavonabian/Vampire-The-Masquerade---Coteries-of-New-York-Access-Mod/releases",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/Dherhion/",
+      "requiresPayment": false
+    }
+  ]
+}

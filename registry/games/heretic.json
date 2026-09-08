@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "heretic",
+  "status": "active",
+  "name": "Heretic",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2390/Heretic_Shadow_of_the_Serpent_Riders/"
+    }
+  ],
+  "accessibility": {
+    "description": "Limited accessibility information is available.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "toby-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57129/"
+    }
+  ],
+  "releaseYear": "2007"
+}

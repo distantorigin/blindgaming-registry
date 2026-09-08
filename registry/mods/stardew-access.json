@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "stardew-access",
+  "status": "active",
+  "gameIds": [
+    "stardew-valley"
+  ],
+  "name": "Stardew Access",
+  "framework": "SMAPI (C#)",
+  "homeUrl": "https://github.com/stardew-access/stardew-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/stardew-access/stardew-access"
+  },
+  "links": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sleeptalker",
+  "status": "active",
+  "gameIds": [
+    "citizen-sleeper-2-starward-vector"
+  ],
+  "name": "Sleeptalker",
+  "framework": "BepInEx 5 (C#)",
+  "homeUrl": "https://github.com/EarthboundPromoter/Sleeptalker",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/EarthboundPromoter/Sleeptalker"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/59949/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GitHub releases",
+      "url": "https://github.com/EarthboundPromoter/Sleeptalker/releases",
+      "requiresPayment": false
+    }
+  ]
+}

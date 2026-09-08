@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "openrct2-access",
+  "status": "active",
+  "gameIds": [
+    "roller-coaster-tycoon-2"
+  ],
+  "name": "OpenRCT2 Access",
+  "framework": "OpenRCT2 engine fork",
+  "homeUrl": "https://github.com/RossMinor/OpenRCT2-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/RossMinor/OpenRCT2-Access"
+  },
+  "links": []
+}

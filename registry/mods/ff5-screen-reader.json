@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ff5-screen-reader",
+  "status": "active",
+  "gameIds": [
+    "final-fantasy-v"
+  ],
+  "name": "FF5 Screen Reader",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/bladestorm360/FF5-Screen-Reader",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/bladestorm360/FF5-Screen-Reader"
+  },
+  "links": []
+}

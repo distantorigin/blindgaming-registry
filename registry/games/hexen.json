@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "hexen",
+  "status": "active",
+  "name": "Hexen",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2360/Hexen_Beyond_Heretic/"
+    }
+  ],
+  "accessibility": {
+    "description": "Limited accessibility information is available.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "toby-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57129/"
+    }
+  ],
+  "releaseYear": "2007"
+}

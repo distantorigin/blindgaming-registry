@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "digimonnoaccess",
+  "status": "active",
+  "gameIds": [
+    "digimon-world-next-order"
+  ],
+  "name": "DigimonNOAccess",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/RealAmethyst/DigimonNOAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/RealAmethyst/DigimonNOAccess"
+  },
+  "links": []
+}

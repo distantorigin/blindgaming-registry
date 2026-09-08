@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "a-space-for-the-unbound",
+  "status": "active",
+  "name": "A Space for the Unbound",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1201270/A_Space_for_the_Unbound/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/a_space_for_the_unbound"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/ASpaceForTheUnbound/Blind",
+    "primaryModId": "a-space-for-the-unbound-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58160/"
+    }
+  ],
+  "releaseYear": "2023"
+}

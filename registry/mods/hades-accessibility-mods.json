@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "hades-accessibility-mods",
+  "status": "active",
+  "gameIds": [
+    "hades"
+  ],
+  "name": "Hades Accessibility Mods",
+  "framework": "Game scripts (Lua)",
+  "homeUrl": "https://github.com/MichaelJohann1/hades-accessibility-mods",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/MichaelJohann1/hades-accessibility-mods"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/michaeljohann",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "sid-meiers-civilization-v",
+  "status": "active",
+  "name": "Sid Meier's Civilization V",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/8930/Sid_Meiers_Civilization_V/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/sid-meiers-civilization-v"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible. Requires the Brave New World expansion.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "civ-v-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59210/"
+    }
+  ],
+  "releaseYear": "2010"
+}

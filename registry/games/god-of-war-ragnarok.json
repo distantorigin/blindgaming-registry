@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "god-of-war-ragnarok",
+  "status": "active",
+  "name": "God of War Ragnarok",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2322010/God_of_War_Ragnark/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/god-of-war-ragnarok"
+    }
+  ],
+  "accessibility": {
+    "description": "Partially accessible. Screen-reader support leaves much of the game unread, and some accessibility features are incomplete or do not work as expected. A linked guide describes workarounds for blind players. Audio description is available, though grammatical errors have been reported.",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/GodOfWarRagnarok/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/46814/"
+    }
+  ],
+  "releaseYear": "2024"
+}

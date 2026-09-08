@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "darkest-dungeon-ii",
+  "status": "active",
+  "name": "Darkest Dungeon II",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1940340/Darkest_Dungeon_II/"
+    }
+  ],
+  "accessibility": {
+    "description": "Complete runs, DLC, Confessions, and Kingdoms are supported; Kingdoms has received less testing and minor bugs continue to be fixed.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "harkest-dungeon"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60138/"
+    }
+  ],
+  "releaseYear": "2023"
+}

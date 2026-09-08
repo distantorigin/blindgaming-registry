@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "example-game",
+  "status": "active",
+  "name": "Example Game",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1234560/Example_Game/"
+    }
+  ],
+  "accessibility": {
+    "description": "fully accessible",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/ExampleGame/Blind",
+    "primaryModId": "example-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "Accessibility notes",
+      "url": "https://example.com/example-game-accessibility"
+    }
+  ],
+  "releaseYear": "2025"
+}

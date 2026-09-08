@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "blindest-dungeon",
+  "status": "active",
+  "gameIds": [
+    "darkest-dungeon"
+  ],
+  "name": "Blindest Dungeon",
+  "framework": "Windows DLL (Prism)",
+  "homeUrl": "https://github.com/Vicorin/Blindest-Dungeon",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Vicorin/Blindest-Dungeon"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net: Blindest Dungeon: an accessibility mod for Darkest Dungeon",
+      "url": "https://forum.audiogames.net/topic/60150/blindest-dungeon-an-accessibility-mod-for-darkest-dungeon/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Mod downloads and release notes",
+      "url": "https://github.com/Vicorin/Blindest-Dungeon/releases",
+      "requiresPayment": false
+    }
+  ]
+}

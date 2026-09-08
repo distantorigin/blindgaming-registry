@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "football-simulator-access",
+  "status": "active",
+  "gameIds": [
+    "football-simulator"
+  ],
+  "name": "Football Simulator Access",
+  "homeUrl": "https://github.com/PawsTogetherGaming/FootballSimulatorAccessMod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/PawsTogetherGaming/FootballSimulatorAccessMod"
+  },
+  "links": []
+}

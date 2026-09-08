@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "civ-v-access",
+  "status": "active",
+  "gameIds": [
+    "sid-meiers-civilization-v"
+  ],
+  "name": "Civ V Access",
+  "framework": "Civilization script (Lua)",
+  "homeUrl": "https://github.com/rashadnaqeeb/Civ-V-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/rashadnaqeeb/Civ-V-Access"
+  },
+  "links": []
+}

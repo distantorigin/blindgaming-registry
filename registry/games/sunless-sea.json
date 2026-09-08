@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sunless-sea",
+  "status": "active",
+  "name": "Sunless Sea",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/304650/SUNLESS_SEA/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/sunless_sea"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/sunless-sea"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible, though the combat controls can be difficult to use.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "sunless-sea-access"
+  },
+  "releaseYear": "2015"
+}

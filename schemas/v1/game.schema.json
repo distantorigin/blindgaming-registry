@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blindgaming.net/schemas/v1/game.schema.json",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/registryId"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "archived"
+      ]
+    },
+    "name": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+      "maxLength": 160
+    },
+    "stores": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/storeList"
+    },
+    "reservedStores": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/reservedStoreMap"
+    },
+    "accessibility": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/accessibility"
+    },
+    "resources": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/resourceList"
+    },
+    "releaseYear": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/releaseYear"
+    },
+    "archivedAt": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/archiveDate"
+    },
+    "archiveReason": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+      "maxLength": 500
+    },
+    "replacedBy": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/registryId"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "status",
+    "name",
+    "stores",
+    "accessibility"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "active"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "archivedAt"
+              ]
+            },
+            {
+              "required": [
+                "archiveReason"
+              ]
+            },
+            {
+              "required": [
+                "replacedBy"
+              ]
+            }
+          ]
+        }
+      },
+      "else": {
+        "required": [
+          "archivedAt",
+          "archiveReason",
+          "reservedStores"
+        ]
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

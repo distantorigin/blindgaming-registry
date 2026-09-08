@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "seedship",
+  "status": "active",
+  "name": "Seedship",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/seedship/id1340497640"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.johnayliff.seedship"
+    }
+  ],
+  "accessibility": {
+    "description": "This text-based space strategy game is reported playable with VoiceOver on iOS and TalkBack on Android. An older iOS report describes clutter before the main-menu options; touching near the bottom and then swiping reaches them. The remaining game screens were reported accessible. The Android report is historical; the current build has not been independently retested.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Android TalkBack player report",
+      "url": "https://chooseyourstory.com/forums/the-lounge/message/24015"
+    },
+    {
+      "name": "Official game and downloads",
+      "url": "https://spacegoblingames.itch.io/seedship"
+    },
+    {
+      "name": "AppleVis iOS accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/seedship"
+    }
+  ],
+  "releaseYear": "2018"
+}

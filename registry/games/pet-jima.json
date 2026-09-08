@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pet-jima",
+  "status": "active",
+  "name": "Pet Jima",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/pet-jima/id6758033343"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS creature collection game is mostly playable with VoiceOver. A blind player reports unclear decoration placement and sale labels, inaccessible background-volume adjustment, and pet names that do not update in speech after renaming.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Blind player review on the App Store",
+      "url": "https://apps.apple.com/us/app/pet-jima/id6758033343"
+    },
+    {
+      "name": "Community accessibility listing",
+      "url": "https://github.com/Molitvan/blind-accessible-games-list/blob/1f409f644a2d1f7cbe3f13daef54c9b48fc232ea/README.md"
+    }
+  ],
+  "releaseYear": "2026"
+}

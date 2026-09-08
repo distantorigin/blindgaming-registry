@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "code-7-a-story-driven-hacking-adventure",
+  "status": "active",
+  "name": "Code 7: A Story-Driven Hacking Adventure",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/650570/Code_7_A_StoryDriven_Hacking_Adventure/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/code-7-a-story-driven-hacking-adventure"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible and fully voiced, with built-in screen-reader support.",
+    "tags": [
+      "blind"
+    ]
+  }
+}

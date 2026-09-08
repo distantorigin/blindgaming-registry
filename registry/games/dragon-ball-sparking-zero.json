@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-ball-sparking-zero",
+  "status": "active",
+  "name": "Dragon Ball Sparking! Zero",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1790600/DRAGON_BALL_Sparking_ZERO/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/dragon-ball-sparking-zero"
+    }
+  ],
+  "accessibility": {
+    "description": "The accessibility mod is in active development. Play without the mod has also been reported.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/DragonBallSparking!Zero/Blind",
+    "primaryModId": "sparking-zero-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/50377/"
+    }
+  ],
+  "releaseYear": "2024"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "graveyard-keeper-accessibility",
+  "status": "active",
+  "gameIds": [
+    "graveyard-keeper"
+  ],
+  "name": "Graveyard Keeper Accessibility Mod",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/Svenja001/Graveyard-Keeper-Accessibility-Mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Svenja001/Graveyard-Keeper-Accessibility-Mod"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Mod downloads and release notes",
+      "url": "https://github.com/Svenja001/Graveyard-Keeper-Accessibility-Mod/releases",
+      "requiresPayment": false
+    }
+  ]
+}

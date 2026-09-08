@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "welcome-to-the-dark-place",
+  "status": "active",
+  "name": "Welcome to the Dark Place",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1135700/Welcome_To_The_Dark_Place/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "welcome-to-the-dark-place-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59800/"
+    }
+  ],
+  "releaseYear": "2025"
+}

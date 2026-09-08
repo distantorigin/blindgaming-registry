@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "six-ages-2-lights-going-out-ios",
+  "status": "active",
+  "name": "Six Ages 2: Lights Going Out (iOS)",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/six-ages-2-lights-going-out/id1231955010"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS version is reported fully playable with VoiceOver for its narrative choices and turn-based clan management. Native screen-reader support is documented by the developer and AppleVis. This record covers the iOS build.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer VoiceOver statement on the App Store",
+      "url": "https://apps.apple.com/us/app/six-ages-2-lights-going-out/id1231955010"
+    },
+    {
+      "name": "AppleVis accessibility overview",
+      "url": "https://www.applevis.com/blog/closed-cast-your-votes-now-applevis-golden-apples-2023"
+    }
+  ],
+  "releaseYear": "2023"
+}

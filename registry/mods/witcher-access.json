@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "witcher-access",
+  "status": "active",
+  "gameIds": [
+    "the-witcher-3-wild-hunt"
+  ],
+  "name": "WitcherAccess",
+  "homeUrl": "https://www.patreon.com/AccessGuild",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/59928/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Patreon download",
+      "url": "https://www.patreon.com/AccessGuild/posts/news-and-0-3-is-167664868",
+      "requiresPayment": true
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/AccessGuild",
+      "requiresPayment": false
+    }
+  ]
+}

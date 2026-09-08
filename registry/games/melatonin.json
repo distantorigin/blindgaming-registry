@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "melatonin",
+  "status": "active",
+  "name": "Melatonin",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1585220/Melatonin/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Melatonin/Blind",
+    "primaryModId": "melatonin-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58596/"
+    }
+  ],
+  "releaseYear": "2022"
+}

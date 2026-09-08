@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "plague-inc-evolved",
+  "status": "active",
+  "name": "Plague Inc: Evolved",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/246620/Plague_Inc_Evolved/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/plague-inc-evolved"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/PlagueInc:Evolved/Blind",
+    "primaryModId": "pie-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59486/"
+    }
+  ],
+  "releaseYear": "2015"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "sid-meiers-alpha-centauri",
+  "status": "active",
+  "name": "Sid Meier's Alpha Centauri",
+  "stores": [
+    {
+      "store": "gog",
+      "primary": true,
+      "url": "https://www.gog.com/en/game/sid_meiers_alpha_centauri"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/SidMeier%27sAlphaCentauri/Blind",
+    "primaryModId": "smac-access"
+  },
+  "releaseYear": "1999"
+}

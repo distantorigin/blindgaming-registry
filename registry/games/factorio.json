@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "factorio",
+  "status": "active",
+  "name": "Factorio",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/427520/Factorio/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/factorio"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/factorio"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible. The mod includes an in-game tutorial that teaches both the game and its accessibility controls.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Factorio/Blind",
+    "primaryModId": "factorio-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58549/"
+    }
+  ],
+  "releaseYear": "2020"
+}

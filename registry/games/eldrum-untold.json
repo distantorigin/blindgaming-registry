@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "eldrum-untold",
+  "status": "active",
+  "name": "Eldrum: Untold",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/eldrum-untold-text-rpg/id1486667077"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.gotterdammerung.untold"
+    }
+  ],
+  "accessibility": {
+    "description": "This text-based role-playing adventure supports VoiceOver on iOS and TalkBack on Android. Story choices, character development, and inventory are reported accessible to blind players. The opening is free to try, with a purchase required to continue the full story.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official game website",
+      "url": "https://eldrum.com/untold"
+    },
+    {
+      "name": "Google Play TalkBack support statement",
+      "url": "https://play.google.com/store/apps/details?id=com.gotterdammerung.untold"
+    },
+    {
+      "name": "AppleVis accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/untold-rpg"
+    }
+  ],
+  "releaseYear": "2020"
+}

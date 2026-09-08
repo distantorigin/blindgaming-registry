@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "gladiator-manager-access",
+  "status": "active",
+  "gameIds": [
+    "gladiator-manager"
+  ],
+  "name": "Gladiator Manager Access",
+  "homeUrl": "https://github.com/druidah/Gladiator-Manager-Access/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/druidah/Gladiator-Manager-Access"
+  },
+  "links": []
+}

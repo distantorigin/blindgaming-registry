@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "spiderman-2",
+  "status": "active",
+  "name": "Spiderman 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2651280/Marvels_SpiderMan_2/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/marvels-spiderman-2"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible, with audio description. Brief sighted assistance is required at certain points.",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Marvel%27sSpider-Man2/Blind"
+  },
+  "resources": [
+    {
+      "name": "Accessible Gaming Wiki article",
+      "url": "https://accessiblegaming.wiki/Marvel%27s_Spider-Man_2"
+    },
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/49886/"
+    }
+  ],
+  "releaseYear": "2023"
+}

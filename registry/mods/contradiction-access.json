@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "contradiction-access",
+  "status": "active",
+  "gameIds": [
+    "contradiction-spot-the-liar"
+  ],
+  "name": "Contradiction Access",
+  "framework": "NW.js JavaScript patch",
+  "homeUrl": "https://github.com/ObjectInSpace/contradiction-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ObjectInSpace/contradiction-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60206/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GitHub releases",
+      "url": "https://github.com/ObjectInSpace/contradiction-access/releases",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess/",
+      "requiresPayment": false
+    }
+  ]
+}

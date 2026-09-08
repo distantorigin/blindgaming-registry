@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ff4-screen-reader",
+  "status": "active",
+  "gameIds": [
+    "final-fantasy-iv"
+  ],
+  "name": "FF4 Screen Reader",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/bladestorm360/FF4-Screen-Reader",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/bladestorm360/FF4-Screen-Reader"
+  },
+  "links": []
+}

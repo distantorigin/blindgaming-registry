@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "the-ensign",
+  "status": "active",
+  "name": "The Ensign",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/the-ensign/id908073488"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS survival adventure is playable with VoiceOver. The developer states that the game can be played throughout with VoiceOver, and AppleVis reports readable screens and labeled controls.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer VoiceOver statement on the App Store",
+      "url": "https://apps.apple.com/us/app/the-ensign/id908073488"
+    },
+    {
+      "name": "AppleVis accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/ensign"
+    }
+  ],
+  "releaseYear": "2014"
+}

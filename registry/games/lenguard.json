@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "lenguard",
+  "status": "active",
+  "name": "Lenguard",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/lenguard/id6747782520"
+    }
+  ],
+  "accessibility": {
+    "description": "This iOS interactive horror story supports VoiceOver navigation and provides descriptions of its illustrations. AppleVis documents pronunciation options for character and place names, accessible page navigation and an optional sound cue replacing repeated descriptive prefixes. Requires iOS 26 or later.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Lenguard accessibility report",
+      "url": "https://www.applevis.com/apps/ios/books/lenguard"
+    }
+  ]
+}

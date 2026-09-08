@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "songs-of-conquest-access",
+  "status": "active",
+  "gameIds": [
+    "songs-of-conquest"
+  ],
+  "name": "Songs of Conquest Access",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://neurrone.github.io/soc-access/intro.html",
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/NeurronesMods",
+      "requiresPayment": false
+    }
+  ]
+}

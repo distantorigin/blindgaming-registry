@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "invisible-dragons",
+  "status": "active",
+  "name": "Invisible Dragons",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/invisible-dragons/id1073578968"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS text strategy game is reported to expose its controls and information to VoiceOver. AppleVis comments describe a looping video that can prevent the dragon sacrifice/reset action on some devices, including when VoiceOver is off. The last listed update is from 2016, and current device compatibility has not been retested.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Invisible Dragons accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/invisible-dragons"
+    }
+  ]
+}

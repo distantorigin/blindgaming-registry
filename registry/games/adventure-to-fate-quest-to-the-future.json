@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-to-fate-quest-to-the-future",
+  "status": "active",
+  "name": "Adventure To Fate: Quest To The Future",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/adventure-to-fate-quest-to-the-future-jrpg/id1060178390"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS RPG is reported playable with VoiceOver for its grid-based exploration, turn-based battles, inventory, and crafting. AppleVis reports labeled controls and provides navigation guidance. The accessibility reports cover older iOS versions, and overlapping screens can make the interface take time to learn.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer accessibility statement on the App Store",
+      "url": "https://apps.apple.com/us/app/adventure-to-fate-quest-to-the-future-jrpg/id1060178390"
+    },
+    {
+      "name": "AppleVis accessibility report and navigation discussion",
+      "url": "https://www.applevis.com/apps/ios/games/adventure-fate-quest-future-jrpg"
+    }
+  ],
+  "releaseYear": "2016"
+}

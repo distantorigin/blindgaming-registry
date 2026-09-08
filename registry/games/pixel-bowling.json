@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pixel-bowling",
+  "status": "active",
+  "name": "Pixel Bowling",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/pixel-bowling/id6759185988"
+    }
+  ],
+  "accessibility": {
+    "description": "Play bowling on iOS with VoiceOver announcements for aiming, shots, pins, and scores. Blind players report completing games and tournaments; timing the spoken lane position takes practice.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer website",
+      "url": "https://tervoklabs.com/"
+    },
+    {
+      "name": "AppleVis accessibility report and developer updates",
+      "url": "https://www.applevis.com/apps/ios/games/pixel-bowling"
+    }
+  ],
+  "releaseYear": "2026"
+}

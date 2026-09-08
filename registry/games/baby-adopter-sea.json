@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "baby-adopter-sea",
+  "status": "active",
+  "name": "Baby Adopter Sea",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/baby-adopter-sea/id731410493"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.x2line.android.babyadoptersea"
+    }
+  ],
+  "accessibility": {
+    "description": "Care for a virtual baby aboard a cruise ship. The iOS edition provides VoiceOver support, including spoken Free Cell controls, and the Android publisher explicitly supports TalkBack. The visual 3D baby viewer is separate from the main care interface.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis iOS walkthrough",
+      "url": "https://www.applevis.com/podcasts/baby-adopter-sea-ios-take-care-your-virtual-baby-whilst-cruising-seas"
+    },
+    {
+      "name": "Developer catalog",
+      "url": "https://x2line.com/"
+    }
+  ]
+}

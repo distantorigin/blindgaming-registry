@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "apotheorasis-lab-of-the-blind-gods",
+  "status": "active",
+  "name": "Apotheorasis • Lab of the Blind Gods",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1694670/Apotheorasis_o_Lab_of_the_Blind_Gods/"
+    }
+  ],
+  "accessibility": {
+    "description": "A Windows audio-only first-person action thriller. Navigation, stealth, combat, interactions, and menus use audio, with binaural sound for positioning. Designed to be played without graphics; stereo headphones are required.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Buy on itch.io (full game and free prologue)",
+      "url": "https://tallguyprods.itch.io/apotheorasis"
+    }
+  ],
+  "releaseYear": "2022"
+}

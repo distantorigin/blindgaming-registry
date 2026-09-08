@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "contradiction-spot-the-liar",
+  "status": "active",
+  "name": "Contradiction: Spot The Liar",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/373390/Contradiction_Spot_The_Liar/"
+    }
+  ],
+  "accessibility": {
+    "description": "Approximately 90% is reported playable without a walkthrough. A few inventory uses require visual context, and scenes/video are not described. Steam is the supported current build.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "contradiction-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60206/"
+    }
+  ],
+  "releaseYear": "2015"
+}

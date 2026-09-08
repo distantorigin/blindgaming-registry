@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://blindgaming.net/schemas/v1/mod.schema.json",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "type": "integer",
+      "const": 1
+    },
+    "id": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/registryId"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "archived"
+      ]
+    },
+    "gameIds": {
+      "description": "Every game this mod makes accessible. A mod may cover several.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/registryId"
+      }
+    },
+    "name": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+      "maxLength": 160
+    },
+    "framework": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+      "maxLength": 120
+    },
+    "homeUrl": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+    },
+    "releaseSource": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/releaseSource"
+    },
+    "links": {
+      "type": "array",
+      "minItems": 0,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/modLink"
+      }
+    },
+    "archivedAt": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/archiveDate"
+    },
+    "archiveReason": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+      "maxLength": 500
+    },
+    "replacedBy": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/registryId"
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "id",
+    "status",
+    "gameIds",
+    "name",
+    "homeUrl",
+    "links"
+  ],
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "status": {
+            "const": "active"
+          }
+        },
+        "required": [
+          "status"
+        ]
+      },
+      "then": {
+        "not": {
+          "anyOf": [
+            {
+              "required": [
+                "archivedAt"
+              ]
+            },
+            {
+              "required": [
+                "archiveReason"
+              ]
+            },
+            {
+              "required": [
+                "replacedBy"
+              ]
+            }
+          ]
+        }
+      },
+      "else": {
+        "required": [
+          "archivedAt",
+          "archiveReason"
+        ]
+      }
+    }
+  ],
+  "unevaluatedProperties": false
+}

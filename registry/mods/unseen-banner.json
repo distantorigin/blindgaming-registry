@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "unseen-banner",
+  "status": "active",
+  "gameIds": [
+    "battle-brothers"
+  ],
+  "name": "Unseen Banner",
+  "framework": "Squirrel",
+  "homeUrl": "https://github.com/aefren/the-unseen-banner",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/aefren/the-unseen-banner"
+  },
+  "links": []
+}

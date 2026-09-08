@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "timecrest",
+  "status": "active",
+  "name": "Timecrest",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/timecrest/id1027546326"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS interactive story supports VoiceOver for messages, choices, and menus. Accessibility includes descriptive help and speech tailored to fictional names; AppleVis reports full screen-reader usability. Story chapters share this single app, and some scenes progress on real-time timers.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "American Foundation for the Blind accessibility review",
+      "url": "https://www.afb.org/aw/17/12/15379"
+    },
+    {
+      "name": "AppleVis accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/timecrest"
+    },
+    {
+      "name": "Developer website",
+      "url": "https://www.sneakycrab.com/timecrest"
+    }
+  ],
+  "releaseYear": "2015"
+}

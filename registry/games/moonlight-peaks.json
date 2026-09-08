@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "moonlight-peaks",
+  "status": "active",
+  "name": "Moonlight Peaks",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2209900/Moonlight_Peaks/"
+    }
+  ],
+  "accessibility": {
+    "description": "Players report successful play in the full game, and all minigames are covered. Limitations remain in character creation, color and item descriptions, precise farming controls, and compatibility with some mod managers and demo versions.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "moonlight-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59989/"
+    }
+  ],
+  "releaseYear": "2026"
+}

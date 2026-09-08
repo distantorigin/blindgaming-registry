@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "adcap-access",
+  "status": "active",
+  "gameIds": [
+    "adventure-capitalist"
+  ],
+  "name": "adCapAccess",
+  "framework": "patched Unity assembly",
+  "homeUrl": "https://github.com/ShotgunSpoon/adCapAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ShotgunSpoon/adCapAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60188/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GitHub releases",
+      "url": "https://github.com/ShotgunSpoon/adCapAccess/releases",
+      "requiresPayment": false
+    }
+  ]
+}

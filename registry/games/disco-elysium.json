@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "disco-elysium",
+  "status": "active",
+  "name": "Disco Elysium",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/632470/Disco_Elysium__The_Final_Cut/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/disco_elysium"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/disco-elysium-the-final-cut"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/DiscoElysium/Blind",
+    "primaryModId": "non-visual-calculus"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/57309/"
+    }
+  ],
+  "releaseYear": "2019"
+}

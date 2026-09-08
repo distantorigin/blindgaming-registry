@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "middle-east-empire-2027",
+  "status": "active",
+  "name": "Middle East Empire 2027",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/middle-east-empire-2027/id1642138339"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.igindis.meegame.middleeastempire"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer documents a built-in accessibility mode for this Middle Eastern nation strategy game on iOS and Android. Turn off VoiceOver or TalkBack before opening the game, then tap three times with three fingers at launch to enable the mode. Navigate using swipes and double taps. The extent of accessibility across all game features has not been independently assessed.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "iOS accessibility-mode instructions",
+      "url": "https://apps.apple.com/us/app/middle-east-empire-2027/id1642138339"
+    },
+    {
+      "name": "Official developer catalog",
+      "url": "https://apps.apple.com/us/developer/eran-gindi/id1594641623"
+    },
+    {
+      "name": "Android accessibility-mode instructions",
+      "url": "https://play.google.com/store/apps/details?id=com.igindis.meegame.middleeastempire"
+    }
+  ]
+}

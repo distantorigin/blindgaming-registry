@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "buckshot-roulette-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "buckshot-roulette"
+  ],
+  "name": "Buckshot Roulette Accessibility Mod",
+  "homeUrl": "https://arctic-labs.com/buckshot-roulette-access",
+  "links": []
+}

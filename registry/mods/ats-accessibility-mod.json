@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "ats-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "against-the-storm"
+  ],
+  "name": "ATS Accessibility Mod",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/rashadnaqeeb/ats-accessibility-mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/rashadnaqeeb/ats-accessibility-mod"
+  },
+  "links": []
+}

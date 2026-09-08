@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "letter-rescue",
+  "status": "active",
+  "name": "Letter Rescue",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/letter-rescue/id6793154711"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS word game supports VoiceOver with an accessible letter keyboard and spoken feedback for letter positions, remaining attempts and hangman progress. Magic Tap gives a summary of the current game. AppleVis reports readable elements and labeled controls throughout.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Letter Rescue accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/letterrescue"
+    }
+  ]
+}

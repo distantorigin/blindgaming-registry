@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "snap-access",
+  "status": "active",
+  "gameIds": [
+    "marvel-snap"
+  ],
+  "name": "Snap Access",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/Destranis/snapaccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Destranis/snapaccess"
+  },
+  "links": []
+}

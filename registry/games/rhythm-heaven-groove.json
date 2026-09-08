@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rhythm-heaven-groove",
+  "status": "active",
+  "name": "Rhythm Heaven Groove",
+  "stores": [
+    {
+      "store": "switch",
+      "primary": true,
+      "url": "https://www.nintendo.com/us/store/products/rhythm-heaven-groove-switch/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with audio description.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/RhythmHeaven%E2%84%A2Groove/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59651/"
+    }
+  ],
+  "releaseYear": "2026"
+}

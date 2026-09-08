@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "football-simulator",
+  "status": "active",
+  "name": "Football Simulator",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1488560/Football_Simulator/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/FootballSimulator/Blind",
+    "primaryModId": "football-simulator-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58859/"
+    }
+  ],
+  "releaseYear": "2022"
+}

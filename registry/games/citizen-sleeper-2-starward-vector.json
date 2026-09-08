@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "citizen-sleeper-2-starward-vector",
+  "status": "active",
+  "name": "Citizen Sleeper 2: Starward Vector",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2442460/Citizen_Sleeper_2_Starward_Vector/"
+    }
+  ],
+  "accessibility": {
+    "description": "Keyboard and screen-reader support covers the main interface and gameplay. Not every contract and ending has been verified in the current beta.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "sleeptalker"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59949/"
+    }
+  ],
+  "releaseYear": "2025"
+}

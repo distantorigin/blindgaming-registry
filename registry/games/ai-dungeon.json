@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "ai-dungeon",
+  "status": "active",
+  "name": "AI Dungeon",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/ai-dungeon-rpg-story-maker/id1491268416"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS app has partial VoiceOver access. Earlier player reports describe readable story text but manual navigation to new output and inconsistent control labeling. The developer supports VoiceOver through player testing, but an April 2026 AppleVis report still describes problems. The web version is an alternative reported to work better; current mobile access should not be assumed complete.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AI Dungeon web version",
+      "url": "https://aidungeon.com/"
+    },
+    {
+      "name": "Developer: AI Dungeon system and screen-reader support",
+      "url": "https://help.aidungeon.com/faq/ai-dungeon-system-support-technical-requirements"
+    },
+    {
+      "name": "AppleVis: AI Dungeon accessibility and regression history",
+      "url": "https://www.applevis.com/apps/ios/games/ai-dungeon"
+    },
+    {
+      "name": "AppleVis: April 2026 VoiceOver problems",
+      "url": "https://www.applevis.com/forum/ios-ipados-gaming/ai-dungeon-aulternative"
+    }
+  ],
+  "releaseYear": "2019"
+}

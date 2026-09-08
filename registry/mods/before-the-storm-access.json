@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "before-the-storm-access",
+  "status": "active",
+  "gameIds": [
+    "life-is-strange-before-the-storm"
+  ],
+  "name": "Before the Storm Access",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/ObjectInSpace/BeforeTheStormAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ObjectInSpace/BeforeTheStormAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net: Before the Storm Access: screenreader mod for Life Is Strange",
+      "url": "https://forum.audiogames.net/topic/59900/before-the-storm-access-screenreader-mod-for-life-is-strange/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Mod downloads and release notes",
+      "url": "https://github.com/ObjectInSpace/BeforeTheStormAccess/releases",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess",
+      "requiresPayment": false
+    }
+  ]
+}

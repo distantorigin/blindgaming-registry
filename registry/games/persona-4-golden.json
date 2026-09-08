@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "persona-4-golden",
+  "status": "active",
+  "name": "Persona 4 Golden",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1113000/Persona_4_Golden/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/persona-4-golden"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Persona4Golden/Blind",
+    "primaryModId": "persona-4-golden-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59985/"
+    }
+  ],
+  "releaseYear": "2012"
+}

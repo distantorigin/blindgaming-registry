@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "star-wars-knights-of-the-old-republic",
+  "status": "active",
+  "name": "Star Wars: Knights of the Old Republic",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/32370/"
+    },
+    {
+      "store": "gog",
+      "primary": false,
+      "url": "https://www.gog.com/en/game/star_wars_knights_of_the_old_republic"
+    }
+  ],
+  "accessibility": {
+    "description": "Voice of the Old Republic adds screen-reader output, navigation assistance, menu access and audio cues for minigames. The author reports that all quests, playstyles and minigames in Knights of the Old Republic I are completable. Requires the Steam or GOG Windows version 1.03, Windows 10 or later and a screen reader; minigames use keyboard controls. This support does not cover macOS, mobile versions or Knights of the Old Republic II.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "voice-of-the-old-republic"
+  },
+  "resources": [
+    {
+      "name": "Installation and accessibility guide",
+      "url": "https://github.com/JeanStiletto/voice-of-the-old-republic"
+    }
+  ],
+  "releaseYear": "2003"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ftl-access",
+  "status": "active",
+  "gameIds": [
+    "ftl-faster-than-light"
+  ],
+  "name": "FtlAccess",
+  "framework": "native Windows game hooks",
+  "homeUrl": "https://github.com/Makenann/FtlAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Makenann/FtlAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60205/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GitHub releases",
+      "url": "https://github.com/Makenann/FtlAccess/releases",
+      "requiresPayment": false
+    }
+  ]
+}

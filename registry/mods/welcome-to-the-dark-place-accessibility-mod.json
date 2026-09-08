@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "welcome-to-the-dark-place-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "welcome-to-the-dark-place"
+  ],
+  "name": "Welcome to the Dark Place Accessibility Mod",
+  "homeUrl": "https://github.com/Jericho-Dread/welcome-to-the-dark-place-accessibility-mods",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Jericho-Dread/welcome-to-the-dark-place-accessibility-mods"
+  },
+  "links": []
+}

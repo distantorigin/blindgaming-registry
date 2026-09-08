@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "melatonin-access",
+  "status": "active",
+  "gameIds": [
+    "melatonin"
+  ],
+  "name": "Melatonin Access",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/VIPPotato/melatonin-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/VIPPotato/melatonin-access"
+  },
+  "links": [
+    {
+      "kind": "funding",
+      "label": "Buy Me a Coffee",
+      "url": "https://buymeacoffee.com/potatophones",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "GitHub Sponsors",
+      "url": "https://github.com/sponsors/VIPPotato",
+      "requiresPayment": false
+    }
+  ]
+}

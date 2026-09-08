@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "phoenix-wright-ace-attorney-trilogy-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "phoenix-wright-ace-attorney-trilogy"
+  ],
+  "name": "Phoenix Wright: Ace Attorney Trilogy Accessibility Mod",
+  "homeUrl": "https://github.com/LordLuceus/PhoenixWrightTrilogy/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/LordLuceus/PhoenixWrightTrilogy"
+  },
+  "links": []
+}

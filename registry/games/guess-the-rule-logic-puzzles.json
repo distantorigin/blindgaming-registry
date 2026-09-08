@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "guess-the-rule-logic-puzzles",
+  "status": "active",
+  "name": "Guess the Rule: Logic Puzzles",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/guess-the-rule-logic-puzzles/id1550411766"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS logic game supports VoiceOver, including the shape sequences needed to judge a hidden rule. Accessibility was added in version 1.1; AppleVis reports readable elements and labeled controls throughout. Hard mode and local multiplayer require a one-time unlock.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Guess the Rule: Logic Puzzles accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/guess-rule-logic-puzzles"
+    }
+  ]
+}

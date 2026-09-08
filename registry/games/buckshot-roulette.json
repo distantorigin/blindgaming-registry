@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "buckshot-roulette",
+  "status": "active",
+  "name": "Buckshot Roulette",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2835570/Buckshot_Roulette/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/buckshot-roulette"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/BuckshotRoulette/Blind",
+    "primaryModId": "buckshot-roulette-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58645/"
+    }
+  ],
+  "releaseYear": "2024"
+}

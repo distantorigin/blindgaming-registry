@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "tcg-card-shop-simulator-prologue",
+  "status": "active",
+  "name": "TCG Card Shop Simulator Prologue",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3103840/TCG_Card_Shop_Simulator_Prologue/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "tcg-card-shop-simulator-prologue-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58814/"
+    }
+  ],
+  "releaseYear": "2024"
+}

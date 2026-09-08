@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "coffee-talk-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "coffee-talk"
+  ],
+  "name": "Coffee Talk Accessibility Mod",
+  "homeUrl": "https://forum.audiogames.net/topic/57806/",
+  "links": []
+}

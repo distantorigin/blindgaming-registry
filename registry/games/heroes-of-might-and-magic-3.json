@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "heroes-of-might-and-magic-3",
+  "status": "active",
+  "name": "Heroes of Might and Magic 3",
+  "stores": [
+    {
+      "store": "gog",
+      "primary": true,
+      "url": "https://www.gog.com/en/game/heroes_of_might_and_magic_3_complete_edition"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/HerosOfMightAndMagic3/Blind",
+    "primaryModId": "vcmi-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58552/"
+    }
+  ],
+  "releaseYear": "1999"
+}

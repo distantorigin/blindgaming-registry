@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "loco-motive",
+  "status": "active",
+  "name": "Loco Motive",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1709880/Loco_Motive/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/loco_motive"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/loco-motive"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/LocoMotive/Blind",
+    "primaryModId": "loco-motive-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58117/"
+    }
+  ],
+  "releaseYear": "2024"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "fear-and-hunger-accessibility",
+  "status": "active",
+  "gameIds": [
+    "fear-and-hunger"
+  ],
+  "name": "Fear and Hunger Accessibility",
+  "framework": "RPG Maker MV (JavaScript)",
+  "homeUrl": "https://github.com/aefren/fear-and-hunger-accessibility",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/aefren/fear-and-hunger-accessibility"
+  },
+  "links": []
+}

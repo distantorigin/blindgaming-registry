@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "baby-adopter-dress-up",
+  "status": "active",
+  "name": "Baby Adopter Dress Up",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/baby-adopter-dress-up/id875064928"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.x2line.android.milkybaby"
+    }
+  ],
+  "accessibility": {
+    "description": "Formerly Milky Baby, this care and dress-up game supports VoiceOver on iOS and TalkBack on Android. The publisher documents spoken mini-game controls. An iOS walkthrough reports that advertisements can be difficult to dismiss and may require restarting the app.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis walkthrough and advertising limitations",
+      "url": "https://www.applevis.com/podcasts/onesies-runway-inside-baby-adopter-dress-ios"
+    },
+    {
+      "name": "Developer catalog",
+      "url": "https://x2line.com/"
+    }
+  ]
+}

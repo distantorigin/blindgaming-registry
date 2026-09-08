@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "six-ages-2-lights-going-out",
+  "status": "active",
+  "name": "Six Ages 2: Lights Going Out",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2278010/Six_Ages_2_Lights_Going_Out/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/six_ages_2_lights_going_out"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "six-ages-2-lights-going-out-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/49375/"
+    }
+  ],
+  "releaseYear": "2023"
+}

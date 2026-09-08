@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "injustice-2",
+  "status": "active",
+  "name": "Injustice 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/627270/Injustice_2/"
+    }
+  ],
+  "accessibility": {
+    "description": "Broad menu, tutorial, store, customization, guild, and reward reading; the control-remapping grid and some tutorial popups remain incomplete or inconsistent.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "injustice-2-access-kit"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60181/"
+    }
+  ],
+  "releaseYear": "2017"
+}

@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "sparking-zero-access",
+  "status": "active",
+  "gameIds": [
+    "dragon-ball-sparking-zero"
+  ],
+  "name": "Sparking Zero Access",
+  "framework": "UE4SS",
+  "homeUrl": "https://github.com/AccessForge/SparkingZeroAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/AccessForge/SparkingZeroAccess"
+  },
+  "links": []
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "death-and-taxes",
+  "status": "active",
+  "name": "Death and Taxes",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1166290/Death_and_Taxes/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/death_and_taxes"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/death-and-taxes"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/DeathAndTaxes/Blind",
+    "primaryModId": "death-and-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58572/"
+    }
+  ],
+  "releaseYear": "2020"
+}

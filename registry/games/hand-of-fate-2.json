@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "hand-of-fate-2",
+  "status": "active",
+  "name": "Hand of Fate 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/456670/Hand_of_Fate_2/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/hand_of_fate_2"
+    }
+  ],
+  "accessibility": {
+    "description": "Partially accessible. Development status is unclear.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/HandOfFate2/Blind",
+    "primaryModId": "hand-of-fate-2-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58261/"
+    }
+  ],
+  "releaseYear": "2017"
+}

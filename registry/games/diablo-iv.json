@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "diablo-iv",
+  "status": "active",
+  "name": "Diablo IV",
+  "stores": [
+    {
+      "store": "xbox",
+      "primary": true,
+      "url": "https://www.xbox.com/en-US/games/diablo-iv"
+    },
+    {
+      "store": "steam",
+      "url": "https://store.steampowered.com/app/2344520/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible. Navigation assistance is limited to the overworld.",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/DiabloIV/Blind"
+  },
+  "resources": [
+    {
+      "name": "Accessible Gaming Wiki article",
+      "url": "https://accessiblegaming.wiki/DiabloIV"
+    },
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/47989/"
+    }
+  ],
+  "releaseYear": "2023"
+}

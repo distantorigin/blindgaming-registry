@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "skull-girls",
+  "status": "active",
+  "name": "Skull Girls",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/245170/Skullgirls_2nd_Encore/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/skullgirls"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "tags": [
+      "blind"
+    ]
+  },
+  "releaseYear": "2013"
+}

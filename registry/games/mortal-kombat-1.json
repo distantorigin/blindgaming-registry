@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "mortal-kombat-1",
+  "status": "active",
+  "name": "Mortal Kombat 1",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1971870/Mortal_Kombat_1/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/mortal-kombat-1"
+    },
+    {
+      "store": "psn",
+      "url": "https://store.playstation.com/en-us/product/UP1018-PPSA07570_00-MKONE00000000000"
+    },
+    {
+      "store": "switch",
+      "url": "https://www.nintendo.com/us/store/products/mortal-kombat-1-switch/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with audio description.",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/MortalKombat1/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/49655/"
+    }
+  ],
+  "releaseYear": "2023"
+}

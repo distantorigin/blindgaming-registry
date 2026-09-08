@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "battle-brothers",
+  "status": "active",
+  "name": "Battle Brothers",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/365360/Battle_Brothers/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/battle_brothers"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/battle-brothers"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "unseen-banner"
+  }
+}

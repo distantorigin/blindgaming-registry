@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "world-empire-2027-and-spinoffs",
+  "status": "active",
+  "name": "World Empire 2027 and spinoffs",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1873540/World_Empire_2027/"
+    },
+    {
+      "store": "appstore",
+      "url": "https://apps.apple.com/us/app/world-empire/id1594641621"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.igindis.worldempire2027"
+    }
+  ],
+  "accessibility": {
+    "description": "World Empire has an optional spoken accessibility mode for its strategy interface. On mobile, the publisher instructs players to turn off VoiceOver or TalkBack and tap three times with three fingers after launch. Players report that activating the mode and navigating some controls can be awkward; sighted help may be needed for initial setup. These store links identify World Empire itself, not every spinoff.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/30490/"
+    },
+    {
+      "name": "AppleVis mobile accessibility report and setup discussion",
+      "url": "https://www.applevis.com/apps/ios/games/world-empire"
+    }
+  ],
+  "releaseYear": "2022"
+}

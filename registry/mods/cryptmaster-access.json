@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "cryptmaster-access",
+  "status": "active",
+  "gameIds": [
+    "cryptmaster"
+  ],
+  "name": "Cryptmaster Access",
+  "homeUrl": "https://github.com/zersiax/CryptmasterAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/zersiax/CryptmasterAccess"
+  },
+  "links": []
+}

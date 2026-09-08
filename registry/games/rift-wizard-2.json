@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "rift-wizard-2",
+  "status": "active",
+  "name": "Rift Wizard 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2058570/Rift_Wizard_2/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/RiftWizard2/Blind",
+    "primaryModId": "words-of-power"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59101/"
+    }
+  ],
+  "releaseYear": "2025"
+}

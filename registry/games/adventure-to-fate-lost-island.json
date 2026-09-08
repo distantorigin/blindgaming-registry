@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "adventure-to-fate-lost-island",
+  "status": "active",
+  "name": "Adventure To Fate Lost Island",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/adventure-to-fate-lost-island/id6450016324"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS dungeon crawler supports VoiceOver for character creation, turn-based combat, items, and exploration. The developer worked with blind testers on the interface. Navigation uses a grid of rooms and may take practice; VoiceOver hints help explain movement.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official game website",
+      "url": "https://adventuretofate.com/lost-island"
+    },
+    {
+      "name": "Developer accessibility announcement and player discussion",
+      "url": "https://www.applevis.com/forum/ios-ipados-gaming/introducing-adventure-fate-lost-island"
+    }
+  ],
+  "releaseYear": "2024"
+}

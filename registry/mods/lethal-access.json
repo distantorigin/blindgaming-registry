@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "lethal-access",
+  "status": "active",
+  "gameIds": [
+    "lethal-company"
+  ],
+  "name": "Lethal Access",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://thunderstore.io/c/lethal-company/p/GreenBean/LethalAccess",
+  "links": []
+}

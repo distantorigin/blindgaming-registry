@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "clicker-heroes",
+  "status": "active",
+  "name": "Clicker Heroes",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/363970/Clicker_Heroes/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible. The accessibility mod also changes game content.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/ClickerHeros/Blind",
+    "primaryModId": "ch-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58591/"
+    }
+  ],
+  "releaseYear": "2015"
+}

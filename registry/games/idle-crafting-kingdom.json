@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "idle-crafting-kingdom",
+  "status": "active",
+  "name": "Idle Crafting Kingdom",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/idle-crafting-kingdom/id1190611967"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.MetalPop.CraftingKingdom"
+    }
+  ],
+  "accessibility": {
+    "description": "Use the game's built-in accessibility mode for spoken production, crafting and quest controls. The developer documents three taps with three fingers in the main menu to toggle it. Android support uses the game's speech without TalkBack. Although the iOS store advertises VoiceOver, 2025 and 2026 player reports say newer releases require turning VoiceOver off to hear the built-in speech.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Idle Crafting Kingdom accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/idle-crafting-kingdom"
+    },
+    {
+      "name": "Recent iOS speech workaround reported by players (May 2026)",
+      "url": "https://www.reddit.com/r/Blind/comments/1tf710a/what_the_hell_happened_to_crafting_kingdom/"
+    }
+  ]
+}

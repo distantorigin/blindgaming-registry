@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "persona-4-golden-access",
+  "status": "active",
+  "gameIds": [
+    "persona-4-golden"
+  ],
+  "name": "Persona 4 Golden Access",
+  "homeUrl": "https://github.com/AquaRose7/Persona-4-Golden-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/AquaRose7/Persona-4-Golden-Access"
+  },
+  "links": []
+}

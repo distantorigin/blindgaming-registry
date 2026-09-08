@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "f1-25",
+  "status": "active",
+  "name": "F1 25",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3059520/"
+    },
+    {
+      "store": "psn",
+      "primary": false,
+      "url": "https://store.playstation.com/en-us/product/UP0006-PPSA24662_00-F12025PS5GAME000"
+    },
+    {
+      "store": "xbox",
+      "primary": false,
+      "url": "https://www.xbox.com/en-us/games/store/f1-25/9NWPW7F19FS5"
+    }
+  ],
+  "accessibility": {
+    "description": "Built-in audio driving assists provide spoken turn information and cues for braking, steering and track limits. Directional steering and track-limit cues require stereo audio. Menu narration is not provided, so menus and setup need OCR or sighted assistance. These features support racing but do not establish fully independent access to every game mode or interface.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: AAA news: audio cues in F1 25",
+      "url": "https://forum.audiogames.net/topic/56498/aaa-news-audio-cues-in-f1-25/"
+    },
+    {
+      "name": "EA accessibility settings and audio driving assists",
+      "url": "https://www.ea.com/able/resources/f1-25"
+    }
+  ],
+  "releaseYear": "2025"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "art-of-flora",
+  "status": "active",
+  "name": "Art of Flora: Cozy Puzzles",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/art-of-flora-cozy-puzzles/id6743834964"
+    }
+  ],
+  "accessibility": {
+    "description": "Blind players can solve the iOS game's botanical puzzles by arranging text descriptions with VoiceOver. AppleVis reports that page elements are readable and buttons are labeled, with options for how puzzle tiles are announced. The picture mode is visual; text mode supplies the nonvisual puzzle path. Additional sets require an in-app purchase after the introductory puzzles.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official Art of Flora website",
+      "url": "https://theartof.app/flora/"
+    },
+    {
+      "name": "AppleVis: Art of Flora accessibility and text-puzzle mode",
+      "url": "https://www.applevis.com/apps/ios/games/art-flora-cozy-puzzles"
+    }
+  ],
+  "releaseYear": "2026"
+}

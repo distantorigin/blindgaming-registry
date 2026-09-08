@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "sid-meiers-civilization-vi",
+  "status": "active",
+  "name": "Sid Meier's Civilization VI",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/289070/Sid_Meiers_Civilization_VI/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/sid-meiers-civilization-6"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "civ-vi-accessibility-integration"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59956/"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "the-bazaar",
+  "status": "active",
+  "name": "The Bazaar",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1617400/"
+    }
+  ],
+  "accessibility": {
+    "description": "Bazaar Access adds keyboard navigation and screen-reader output through Tolk, including combat announcements, tutorial support and account interfaces. Requires the Steam PC edition and BepInEx, included in the full mod download. Accessibility is a work in progress and complete coverage has not been independently established. The cited release has human-checked English and Spanish translations; other translations may be less reliable.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "bazaar-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: Bazaar Access: an accesibility mod for The Bazaar (updated January 12)",
+      "url": "https://forum.audiogames.net/topic/58335/bazaar-access-an-accesibility-mod-for-the-bazaar-updated-january-12/"
+    },
+    {
+      "name": "Installation, requirements and accessibility features",
+      "url": "https://github.com/Ali-Bueno/bazaar-access"
+    }
+  ],
+  "releaseYear": "2025"
+}

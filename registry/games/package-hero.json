@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "package-hero",
+  "status": "active",
+  "name": "Package Hero",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/package-hero/id6785399401"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.kroegoor.paketheld"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer documents VoiceOver support on iOS and TalkBack support on Android, with spoken events and labeled management controls. On iOS, use VoiceOver actions for purchases and upgrades, and Magic Tap to deliver. AppleVis players report that some reward announcements can be interrupted; current behavior has not been retested.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Package Hero accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/package-hero"
+    },
+    {
+      "name": "Package Hero official accessibility and platform information",
+      "url": "https://www.paketheld.app/en/"
+    }
+  ]
+}

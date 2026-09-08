@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "the-drifter",
+  "status": "active",
+  "name": "The Drifter",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1170570/The_Drifter/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/the_drifter"
+    }
+  ],
+  "accessibility": {
+    "description": "Limited accessibility information is available.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "the-drifter-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58769/"
+    }
+  ],
+  "releaseYear": "2025"
+}

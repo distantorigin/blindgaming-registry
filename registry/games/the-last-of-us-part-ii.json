@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "the-last-of-us-part-ii",
+  "status": "active",
+  "name": "The Last of Us Part II",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2531310/The_Last_of_Us_Part_II_Remastered/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/the-last-of-us-part-ii-remastered"
+    },
+    {
+      "store": "psn",
+      "url": "https://store.playstation.com/en-us/product/UP9000-CUSA07820_00-THELASTOFUSPART2"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible, but the PS5 and PC versions have more features like audio description and higher quality TTS with support for all game languages.",
+    "tags": [
+      "audio-description",
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/56091/"
+    }
+  ],
+  "releaseYear": "2024"
+}

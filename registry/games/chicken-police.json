@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "chicken-police",
+  "status": "active",
+  "name": "Chicken Police",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1084640/Chicken_Police__Paint_it_RED/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/chicken_police"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/chicken-police"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/ChickenPolicePaintItRed/Blind",
+    "primaryModId": "chicken-police-accessibility-mod"
+  },
+  "releaseYear": "2020"
+}

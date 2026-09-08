@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "luck-be-a-landlord",
+  "status": "active",
+  "name": "Luck be a Landlord",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1404850/Luck_be_a_Landlord/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/luck-be-a-landlord"
+    },
+    {
+      "store": "psn",
+      "url": "https://store.playstation.com/en-us/product/EB0796-CUSA48741_00-0012254895480729"
+    },
+    {
+      "store": "xbox",
+      "url": "https://www.xbox.com/en-US/games/store/x/9N263L48ZCV5"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/LuckBeALandlord/Blind"
+  },
+  "releaseYear": "2023"
+}

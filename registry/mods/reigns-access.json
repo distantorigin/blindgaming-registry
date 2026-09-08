@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "reigns-access",
+  "status": "active",
+  "gameIds": [
+    "reigns"
+  ],
+  "name": "Reigns Access",
+  "homeUrl": "https://github.com/leoguimaoficial/Reigns-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/leoguimaoficial/Reigns-Access"
+  },
+  "links": []
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "marvel-tokon-fighting-souls",
+  "status": "active",
+  "name": "MARVEL Tōkon: Fighting Souls",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3787240/MARVEL_Tkon_Fighting_Souls/"
+    }
+  ],
+  "accessibility": {
+    "description": "The built-in multilingual screen reader covers most menus and modes. Arcadia Rumble is inaccessible; some results, tutorial progress, spatial combat information, and PS5 name entry have gaps.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59975/"
+    }
+  ],
+  "releaseYear": "2026"
+}

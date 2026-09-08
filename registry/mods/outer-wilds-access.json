@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "outer-wilds-access",
+  "status": "active",
+  "gameIds": [
+    "outer-wilds"
+  ],
+  "name": "Outer Wilds Access",
+  "framework": "OWML (C#)",
+  "homeUrl": "https://github.com/PlatinumTsuki/OuterWildsAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/PlatinumTsuki/OuterWildsAccess"
+  },
+  "links": []
+}

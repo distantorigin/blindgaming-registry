@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "beacon-pines-access",
+  "status": "active",
+  "gameIds": [
+    "beacon-pines"
+  ],
+  "name": "Beacon Pines Access",
+  "framework": "modified BepInEx 5 package",
+  "homeUrl": "https://www.patreon.com/prismaccess/posts/beacon-pines-ii-168322377",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60186/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Patreon download",
+      "url": "https://www.patreon.com/prismaccess/posts/beacon-pines-ii-168322377",
+      "requiresPayment": true
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess/",
+      "requiresPayment": false
+    }
+  ]
+}

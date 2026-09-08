@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "balatro",
+  "status": "active",
+  "name": "Balatro",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2379780/Balatro/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/balatro"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Balatro/Blind",
+    "primaryModId": "blindfold"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/59760/"
+    }
+  ],
+  "releaseYear": "2024"
+}

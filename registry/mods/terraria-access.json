@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "terraria-access",
+  "status": "active",
+  "gameIds": [
+    "terraria"
+  ],
+  "name": "Terraria Access",
+  "framework": "tModLoader (C#)",
+  "homeUrl": "https://github.com/ChipsAhoiMcCoy/TerrariaAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ChipsAhoiMcCoy/TerrariaAccess"
+  },
+  "links": []
+}

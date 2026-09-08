@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "art-of-fauna",
+  "status": "active",
+  "name": "Art of Fauna: Cozy Puzzles",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/art-of-fauna-cozy-puzzles/id1630468596"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS game supports VoiceOver and offers a text mode in which players assemble descriptions of animals instead of arranging image fragments. The developer explains that this mode was designed for blind players. Text presentation and accessibility settings can be adjusted; the introductory puzzles are free and further sets require an in-app purchase.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis developer interview: text puzzles and VoiceOver",
+      "url": "https://applevis.com/podcasts/applevis-extra-109-interview-klemens-strasser-developer-art-fauna"
+    },
+    {
+      "name": "Official Art of Fauna website",
+      "url": "https://theartof.app/fauna/"
+    }
+  ],
+  "releaseYear": "2025"
+}

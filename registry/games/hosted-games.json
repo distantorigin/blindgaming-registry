@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "hosted-games",
+  "status": "active",
+  "name": "Hosted Games",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/hosted-games/id1302297731"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=org.hostedgames.omnibus"
+    }
+  ],
+  "accessibility": {
+    "description": "An interactive-fiction catalog app, with stories read and choices selected using VoiceOver on iOS or TalkBack on Android. The publisher tests both screen readers but documents occasional focus and navigation issues in its redesigned apps. Individual stories may require separate purchases; this record represents the catalog app rather than an independent review of every story.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Publisher Android screen-reader testing and known issues",
+      "url": "https://forum.choiceofgames.com/t/beta-test-the-new-version-of-our-android-app/177129"
+    },
+    {
+      "name": "Publisher iOS accessibility testing",
+      "url": "https://forum.choiceofgames.com/t/beta-test-the-new-version-of-our-ios-app/173518"
+    },
+    {
+      "name": "Publisher catalog",
+      "url": "https://hostedgames.org/"
+    }
+  ]
+}

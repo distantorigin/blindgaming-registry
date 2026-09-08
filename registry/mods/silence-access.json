@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "silence-access",
+  "status": "active",
+  "gameIds": [
+    "silence"
+  ],
+  "name": "Silence Access",
+  "homeUrl": "https://github.com/Lirin111/Silence---Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Lirin111/Silence---Access"
+  },
+  "links": []
+}

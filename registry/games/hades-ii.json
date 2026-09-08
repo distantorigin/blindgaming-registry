@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "hades-ii",
+  "status": "active",
+  "name": "Hades II",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1145350/Hades_II/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible, though dodging attacks and locating enemies can be difficult. See the linked mod pages for setup instructions and known limitations.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Hades2/Blind",
+    "primaryModId": "hades-ii-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/53522/"
+    }
+  ],
+  "releaseYear": "2025"
+}

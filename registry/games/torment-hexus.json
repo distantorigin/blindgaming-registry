@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "torment-hexus",
+  "status": "active",
+  "name": "Torment Hexus",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3238420/Torment_Hexus/"
+    }
+  ],
+  "accessibility": {
+    "description": "Keyboard controls and direct NVDA output make the early-access game playable, but reports note high information density and missing review functions for parts of the match-three and tactical interfaces.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60101/"
+    }
+  ],
+  "releaseYear": "2026"
+}

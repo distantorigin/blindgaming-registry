@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "sap-access",
+  "status": "active",
+  "gameIds": [
+    "super-auto-pets"
+  ],
+  "name": "SAP Access",
+  "homeUrl": "https://github.com/GreenBeanGravy/SuperAutoAccessibility",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/GreenBeanGravy/SuperAutoAccessibility"
+  },
+  "links": []
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "tcg-card-shop-simulator-prologue-access",
+  "status": "active",
+  "gameIds": [
+    "tcg-card-shop-simulator-prologue"
+  ],
+  "name": "TCG Card Shop Simulator Prologue Access",
+  "homeUrl": "https://github.com/RogueEugor/TCG-Card-Shop-Simulator-Prologue-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/RogueEugor/TCG-Card-Shop-Simulator-Prologue-Access"
+  },
+  "links": []
+}

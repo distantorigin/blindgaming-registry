@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "a-dance-of-fire-and-ice",
+  "status": "active",
+  "name": "A Dance of Fire and Ice",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/977950/A_Dance_of_Fire_and_Ice/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/ADOFAI/Blind",
+    "primaryModId": "adofai-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58616/"
+    }
+  ],
+  "releaseYear": "2019"
+}

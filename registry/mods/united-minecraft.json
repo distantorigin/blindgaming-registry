@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "united-minecraft",
+  "status": "active",
+  "gameIds": [
+    "minecraft-java-edition"
+  ],
+  "name": "United Minecraft",
+  "framework": "Fabric (Java)",
+  "homeUrl": "https://github.com/blindgoofball/united-Minecraft",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/blindgoofball/united-Minecraft"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60149/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GitHub releases",
+      "url": "https://github.com/blindgoofball/united-Minecraft/releases",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "forza-motorsport",
+  "status": "active",
+  "name": "Forza Motorsport",
+  "stores": [
+    {
+      "store": "xbox",
+      "primary": true,
+      "url": "https://www.xbox.com/en-GB/games/store/forza-motorsport/9PNQKHFLM2WQ"
+    },
+    {
+      "store": "steam",
+      "url": "https://store.steampowered.com/app/2440510/Forza_Motorsport/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible, with audio description. Learning the controls and audio cues takes practice.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "native",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/ForzaMotorsport/Blind"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/49769/"
+    }
+  ],
+  "releaseYear": "2023"
+}

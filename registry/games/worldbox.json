@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "worldbox",
+  "status": "active",
+  "name": "WorldBox",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1206560/WorldBox__God_Simulator/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible.",
+    "coverage": "mostly",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/WorldBox/Blind",
+    "primaryModId": "worldbox-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58986/"
+    }
+  ],
+  "releaseYear": "2012"
+}

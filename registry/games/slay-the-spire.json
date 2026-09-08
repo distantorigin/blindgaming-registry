@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "slay-the-spire",
+  "status": "active",
+  "name": "Slay the Spire",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/646570/Slay_the_Spire/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/slay_the_spire"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/slay-the-spire"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/SlayTheSpire/Blind",
+    "primaryModId": "say-the-spire"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/35130/"
+    }
+  ],
+  "releaseYear": "2019"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "cyber-punk-access",
+  "status": "active",
+  "gameIds": [
+    "cyberpunk-2077"
+  ],
+  "name": "Cyber Punk Access",
+  "homeUrl": "https://www.nexusmods.com/cyberpunk2077/mods/31539?tab=description",
+  "links": []
+}

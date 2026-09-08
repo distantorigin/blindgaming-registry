@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy",
+  "status": "active",
+  "name": "Final Fantasy",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1173770/FINAL_FANTASY/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/final-fantasy"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible. See the linked mod documentation for details.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/FinalFantasy/Blind",
+    "primaryModId": "ff1-screen-reader"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/58424/"
+    }
+  ],
+  "releaseYear": "1987"
+}

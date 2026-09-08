@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "fallout-4",
+  "status": "active",
+  "name": "Fallout 4",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/377160/Fallout_4/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/fallout-4"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support is in active development.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "fallout-4-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/56056/"
+    }
+  ],
+  "releaseYear": "2015"
+}

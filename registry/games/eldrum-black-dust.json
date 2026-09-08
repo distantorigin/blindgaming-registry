@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "eldrum-black-dust",
+  "status": "active",
+  "name": "Eldrum: Black Dust",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/eldrum-black-dust-text-rpg/id6689519299"
+    }
+  ],
+  "accessibility": {
+    "description": "The iOS role-playing adventure is reported fully accessible with VoiceOver. AppleVis reports readable screens, labeled controls, and straightforward screen-reader navigation for this entry in the Eldrum series.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Official game website",
+      "url": "https://eldrum.com/"
+    },
+    {
+      "name": "AppleVis accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/eldrum-black-dust-text-rpg"
+    }
+  ],
+  "releaseYear": "2024"
+}

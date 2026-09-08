@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "a-space-for-the-unbound-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "a-space-for-the-unbound"
+  ],
+  "name": "A Space for the Unbound Accessibility Mod",
+  "homeUrl": "https://github.com/Lirin111/A-Space-For-The-Unbound-accessibility/",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Lirin111/A-Space-For-The-Unbound-accessibility"
+  },
+  "links": []
+}

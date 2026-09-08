@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "toby-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "doom-doom-ii",
+    "heretic",
+    "hexen"
+  ],
+  "name": "Toby Accessibility Mod",
+  "framework": "GZDoom",
+  "homeUrl": "https://alando1.itch.io/",
+  "links": []
+}

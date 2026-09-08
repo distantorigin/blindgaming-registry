@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "fallout-4-access",
+  "status": "active",
+  "gameIds": [
+    "fallout-4"
+  ],
+  "name": "Fallout 4 Access",
+  "homeUrl": "https://www.nexusmods.com/fallout4/mods/100314",
+  "links": []
+}

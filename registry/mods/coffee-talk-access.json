@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "coffee-talk-access",
+  "status": "active",
+  "gameIds": [
+    "coffee-talk"
+  ],
+  "name": "Coffee Talk Access",
+  "homeUrl": "https://forum.audiogames.net/topic/60018/",
+  "links": [
+    {
+      "kind": "download",
+      "label": "Patreon download",
+      "url": "https://www.patreon.com/prismaccess/posts/caw-fee-tawk-166302363",
+      "requiresPayment": true
+    },
+    {
+      "kind": "funding",
+      "label": "PayPal",
+      "url": "https://paypal.me/justsendyourcash",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess",
+      "requiresPayment": false
+    }
+  ]
+}

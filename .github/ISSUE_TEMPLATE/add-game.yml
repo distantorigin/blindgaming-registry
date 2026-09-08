@@ -1,0 +1,65 @@
+name: Add a game
+description: Propose a game and, if needed, the mod that makes it accessible.
+title: "Add game: "
+labels: ["registry", "game"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The submission tool at https://blindgaming.net/submit creates the record
+        JSON for you, including store links. If this game is playable
+        through a mod, include both records or describe the mod below.
+
+        A merged mod-based submission needs both sides linked: the game points
+        at `primaryModId`, and the mod points back with `gameIds`. You can also
+        describe the game and mod in plain text for a maintainer to review.
+  - type: textarea
+    id: record
+    attributes:
+      label: Game record JSON
+      description: The proposed contents of registry/games/<id>.json. Leave blank if you are describing the game in prose below.
+      render: json
+    validations:
+      required: false
+  - type: textarea
+    id: mod_record
+    attributes:
+      label: Companion mod record JSON
+      description: If this game is playable through a new mod, paste the proposed registry/mods/<id>.json here. Leave blank if the mod already exists or you are describing it below.
+      render: json
+    validations:
+      required: false
+  - type: input
+    id: name
+    attributes:
+      label: Game name
+    validations:
+      required: false
+  - type: input
+    id: store
+    attributes:
+      label: Store page
+      description: The canonical storefront URL for the game (Steam, GOG, Humble, Battle.net, PSN, Xbox, Switch, App Store, or Google Play).
+    validations:
+      required: false
+  - type: textarea
+    id: notes
+    attributes:
+      label: Supporting links or notes
+      description: Optional context for curator review, such as reviews, wiki pages, forum threads, or developer statements.
+    validations:
+      required: false
+  - type: textarea
+    id: accessibility
+    attributes:
+      label: Accessibility path
+      description: Is accessibility built into the game, or provided by a mod? If it is a mod, include the mod name, existing mod ID if known, and what the mod makes accessible.
+    validations:
+      required: false
+  - type: textarea
+    id: mod_details
+    attributes:
+      label: Mod details, if any
+      description: If the mod record is not pasted above, include the mod home page, download links, whether downloads require payment, and any games the mod also covers.
+    validations:
+      required: false
