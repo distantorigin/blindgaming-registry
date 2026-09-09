@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "mortal-kombat-11",
+  "status": "active",
+  "name": "Mortal Kombat 11",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/976310/"
+    }
+  ],
+  "accessibility": {
+    "description": "An accessibility mod has been announced on AudioGames.net. Accessibility coverage has not yet been assessed.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "mortal-kombat-11-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net mod announcement",
+      "url": "https://forum.audiogames.net/topic/60180/mortal-kombat-11-accessibility-mod-is-now-out/"
+    }
+  ],
+  "releaseYear": "2019"
+}
