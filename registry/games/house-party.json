@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "house-party",
+  "status": "active",
+  "name": "House Party",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/611790/House_Party/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/house_party"
+    }
+  ],
+  "accessibility": {
+    "description": "House Access adds spoken menus, dialogue, and inventory, plus room scanning, target navigation, and spatial audio beacons. It requires the 64-bit Windows game and BepInEx 6 IL2CPP, with screen reader output or Windows SAPI speech. Fighting minigames, the in-game smartphone, and the developer console are not readable; some relationship, opportunity, and clothing details are unavailable. Follow the installation guide's BepInEx logging configuration step to avoid a startup crash.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "house-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60249/house-access-113-rebuilt-working-for-current-house-party-builds/"
+    },
+    {
+      "name": "House Access installation and accessibility documentation",
+      "url": "https://github.com/swarup-developer/house-access"
+    }
+  ],
+  "releaseYear": "2022"
+}

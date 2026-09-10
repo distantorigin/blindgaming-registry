@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "house-access",
+  "status": "active",
+  "gameIds": [
+    "house-party"
+  ],
+  "name": "House Access",
+  "framework": "BepInEx 6 IL2CPP",
+  "homeUrl": "https://github.com/swarup-developer/house-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/swarup-developer/house-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60249/house-access-113-rebuilt-working-for-current-house-party-builds/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/swarup-developer/house-access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

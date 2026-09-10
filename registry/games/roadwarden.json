@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "roadwarden",
+  "status": "active",
+  "name": "Roadwarden",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1155970/Roadwarden/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/roadwarden"
+    }
+  ],
+  "accessibility": {
+    "description": "Vigil adds keyboard navigation and speech for the story, choices, menus, map, and journal through NVDA or JAWS, with Windows SAPI as a fallback. The mod documents support for the 64-bit Windows Steam version; compatibility with other store builds is unconfirmed. It is in beta: most interfaces have been tested in play, but a full playthrough has not been completed and some interface issues remain.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "vigil"
+  },
+  "resources": [
+    {
+      "name": "Buy on itch.io",
+      "url": "https://assemble-entertainment.itch.io/roadwarden"
+    },
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60274/roadwarden-gritty-low-fantasy-narrative-crpg/"
+    },
+    {
+      "name": "Vigil accessibility documentation",
+      "url": "https://github.com/EarthboundPromoter/Vigil"
+    },
+    {
+      "name": "Buy on Fanatical (Steam key)",
+      "url": "https://www.fanatical.com/en/game/roadwarden"
+    }
+  ],
+  "releaseYear": "2022"
+}

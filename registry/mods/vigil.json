@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "vigil",
+  "status": "active",
+  "gameIds": [
+    "roadwarden"
+  ],
+  "name": "Vigil",
+  "framework": "Ren'Py extension",
+  "homeUrl": "https://github.com/EarthboundPromoter/Vigil",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/EarthboundPromoter/Vigil"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60274/roadwarden-gritty-low-fantasy-narrative-crpg/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/EarthboundPromoter/Vigil/releases",
+      "requiresPayment": false
+    }
+  ]
+}
