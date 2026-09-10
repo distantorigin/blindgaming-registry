@@ -26,20 +26,12 @@
   },
   "resources": [
     {
-      "name": "Buy on itch.io",
-      "url": "https://assemble-entertainment.itch.io/roadwarden"
-    },
-    {
       "name": "AudioGames.net forum thread",
       "url": "https://forum.audiogames.net/topic/60274/roadwarden-gritty-low-fantasy-narrative-crpg/"
     },
     {
       "name": "Vigil accessibility documentation",
       "url": "https://github.com/EarthboundPromoter/Vigil"
-    },
-    {
-      "name": "Buy on Fanatical (Steam key)",
-      "url": "https://www.fanatical.com/en/game/roadwarden"
     }
   ],
   "releaseYear": "2022"
