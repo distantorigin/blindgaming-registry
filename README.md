@@ -116,9 +116,8 @@ The primary store controls display order and price checking priority.
 Battle.net uses `battlenet`, with a product page such as
 `https://shop.battle.net/en-us/product/hearthstone`.
 
-For other storefronts that are not supported as store entries, include a named
-purchase link in `resources`. For example, Apotheorasis includes its itch.io
-purchase page there.
+Store links belong only in `stores`, never in `resources`. Omit storefronts
+that are not supported as store entries, including Fanatical and itch.io.
 
 ```json
 "stores": [
