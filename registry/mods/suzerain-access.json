@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "suzerain-access",
+  "status": "active",
+  "gameIds": [
+    "suzerain"
+  ],
+  "name": "Suzerain Access",
+  "framework": "BepInEx 6 (IL2CPP)",
+  "homeUrl": "https://github.com/hasajaza/Suzerain-access-",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/hasajaza/Suzerain-access-"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net discussion",
+      "url": "https://forum.audiogames.net/topic/60306/suzerain-access-release/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/hasajaza/Suzerain-access-/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}

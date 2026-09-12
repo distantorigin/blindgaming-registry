@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "suzerain",
+  "status": "active",
+  "name": "Suzerain",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1207650/Suzerain/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/suzerain"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/suzerain"
+    }
+  ],
+  "accessibility": {
+    "description": "Suzerain Access adds keyboard navigation and speech through NVDA, JAWS, or Windows SAPI for menus, dialogue, decisions, reports, statistics, notifications, and map locations. The mod targets a specific 64-bit Windows Steam build; compatibility with other builds, including GOG, is unconfirmed. Keyboard movement of units on the Kingdom of Rizia war map is not implemented, and JAWS may stop responding in the game after switching away and back.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "suzerain-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60306/suzerain-access-release/"
+    },
+    {
+      "name": "Suzerain Access documentation",
+      "url": "https://github.com/hasajaza/Suzerain-access-"
+    }
+  ],
+  "releaseYear": "2020"
+}
