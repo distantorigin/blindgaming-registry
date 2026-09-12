@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "mtg-arena",
   "status": "active",
-  "name": "MTG Arena",
+  "name": "Magic: The Gathering Arena",
   "stores": [
     {
       "store": "steam",
