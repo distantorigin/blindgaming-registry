@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "koikatsu-party",
+  "status": "active",
+  "name": "Koikatsu Party",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1073440/__Koikatsu_Party/"
+    }
+  ],
+  "accessibility": {
+    "description": "BlindLusion.KK adds screen reader support for menus, character creation, story dialogue and choices, save/load, NPC and map navigation, and scene controls. It supports the Steam version and requires NVDA, HF Patch, and its prerequisite plugins, including BepInEx 5. The mod is in public beta: story characters cannot be tracked, manual walking and some interactions are unsupported, and automatic navigation can get stuck. Character creation and saving have rough edges, and Live Concert and Wedding modes are unsupported. Keyboard use is recommended.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "blindlusion-kk"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60294/koikatsu-access-the-most-advance-adult-game-you-can-play-right-now/"
+    },
+    {
+      "name": "BlindLusion.KK installation and accessibility documentation",
+      "url": "https://on1xn.github.io/okasi/koikatsu/BlindLusion/"
+    }
+  ],
+  "releaseYear": "2019"
+}

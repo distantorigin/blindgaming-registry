@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "blindlusion-kk",
+  "status": "active",
+  "gameIds": [
+    "koikatsu-party"
+  ],
+  "name": "BlindLusion.KK",
+  "framework": "BepInEx 5",
+  "homeUrl": "https://on1xn.github.io/okasi/koikatsu/BlindLusion/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60294/koikatsu-access-the-most-advance-adult-game-you-can-play-right-now/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Download and installation instructions",
+      "url": "https://on1xn.github.io/okasi/koikatsu/BlindLusion/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/on1xn",
+      "requiresPayment": false
+    }
+  ]
+}
