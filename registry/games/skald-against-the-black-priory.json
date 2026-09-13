@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "skald-against-the-black-priory",
+  "status": "active",
+  "name": "SKALD: Against the Black Priory",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1069160/SKALD_Against_the_Black_Priory/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/skald_against_the_black_priory"
+    }
+  ],
+  "accessibility": {
+    "description": "Beholder adds keyboard navigation and speech for the story, exploration, menus, character sheets, inventory, trading, and turn-based combat through NVDA or JAWS, with Windows SAPI as a fallback. The mod documents support for the Windows Steam version; compatibility with other store builds is unconfirmed. It is in beta: the core gameplay has been tested, but a full campaign has not been completed and some interfaces have only been lightly tested. Known issues include reports of problems casting spells outside combat and missing or overlapping announcements.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "beholder"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60221/skald-against-the-black-priory-cosmic-horror-crpg/"
+    },
+    {
+      "name": "Beholder accessibility documentation",
+      "url": "https://github.com/EarthboundPromoter/Beholder"
+    }
+  ],
+  "releaseYear": "2024"
+}

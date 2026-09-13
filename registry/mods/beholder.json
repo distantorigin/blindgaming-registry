@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "beholder",
+  "status": "active",
+  "gameIds": [
+    "skald-against-the-black-priory"
+  ],
+  "name": "Beholder",
+  "framework": "BepInEx 5 (C#)",
+  "homeUrl": "https://github.com/EarthboundPromoter/Beholder",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/EarthboundPromoter/Beholder"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60221/skald-against-the-black-priory-cosmic-horror-crpg/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/EarthboundPromoter/Beholder/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}
