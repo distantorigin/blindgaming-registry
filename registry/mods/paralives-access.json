@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "paralives-access",
+  "status": "active",
+  "gameIds": [
+    "paralives"
+  ],
+  "name": "ParalivesAccess",
+  "framework": "BepInEx 5 with Prism",
+  "homeUrl": "https://github.com/zersiax/ParalivesAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/zersiax/ParalivesAccess"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/zersiax/ParalivesAccess/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}

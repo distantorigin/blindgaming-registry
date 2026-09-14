@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "paralives",
+  "status": "active",
+  "name": "Paralives",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1118520/Paralives/"
+    }
+  ],
+  "accessibility": {
+    "description": "ParalivesAccess adds screen-reader output and keyboard navigation on Windows for menus, character creation, storyteller controls, town and current-lot exploration, and Para group selection. Build-mode accessibility is limited: the build catalogue supports finding and placing objects with overlap reports, but comprehensive building support is not yet available. The author recommends starting with a furnished house.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "paralives-access"
+  },
+  "resources": [
+    {
+      "name": "ParalivesAccess installation and controls",
+      "url": "https://github.com/zersiax/ParalivesAccess"
+    }
+  ],
+  "releaseYear": "2026"
+}
