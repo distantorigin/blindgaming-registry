@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "the-quarry",
+  "status": "active",
+  "name": "The Quarry",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1577120/The_Quarry/"
+    }
+  ],
+  "accessibility": {
+    "description": "The Quarry Access adds screen-reader speech and audio cues on Windows for menus, settings, the pause menu with clues, evidence, tarot cards and paths, subtitles, scene captions, choices, quick-time events, button mashing, Don't Breathe, exploration with a sound beacon and automatic walking, aiming in fights, and looking around with the phone camera and binoculars. It also covers notes, letters, tarot card visions, epilogue fates, couch co-op, Movie Mode and Wolf Pack screens. It works with NVDA, JAWS, Narrator, SAPI and braille, supports keyboard and gamepad, and speaks in the game's language. The game's own accessibility settings can ease timing and mash mechanics.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "the-quarry-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60367/the-quarry-access-v100-the-accessibility-mod-for-the-quarry/"
+    },
+    {
+      "name": "The Quarry Access installation and controls",
+      "url": "https://github.com/futyn-maker/the_quarry_access"
+    }
+  ],
+  "releaseYear": "2022"
+}

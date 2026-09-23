@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "the-quarry-access",
+  "status": "active",
+  "gameIds": [
+    "the-quarry"
+  ],
+  "name": "The Quarry Access",
+  "framework": "UE4SS",
+  "homeUrl": "https://github.com/futyn-maker/the_quarry_access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/futyn-maker/the_quarry_access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60367/the-quarry-access-v100-the-accessibility-mod-for-the-quarry/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/futyn-maker/the_quarry_access/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}
