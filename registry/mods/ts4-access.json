@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ts4-access",
+  "status": "active",
+  "gameIds": [
+    "the-sims-4"
+  ],
+  "name": "TS4 Access",
+  "homeUrl": "https://www.curseforge.com/sims4/mods/screen-reader",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60443/ts4-access-a-mod-to-make-the-sims-4-accessible/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "TS4 Access downloads on CurseForge",
+      "url": "https://www.curseforge.com/sims4/mods/screen-reader/files",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Support tyjokr on Patreon",
+      "url": "https://www.patreon.com/cw/tyjokr",
+      "requiresPayment": false
+    }
+  ]
+}
