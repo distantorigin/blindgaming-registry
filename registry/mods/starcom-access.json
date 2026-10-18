@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "starcom-access",
+  "status": "active",
+  "gameIds": [
+    "starcom-nexus"
+  ],
+  "name": "Starcom Access",
+  "homeUrl": "https://forum.audiogames.net/topic/58857/first-beta-of-starcom-nexus/",
+  "links": [
+    {
+      "kind": "download",
+      "label": "Beta mod download and instructions (forum)",
+      "url": "https://forum.audiogames.net/topic/58857/first-beta-of-starcom-nexus/",
+      "requiresPayment": false
+    }
+  ]
+}

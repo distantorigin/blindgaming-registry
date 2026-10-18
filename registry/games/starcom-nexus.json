@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "starcom-nexus",
+  "status": "active",
+  "name": "Starcom: Nexus",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/863590/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/starcomnexus"
+    }
+  ],
+  "accessibility": {
+    "description": "Requires Starcom Access on Windows. The linked mod download is a beta; consult the included instructions and forum thread for installation, controls and current limitations. Complete game coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "starcom-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: Starcom Nexus accessibility mod beta",
+      "url": "https://forum.audiogames.net/topic/58857/first-beta-of-starcom-nexus/"
+    }
+  ],
+  "releaseYear": "2019"
+}
