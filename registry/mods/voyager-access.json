@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "voyager-access",
+  "status": "active",
+  "gameIds": [
+    "star-trek-voyager-across-the-unknown"
+  ],
+  "name": "Voyager Access",
+  "framework": "UE4SS (Lua) and Python",
+  "homeUrl": "https://github.com/csm120/VoyagerAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/csm120/VoyagerAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60621/voyager-access-star-trek-voyager-across-the-unknown/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release and installer",
+      "url": "https://github.com/csm120/VoyagerAccess/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}

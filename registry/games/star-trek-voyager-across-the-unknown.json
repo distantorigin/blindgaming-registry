@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "star-trek-voyager-across-the-unknown",
+  "status": "active",
+  "name": "Star Trek: Voyager - Across the Unknown",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2643390/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/star-trek-voyager-across-the-unknown"
+    }
+  ],
+  "accessibility": {
+    "description": "Voyager Access adds NVDA and JAWS speech and keyboard controls on Windows for menus, dialogue, tutorials, objectives, ship management, maps, exploration events, away missions, battles, research and resources. Supports the Steam full game and free demo. The developer reports completing the demo with the mod; full-game support is still being improved and some accessibility gaps remain.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "voyager-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60621/voyager-access-star-trek-voyager-across-the-unknown/"
+    },
+    {
+      "name": "Voyager Access installation and keyboard controls",
+      "url": "https://github.com/csm120/VoyagerAccess"
+    }
+  ],
+  "releaseYear": "2026"
+}
