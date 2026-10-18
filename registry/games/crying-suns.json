@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "crying-suns",
+  "status": "active",
+  "name": "Crying Suns",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/873940/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/crying_suns"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/crying-suns"
+    }
+  ],
+  "accessibility": {
+    "description": "The linked accessibility mod targets the Windows demo. It uses MelonLoader 0.6.6 with Tolk for speech, adds keyboard commands with F1 help, and supports issuing combat orders while paused. The full hex battlefield is not exposed; combat uses opponent selection instead. Accessibility of the full game has not been established by this demo release.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "crying-suns-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: Cry Me a Sun",
+      "url": "https://forum.audiogames.net/topic/58799/cry-me-a-sun/"
+    }
+  ],
+  "releaseYear": "2019"
+}

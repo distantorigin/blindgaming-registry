@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crying-suns-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "crying-suns"
+  ],
+  "name": "Crying Suns Accessibility Mod",
+  "framework": "MelonLoader",
+  "homeUrl": "https://forum.audiogames.net/topic/58799/cry-me-a-sun/",
+  "links": [
+    {
+      "kind": "download",
+      "label": "Demo mod download and instructions (forum)",
+      "url": "https://forum.audiogames.net/topic/58799/cry-me-a-sun/",
+      "requiresPayment": false
+    }
+  ]
+}
