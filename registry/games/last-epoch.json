@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "last-epoch",
+  "status": "active",
+  "name": "Last Epoch",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/899770/"
+    }
+  ],
+  "accessibility": {
+    "description": "LeAccess adds screen-reader speech for menus, dialogue, inventory, crafting, skills, quests and travel, plus positional audio, wall radar and exploration beacons. Requires the Windows Steam edition and a controller using the game's default bindings. The author has tested NVDA, online and offline play, and co-op; other screen readers and SAPI fallback are untested. This public test release still has silent screens and does not convey visual attack telegraphs or ground-effect warnings. Full campaign and endgame coverage have not been established.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "le-access"
+  },
+  "resources": [
+    {
+      "name": "LeAccess installation, controls and known limitations",
+      "url": "https://github.com/Ali-Bueno/LeAccess"
+    }
+  ],
+  "releaseYear": "2024"
+}

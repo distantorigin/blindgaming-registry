@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "le-access",
+  "status": "active",
+  "gameIds": [
+    "last-epoch"
+  ],
+  "name": "LeAccess",
+  "framework": "BepInEx 6 (IL2CPP)",
+  "homeUrl": "https://github.com/Ali-Bueno/LeAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Ali-Bueno/LeAccess"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Latest release and installation package",
+      "url": "https://github.com/Ali-Bueno/LeAccess/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}
