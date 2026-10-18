@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-quest-11-access",
+  "status": "active",
+  "gameIds": [
+    "dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition"
+  ],
+  "name": "Dragon Quest 11 Access",
+  "homeUrl": "https://forum.audiogames.net/topic/60501/dragon-quest-11-access-alpha-build-v49/",
+  "links": [
+    {
+      "kind": "download",
+      "label": "Alpha Build 49 download and instructions (forum)",
+      "url": "https://forum.audiogames.net/topic/60501/dragon-quest-11-access-alpha-build-v49/",
+      "requiresPayment": false
+    }
+  ]
+}

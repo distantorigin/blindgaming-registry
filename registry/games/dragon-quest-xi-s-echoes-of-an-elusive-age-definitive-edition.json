@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "id": "dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition",
+  "status": "active",
+  "name": "Dragon Quest XI S: Echoes of an Elusive Age - Definitive Edition",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1295510/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/dragon-quest-xi-s-echoes-of-an-elusive-age-definitive-edition"
+    }
+  ],
+  "accessibility": {
+    "description": "Requires Dragon Quest 11 Access. The linked installer is Alpha Build 49; consult the forum thread for setup instructions and current limitations. Complete game coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "dragon-quest-11-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: Dragon Quest 11 Access",
+      "url": "https://forum.audiogames.net/topic/60501/dragon-quest-11-access-alpha-build-v49/"
+    }
+  ],
+  "releaseYear": "2020"
+}
