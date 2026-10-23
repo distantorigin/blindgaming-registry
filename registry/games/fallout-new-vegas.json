@@ -8,6 +8,14 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/22380/Fallout_New_Vegas/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/fallout_new_vegas_ultimate_edition"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/fallout-new-vegas"
     }
   ],
   "accessibility": {
