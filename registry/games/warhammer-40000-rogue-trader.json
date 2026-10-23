@@ -8,6 +8,14 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/2186680/Warhammer_40000_Rogue_Trader/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/warhammer_40000_rogue_trader"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/warhammer-40000-rogue-trader"
     }
   ],
   "accessibility": {
