@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "falloutnv-access",
+  "status": "active",
+  "gameIds": [
+    "fallout-new-vegas"
+  ],
+  "name": "FalloutNV Access",
+  "homeUrl": "https://www.nexusmods.com/newvegas/mods/98916",
+  "releaseSource": {
+    "kind": "nexus",
+    "repositoryUrl": "https://www.nexusmods.com/newvegas/mods/98916"
+  },
+  "links": []
+}

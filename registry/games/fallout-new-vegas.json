@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "fallout-new-vegas",
+  "status": "active",
+  "name": "Fallout: New Vegas",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/22380/Fallout_New_Vegas/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "falloutnv-access"
+  },
+  "releaseYear": "2010"
+}
