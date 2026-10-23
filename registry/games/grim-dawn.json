@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "grim-dawn",
+  "status": "active",
+  "name": "Grim Dawn",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/219990/Grim_Dawn/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "grim-dark"
+  },
+  "releaseYear": "2016"
+}
