@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "bop-it-the-video-game",
+  "status": "active",
+  "name": "Bop It! The Video Game",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3214360/Bop_It_The_Video_Game/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with the linked mod.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "blind-it"
+  },
+  "releaseYear": "2025"
+}

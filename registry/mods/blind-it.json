@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "blind-it",
+  "status": "active",
+  "gameIds": [
+    "bop-it-the-video-game"
+  ],
+  "name": "Blind It",
+  "homeUrl": "https://github.com/VIPPotato/blind-it",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/VIPPotato/blind-it"
+  },
+  "links": []
+}
