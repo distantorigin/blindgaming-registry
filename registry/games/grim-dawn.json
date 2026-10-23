@@ -8,6 +8,10 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/219990/Grim_Dawn/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/grim_dawn"
     }
   ],
   "accessibility": {
