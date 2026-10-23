@@ -8,6 +8,10 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/595520/FINAL_FANTASY_XII_THE_ZODIAC_AGE/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/final-fantasy-xii-the-zodiac-age"
     }
   ],
   "accessibility": {
