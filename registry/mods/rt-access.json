@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "rt-access",
+  "status": "active",
+  "gameIds": [
+    "warhammer-40000-rogue-trader"
+  ],
+  "name": "RTAccess",
+  "homeUrl": "https://github.com/alex19EP/WH40KRTAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/alex19EP/WH40KRTAccess"
+  },
+  "links": []
+}

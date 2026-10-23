@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "warhammer-40000-rogue-trader",
+  "status": "active",
+  "name": "Warhammer 40,000: Rogue Trader",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2186680/Warhammer_40000_Rogue_Trader/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "rt-access"
+  },
+  "releaseYear": "2023"
+}
