@@ -8,6 +8,10 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/268500/XCOM_2/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/xcom-2"
     }
   ],
   "accessibility": {
