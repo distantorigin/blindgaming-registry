@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "sku",
+  "status": "active",
+  "gameIds": [
+    "world-of-warcraft"
+  ],
+  "name": "SKU",
+  "homeUrl": "https://www.curseforge.com/wow/addons/sku",
+  "links": []
+}
