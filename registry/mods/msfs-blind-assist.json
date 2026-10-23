@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "msfs-blind-assist",
+  "status": "active",
+  "gameIds": [
+    "microsoft-flight-simulator-2020"
+  ],
+  "name": "MSFS Blind Assist",
+  "framework": "Companion Windows application",
+  "homeUrl": "https://github.com/oasis1701/msfs-blind-assist",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/oasis1701/msfs-blind-assist"
+  },
+  "links": []
+}

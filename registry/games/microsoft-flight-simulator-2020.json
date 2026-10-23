@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "microsoft-flight-simulator-2020",
+  "status": "active",
+  "name": "Microsoft Flight Simulator (2020)",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1250410/Microsoft_Flight_Simulator_2020_40th_Anniversary_Edition/"
+    }
+  ],
+  "accessibility": {
+    "description": "Playable by totally blind aviation enthusiasts on supported aircraft using the linked companion application.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "msfs-blind-assist"
+  },
+  "releaseYear": "2020"
+}
