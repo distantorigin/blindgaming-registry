@@ -8,6 +8,14 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/716490/EXAPUNKS/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/exapunks"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/exapunks"
     }
   ],
   "accessibility": {
