@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "project-hortator",
+  "status": "active",
+  "gameIds": [
+    "the-elder-scrolls-iii-morrowind"
+  ],
+  "name": "Project Hortator",
+  "framework": "OpenMW fork",
+  "homeUrl": "https://github.com/LordLuceus/project-hortator",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/LordLuceus/project-hortator"
+  },
+  "links": []
+}

@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "the-elder-scrolls-iii-morrowind",
+  "status": "active",
+  "name": "The Elder Scrolls III: Morrowind",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/22320/The_Elder_Scrolls_III_Morrowind_Game_of_the_Year_Edition/"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible with Project Hortator, an OpenMW fork focused on blind and visually impaired players.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "project-hortator"
+  },
+  "releaseYear": "2002"
+}
