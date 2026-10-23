@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "shank-access",
+  "status": "active",
+  "gameIds": [
+    "shank"
+  ],
+  "name": "Shank Access",
+  "framework": "C++ mod with Python installer",
+  "homeUrl": "https://github.com/KarlBelanger/shank_access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/KarlBelanger/shank_access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60504/shank-accessibility-mod-v03-released/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Mod releases and beta installer",
+      "url": "https://github.com/KarlBelanger/shank_access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

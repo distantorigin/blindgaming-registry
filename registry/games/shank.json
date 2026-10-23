@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "shank",
+  "status": "active",
+  "name": "Shank",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/6120/Shank/"
+    }
+  ],
+  "accessibility": {
+    "description": "Shank Access adds screen-reader or Windows SAPI speech for menus, dialogs, tutorials and combat announcements, positional audio for enemies, hazards, ledges, jumps and pickups, and waypoint guidance between checkpoints. Supports keyboard and controller bindings on the Windows Steam edition, including the classic beta branch. The author reports completing every single-player level with the mod. Co-op is unsupported, safe edges are unavailable on the classic branch, and this public beta may still have rough spots.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "shank-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60504/shank-accessibility-mod-v03-released/"
+    },
+    {
+      "name": "Shank Access installation, controls and accessibility features",
+      "url": "https://github.com/KarlBelanger/shank_access"
+    }
+  ],
+  "releaseYear": "2010"
+}
