@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "bad-dream-coma",
+  "status": "active",
+  "name": "Bad Dream: Coma",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/538070/Bad_Dream_Coma/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "bdc-access"
+  },
+  "releaseYear": "2017"
+}

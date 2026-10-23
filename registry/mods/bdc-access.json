@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "bdc-access",
+  "status": "active",
+  "gameIds": [
+    "bad-dream-coma"
+  ],
+  "name": "BDC Access",
+  "homeUrl": "https://github.com/president-lion/bdc_access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/president-lion/bdc_access"
+  },
+  "links": []
+}
