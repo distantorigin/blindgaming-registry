@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "star-ocean-the-second-story-r",
+  "status": "active",
+  "name": "STAR OCEAN THE SECOND STORY R",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2238900/STAR_OCEAN_THE_SECOND_STORY_R/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "so2r-access"
+  },
+  "releaseYear": "2023"
+}

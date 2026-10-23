@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "so2r-access",
+  "status": "active",
+  "gameIds": [
+    "star-ocean-the-second-story-r"
+  ],
+  "name": "SO2RAccess",
+  "homeUrl": "https://github.com/Yakku5226/SO2RAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Yakku5226/SO2RAccess"
+  },
+  "links": []
+}
