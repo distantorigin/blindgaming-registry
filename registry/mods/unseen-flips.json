@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "unseen-flips",
+  "status": "active",
+  "gameIds": [
+    "unfair-flips"
+  ],
+  "name": "Unseen Flips",
+  "homeUrl": "https://arctic-labs.com/unseen-flips",
+  "links": []
+}

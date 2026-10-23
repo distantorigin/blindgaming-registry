@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "unfair-flips",
+  "status": "active",
+  "name": "Unfair Flips",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3925760/Unfair_Flips/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with the linked mod.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "unseen-flips"
+  },
+  "releaseYear": "2025"
+}
