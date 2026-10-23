@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "guildrun",
+  "status": "active",
+  "name": "Guildrun",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3669200/Guildrun/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "guildrun-access"
+  }
+}

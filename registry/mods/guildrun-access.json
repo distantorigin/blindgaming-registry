@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "guildrun-access",
+  "status": "active",
+  "gameIds": [
+    "guildrun"
+  ],
+  "name": "Guildrun Access",
+  "homeUrl": "https://github.com/amerikrainian/guildrun-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/amerikrainian/guildrun-access"
+  },
+  "links": []
+}
