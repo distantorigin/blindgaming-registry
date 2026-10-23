@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "ffxii-screen-reader",
+  "status": "active",
+  "gameIds": [
+    "final-fantasy-xii-the-zodiac-age"
+  ],
+  "name": "FFXII Screen Reader",
+  "homeUrl": "https://github.com/bladestorm360/FFXII-Screen-Reader",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/bladestorm360/FFXII-Screen-Reader"
+  },
+  "links": []
+}

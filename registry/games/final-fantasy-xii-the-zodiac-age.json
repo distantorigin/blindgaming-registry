@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-xii-the-zodiac-age",
+  "status": "active",
+  "name": "Final Fantasy XII: The Zodiac Age",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/595520/FINAL_FANTASY_XII_THE_ZODIAC_AGE/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "ffxii-screen-reader"
+  },
+  "releaseYear": "2018"
+}
