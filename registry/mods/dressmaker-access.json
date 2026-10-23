@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "dressmaker-access",
+  "status": "active",
+  "gameIds": [
+    "dressmaker"
+  ],
+  "name": "Dressmaker Access",
+  "homeUrl": "https://github.com/liliancoghlan1-tech/dressmaker-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/liliancoghlan1-tech/dressmaker-access"
+  },
+  "links": []
+}
