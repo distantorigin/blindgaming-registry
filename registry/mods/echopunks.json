@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "echopunks",
+  "status": "active",
+  "gameIds": [
+    "exapunks"
+  ],
+  "name": "ECHOPUNKS",
+  "homeUrl": "https://github.com/amerikrainian/echopunks",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/amerikrainian/echopunks"
+  },
+  "links": []
+}

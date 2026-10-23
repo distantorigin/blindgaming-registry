@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "exapunks",
+  "status": "active",
+  "name": "EXAPUNKS",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/716490/EXAPUNKS/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with the linked mod.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "echopunks"
+  },
+  "releaseYear": "2018"
+}
