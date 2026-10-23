@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "world-of-warcraft",
+  "status": "active",
+  "name": "World of Warcraft",
+  "stores": [
+    {
+      "store": "battlenet",
+      "primary": true,
+      "url": "https://shop.battle.net/en-us/product/world-of-warcraft"
+    }
+  ],
+  "accessibility": {
+    "description": "Mostly accessible with the Blind Slash addon; sighted assistance is required in dungeons and end-game content.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "blind-slash"
+  },
+  "releaseYear": "2004"
+}

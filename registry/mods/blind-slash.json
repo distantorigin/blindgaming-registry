@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "blind-slash",
+  "status": "active",
+  "gameIds": [
+    "world-of-warcraft"
+  ],
+  "name": "Blind Slash",
+  "homeUrl": "https://www.curseforge.com/wow/addons/blindslash",
+  "links": []
+}
