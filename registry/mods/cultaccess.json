@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "cultaccess",
+  "status": "active",
+  "gameIds": [
+    "cult-of-the-lamb"
+  ],
+  "name": "CultAccess",
+  "homeUrl": "https://github.com/zersiax/cultaccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/zersiax/cultaccess"
+  },
+  "links": []
+}

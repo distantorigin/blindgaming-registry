@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "cult-of-the-lamb",
+  "status": "active",
+  "name": "Cult of the Lamb",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "cultaccess"
+  },
+  "releaseYear": "2022"
+}
