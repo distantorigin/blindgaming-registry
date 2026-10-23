@@ -8,6 +8,14 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/2238900/STAR_OCEAN_THE_SECOND_STORY_R/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/star_ocean_the_second_story_r"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/star-ocean-the-second-story-r"
     }
   ],
   "accessibility": {
