@@ -8,6 +8,10 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/1984270/Digimon_Story_Time_Stranger/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/digimon-story-time-stranger"
     }
   ],
   "accessibility": {
