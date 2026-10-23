@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "xcom-2",
+  "status": "active",
+  "name": "XCOM 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/268500/XCOM_2/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessibility support via the linked mod is a work in progress and under active development; coverage has not been established.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "x2access"
+  },
+  "releaseYear": "2016"
+}

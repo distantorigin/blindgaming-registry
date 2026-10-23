@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "x2access",
+  "status": "active",
+  "gameIds": [
+    "xcom-2"
+  ],
+  "name": "X2access",
+  "homeUrl": "https://git.alex19ep.me/alex19EP/xcom2access",
+  "links": []
+}
