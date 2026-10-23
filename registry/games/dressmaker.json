@@ -8,6 +8,10 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/4019220/Dressmaker/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/dressmaker"
     }
   ],
   "accessibility": {
