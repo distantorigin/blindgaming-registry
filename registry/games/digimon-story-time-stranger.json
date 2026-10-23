@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "digimon-story-time-stranger",
+  "status": "active",
+  "name": "Digimon Story Time Stranger",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1984270/Digimon_Story_Time_Stranger/"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with the linked mod. A controller is required.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "dsts-accessibility-mod"
+  },
+  "releaseYear": "2025"
+}
