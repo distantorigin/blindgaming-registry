@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "jerian-access",
+  "status": "active",
+  "gameIds": [
+    "the-life-and-suffering-of-prince-jerian"
+  ],
+  "name": "Jerian Access",
+  "homeUrl": "https://github.com/blindadventurer/jerian-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/blindadventurer/jerian-access"
+  },
+  "links": []
+}
