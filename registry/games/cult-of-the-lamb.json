@@ -8,6 +8,14 @@
       "store": "steam",
       "primary": true,
       "url": "https://store.steampowered.com/app/1313140/Cult_of_the_Lamb/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/cult_of_the_lamb"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/cult-of-the-lamb"
     }
   ],
   "accessibility": {
