@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "flamecraft",
+  "status": "active",
+  "name": "Flamecraft",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3201730/Flamecraft/"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/flamecraft"
+    }
+  ],
+  "accessibility": {
+    "description": "Rubber Magpie provides blind accessibility through the Wyrmy Words mod. The mod is available through paid early access on Ko-fi, with a free release planned for October 31, 2026.",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Rubber Magpie accessibility mods and release information",
+      "url": "https://rubbermagpie.com/"
+    }
+  ],
+  "releaseYear": "2026"
+}
