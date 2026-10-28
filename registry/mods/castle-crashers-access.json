@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "castle-crashers-access",
+  "status": "active",
+  "gameIds": [
+    "castle-crashers"
+  ],
+  "name": "Castle Crashers Access",
+  "framework": "Prism screen reader integration",
+  "homeUrl": "https://github.com/BlindChallengerX/CastleCrashers-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/BlindChallengerX/CastleCrashers-Access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60709/castle-crashers-access-070-a-mod-for-the-steam-version/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/BlindChallengerX/CastleCrashers-Access/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}

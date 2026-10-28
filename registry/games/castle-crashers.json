@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "castle-crashers",
+  "status": "active",
+  "name": "Castle Crashers",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/204360/Castle_Crashers/"
+    }
+  ],
+  "accessibility": {
+    "description": "Castle Crashers Access adds speech for menus, character selection, the world map, shops, equipment, and level results. Enemy radar, boss health and attack announcements, terrain sounds, and a walking guide assist navigation and combat. It supports the Steam version on Windows, keyboard and controller input, and screen readers through Prism, with Windows speech as a fallback. This is a test build: the author reports playing through the Cyclops' Fortress, with later levels not yet checked.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "castle-crashers-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60709/castle-crashers-access-070-a-mod-for-the-steam-version/"
+    },
+    {
+      "name": "Castle Crashers Access documentation",
+      "url": "https://github.com/BlindChallengerX/CastleCrashers-Access"
+    }
+  ],
+  "releaseYear": "2012"
+}
