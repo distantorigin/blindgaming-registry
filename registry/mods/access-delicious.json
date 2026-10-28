@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "access-delicious",
+  "status": "active",
+  "gameIds": [
+    "cook-serve-delicious-3"
+  ],
+  "name": "Access Delicious",
+  "homeUrl": "https://rubbermagpie.com/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Rubber Magpie Discord",
+      "url": "https://discord.gg/KetsYpknet",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Free Ko-fi download",
+      "url": "https://ko-fi.com/s/2fe74e40f5",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Support Rubber Magpie on Ko-fi",
+      "url": "https://ko-fi.com/rubbermagpie",
+      "requiresPayment": false
+    }
+  ]
+}

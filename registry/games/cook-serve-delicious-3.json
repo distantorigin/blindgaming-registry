@@ -20,9 +20,11 @@
   ],
   "accessibility": {
     "description": "Rubber Magpie provides blind accessibility through the Access Delicious mod, available as a free download on Ko-fi. Compatibility with the GOG version has not been confirmed.",
+    "accessVia": "mod",
     "tags": [
       "blind"
-    ]
+    ],
+    "primaryModId": "access-delicious"
   },
   "resources": [
     {
