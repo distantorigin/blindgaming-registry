@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "cook-serve-delicious-3",
+  "status": "active",
+  "name": "Cook, Serve, Delicious! 3?!",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1000030/Cook_Serve_Delicious_3/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/cook_serve_delicious_3"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/cook-serve-delicious-3"
+    }
+  ],
+  "accessibility": {
+    "description": "Rubber Magpie provides blind accessibility through the Access Delicious mod, available as a free download on Ko-fi. Compatibility with the GOG version has not been confirmed.",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Rubber Magpie accessibility mods and release information",
+      "url": "https://rubbermagpie.com/"
+    },
+    {
+      "name": "How to download Access Delicious from Ko-fi",
+      "url": "https://rubbermagpie.com/ko-fi-guide/"
+    }
+  ],
+  "releaseYear": "2020"
+}
