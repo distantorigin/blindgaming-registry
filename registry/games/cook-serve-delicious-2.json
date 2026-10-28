@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "cook-serve-delicious-2",
+  "status": "active",
+  "name": "Cook, Serve, Delicious! 2!!",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/386620/Cook_Serve_Delicious_2/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/game/cook_serve_delicious_2"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/cook-serve-delicious-2"
+    }
+  ],
+  "accessibility": {
+    "description": "Rubber Magpie provides blind accessibility through the Access Delicious 2 mod. The mod is available through paid early access on Ko-fi, with a free release planned for November 9, 2026. Compatibility with the GOG version has not been confirmed.",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Rubber Magpie accessibility mods and release information",
+      "url": "https://rubbermagpie.com/"
+    }
+  ],
+  "releaseYear": "2017"
+}
