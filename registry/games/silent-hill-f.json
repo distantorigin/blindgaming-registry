@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "silent-hill-f",
+  "status": "active",
+  "name": "SILENT HILL f",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2947440/SILENT_HILL_f/"
+    }
+  ],
+  "accessibility": {
+    "description": "Uragirimono adds NVDA speech for menus, inventory, documents, and objectives, with object scanning, direction and distance reports, spatial navigation audio, automatic walking, and combat cues. It supports keyboard and controller input on Windows and requires a compatible UE4SS development runtime, included in the bundled download. This public test has not been verified throughout the game: some puzzles remain unverified, navigation assistance can fail, and fall hazards lack comprehensive warnings. Remote pickups and progression bypasses can disrupt saves or progression, and bypassed sequences may not award achievements. Subtitle access requires Show Subtitles and Show Speaker to be enabled.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "uragirimono"
+  },
+  "resources": [
+    {
+      "name": "Basic navigation showcase (audio)",
+      "url": "https://drive.google.com/file/d/12Ia2PImp5IeEF9VXt98AZEq0-EgSwlk4/view"
+    },
+    {
+      "name": "Uragirimono installation and accessibility documentation",
+      "url": "https://on1xn.github.io/arozv/shf/uragirimono/"
+    }
+  ],
+  "releaseYear": "2025"
+}

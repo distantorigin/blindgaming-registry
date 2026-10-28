@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "uragirimono",
+  "status": "active",
+  "gameIds": [
+    "silent-hill-f"
+  ],
+  "name": "Uragirimono Project",
+  "framework": "UE4SS development runtime",
+  "homeUrl": "https://on1xn.github.io/arozv/shf/uragirimono/",
+  "links": [
+    {
+      "kind": "download",
+      "label": "Uragirimono downloads (Google Drive)",
+      "url": "https://drive.google.com/drive/folders/1H9rlDb49S9YgLbquQcQ_bnhLvRtxqTTA",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "ON1XN on Patreon",
+      "url": "https://www.patreon.com/on1xn/",
+      "requiresPayment": false
+    }
+  ]
+}
