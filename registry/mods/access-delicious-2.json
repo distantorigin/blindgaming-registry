@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "access-delicious-2",
+  "status": "active",
+  "gameIds": [
+    "cook-serve-delicious-2"
+  ],
+  "name": "Access Delicious 2",
+  "homeUrl": "https://rubbermagpie.com/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Rubber Magpie Discord",
+      "url": "https://discord.gg/KetsYpknet",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Ko-fi early access; free release planned for November 9, 2026",
+      "url": "https://ko-fi.com/s/caf789d009",
+      "requiresPayment": true
+    },
+    {
+      "kind": "funding",
+      "label": "Support Rubber Magpie on Ko-fi",
+      "url": "https://ko-fi.com/rubbermagpie",
+      "requiresPayment": false
+    }
+  ]
+}

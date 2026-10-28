@@ -20,9 +20,11 @@
   ],
   "accessibility": {
     "description": "Rubber Magpie provides blind accessibility through the Access Delicious 2 mod. The mod is available through paid early access on Ko-fi, with a free release planned for November 9, 2026. Compatibility with the GOG version has not been confirmed.",
+    "accessVia": "mod",
     "tags": [
       "blind"
-    ]
+    ],
+    "primaryModId": "access-delicious-2"
   },
   "resources": [
     {
