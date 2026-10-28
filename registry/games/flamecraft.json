@@ -16,9 +16,11 @@
   ],
   "accessibility": {
     "description": "Rubber Magpie provides blind accessibility through the Wyrmy Words mod. The mod is available through paid early access on Ko-fi, with a free release planned for October 31, 2026.",
+    "accessVia": "mod",
     "tags": [
       "blind"
-    ]
+    ],
+    "primaryModId": "wyrmy-words"
   },
   "resources": [
     {

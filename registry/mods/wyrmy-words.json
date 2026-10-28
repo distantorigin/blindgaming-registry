@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wyrmy-words",
+  "status": "active",
+  "gameIds": [
+    "flamecraft"
+  ],
+  "name": "Wyrmy Words",
+  "homeUrl": "https://rubbermagpie.com/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Rubber Magpie Discord",
+      "url": "https://discord.gg/KetsYpknet",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Ko-fi early access; free release planned for October 31, 2026",
+      "url": "https://ko-fi.com/s/94d1ce644e",
+      "requiresPayment": true
+    },
+    {
+      "kind": "funding",
+      "label": "Support Rubber Magpie on Ko-fi",
+      "url": "https://ko-fi.com/rubbermagpie",
+      "requiresPayment": false
+    }
+  ]
+}
