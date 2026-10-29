@@ -204,7 +204,7 @@ Resources are named links to supporting information:
 ]
 ```
 
-Use the name to say where the link goes. There is no `kind` field.
+Use the name to say where the link goes.
 
 ### Example game
 
