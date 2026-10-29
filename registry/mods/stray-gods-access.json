@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "stray-gods-access",
+  "status": "active",
+  "gameIds": [
+    "stray-gods"
+  ],
+  "name": "Stray Gods Access",
+  "homeUrl": "https://forum.audiogames.net/topic/60570/access-mod-for-stray-gods-the-roleplaying-musical-v023/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60570/access-mod-for-stray-gods-the-roleplaying-musical-v023/",
+      "requiresPayment": false
+    }
+  ]
+}

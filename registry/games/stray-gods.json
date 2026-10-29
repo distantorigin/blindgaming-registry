@@ -23,7 +23,7 @@
     }
   ],
   "accessibility": {
-    "description": "Partially accessible. Includes audio description and accessible gameplay, but no menu narration.",
+    "description": "Partially accessible. Includes audio description and accessible gameplay, but no menu narration. On PC, the Stray Gods Access mod (alpha) adds screen reader support.",
     "tags": [
       "audio-description",
       "blind"
@@ -33,6 +33,10 @@
     {
       "name": "AudioGames.net forum thread",
       "url": "https://forum.audiogames.net/topic/48995/"
+    },
+    {
+      "name": "Stray Gods Access forum thread",
+      "url": "https://forum.audiogames.net/topic/60570/access-mod-for-stray-gods-the-roleplaying-musical-v023/"
     }
   ],
   "releaseYear": "2023"
