@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "among-us-access",
+  "status": "active",
+  "gameIds": [
+    "among-us"
+  ],
+  "name": "Among Us Access",
+  "framework": "BepInEx (C#)",
+  "homeUrl": "https://github.com/liliancoghlan1-tech/among-us-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/liliancoghlan1-tech/among-us-access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Mod downloads and release notes",
+      "url": "https://github.com/liliancoghlan1-tech/among-us-access/releases",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Buy Me a Coffee",
+      "url": "https://buymeacoffee.com/liliancogha",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/Lily4080",
+      "requiresPayment": false
+    }
+  ]
+}

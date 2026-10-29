@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "among-us",
+  "status": "active",
+  "name": "Among Us",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/945360/"
+    },
+    {
+      "store": "humble",
+      "primary": false,
+      "url": "https://www.humblebundle.com/store/among-us"
+    }
+  ],
+  "accessibility": {
+    "description": "Among Us Access speaks menus, the lobby, roles, meetings, voting, sabotages and the end-of-game screen through NVDA or SAPI, and adds turn-by-turn navigation, impostor tools and a friends menu. Every task and sabotage on The Skeld is playable by ear; other maps are not fully covered. Tested on the Windows Steam version; version 1.3.1 or later is required since the game went 64-bit.",
+    "coverage": "mostly",
+    "confidence": "verified",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "among-us-access"
+  },
+  "resources": [
+    {
+      "name": "Installation, keys and features",
+      "url": "https://github.com/liliancoghlan1-tech/among-us-access"
+    }
+  ],
+  "releaseYear": "2018"
+}
