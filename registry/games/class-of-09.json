@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "class-of-09",
+  "status": "active",
+  "name": "Class of '09",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1443200/Class_of_09/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/class_of_09"
+    }
+  ],
+  "accessibility": {
+    "description": "Class of '09 Access adds NVDA speech for menus and dialogue choices, plus arrow-key navigation for the main menu on Windows. Story dialogue uses the game's existing voice acting, avoiding the built-in self-voicing issue that skips spoken lines. NVDA must be running. The author reports that some menus remain tricky to navigate; Steam and GOG build compatibility has not been independently verified.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "class-of-09-access"
+  },
+  "resources": [
+    {
+      "name": "Accessibility mod features and known limitations",
+      "url": "https://github.com/liliancoghlan1-tech/class-of-09-access-"
+    },
+    {
+      "name": "Accessibility mod installation notes (source file header)",
+      "url": "https://github.com/liliancoghlan1-tech/class-of-09-access-/blob/main/accessibility_nvda.rpy"
+    }
+  ],
+  "releaseYear": "2021"
+}

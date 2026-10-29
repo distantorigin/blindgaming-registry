@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "class-of-09-access",
+  "status": "active",
+  "gameIds": [
+    "class-of-09"
+  ],
+  "name": "Class of '09 Access",
+  "framework": "Ren'Py (Python) with NVDA Controller Client",
+  "homeUrl": "https://github.com/liliancoghlan1-tech/class-of-09-access-",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/liliancoghlan1-tech/class-of-09-access-"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Mod files (ZIP)",
+      "url": "https://github.com/liliancoghlan1-tech/class-of-09-access-/archive/refs/heads/main.zip",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Buy Me a Coffee",
+      "url": "https://buymeacoffee.com/liliancogha",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/Lily4080",
+      "requiresPayment": false
+    }
+  ]
+}
