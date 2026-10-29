@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "dicey-dungeons-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "dicey-dungeons"
+  ],
+  "name": "Dicey Dungeons accessibility mod",
+  "homeUrl": "https://www.patreon.com/oriolgomez/posts/dicey-dungeons-172404578",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60629/dicey-dungeons-mod-is-now-available-for-everyone/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Patreon download",
+      "url": "https://www.patreon.com/oriolgomez/posts/dicey-dungeons-172404578",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/oriolgomez",
+      "requiresPayment": false
+    }
+  ]
+}

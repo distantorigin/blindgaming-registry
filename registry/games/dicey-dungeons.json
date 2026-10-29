@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "dicey-dungeons",
+  "status": "active",
+  "name": "Dicey Dungeons",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/861540/Dicey_Dungeons/"
+    }
+  ],
+  "accessibility": {
+    "description": "Accessible with the Dicey Dungeons accessibility mod by Oriol Gómez, which is now freely available. Details on features and limitations are in the forum thread.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "dicey-dungeons-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60629/dicey-dungeons-mod-is-now-available-for-everyone/"
+    }
+  ],
+  "releaseYear": "2019"
+}
