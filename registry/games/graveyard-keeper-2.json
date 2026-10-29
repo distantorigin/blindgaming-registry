@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "id": "graveyard-keeper-2",
+  "status": "active",
+  "name": "Graveyard Keeper 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/4358690/"
+    },
+    {
+      "store": "gog",
+      "primary": false,
+      "url": "https://www.gog.com/en/game/graveyard_keeper_2"
+    },
+    {
+      "store": "humble",
+      "primary": false,
+      "url": "https://www.humblebundle.com/store/graveyard-keeper-2"
+    }
+  ],
+  "accessibility": {
+    "description": "The Graveyard Keeper II Accessibility mod narrates menus, dialogue, cutscene text, surroundings, crafting, building, trading, the graveyard and the morgue through a screen reader or Windows SAPI, and can auto-walk to objects and objectives. This is an early release tested only with the Windows Steam version: only the first squad fight has been played, bow aiming is not supported, the cellar factory is untested, auto-walk sometimes fails to find a route, and the character window map is not read.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "graveyard-keeper-2-accessibility"
+  },
+  "resources": [
+    {
+      "name": "Installation, keys and known limitations",
+      "url": "https://github.com/Svenja001/Graveyard-Keeper-II-Access"
+    }
+  ],
+  "releaseYear": "2026"
+}
