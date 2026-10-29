@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "path-of-adventure-2",
+  "status": "active",
+  "name": "Path of Adventure 2",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/path-of-adventure-2/id6820575433"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.alineagames.pathofadventure2"
+    }
+  ],
+  "accessibility": {
+    "description": "Fully accessible with screen readers on iOS and Android.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "releaseYear": "2026"
+}
