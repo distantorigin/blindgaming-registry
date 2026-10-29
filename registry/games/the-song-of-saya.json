@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "the-song-of-saya",
+  "status": "active",
+  "name": "The Song of Saya",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/702050/The_Song_of_Saya/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/the_song_of_saya_directors_cut"
+    }
+  ],
+  "accessibility": {
+    "description": "Nekogui reads dialogue and supported interface text through Prism, announces choices, and adds keyboard menu navigation, with a launcher offering English and Japanese mod languages. The Load menu is rough, loading a specific save slot during play is not fully supported, and late-game choices have not been fully verified; the author advises saving often because random crashes may occur. The GOG Director's Cut works as is, while the Steam version needs the separate 18+ uncensored DLC from JAST Store.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "nekogui"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60752/saya-no-uta-love-is-blind-and-thats-a-beautiful-thing/"
+    },
+    {
+      "name": "Nekogui documentation",
+      "url": "https://on1xn.github.io/arozv/snu/nekogui/"
+    }
+  ],
+  "releaseYear": "2019"
+}

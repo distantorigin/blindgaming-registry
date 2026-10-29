@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "nekogui",
+  "status": "active",
+  "gameIds": [
+    "the-song-of-saya"
+  ],
+  "name": "Nekogui",
+  "framework": "Windows launcher (Prism)",
+  "homeUrl": "https://on1xn.github.io/arozv/snu/nekogui/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60752/saya-no-uta-love-is-blind-and-thats-a-beautiful-thing/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Nekogui downloads (Google Drive)",
+      "url": "https://drive.google.com/drive/folders/1ZO8Sz9uNVuahhSDGBzxQ43imRWW-x_Ro",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/on1xn",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "ON1XN on Patreon",
+      "url": "https://www.patreon.com/on1xn/",
+      "requiresPayment": false
+    }
+  ]
+}
