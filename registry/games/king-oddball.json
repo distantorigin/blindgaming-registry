@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "king-oddball",
+  "status": "active",
+  "name": "King Oddball",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/525450/King_Oddball/"
+    }
+  ],
+  "accessibility": {
+    "description": "King Oddball Access Mod speaks menus and on-screen text, announces the world map, and lists remaining enemies. A line-up tone rises in pitch and pans toward an enemy as the swinging rock aims at it, though it reflects only the current aim and does not predict where the rock will land. It supports the Steam version on Windows, keyboard and Xbox controller input, and JAWS, NVDA, or Windows SAPI speech.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "king-oddball-access-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60767/king-oddball-accessibility-mod/"
+    },
+    {
+      "name": "King Oddball Access Mod documentation",
+      "url": "https://github.com/musicman1300/KingOddball-AccessMod"
+    }
+  ],
+  "releaseYear": "2016"
+}

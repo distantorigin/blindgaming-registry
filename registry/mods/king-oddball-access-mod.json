@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "king-oddball-access-mod",
+  "status": "active",
+  "gameIds": [
+    "king-oddball"
+  ],
+  "name": "King Oddball Access Mod",
+  "framework": "Windows DLL (winmm.dll proxy)",
+  "homeUrl": "https://github.com/musicman1300/KingOddball-AccessMod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/musicman1300/KingOddball-AccessMod"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60767/king-oddball-accessibility-mod/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/musicman1300/KingOddball-AccessMod/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}
