@@ -22,10 +22,14 @@ import sys
 import tempfile
 from pathlib import Path
 
-_BLOCK = re.compile(
-    r"###\s*(?P<label>(?:Companion\s+)?(?:(?:Game|Mod)\s+record|Record) JSON)"
-    r"\s*\n+```(?:json)?\s*\n(?P<body>.*?)\n```",
-    re.I | re.S)
+_SECTION = re.compile(
+    r"^ {0,3}###[ \t]+(?P<label>(?:Companion[ \t]+)?"
+    r"(?:(?:Game|Mod)[ \t]+record|Record)[ \t]+JSON)[ \t]*\n"
+    r"(?P<body>.*?)(?=^ {0,3}#{1,6}[ \t]+|\Z)",
+    re.I | re.M | re.S)
+_FENCE = re.compile(
+    r"^ {0,3}(?P<fence>`{3,}|~{3,})[ \t]*(?:json)?[ \t]*$",
+    re.I | re.M)
 
 # Matches the schemas' registryId pattern. Checked before the id is used to
 # build a filesystem path, so it cannot contain a path separator or a
@@ -37,12 +41,30 @@ def _record_kind(record: dict) -> str:
     return "mods" if "gameIds" in record else "games"
 
 
+def _record_json(section: str, label: str) -> str | None:
+    opening = _FENCE.search(section)
+    if opening is None:
+        return None
+    fence = opening.group("fence")
+    closing_pattern = re.compile(
+        rf"^ {{0,3}}{re.escape(fence[0])}{{{len(fence)},}}[ \t]*$",
+        re.M)
+    closing = closing_pattern.search(section, opening.end() + 1)
+    if closing is None:
+        print(f"The {label} block is missing its closing code fence.")
+        raise SystemExit(1)
+    # Do not consume newlines as fence whitespace: an empty block must not
+    # absorb its closing fence or the next section's companion record.
+    return section[opening.end() + 1:closing.start()]
+
+
 def _extract_records(body: str) -> list[tuple[str, dict]]:
     records = []
-    for match in _BLOCK.finditer(body):
+    body = body.replace("\r\n", "\n").replace("\r", "\n")
+    for match in _SECTION.finditer(body):
         label = " ".join(match.group("label").split())
-        raw = match.group("body")
-        if not raw.strip():
+        raw = _record_json(match.group("body"), label)
+        if raw is None or not raw.strip():
             continue
         try:
             record = json.loads(raw)

@@ -3,6 +3,8 @@ import json
 import subprocess
 from pathlib import Path
 
+import pytest
+
 
 ROOT = Path(__file__).parents[2]
 SCRIPT = ROOT / ".github" / "scripts" / "extract_record.py"
@@ -59,6 +61,98 @@ def test_extracts_primary_and_companion_record_blocks():
     ))
 
     assert records == [("games", GAME), ("mods", MOD)]
+
+
+@pytest.mark.parametrize("whitespace", ["", "\n", "\n\n", " \n\t\n"])
+def test_empty_primary_block_does_not_swallow_companion(whitespace):
+    script = _load_script()
+    body = (
+        f"### Game record JSON\n\n```json\n{whitespace}\n```\n\n"
+        + _body(("Companion mod record JSON", MOD))
+    )
+
+    assert script._extract_records(body) == [("mods", MOD)]
+
+
+@pytest.mark.parametrize("fence", ["```", "````", "~~~", "~~~~"])
+@pytest.mark.parametrize("newline", ["\n", "\r\n"])
+def test_extracts_standard_fences_with_blank_lines(fence, newline):
+    script = _load_script()
+    body = (
+        f"### Game record JSON\n\n{fence}json\n\n"
+        f"{json.dumps(GAME)}\n\n{fence}  \n"
+    ).replace("\n", newline)
+
+    assert script._extract_records(body) == [("games", GAME)]
+
+
+@pytest.mark.parametrize("indent", [" ", "  ", "   "])
+def test_extracts_records_under_indented_markdown_headings(indent):
+    script = _load_script()
+    body = indent + _body(("Game record JSON", GAME))
+
+    assert script._extract_records(body) == [("games", GAME)]
+
+
+@pytest.mark.parametrize("indent", [" ", "  ", "   "])
+def test_indented_notes_heading_terminates_record_section(indent, capsys):
+    script = _load_script()
+    body = (
+        f"### Game record JSON\n\n```json\n{json.dumps(GAME)}\n\n"
+        f"{indent}### Supporting links or notes\n\n```json\n{{}}\n```\n"
+    )
+
+    with pytest.raises(SystemExit) as error:
+        script._extract_records(body)
+
+    assert error.value.code == 1
+    assert "missing its closing code fence" in capsys.readouterr().out
+
+
+@pytest.mark.parametrize("following", [
+    "",
+    "\n### Supporting links or notes\n\n```json\n{}\n```\n",
+    "\n```not-a-closing-fence\n",
+    "\n``\n",
+    "\n~~~\n",
+])
+def test_unclosed_record_fence_fails_in_its_own_section(following, capsys):
+    script = _load_script()
+    body = f"### Game record JSON\n\n```json\n{json.dumps(GAME)}\n{following}"
+
+    with pytest.raises(SystemExit) as error:
+        script._extract_records(body)
+
+    assert error.value.code == 1
+    diagnostic = capsys.readouterr().out
+    assert "Game record JSON" in diagnostic
+    assert "missing its closing code fence" in diagnostic
+
+
+def test_prose_and_unrelated_json_blocks_are_left_for_curator():
+    script = _load_script()
+    body = (
+        "### Game record JSON\n\n_No response_\n\n"
+        "### Supporting links or notes\n\n```json\n{}\n```\n"
+    )
+
+    assert script._extract_records(body) == []
+
+
+@pytest.mark.parametrize("raw", [
+    '{"id": "test-game",}',
+    '[]',
+    '{"id": "../test-game"}',
+    '{"id": 3}',
+])
+def test_invalid_records_are_rejected(raw):
+    script = _load_script()
+    body = f"### Game record JSON\n\n```json\n{raw}\n```"
+
+    with pytest.raises(SystemExit) as error:
+        script._extract_records(body)
+
+    assert error.value.code == 1
 
 
 def test_issue_submission_stages_every_record_before_validation(
