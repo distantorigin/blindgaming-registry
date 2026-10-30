@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "eliza",
+  "status": "active",
+  "name": "Eliza",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/716500/Eliza/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/eliza"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/eliza"
+    }
+  ],
+  "accessibility": {
+    "description": "The Eliza Access mod reads dialogue, menus, the phone and its apps, Eliza therapy sessions, the minigames including solitaire, and end screens through a screen reader or Windows speech, with braille output. It describes the backgrounds and characters in each scene and announces location changes and character arrivals. It can be played with a keyboard or a controller, and the mod is translated into all of the game's languages. The installer is made for the Windows Steam version.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "eliza-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60779/elizaaccess-accessibility-mod-for-eliza-by-zachtronics/"
+    },
+    {
+      "name": "Accessibility mod installation, keys and settings",
+      "url": "https://github.com/shaysters/Eliza-Access"
+    }
+  ],
+  "releaseYear": "2019"
+}

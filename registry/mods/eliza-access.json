@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "eliza-access",
+  "status": "active",
+  "gameIds": [
+    "eliza"
+  ],
+  "name": "Eliza Access",
+  "framework": "Harmony (C#)",
+  "homeUrl": "https://github.com/shaysters/Eliza-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/shaysters/Eliza-Access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Discord",
+      "url": "https://discord.gg/KNDXhztGGK",
+      "requiresPayment": false
+    },
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60779/elizaaccess-accessibility-mod-for-eliza-by-zachtronics/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Mod installer and release notes",
+      "url": "https://github.com/shaysters/Eliza-Access/releases",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/shaysters",
+      "requiresPayment": false
+    }
+  ]
+}
