@@ -21,7 +21,7 @@
     }
   ],
   "accessibility": {
-    "description": "The Graveyard Keeper II Accessibility mod narrates menus, dialogue, cutscene text, surroundings, crafting, building, trading, the graveyard and the morgue through a screen reader or Windows SAPI, and can auto-walk to objects and objectives. This is an early release tested only with the Windows Steam version: only the first squad fight has been played, bow aiming is not supported, the cellar factory is untested, auto-walk sometimes fails to find a route, and the character window map is not read.",
+    "description": "The Graveyard Keeper II Accessibility mod narrates menus, dialogue, cutscene text, surroundings, crafting, building, trading, the graveyard and the morgue through a screen reader or Windows SAPI, and can auto-walk to objects and objectives. It is an early release tested only with the Windows Steam version: almost all squad fights have been played, but bow aiming is not supported, auto-walk sometimes finds no route across some bridges, doors and raised floors, and the character window map is not read. The Linked Storage and Storage Access mods conflict with it unless their NetworkMoveAll and ListNavigation settings are turned off.",
     "coverage": "partial",
     "confidence": "reported",
     "accessVia": "mod",
