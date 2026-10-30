@@ -100,6 +100,7 @@ _ROOT_FILES = frozenset(
 _SCHEMA_FILES = frozenset(
     {
         "schemas/v1/common.schema.json",
+        "schemas/v1/creator.schema.json",
         "schemas/v1/game.schema.json",
         "schemas/v1/mod.schema.json",
     }
