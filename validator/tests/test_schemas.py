@@ -461,3 +461,87 @@ def test_reserved_store_map_accepts_mobile_stores():
     game["archivedAt"] = "2026-08-16"
     game["archiveReason"] = "No longer maintained."
     assert validation_errors("game", game) == []
+
+
+def test_creator_schema_is_self_contained_and_accepts_the_complete_contract():
+    creator = {
+        "schemaVersion": 1, "id": "example-creator", "name": "Example Creator",
+        "aliases": ["ExampleHandle"],
+        "profiles": [{"platform": "youtube", "url": "https://www.youtube.com/@example", "name": "Main channel"}],
+    }
+    Draft202012Validator.check_schema(schema_for("creator", 1))
+    assert not validation_errors("creator", creator)
+
+
+@pytest.mark.parametrize("field,value", [
+    ("profiles", []), ("profiles", [{"platform": "unknown", "url": "https://example.com"}]),
+    ("profiles", [{"platform": "youtube", "url": "https://example.com", "extra": True}]),
+    ("aliases", [""]), ("aliases", ["same", "same"]), ("name", ""),
+    ("biography", "Research prose"), ("status", "active"), ("id", "Invalid Id"),
+])
+def test_creator_schema_rejects_invalid_shape_and_unknown_fields(field, value):
+    creator = {"schemaVersion": 1, "id": "creator", "name": "Creator",
+               "profiles": [{"platform": "website", "url": "https://example.com"}]}
+    creator[field] = value
+    assert validation_errors("creator", creator)
+
+
+@pytest.mark.parametrize("fields", [
+    ["creatorId"], ["creatorProfileUrl"], ["mediaType"],
+    ["creatorId", "creatorProfileUrl"], ["creatorId", "mediaType"],
+    ["creatorProfileUrl", "mediaType"],
+])
+def test_media_requires_complete_attribution(fields):
+    game = load_fixture("game", "example-game")
+    metadata = {"creatorId": "creator", "creatorProfileUrl": "https://example.com/profile", "mediaType": "video"}
+    game["media"] = [{"name": "Recording", "url": "https://example.com/video",
+                          **{field: metadata[field] for field in fields}}]
+    assert validation_errors("game", game)
+
+
+@pytest.mark.parametrize("media_type", ["video", "playlist", "audio", "highlight", "vod"])
+def test_media_formats_accept_complete_metadata_without_optional_context(media_type):
+    game = load_fixture("game", "example-game")
+    game["media"] = [{"name": "Recording", "url": "https://example.com/recording",
+                          "creatorId": "creator", "creatorProfileUrl": "https://example.com/profile",
+                          "mediaType": media_type}]
+    assert not validation_errors("game", game)
+
+
+@pytest.mark.parametrize("field", ["creatorId", "creatorProfileUrl", "mediaType", "startUrl", "note"])
+def test_plain_resources_reject_every_media_field(field):
+    game = load_fixture("game", "example-game")
+    metadata = {"creatorId": "creator", "creatorProfileUrl": "https://example.com/profile",
+                "mediaType": "video", "startUrl": "https://example.com/start", "note": "Context"}
+    game["resources"] = [{"name": "Resource", "url": "https://example.com/page", **metadata}]
+    assert validation_errors("game", game)
+    game["resources"] = [{"name": "Resource", "url": "https://example.com/page", field: metadata[field]}]
+    assert validation_errors("game", game)
+
+
+@pytest.mark.parametrize("count,valid", [(0, False), (1, True), (32, True), (33, False)])
+def test_media_list_limits(count, valid):
+    game = load_fixture("game", "example-game")
+    game["media"] = [{"name": f"Recording {index}", "url": f"https://example.com/{index}",
+                      "creatorId": "creator", "creatorProfileUrl": "https://example.com/profile",
+                      "mediaType": "audio"} for index in range(count)]
+    assert bool(validation_errors("game", game)) is (not valid)
+
+
+@pytest.mark.parametrize("field,value", [("name", "x" * 121), ("note", ""), ("note", "x" * 601),
+                                         ("unknown", True)])
+def test_media_schema_enforces_entry_limits_and_unknown_fields(field, value):
+    game = load_fixture("game", "example-game")
+    entry = {"name": "Recording", "url": "https://example.com/recording", "creatorId": "creator",
+             "creatorProfileUrl": "https://example.com/profile", "mediaType": "video"}
+    entry[field] = value
+    game["media"] = [entry]
+    assert validation_errors("game", game)
+
+
+def test_media_rejects_identical_entries():
+    game = load_fixture("game", "example-game")
+    entry = {"name": "Recording", "url": "https://example.com/recording", "creatorId": "creator",
+             "creatorProfileUrl": "https://example.com/profile", "mediaType": "video"}
+    game["media"] = [entry, dict(entry)]
+    assert validation_errors("game", game)

@@ -25,7 +25,7 @@ VALIDATOR_DEVELOPMENT_PATTERN = re.compile(
 def _documentation_examples() -> dict[str, dict[str, object]]:
     readme = (ROOT / "README.md").read_text(encoding="utf-8")
     pattern = re.compile(
-        r"<!-- registry-example: (game|mod) -->\n```json\n(.*?)\n```",
+        r"<!-- registry-example: (game|mod|creator) -->\n```json\n(.*?)\n```",
         flags=re.DOTALL,
     )
     examples: dict[str, dict[str, object]] = {}
@@ -39,7 +39,7 @@ def _documentation_examples() -> dict[str, dict[str, object]]:
 
 def test_documentation_json_examples_are_complete_canonical_registry_snapshot(tmp_path):
     examples = _documentation_examples()
-    assert set(examples) == {"game", "mod"}
+    assert set(examples) == {"game", "mod", "creator"}
 
     for kind, record in examples.items():
         identifier = record["id"]

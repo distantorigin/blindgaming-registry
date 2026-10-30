@@ -6,7 +6,7 @@
 ![Schema](https://img.shields.io/badge/schema-v1-555555)
 
 The public data registry for [Blind Gaming Database](https://blindgaming.net).
-It contains game and accessibility mod records, guides, JSON schemas, and a validator.
+It contains game, accessibility mod, and creator records, guides, JSON schemas, and a validator.
 
 A game is represented by one file in [registry/games](registry/games). An accessibility mod is
 one file in [registry/mods](registry/mods). The website imports updates from this repository.
@@ -28,8 +28,9 @@ cd blindgaming-registry
 uv sync --locked --extra test
 ```
 
-Save game records in `registry/games`, mod records in `registry/mods`, and
-Markdown guides in `registry/guides`. You can create or edit these files by hand.
+Save game records in `registry/games`, mod records in `registry/mods`, creator
+records in `registry/creators`, and Markdown guides in `registry/guides`.
+You can create or edit these files by hand.
 
 Include the records needed to explain how the game is accessible:
 
@@ -78,7 +79,9 @@ registry/games/example-game.json -> "id": "example-game"
 registry/mods/example-accessibility-mod.json -> "id": "example-accessibility-mod"
 ```
 
-Do not delete a published record to fix or remove it. Archive it instead.
+Do not delete a published game or mod record to fix or remove it. Archive it
+instead. To remove a creator, first remove its media references from active and
+archived games.
 
 ## Record format
 
@@ -98,6 +101,7 @@ Required fields:
 Optional fields you will see often:
 
 - `resources`: links about the game or its accessibility
+- `media`: recordings with creator attribution and optional context
 - `releaseYear`: four-digit year
 
 ### Store links
@@ -204,7 +208,32 @@ Resources are named links to supporting information:
 ]
 ```
 
-Use the name to say where the link goes.
+Use the name to say where the link goes. Resources accept only `name` and `url`.
+
+### Media
+
+Put recordings in the game's optional `media` array. When present, it contains
+1 to 32 entries. Each requires `name`, `url`, `creatorId`,
+`creatorProfileUrl`, and `mediaType`. Names contain at most 120 characters.
+`creatorId` references a creator record; `creatorProfileUrl` must exactly match
+one of that creator's profile URLs. Formats are `video`, `playlist`, `audio`,
+`highlight`, and `vod`. Use `vod` for an archived stream on any platform.
+`startUrl` optionally links to a selected episode or starting point. `note` is
+optional public context (1 to 600 characters), such as sighted assistance or an
+older mod version. Unknown fields are rejected. References are checked on active
+and archived games.
+
+Each exact URL must be unique across a game's resources and media. The same URL
+may appear on different games, with each game owning its start link and note.
+
+Recording URLs and start links use the ordinary HTTPS policy with a narrow
+YouTube exception: `https://www.youtube.com/watch?v=<id>` and
+`https://www.youtube.com/playlist?list=<id>`. A start link may also use
+`https://www.youtube.com/watch?v=<id>&t=<seconds>`. IDs contain 1 to 128 ASCII
+letters, digits, underscores, or hyphens; seconds are a nonnegative integer
+without leading zeros. Parameter order is fixed. Extra parameters, encoded
+parameter names, fragments, and timestamps on primary URLs are rejected.
+Ordinary resource URLs and creator profile URLs keep the existing URL policy.
 
 ### Example game
 
@@ -239,9 +268,57 @@ Use the name to say where the link goes.
       "url": "https://example.com/example-game-accessibility"
     }
   ],
+  "media": [
+    {
+      "name": "Example playthrough",
+      "url": "https://www.youtube.com/playlist?list=PLExamplePlaylist",
+      "creatorId": "example-creator",
+      "creatorProfileUrl": "https://www.youtube.com/@example",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=first",
+      "note": "Historical release; controls may differ."
+    }
+  ],
   "releaseYear": "2026"
 }
 ```
+
+### Creator records
+
+Creator files live in `registry/creators/<id>.json`. Each record requires
+`schemaVersion`, `id`, `name`, and at least one profile. Profiles require a
+`platform` (`youtube`, `twitch`, `audiopub`, or `website`) and a public HTTPS
+`url`. Profile URLs must be unique within the creator record. An optional
+profile `name` distinguishes channels; otherwise the creator name is used.
+When a platform repeats, every profile on that platform needs a name that is
+distinct after whitespace normalization and case folding.
+
+Use the creator's public channel branding for `name`. Optional `aliases` are
+self-published handles useful for recognition. Do not copy inferred personal
+identities, research notes, or biographies into public names or aliases.
+Creators can be listed before any game recordings are published.
+
+<!-- registry-example: creator -->
+```json
+{
+  "schemaVersion": 1,
+  "id": "example-creator",
+  "name": "Example Creator",
+  "aliases": [
+    "ExampleHandle"
+  ],
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@example"
+    }
+  ]
+}
+```
+
+The formatter sorts aliases by text and profiles by platform, then URL.
+Creator files are included in the snapshot digest. Snapshots without creator
+files keep their previous digest.
 
 ### Mod records
 

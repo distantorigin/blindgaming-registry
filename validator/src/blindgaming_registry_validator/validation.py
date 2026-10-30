@@ -19,6 +19,7 @@ from .loading import (
     reject_duplicate_pairs,
 )
 from .models import (
+    CreatorRecord,
     Diagnostic,
     GameRecord,
     GuideRecord,
@@ -30,6 +31,7 @@ from .models import (
 from .policy import (
     STORE_PLATFORM,
     classify_store_url,
+    media_url_policy_error,
     release_source_url_error,
     text_policy_error,
     url_policy_error,
@@ -137,6 +139,7 @@ def _validate_game(game: GameRecord) -> list[Diagnostic]:
             (f"/resources/{index}/name", resource.name)
             for index, resource in enumerate(game.resources)
         ],
+        *[(f"/media/{index}/name", media.name) for index, media in enumerate(game.media)],
     ]
     if game.accessibility.description is not None:
         text_values.append(
@@ -152,12 +155,30 @@ def _validate_game(game: GameRecord) -> list[Diagnostic]:
         error = wiki_rating_url_error(game.accessibility.wiki_rating_url)
         if error is not None:
             diagnostics.append(_diagnostic(path, "/accessibility/wikiRatingUrl", error))
-    for index, resource in enumerate(game.resources):
-        error = url_policy_error(resource.url)
+    seen_urls: set[str] = set()
+    for collection, entries in (("resources", game.resources), ("media", game.media)):
+        for index, entry in enumerate(entries):
+            pointer = f"/{collection}/{index}"
+            if entry.url in seen_urls:
+                diagnostics.append(_diagnostic(path, f"{pointer}/url", "duplicate resource or media URL"))
+            seen_urls.add(entry.url)
+            policy = media_url_policy_error if collection == "media" else url_policy_error
+            error = policy(entry.url)
+            if error is not None:
+                diagnostics.append(_diagnostic(path, f"{pointer}/url", error))
+    for index, media in enumerate(game.media):
+        pointer = f"/media/{index}"
+        error = url_policy_error(media.creator_profile_url)
         if error is not None:
-            diagnostics.append(
-                _diagnostic(path, f"/resources/{index}/url", error)
-            )
+            diagnostics.append(_diagnostic(path, f"{pointer}/creatorProfileUrl", error))
+        if media.start_url is not None:
+            error = media_url_policy_error(media.start_url, start=True)
+            if error is not None:
+                diagnostics.append(_diagnostic(path, f"{pointer}/startUrl", error))
+        if media.note is not None:
+            diagnostic = _text_diagnostic(path, f"{pointer}/note", media.note)
+            if diagnostic is not None:
+                diagnostics.append(diagnostic)
     archive_date_diagnostic = _archive_date_diagnostic(path, game.archived_at)
     if archive_date_diagnostic is not None:
         diagnostics.append(archive_date_diagnostic)
@@ -176,6 +197,45 @@ def _validate_game(game: GameRecord) -> list[Diagnostic]:
                     f"release year must be between 1950 and {maximum_year}",
                 )
             )
+    return diagnostics
+
+
+def _validate_creator(creator: CreatorRecord) -> list[Diagnostic]:
+    path = _path("creator", creator.id)
+    diagnostics: list[Diagnostic] = []
+    text_values = [("/name", creator.name)]
+    text_values.extend((f"/aliases/{index}", alias) for index, alias in enumerate(creator.aliases))
+    platform_counts: dict[str, int] = {}
+    for profile in creator.profiles:
+        platform_counts[profile.platform] = platform_counts.get(profile.platform, 0) + 1
+    seen_urls: set[str] = set()
+    seen_names: set[tuple[str, str]] = set()
+    for index, profile in enumerate(creator.profiles):
+        pointer = f"/profiles/{index}"
+        error = url_policy_error(profile.url)
+        if error is not None:
+            diagnostics.append(_diagnostic(path, f"{pointer}/url", error))
+        if profile.url in seen_urls:
+            diagnostics.append(_diagnostic(path, f"{pointer}/url", "duplicate creator profile URL"))
+        seen_urls.add(profile.url)
+        if profile.name is not None:
+            text_values.append((f"{pointer}/name", profile.name))
+        if platform_counts[profile.platform] > 1:
+            name = " ".join((profile.name or "").split()).casefold()
+            identity = (profile.platform, name)
+            if not name:
+                diagnostics.append(_diagnostic(
+                    path, f"{pointer}/name", "profiles on a repeated platform require a name",
+                ))
+            elif identity in seen_names:
+                diagnostics.append(_diagnostic(
+                    path, f"{pointer}/name", "profiles on a repeated platform require distinct names",
+                ))
+            seen_names.add(identity)
+    for pointer, value in text_values:
+        diagnostic = _text_diagnostic(path, pointer, value)
+        if diagnostic is not None:
+            diagnostics.append(diagnostic)
     return diagnostics
 
 
@@ -301,7 +361,7 @@ def _schema_diagnostics(snapshot: Snapshot) -> list[Diagnostic]:
     for path, contents in snapshot.files:
         if path.startswith("registry/guides/"):
             continue
-        kind = "game" if path.startswith("registry/games/") else "mod"
+        kind = Path(path).parts[1][:-1]
         record = json.loads(contents)
         for error in validator_for(kind, snapshot.schema_version).iter_errors(record):
             pointer = "".join(
@@ -649,6 +709,22 @@ def _semantic_diagnostics(
     diagnostics: list[Diagnostic] = []
     games_by_id = {game.id: game for game in snapshot.games}
     mods_by_id = {mod.id: mod for mod in snapshot.mods}
+    creators_by_id = {creator.id: creator for creator in snapshot.creators}
+    for game in snapshot.games:
+        for index, media in enumerate(game.media):
+            path = _path("game", game.id)
+            pointer = f"/media/{index}"
+            creator = creators_by_id.get(media.creator_id)
+            if creator is None:
+                diagnostics.append(_diagnostic(
+                    path, f"{pointer}/creatorId",
+                    f"referenced creator {media.creator_id!r} does not exist",
+                ))
+            elif media.creator_profile_url not in {profile.url for profile in creator.profiles}:
+                diagnostics.append(_diagnostic(
+                    path, f"{pointer}/creatorProfileUrl",
+                    "profile URL must belong to the referenced creator",
+                ))
 
     reservation_owners: dict[tuple[str, str], tuple[str, str]] = {}
     for game in snapshot.games:
@@ -780,7 +856,7 @@ def _semantic_diagnostics(
     current_files = dict(snapshot.files)
     base_files = dict(base_snapshot.files)
     for path in sorted(base_files.keys() - current_files.keys()):
-        if path.startswith("registry/guides/"):
+        if path.startswith(("registry/guides/", "registry/creators/")):
             continue
         diagnostics.append(
             _diagnostic(path, "", "published registry record files must not be deleted")
@@ -837,7 +913,7 @@ def _load_error_report(error: BaseException) -> ValidationReport:
 def _record_failure_report(root: Path) -> ValidationReport | None:
     diagnostics: list[Diagnostic] = []
     has_io_error = False
-    for kind in ("game", "mod"):
+    for kind in ("game", "mod", "creator"):
         directory = Path(root) / "registry" / f"{kind}s"
         for path in sorted(directory.glob("*.json")):
             relative = path.relative_to(root).as_posix()
@@ -1022,6 +1098,8 @@ def validate_snapshot(
         diagnostics.extend(_validate_mod(mod))
     for guide in snapshot.guides:
         diagnostics.extend(_validate_guide(guide))
+    for creator in snapshot.creators:
+        diagnostics.extend(_validate_creator(creator))
     diagnostics.extend(
         _semantic_diagnostics(
             snapshot,

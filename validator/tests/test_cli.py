@@ -443,3 +443,49 @@ def test_format_rejects_a_malformed_guide_without_mutating_it(tmp_path, capsys):
         "guide must begin with a '---' frontmatter block\n"
     )
     assert path.read_bytes() == original
+
+
+def test_format_and_validate_commands_support_creator_records(tmp_path, capsys):
+    root = _registry_root(tmp_path)
+    path = root / "registry" / "creators" / "example-creator.json"
+    path.parent.mkdir()
+    record = {"profiles": [{"platform": "youtube", "url": "https://www.youtube.com/@example"}],
+              "name": "Example", "id": "example-creator", "schemaVersion": 1}
+    path.write_text(json.dumps(record))
+    assert main(["format", "--root", str(root), "--check"]) == 1
+    assert main(["format", "--root", str(root)]) == 0
+    assert main(["format", "--root", str(root), "--check"]) == 0
+    assert main(["validate", "--root", str(root)]) == 0
+    assert list(json.loads(path.read_bytes())) == ["schemaVersion", "id", "name", "profiles"]
+
+
+def test_validate_reports_mixed_type_creator_alias_without_traceback(tmp_path, capsys):
+    root = _registry_root(tmp_path)
+    path = root / "registry" / "creators" / "example-creator.json"
+    path.parent.mkdir()
+    creator = {
+        "schemaVersion": 1, "id": "example-creator", "name": "Example Creator",
+        "aliases": ["ExampleHandle", 1],
+        "profiles": [{"platform": "youtube", "url": "https://www.youtube.com/@example"}],
+    }
+    path.write_text(json.dumps(creator), encoding="utf-8")
+
+    assert main(["validate", "--root", str(root)]) == 1
+
+    captured = capsys.readouterr()
+    assert "ERROR registry/creators/example-creator.json /aliases/1:" in captured.out
+    assert "not of type 'string'" in captured.out
+    assert "Traceback" not in captured.out + captured.err
+    assert captured.err == ""
+
+
+def test_validate_reports_malformed_media_without_traceback(tmp_path, capsys):
+    root = _registry_root(tmp_path)
+    path = root / "registry" / "games" / "example-game.json"
+    game = json.loads(path.read_text())
+    game["media"] = [None]
+    path.write_text(json.dumps(game), encoding="utf-8")
+    assert main(["validate", "--root", str(root)]) == 1
+    captured = capsys.readouterr()
+    assert "ERROR registry/games/example-game.json /media/0:" in captured.out
+    assert "Traceback" not in captured.out + captured.err

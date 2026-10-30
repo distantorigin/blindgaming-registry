@@ -16,6 +16,7 @@ _SCHEMA_RESOURCE_PATH = ("_schemas", "v1")
 _COMMON_ID = "https://blindgaming.net/schemas/v1/common.schema.json"
 _SCHEMA_IDS = {
     "common": _COMMON_ID,
+    "creator": "https://blindgaming.net/schemas/v1/creator.schema.json",
     "game": "https://blindgaming.net/schemas/v1/game.schema.json",
     "mod": "https://blindgaming.net/schemas/v1/mod.schema.json",
 }
@@ -79,7 +80,7 @@ def _bundle_common_definitions(
     return replace_common_references(bundled)
 
 
-def schema_for(kind: Literal["game", "mod"], version: int) -> Mapping[str, object]:
+def schema_for(kind: Literal["game", "mod", "creator"], version: int) -> Mapping[str, object]:
     if version != REGISTRY_SCHEMA_VERSION:
         raise ValueError(f"unsupported registry schema version: {version}")
 
@@ -91,5 +92,5 @@ def schema_for(kind: Literal["game", "mod"], version: int) -> Mapping[str, objec
     return _bundle_common_definitions(schema, documents["common"])
 
 
-def validator_for(kind: Literal["game", "mod"], version: int) -> RegistryDraft202012Validator:
+def validator_for(kind: Literal["game", "mod", "creator"], version: int) -> RegistryDraft202012Validator:
     return RegistryDraft202012Validator(schema_for(kind, version))

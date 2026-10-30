@@ -21,6 +21,7 @@ class CanonicalFormatError(ValueError):
 
 
 _ROOT_PROPERTY_ORDER = {
+    "creator": ("schemaVersion", "id", "name", "aliases", "profiles"),
     "game": (
         "schemaVersion",
         "id",
@@ -30,6 +31,7 @@ _ROOT_PROPERTY_ORDER = {
         "reservedStores",
         "accessibility",
         "resources",
+        "media",
         "releaseYear",
         "archivedAt",
         "archiveReason",
@@ -62,6 +64,10 @@ _NESTED_PROPERTY_ORDER = {
         "primaryModId",
     ),
     "resource-entry": ("name", "url"),
+    "media-entry": (
+        "name", "url", "creatorId", "creatorProfileUrl", "mediaType", "startUrl", "note",
+    ),
+    "creator-profile": ("platform", "url", "name"),
     "release-source": ("kind", "repositoryUrl"),
     "link": ("kind", "label", "url", "requiresPayment"),
 }
@@ -109,15 +115,31 @@ def _normalise_nested(key: str, value: object) -> object:
         }
     if key == "accessibility":
         return _normalise(value, "accessibility")
-    if key == "resources":
-        items = [_normalise(item, "resource-entry") for item in _as_list(value)]
+    if key in {"resources", "media"}:
+        if not isinstance(value, list):
+            return _normalise(value)
+        shape = "resource-entry" if key == "resources" else "media-entry"
+        items = [_normalise(item, shape) for item in value]
         return sorted(
             items,
             key=lambda item: tuple(
                 str(_as_mapping(item).get(field, ""))
-                for field in ("url", "name")
+                for field in (("url", "name") if key == "resources" else ("name", "url"))
             ),
         )
+    if key == "profiles":
+        items = [_normalise(item, "creator-profile") for item in _as_list(value)]
+        return sorted(
+            items,
+            key=lambda item: tuple(
+                str(_as_mapping(item).get(field, "")) for field in ("platform", "url")
+            ),
+        )
+    if key == "aliases":
+        aliases = _normalise(value)
+        if isinstance(aliases, list) and all(isinstance(alias, str) for alias in aliases):
+            return sorted(aliases)
+        return aliases
     if key == "gameIds":
         return sorted(_normalise(item) for item in _as_list(value))
     if key == "releaseSource":
@@ -148,7 +170,7 @@ def _as_list(value: object) -> list[object]:
     return value
 
 
-def canonical_record_bytes(record: Mapping[str, object], kind: Literal["game", "mod"] | str) -> bytes:
+def canonical_record_bytes(record: Mapping[str, object], kind: Literal["game", "mod", "creator"] | str) -> bytes:
     """Return a registry record in the repository's canonical JSON form."""
     try:
         root_order = _ROOT_PROPERTY_ORDER[kind]
@@ -161,7 +183,7 @@ def canonical_record_bytes(record: Mapping[str, object], kind: Literal["game", "
     return (json.dumps(canonical, ensure_ascii=False, indent=2) + "\n").encode("utf-8")
 
 
-def canonical_format_pointer(record: Mapping[str, object], kind: Literal["game", "mod"] | str) -> str:
+def canonical_format_pointer(record: Mapping[str, object], kind: Literal["game", "mod", "creator"] | str) -> str:
     """Return the pointer for a canonical-format mismatch."""
     root_order = _ROOT_PROPERTY_ORDER[kind]
     pointer = _first_nfd_pointer(record)
@@ -177,18 +199,18 @@ def canonical_format_pointer(record: Mapping[str, object], kind: Literal["game",
             tags = value.get("tags")
             if isinstance(tags, list) and tags != sorted(tags):
                 return "/accessibility/tags"
-        if key == "gameIds" and isinstance(value, list):
-            if value != sorted(value):
-                return "/gameIds"
+        if key in {"gameIds", "aliases", "profiles"} and isinstance(value, list):
+            if value != _normalise_nested(key, value):
+                return f"/{key}"
         if key == "stores" and isinstance(value, list):
             if value != _normalise_nested("stores", value):
                 return "/stores"
         if key == "reservedStores" and isinstance(value, Mapping):
             if list(value) != sorted(value) or value != _normalise_nested(key, value):
                 return f"/{key}"
-        if key == "resources" and isinstance(value, list):
-            if value != _normalise_nested("resources", value):
-                return "/resources"
+        if key in {"resources", "media"} and isinstance(value, list):
+            if value != _normalise_nested(key, value):
+                return f"/{key}"
         if key == "links" and isinstance(value, list):
             if value != _normalise_nested("links", value):
                 return "/links"
@@ -231,7 +253,7 @@ def snapshot_digest(snapshot: Snapshot) -> str:
     """Hash canonical registry files in a stable order."""
     digest = hashlib.sha256(b"blindgaming-registry-v1\0")
     for path, contents in sorted(snapshot.files, key=lambda item: item[0].encode("utf-8")):
-        if path.startswith(("registry/games/", "registry/mods/")) and path.endswith(".json"):
+        if path.startswith(("registry/games/", "registry/mods/", "registry/creators/")) and path.endswith(".json"):
             digest.update(path.encode("utf-8"))
             digest.update(b"\0")
             digest.update(contents)

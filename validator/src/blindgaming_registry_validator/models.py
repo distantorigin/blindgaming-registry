@@ -32,6 +32,33 @@ class Resource:
 
 
 @dataclass(frozen=True, slots=True)
+class Media:
+    name: str
+    url: str
+    creator_id: str
+    creator_profile_url: str
+    media_type: str
+    start_url: str | None = None
+    note: str | None = None
+
+
+@dataclass(frozen=True, slots=True)
+class CreatorProfile:
+    platform: str
+    url: str
+    name: str | None = None
+
+
+@dataclass(frozen=True, slots=True)
+class CreatorRecord:
+    schema_version: int
+    id: str
+    name: str
+    profiles: tuple[CreatorProfile, ...]
+    aliases: tuple[str, ...] = ()
+
+
+@dataclass(frozen=True, slots=True)
 class Accessibility:
     description: str | None = None
     coverage: str | None = None
@@ -57,6 +84,7 @@ class GameRecord:
     archived_at: str | None = None
     archive_reason: str | None = None
     replaced_by: str | None = None
+    media: tuple[Media, ...] = ()
 
 
 @dataclass(frozen=True, slots=True)
@@ -106,6 +134,7 @@ class Snapshot:
     mods: tuple[ModRecord, ...]
     files: tuple[tuple[str, bytes], ...]
     guides: tuple[GuideRecord, ...] = ()
+    creators: tuple[CreatorRecord, ...] = ()
 
 
 @dataclass(frozen=True, slots=True)
