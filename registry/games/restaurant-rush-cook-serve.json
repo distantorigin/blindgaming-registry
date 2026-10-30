@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "restaurant-rush-cook-serve",
+  "status": "active",
+  "name": "Restaurant Rush: Cook & Serve",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/restaurant-rush-cook-serve/id6773167802"
+    }
+  ],
+  "accessibility": {
+    "description": "Built-in VoiceOver support announces guests, orders, cooking states and warnings. Sound cues, adjustable announcement detail and relaxed or custom pace settings support real-time gameplay. AppleVis reports full VoiceOver accessibility, with readable interface elements and clearly labelled buttons.",
+    "coverage": "full",
+    "confidence": "verified",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis App Pick of the Month for September 2026",
+      "url": "https://applevis.com/blog/announcing-anonymouses-app-pick-month-september-2026-restaurant-rush-cook-serve"
+    },
+    {
+      "name": "AppleVis accessibility review and player discussion",
+      "url": "https://www.applevis.com/apps/ios/games/restaurant-rush-cook-serve"
+    }
+  ],
+  "releaseYear": "2026"
+}
