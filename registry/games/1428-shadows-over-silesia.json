@@ -38,11 +38,27 @@
       "mediaType": "video"
     },
     {
+      "name": "A demo of 1428 Shadows of Silesia!",
+      "url": "https://www.youtube.com/watch?v=wQy837gpd-Q",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "video",
+      "note": "Demo recording; features may differ from the full release."
+    },
+    {
       "name": "PC Accessible Game Spotlight - 1428: Shadows Over Silesia",
       "url": "https://www.youtube.com/watch?v=m-XXgeIzVGs",
       "creatorId": "illegallysighted",
       "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
       "mediaType": "video"
+    },
+    {
+      "name": "PG13 cast Shadows over Silesia",
+      "url": "https://www.youtube.com/watch?v=a5CJeEfhzVw",
+      "creatorId": "pg13lp",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCwsmTHviOiomYiRW0WPyqfA",
+      "mediaType": "vod",
+      "note": "Prerelease gameplay recorded in March 2022."
     }
   ],
   "releaseYear": "2022"

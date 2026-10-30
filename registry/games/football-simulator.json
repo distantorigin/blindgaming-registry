@@ -26,5 +26,14 @@
       "url": "https://forum.audiogames.net/topic/58859/"
     }
   ],
+  "media": [
+    {
+      "name": "Let's Play Football Simulator",
+      "url": "https://www.youtube.com/watch?v=xdbawiBiyvA",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2022"
 }

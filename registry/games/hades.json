@@ -27,11 +27,25 @@
   ],
   "media": [
     {
+      "name": "My Second Hades Stream!",
+      "url": "https://www.youtube.com/watch?v=VMsDwo4SXMg",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "vod"
+    },
+    {
       "name": "Return to #Hades: Now Featuring Blind #Accessibility #Mods!",
       "url": "https://www.youtube.com/watch?v=yQC6TJkBElY",
       "creatorId": "superblindman",
       "creatorProfileUrl": "https://www.youtube.com/channel/UCbJy3rXhAbRwG85D3yceS5A",
       "mediaType": "video"
+    },
+    {
+      "name": "This is my first Hades stream! There will be more of them!",
+      "url": "https://www.youtube.com/watch?v=ou6GxJ8Peiw",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "vod"
     },
     {
       "name": "TrueBlindGaming | Blind Gamer Plays Hades for the First Time!! | Stream Replay",

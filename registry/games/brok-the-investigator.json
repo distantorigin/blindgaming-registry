@@ -72,6 +72,14 @@
       "mediaType": "video"
     },
     {
+      "name": "Brok the Investigator",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT4W6IPfdDIkX5W8TB9-YgnH",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=x-1ocklDP18"
+    },
+    {
       "name": "Brok the Investigator: gameplay",
       "url": "https://www.youtube.com/watch?v=39Szw_nGugA",
       "creatorId": "liamerven",

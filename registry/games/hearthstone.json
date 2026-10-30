@@ -40,6 +40,14 @@
   ],
   "media": [
     {
+      "name": "Hearthstone",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT6EJ0aJJjsm9QT5Acvij-x-",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=Hgh0U7izjc4"
+    },
+    {
       "name": "Hearthstone Access brief demo (2021)",
       "url": "https://www.youtube.com/watch?v=x8I2omjivX0",
       "creatorId": "sightlesskombat",
@@ -68,6 +76,13 @@
       "mediaType": "playlist",
       "startUrl": "https://www.youtube.com/watch?v=OR0VVAy3Ibk",
       "note": "Series begins with the August 2021 Hearthstone Access release."
+    },
+    {
+      "name": "PG13 chill out at the Hearth",
+      "url": "https://www.youtube.com/watch?v=vzez1SHlpO0",
+      "creatorId": "pg13lp",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCwsmTHviOiomYiRW0WPyqfA",
+      "mediaType": "vod"
     }
   ],
   "releaseYear": "2014"

@@ -39,6 +39,14 @@
   ],
   "media": [
     {
+      "name": "As Dusk Falls",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT5hSNVsVYID3kbSh3y79cCF",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=fw3bYQE7SqI"
+    },
+    {
       "name": "As Dusk Falls - Accessibility Review (Xbox Series X)",
       "url": "https://www.youtube.com/watch?v=66RSJnVnN4Q",
       "creatorId": "steve-saylor",

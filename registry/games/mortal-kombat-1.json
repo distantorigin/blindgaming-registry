@@ -53,6 +53,14 @@
       "mediaType": "video"
     },
     {
+      "name": "Mortal Kombat 1: story",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT5EAeCoUyZpRqKrPnYiZ5gH",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=tMX0-GB4Z8k"
+    },
+    {
       "name": "Welcome to the New Era of Mortal Kombat 1 \\ Blind Accessibility Review",
       "url": "https://www.youtube.com/watch?v=2OMD7qYxVq4",
       "creatorId": "ross-minor",

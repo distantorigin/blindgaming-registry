@@ -18,5 +18,15 @@
     ],
     "primaryModId": "msfs-blind-assist"
   },
+  "media": [
+    {
+      "name": "Flight simulation tutorials",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT4rBzAfcIuv3qqg6Ua1OZPV",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=fq_t1VszanE"
+    }
+  ],
   "releaseYear": "2020"
 }

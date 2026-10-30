@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "pawstogethergaming",
+  "name": "PawsTogetherGaming",
+  "profiles": [
+    {
+      "platform": "twitch",
+      "url": "https://www.twitch.tv/PawsTogetherGaming"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "name": "Access4All"
+    }
+  ]
+}

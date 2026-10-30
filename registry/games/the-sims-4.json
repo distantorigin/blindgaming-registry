@@ -30,5 +30,15 @@
       "url": "https://www.curseforge.com/sims4/mods/screen-reader"
     }
   ],
+  "media": [
+    {
+      "name": "The Sims 4",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT7mFgcAz9k9WELQYlrA4Iu1",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=l_QTf2b9r_8"
+    }
+  ],
   "releaseYear": "2014"
 }

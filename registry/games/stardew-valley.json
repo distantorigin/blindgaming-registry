@@ -31,11 +31,27 @@
   ],
   "media": [
     {
+      "name": "Enhanced stardew valley tips",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT6FawrqSKeQ_9bUfXqjnhq1",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=s6g9BvuMcpQ"
+    },
+    {
       "name": "HOW BLIND PEOPLE PLAY STARDEW VALLEY WITH THIS ACCESSIBILITY MOD!",
       "url": "https://www.youtube.com/watch?v=g4xxRk5umx8",
       "creatorId": "ross-minor",
       "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
       "mediaType": "video"
+    },
+    {
+      "name": "How to install the Stardew Access mod (older version)",
+      "url": "https://www.youtube.com/watch?v=DumtTxdzk6I",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "video",
+      "note": "Historical Stardew Access installation instructions; setup may differ in current versions."
     },
     {
       "name": "Stardew Valley - Modded playthrough (30 episodes, then one unrelated video)",
@@ -59,6 +75,14 @@
       "mediaType": "playlist",
       "startUrl": "https://www.youtube.com/watch?v=oT2-ELI5Ze8",
       "note": "Streams from June 2022 onward."
+    },
+    {
+      "name": "Stardew Valley tips",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT7tWumVTjAJETmgi6aWDJXs",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=Dp4MCdk1fPU"
     }
   ],
   "releaseYear": "2016"

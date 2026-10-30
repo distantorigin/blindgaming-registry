@@ -32,6 +32,20 @@
       "creatorId": "illegallysighted",
       "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
       "mediaType": "video"
+    },
+    {
+      "name": "PG13 become gods",
+      "url": "https://www.youtube.com/watch?v=nz7wbmRF2V0",
+      "creatorId": "pg13lp",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCwsmTHviOiomYiRW0WPyqfA",
+      "mediaType": "vod"
+    },
+    {
+      "name": "it's time for #apotheorasis",
+      "url": "https://www.youtube.com/watch?v=hSardb5KiFY",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "video"
     }
   ],
   "releaseYear": "2022"

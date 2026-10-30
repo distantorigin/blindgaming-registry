@@ -49,6 +49,14 @@
       "mediaType": "video"
     },
     {
+      "name": "The Last of Us Part I",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT6d2sxVshdgezf3aayOFweu",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=IQsEelaeknw"
+    },
+    {
       "name": "The Last of Us Part I - PS5 first-time gameplay and accessibility impressions",
       "url": "https://www.youtube.com/watch?v=qqNuOjQUZ88",
       "creatorId": "ross-minor",

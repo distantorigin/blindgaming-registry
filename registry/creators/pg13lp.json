@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "id": "pg13lp",
+  "name": "PG13 plays",
+  "aliases": [
+    "PG13LP"
+  ],
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCwsmTHviOiomYiRW0WPyqfA"
+    }
+  ]
+}

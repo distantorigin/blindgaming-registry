@@ -28,6 +28,14 @@
   ],
   "media": [
     {
+      "name": "Kilta",
+      "url": "https://www.youtube.com/playlist?list=PLExWgQUB-QT4f_PaRKHogOy-AaLdQaXGd",
+      "creatorId": "pawstogethergaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC5ePlHcHC1w5XF-NjRCQOdg",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=JiZDPwUgfRs"
+    },
+    {
       "name": "Kilta accessibility spotlight",
       "url": "https://www.youtube.com/watch?v=7Ij1YzuN5Rg",
       "creatorId": "illegallysighted",
