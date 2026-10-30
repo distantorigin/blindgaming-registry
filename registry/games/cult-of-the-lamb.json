@@ -26,5 +26,15 @@
     ],
     "primaryModId": "cultaccess"
   },
+  "media": [
+    {
+      "name": "Cult of the Lamb: early accessibility mod demo",
+      "url": "https://audiopub.site/listen/8d2a3754-d485-45e6-b898-aa28496f8522",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio",
+      "note": "Early demonstration of the creator's accessibility mod, before its first playable release."
+    }
+  ],
   "releaseYear": "2022"
 }

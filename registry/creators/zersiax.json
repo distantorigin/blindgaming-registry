@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "zersiax",
+  "name": "zersiax",
+  "profiles": [
+    {
+      "platform": "audiopub",
+      "url": "https://audiopub.site/user/@zersiax"
+    }
+  ]
+}

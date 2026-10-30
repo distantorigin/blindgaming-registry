@@ -26,5 +26,15 @@
       "url": "https://github.com/zersiax/ParalivesAccess"
     }
   ],
+  "media": [
+    {
+      "name": "Paralives: early accessibility mod demonstration",
+      "url": "https://audiopub.site/listen/acea824b-7562-4860-9f78-a345726d93d2",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio",
+      "note": "Early mod showcase while initial builds were still in development."
+    }
+  ],
   "releaseYear": "2026"
 }

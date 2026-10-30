@@ -26,5 +26,16 @@
       "url": "https://forum.audiogames.net/topic/45599/"
     }
   ],
+  "media": [
+    {
+      "name": "Kilta streams",
+      "url": "https://www.youtube.com/playlist?list=PLdvFbaCu1RVhaZJBc85IaeRA7F5qsimt-",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=lz30yNMJzRk",
+      "note": "Streams from July 2022, beginning with a test of an accessibility update."
+    }
+  ],
   "releaseYear": "2022"
 }

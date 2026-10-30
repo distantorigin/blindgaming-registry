@@ -63,5 +63,14 @@
       "url": "https://www.cowcatgames.com/"
     }
   ],
+  "media": [
+    {
+      "name": "PC Accessible Game Spotlight - Brok: The InvestiGator",
+      "url": "https://www.youtube.com/watch?v=4xEWdVolzaM",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2022"
 }

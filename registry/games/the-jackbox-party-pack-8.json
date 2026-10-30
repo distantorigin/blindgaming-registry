@@ -19,5 +19,15 @@
     "tags": [
       "blind"
     ]
-  }
+  },
+  "media": [
+    {
+      "name": "Jackbox Party Pack 8 streams",
+      "url": "https://www.youtube.com/playlist?list=PLdvFbaCu1RVha7mElAeAPhCsDb4JCyagX",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=bogv5GtHC3c"
+    }
+  ]
 }

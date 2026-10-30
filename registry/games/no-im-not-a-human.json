@@ -25,5 +25,15 @@
       "url": "https://forum.audiogames.net/topic/59653/"
     }
   ],
+  "media": [
+    {
+      "name": "Date Everything! and No, I'm not a Human: mixed stream audio",
+      "url": "https://audiopub.site/listen/cb2278c1-41b5-4377-a315-f47ce43d1e57",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio",
+      "note": "Mixed stream audio covering Date Everything! and No, I'm not a Human with accessibility mods. No game-specific segment timestamps are provided."
+    }
+  ],
   "releaseYear": "2025"
 }

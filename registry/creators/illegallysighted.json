@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "illegallysighted",
+  "name": "IllegallySighted",
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA"
+    }
+  ]
+}

@@ -25,5 +25,15 @@
       "url": "https://forum.audiogames.net/topic/58097/"
     }
   ],
+  "media": [
+    {
+      "name": "Bits and Bops playthrough",
+      "url": "https://www.youtube.com/playlist?list=PLdvFbaCu1RVgP--lCDj9NAq2R4ckqZmBE",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=WWoN_XDsLyY"
+    }
+  ],
   "releaseYear": "2025"
 }
