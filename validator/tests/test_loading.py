@@ -245,6 +245,26 @@ def test_load_snapshot_ignores_git_metadata_when_scanning_a_checkout(tmp_path: P
     assert [record.id for record in snapshot.games] == ["example-game"]
 
 
+def test_load_snapshot_allows_creator_schema_path_but_rejects_neighbor(tmp_path: Path):
+    root = registry_root(tmp_path)
+    schema_path = root / "schemas" / "v1" / "creator.schema.json"
+    schema_path.parent.mkdir(parents=True, exist_ok=True)
+    schema_path.write_text('{}\n', encoding="utf-8")
+
+    snapshot = load_snapshot(root)
+
+    assert [game.id for game in snapshot.games] == ["example-game"]
+
+    schema_path.unlink()
+    neighbor_path = schema_path.with_name("creator.schema.extra.json")
+    neighbor_path.write_text('{}\n', encoding="utf-8")
+
+    with pytest.raises(UnexpectedPathError) as caught:
+        load_snapshot(root)
+
+    assert caught.value.path == "schemas/v1/creator.schema.extra.json"
+
+
 def test_load_snapshot_rejects_a_symlink_without_reading_its_target(tmp_path: Path):
     root = registry_root(tmp_path)
     target = tmp_path / "outside.json"
