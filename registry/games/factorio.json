@@ -33,5 +33,14 @@
       "url": "https://forum.audiogames.net/topic/58549/"
     }
   ],
+  "media": [
+    {
+      "name": "The Factory Must Grow! Factorio Without Sight (Factorio Access Mod Beta Demonstration)",
+      "url": "https://www.youtube.com/watch?v=5XHdjHDtebU",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2020"
 }

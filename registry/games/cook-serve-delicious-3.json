@@ -36,5 +36,23 @@
       "url": "https://rubbermagpie.com/ko-fi-guide/"
     }
   ],
+  "media": [
+    {
+      "name": "Cook, Serve, Delicious! 3 and Project Zomboid: mixed Twitch stream",
+      "url": "https://www.twitch.tv/videos/2913217791",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.twitch.tv/zersiax",
+      "mediaType": "vod",
+      "note": "Mixed-game stream; no game-specific segment timestamp established."
+    },
+    {
+      "name": "Cook, Serve, Delicious! 3 and Project Zomboid: mixed stream audio",
+      "url": "https://audiopub.site/listen/1281d914-e7f6-4cbf-93be-a4d4065ffb2d",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio",
+      "note": "Mixed stream with Project Zomboid; no game-specific segment timestamp established."
+    }
+  ],
   "releaseYear": "2020"
 }

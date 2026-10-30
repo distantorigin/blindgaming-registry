@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "logicproxgaming",
+  "name": "Logic Pro X Gaming",
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCPBy8SaMtEat8TmNLP6bmKQ"
+    }
+  ]
+}

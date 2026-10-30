@@ -18,5 +18,14 @@
     ],
     "primaryModId": "blind-slash"
   },
+  "media": [
+    {
+      "name": "World of Warcraft: retail gameplay",
+      "url": "https://www.youtube.com/watch?v=owVB388UqLE",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2004"
 }

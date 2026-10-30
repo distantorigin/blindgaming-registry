@@ -25,5 +25,21 @@
       "url": "https://forum.audiogames.net/topic/41735/"
     }
   ],
+  "media": [
+    {
+      "name": "Return to #Hades: Now Featuring Blind #Accessibility #Mods!",
+      "url": "https://www.youtube.com/watch?v=yQC6TJkBElY",
+      "creatorId": "superblindman",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCbJy3rXhAbRwG85D3yceS5A",
+      "mediaType": "video"
+    },
+    {
+      "name": "TrueBlindGaming | Blind Gamer Plays Hades for the First Time!! | Stream Replay",
+      "url": "https://www.youtube.com/watch?v=qCCdt7nojto",
+      "creatorId": "trueblindgaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCCECECWmH0U0bwxnPYEXuKA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2020"
 }

@@ -19,5 +19,28 @@
     "tags": [
       "blind"
     ]
-  }
+  },
+  "media": [
+    {
+      "name": "Code 7 accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=tZ58WqxX2VQ",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Code 7: marathon part 1",
+      "url": "https://www.youtube.com/watch?v=zYdxDp3vpBY",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Totally Blind Gamer Plays Code 7",
+      "url": "https://www.youtube.com/playlist?list=PLix0msHAV5DQ9agyaRKHPq3YdTVtBbZZ1",
+      "creatorId": "superblindman",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCbJy3rXhAbRwG85D3yceS5A",
+      "mediaType": "playlist"
+    }
+  ]
 }

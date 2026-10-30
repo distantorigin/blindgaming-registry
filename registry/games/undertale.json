@@ -27,5 +27,14 @@
     ],
     "primaryModId": "undertale-nvda-access"
   },
+  "media": [
+    {
+      "name": "Undertale: first accessibility mod look",
+      "url": "https://audiopub.site/listen/9a4eecd6-9741-4888-a2b0-1d413a6722ce",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio"
+    }
+  ],
   "releaseYear": "2015"
 }

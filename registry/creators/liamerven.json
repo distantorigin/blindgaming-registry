@@ -4,6 +4,10 @@
   "name": "Liam Erven",
   "profiles": [
     {
+      "platform": "audiopub",
+      "url": "https://audiopub.site/user/@liamerven"
+    },
+    {
       "platform": "youtube",
       "url": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA"
     }

@@ -26,5 +26,14 @@
       "url": "https://forum.audiogames.net/topic/49195/"
     }
   ],
+  "media": [
+    {
+      "name": "Firebird accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=NTw-9EYeuME",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2023"
 }

@@ -33,5 +33,14 @@
       "url": "https://forum.audiogames.net/topic/57806/"
     }
   ],
+  "media": [
+    {
+      "name": "Coffee Talk: modded gameplay",
+      "url": "https://audiopub.site/listen/e993f425-da02-4250-aade-15ca88c95768",
+      "creatorId": "object-inspace",
+      "creatorProfileUrl": "https://audiopub.site/user/@prism",
+      "mediaType": "audio"
+    }
+  ],
   "releaseYear": "2020"
 }

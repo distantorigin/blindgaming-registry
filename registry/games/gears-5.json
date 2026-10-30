@@ -28,5 +28,14 @@
       "url": "https://forum.audiogames.net/topic/40745/"
     }
   ],
+  "media": [
+    {
+      "name": "Gears 5 #1: First-Time Boot Process (With Commentary)",
+      "url": "https://www.youtube.com/watch?v=CyrXx4gyuwc",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2019"
 }

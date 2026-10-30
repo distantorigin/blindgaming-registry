@@ -35,5 +35,21 @@
       "url": "https://forum.audiogames.net/topic/35130/"
     }
   ],
+  "media": [
+    {
+      "name": "Cards and Creatures part 1: Playing Slay the Spire with Accessibility mods",
+      "url": "https://www.youtube.com/watch?v=AI2V_pMb8OI",
+      "creatorId": "superblindman",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCbJy3rXhAbRwG85D3yceS5A",
+      "mediaType": "video"
+    },
+    {
+      "name": "Slay the Spire: gameplay (2020)",
+      "url": "https://www.youtube.com/watch?v=7wwrjc68ZW4",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2019"
 }

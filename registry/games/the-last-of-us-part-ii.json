@@ -31,5 +31,44 @@
       "url": "https://forum.audiogames.net/topic/56091/"
     }
   ],
+  "media": [
+    {
+      "name": "The Last Of Us Part 2 Remastered - Accessibility Review (PS5)",
+      "url": "https://www.youtube.com/watch?v=ujcfgXV3Sj8",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    },
+    {
+      "name": "The Last of Us Part II - Original PS4 release accessibility highlights (spoilers)",
+      "url": "https://www.youtube.com/playlist?list=PLQ7h2jewv9CE8gmm-vY4kvC2MyKQ1-Edd",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "playlist"
+    },
+    {
+      "name": "The Last of Us Part II Remastered accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=6pzo3Vs6Fnk",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "The Last of Us Part II: original 2020 playthrough (first episode requires sign-in)",
+      "url": "https://www.youtube.com/playlist?list=PLdvFbaCu1RVhmslI78UXnu0mcEx0RhLLn",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=llirTpVjyeg",
+      "note": "Original 2020 release playthrough. The first recording requires YouTube sign-in."
+    },
+    {
+      "name": "The Last of Us Part II: original release Rat King grounded+ highlight",
+      "url": "https://www.twitch.tv/videos/1024483173",
+      "creatorId": "object-inspace",
+      "creatorProfileUrl": "https://www.twitch.tv/object_inspace",
+      "mediaType": "highlight"
+    }
+  ],
   "releaseYear": "2024"
 }

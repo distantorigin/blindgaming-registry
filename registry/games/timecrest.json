@@ -33,5 +33,14 @@
       "url": "https://www.sneakycrab.com/timecrest"
     }
   ],
+  "media": [
+    {
+      "name": "Timecrest accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=vgkmaBKYhTc",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2015"
 }

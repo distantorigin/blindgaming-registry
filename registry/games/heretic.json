@@ -24,5 +24,21 @@
       "url": "https://forum.audiogames.net/topic/57129/"
     }
   ],
+  "media": [
+    {
+      "name": "Heretic with Toby Accessibility Mod v7.5",
+      "url": "https://www.youtube.com/watch?v=wROtoytCC5w",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Toby Doom and Heretic v7.5 setup",
+      "url": "https://www.youtube.com/watch?v=bRHQCuBrPos",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2007"
 }

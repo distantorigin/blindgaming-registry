@@ -33,5 +33,14 @@
       "url": "https://forum.audiogames.net/topic/59674/"
     }
   ],
+  "media": [
+    {
+      "name": "RollerCoaster Tycoon 2 - OpenRCT2 Access demonstration",
+      "url": "https://www.youtube.com/watch?v=0opYxGETLa0",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC3yVjuZy4VzYhoYtPVtTz9Q",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2002"
 }

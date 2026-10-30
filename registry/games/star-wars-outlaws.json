@@ -29,5 +29,21 @@
       "url": "https://forum.audiogames.net/topic/53648/"
     }
   ],
+  "media": [
+    {
+      "name": "Star Wars Outlaws - Accessibility Review (So Far) - Xbox Series X",
+      "url": "https://www.youtube.com/watch?v=6ii4M9v49Ao",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    },
+    {
+      "name": "Star Wars Outlaws: accessibility exploration",
+      "url": "https://www.youtube.com/watch?v=l3174kdilrs",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2024"
 }

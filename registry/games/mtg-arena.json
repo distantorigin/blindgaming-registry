@@ -24,5 +24,14 @@
       "url": "https://forum.audiogames.net/topic/59099/"
     }
   ],
+  "media": [
+    {
+      "name": "Totally Blind MTG Player Plays Arena for the First Time!",
+      "url": "https://www.youtube.com/watch?v=lLfDLITbv94",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC3yVjuZy4VzYhoYtPVtTz9Q",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2023"
 }

@@ -26,5 +26,28 @@
       "url": "https://forum.audiogames.net/topic/60181/"
     }
   ],
+  "media": [
+    {
+      "name": "Injustice 2: Guild Boss Bash",
+      "url": "https://www.youtube.com/playlist?list=PLix0msHAV5DSAtBhMv6zYnKepoD325Fko",
+      "creatorId": "superblindman",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCbJy3rXhAbRwG85D3yceS5A",
+      "mediaType": "playlist"
+    },
+    {
+      "name": "Injustice 2: console accessibility cues (2017)",
+      "url": "https://www.youtube.com/watch?v=LunIn9PdX9Y",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    },
+    {
+      "name": "Injustice 2: console story playthrough",
+      "url": "https://www.youtube.com/playlist?list=PLt0pjp6K1CXScE3yNaoDemBtbkT4v9kqX",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "playlist"
+    }
+  ],
   "releaseYear": "2017"
 }

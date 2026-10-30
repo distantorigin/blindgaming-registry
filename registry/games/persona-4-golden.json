@@ -29,5 +29,23 @@
       "url": "https://forum.audiogames.net/topic/59985/"
     }
   ],
+  "media": [
+    {
+      "name": "Persona 4 Golden: early mod showcase (navigation cues inaudible)",
+      "url": "https://www.youtube.com/watch?v=3NfK2gSw6dU",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g",
+      "mediaType": "video",
+      "note": "The creator reports that the navigation beeps are inaudible in this recording."
+    },
+    {
+      "name": "Persona 4 Golden: early mod showcase audio (navigation cues inaudible)",
+      "url": "https://audiopub.site/listen/2cf9b202-9221-4410-b676-8e34eeaf5935",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio",
+      "note": "The creator reports that the navigation beeps are inaudible in this recording."
+    }
+  ],
   "releaseYear": "2012"
 }

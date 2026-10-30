@@ -38,5 +38,37 @@
       "url": "https://hearthstoneaccess.com/faq.html"
     }
   ],
+  "media": [
+    {
+      "name": "Hearthstone Access brief demo (2021)",
+      "url": "https://www.youtube.com/watch?v=x8I2omjivX0",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    },
+    {
+      "name": "Hearthstone Access mod demonstration (2021)",
+      "url": "https://www.youtube.com/watch?v=gqqtqGFnCcY",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    },
+    {
+      "name": "Hearthstone Access mod spotlight (2021)",
+      "url": "https://www.youtube.com/watch?v=hZDnIz0HDgY",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Hearthstone streams (2021)",
+      "url": "https://www.youtube.com/playlist?list=PLdvFbaCu1RVj2ig2c0U8eYOb_Yvsav-A9",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=OR0VVAy3Ibk",
+      "note": "Series begins with the August 2021 Hearthstone Access release."
+    }
+  ],
   "releaseYear": "2014"
 }

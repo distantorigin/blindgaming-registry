@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "trueblindgaming",
+  "name": "TrueBlindGaming",
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCCECECWmH0U0bwxnPYEXuKA",
+      "name": "TrueBlindGaming"
+    }
+  ]
+}

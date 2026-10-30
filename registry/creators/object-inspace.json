@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "object-inspace",
+  "name": "ObjectInSpace",
+  "aliases": [
+    "Object_inSpace",
+    "prism"
+  ],
+  "profiles": [
+    {
+      "platform": "audiopub",
+      "url": "https://audiopub.site/user/@prism"
+    },
+    {
+      "platform": "twitch",
+      "url": "https://www.twitch.tv/object_inspace"
+    }
+  ]
+}

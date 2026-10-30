@@ -29,5 +29,14 @@
       "url": "https://www.applevis.com/apps/ios/games/adventure-fate-future-arena"
     }
   ],
+  "media": [
+    {
+      "name": "Adventure to Fate: Future Arena accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=jIAUFXe6MZg",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2021"
 }

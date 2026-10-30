@@ -32,5 +32,21 @@
       "url": "https://forum.audiogames.net/topic/57129/"
     }
   ],
+  "media": [
+    {
+      "name": "Toby Accessibility Mod: classic Doom, Heretic and Hexen",
+      "url": "https://www.youtube.com/playlist?list=PLSU1VYOSxLf3a9_VG1ysukJAadFZMtZFF",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "playlist"
+    },
+    {
+      "name": "Toby Doom v10.0 preview",
+      "url": "https://www.youtube.com/watch?v=kAjgqCCrzes",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2007"
 }

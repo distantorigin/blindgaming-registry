@@ -25,5 +25,21 @@
       "url": "https://forum.audiogames.net/topic/58616/"
     }
   ],
+  "media": [
+    {
+      "name": "A Dance of Fire and Ice: ADOFAI Access mod showcase",
+      "url": "https://www.youtube.com/watch?v=KFARje3SzmM",
+      "creatorId": "molitvan",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCJ0c7H-JQtk9dabKKv1FOMA",
+      "mediaType": "video"
+    },
+    {
+      "name": "A Dance of Fire and Ice: ADOFAI Access showcase audio",
+      "url": "https://audiopub.site/listen/828dd72c-a84d-4c89-9387-e7efe772b46e",
+      "creatorId": "molitvan",
+      "creatorProfileUrl": "https://audiopub.site/user/@molitvan",
+      "mediaType": "audio"
+    }
+  ],
   "releaseYear": "2019"
 }

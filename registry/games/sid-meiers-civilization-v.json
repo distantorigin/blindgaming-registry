@@ -28,5 +28,21 @@
       "url": "https://forum.audiogames.net/topic/59210/"
     }
   ],
+  "media": [
+    {
+      "name": "Civilization V: first accessibility mod look",
+      "url": "https://www.youtube.com/watch?v=WbX-J1Tm3qM",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g",
+      "mediaType": "video"
+    },
+    {
+      "name": "Civilization V: first accessibility mod session",
+      "url": "https://www.youtube.com/watch?v=xgvdZZOWV68",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2010"
 }

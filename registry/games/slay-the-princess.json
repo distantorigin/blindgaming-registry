@@ -34,5 +34,21 @@
       "url": "https://forum.audiogames.net/topic/49944/"
     }
   ],
+  "media": [
+    {
+      "name": "Blind Gamer Plays Slay the Princess for the First Time! Did Not Disappoint!",
+      "url": "https://www.youtube.com/watch?v=-bJ-C0pNoTo",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    },
+    {
+      "name": "Slay the Princess accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=QaK4_8d5sy0",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2023"
 }

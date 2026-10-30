@@ -39,5 +39,14 @@
       "url": "https://www.ea.com/able/resources/f1-25"
     }
   ],
+  "media": [
+    {
+      "name": "F1 25 accessibility overview",
+      "url": "https://www.youtube.com/watch?v=hC-E49LBE8I",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2025"
 }

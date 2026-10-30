@@ -33,5 +33,51 @@
       "url": "https://forum.audiogames.net/topic/46090/"
     }
   ],
+  "media": [
+    {
+      "name": "The Last Of Us Part 1 Remake (PS5) - Accessibility Review",
+      "url": "https://www.youtube.com/watch?v=NHhNGprZPBk",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    },
+    {
+      "name": "The Last Of Us Part I - PS5 accessibility demonstration (2022)",
+      "url": "https://www.youtube.com/watch?v=j_OC0HBEtvU",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    },
+    {
+      "name": "The Last of Us Part I - PS5 first-time gameplay and accessibility impressions",
+      "url": "https://www.youtube.com/watch?v=qqNuOjQUZ88",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    },
+    {
+      "name": "The Last of Us Part I accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=NkF8Bs0I3ls",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "The Last of Us Part I: Financial District grounded+ highlight",
+      "url": "https://www.twitch.tv/videos/2671572457",
+      "creatorId": "object-inspace",
+      "creatorProfileUrl": "https://www.twitch.tv/object_inspace",
+      "mediaType": "highlight"
+    },
+    {
+      "name": "The Last of Us Part I: part 1 (sign-in required)",
+      "url": "https://www.youtube.com/watch?v=mVb53DuSWoo",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "video",
+      "startUrl": "https://www.youtube.com/watch?v=mVb53DuSWoo&t=3120",
+      "note": "Creator places the start of gameplay at approximately 52:00. YouTube requires sign-in for this recording."
+    }
+  ],
   "releaseYear": "2023"
 }

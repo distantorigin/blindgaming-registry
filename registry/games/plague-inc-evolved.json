@@ -29,5 +29,15 @@
       "url": "https://forum.audiogames.net/topic/59486/"
     }
   ],
+  "media": [
+    {
+      "name": "Plague Inc. Evolved: early accessibility mod showcase",
+      "url": "https://www.youtube.com/watch?v=ndGa9oT6kN4",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g",
+      "mediaType": "video",
+      "note": "Work-in-progress mod demonstration from June 2026."
+    }
+  ],
   "releaseYear": "2015"
 }

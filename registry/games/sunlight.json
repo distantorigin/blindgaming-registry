@@ -17,5 +17,14 @@
       "blind"
     ]
   },
+  "media": [
+    {
+      "name": "Sunlight accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=zG19kmqGdxU",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2021"
 }

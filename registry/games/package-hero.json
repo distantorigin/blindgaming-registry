@@ -32,5 +32,14 @@
       "name": "Package Hero official accessibility and platform information",
       "url": "https://www.paketheld.app/en/"
     }
+  ],
+  "media": [
+    {
+      "name": "Package Hero accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=D5RQ8TDOLj4",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
   ]
 }

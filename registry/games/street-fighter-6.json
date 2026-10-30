@@ -29,5 +29,21 @@
       "url": "https://forum.audiogames.net/topic/59490/"
     }
   ],
+  "media": [
+    {
+      "name": "Gamer Without Sight Plays Street Fighter 6 using SF6 Access Mod: Avatar Arcade (no commentary)",
+      "url": "https://www.youtube.com/watch?v=kbx0Jy0P8oQ",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    },
+    {
+      "name": "Street Fighter 6 - Accessibility Review (native features, 2023)",
+      "url": "https://www.youtube.com/watch?v=b49N8za6Zoc",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2023"
 }

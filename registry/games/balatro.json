@@ -31,5 +31,22 @@
       "url": "https://forum.audiogames.net/topic/59760/"
     }
   ],
+  "media": [
+    {
+      "name": "(RNIB) A *Flush* Of Excitement! Balatro Accessibility Mod Demo #GWS #accessibility",
+      "url": "https://www.youtube.com/watch?v=Aqa7ekPWdFE",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    },
+    {
+      "name": "Balatro playthrough",
+      "url": "https://www.youtube.com/playlist?list=PLUKcPRfnHclc",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=KKSrBxwocOw"
+    }
+  ],
   "releaseYear": "2024"
 }

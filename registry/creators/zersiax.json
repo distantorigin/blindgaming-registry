@@ -2,10 +2,21 @@
   "schemaVersion": 1,
   "id": "zersiax",
   "name": "zersiax",
+  "aliases": [
+    "ViewpointUnseen"
+  ],
   "profiles": [
     {
       "platform": "audiopub",
       "url": "https://audiopub.site/user/@zersiax"
+    },
+    {
+      "platform": "twitch",
+      "url": "https://www.twitch.tv/zersiax"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g"
     }
   ]
 }

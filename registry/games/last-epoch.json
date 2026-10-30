@@ -26,5 +26,23 @@
       "url": "https://github.com/Ali-Bueno/LeAccess"
     }
   ],
+  "media": [
+    {
+      "name": "Last Epoch, Grim Dawn and Diablo IV: mixed Twitch stream",
+      "url": "https://www.twitch.tv/videos/2900662513",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.twitch.tv/zersiax",
+      "mediaType": "vod",
+      "note": "Mixed-game stream; no game-specific segment timestamp established."
+    },
+    {
+      "name": "Last Epoch, Grim Dawn and Diablo IV: mixed stream audio",
+      "url": "https://audiopub.site/listen/7456c3d5-3abd-4531-98ea-8c4b6fbc35fa",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio",
+      "note": "Mixed stream with Diablo IV and Grim Dawn; no game-specific segment timestamp established."
+    }
+  ],
   "releaseYear": "2024"
 }

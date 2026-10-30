@@ -27,5 +27,21 @@
       "url": "https://forum.audiogames.net/topic/28946/"
     }
   ],
+  "media": [
+    {
+      "name": "Alt-Frequencies accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=awHfQ_qFgSE",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Blind Gamer Plays Alt Frequencies, The Very First Blind Accessible Game on the Nintendo Switch!",
+      "url": "https://www.youtube.com/watch?v=5DkxpIaIpoE",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2019"
 }

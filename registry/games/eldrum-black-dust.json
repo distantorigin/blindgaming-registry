@@ -29,5 +29,14 @@
       "url": "https://www.applevis.com/apps/ios/games/eldrum-black-dust-text-rpg"
     }
   ],
+  "media": [
+    {
+      "name": "Eldrum Black Dust accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=r59eHm9sVDM",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2024"
 }

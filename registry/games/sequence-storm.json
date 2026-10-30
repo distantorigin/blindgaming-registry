@@ -27,5 +27,21 @@
       "url": "https://forum.audiogames.net/topic/30069/"
     }
   ],
+  "media": [
+    {
+      "name": "Blind Guy Plays Sequence Storm, a Rhythm Racing Game, for the Very First Time!",
+      "url": "https://www.youtube.com/watch?v=BnRZTF0MpVQ",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    },
+    {
+      "name": "Sequence Storm: A Brief Demo As A Gamer Without Sight",
+      "url": "https://www.youtube.com/watch?v=IaD1aTKeKW8",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2018"
 }

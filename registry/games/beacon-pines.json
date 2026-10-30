@@ -26,5 +26,14 @@
       "url": "https://forum.audiogames.net/topic/60186/"
     }
   ],
+  "media": [
+    {
+      "name": "Beacon Pines: mod test",
+      "url": "https://audiopub.site/listen/03975d92-efc2-4c8c-b980-b91effc5e12b",
+      "creatorId": "object-inspace",
+      "creatorProfileUrl": "https://audiopub.site/user/@prism",
+      "mediaType": "audio"
+    }
+  ],
   "releaseYear": "2022"
 }

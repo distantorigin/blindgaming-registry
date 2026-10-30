@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "sightlesskombat",
+  "name": "SightlessKombat",
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "name": "SightlessKombat"
+    }
+  ]
+}

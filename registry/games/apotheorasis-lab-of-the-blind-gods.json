@@ -25,5 +25,14 @@
       "url": "https://tallguyprods.itch.io/apotheorasis"
     }
   ],
+  "media": [
+    {
+      "name": "Apotheorasis: Lab of the Blind Gods accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=nW3ZM_GKXMY",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2022"
 }

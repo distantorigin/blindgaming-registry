@@ -33,5 +33,28 @@
       "url": "https://forum.audiogames.net/topic/49886/"
     }
   ],
+  "media": [
+    {
+      "name": "Blind Gamer First Time Playing Spider-Man 2 After the TTS and Audio Description Accessibility Patch!",
+      "url": "https://www.youtube.com/watch?v=YnG3QsWmvc0",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    },
+    {
+      "name": "Marvel's Spider-Man 2 - PS5 accessibility review (2023, before narration patch)",
+      "url": "https://www.youtube.com/watch?v=fMglm1pmI44",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    },
+    {
+      "name": "Marvel's Spider-Man 2 - PS5 screen reader, audio description and navigation assist overview",
+      "url": "https://www.youtube.com/watch?v=pD7i-z-kXMM",
+      "creatorId": "sightlesskombat",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2023"
 }

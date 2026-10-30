@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "ross-minor",
+  "name": "Ross Minor",
+  "aliases": [
+    "EyePlayBlind"
+  ],
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UC3yVjuZy4VzYhoYtPVtTz9Q",
+      "name": "EyePlayBlind"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "name": "Ross Minor"
+    }
+  ]
+}

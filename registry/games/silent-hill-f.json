@@ -30,5 +30,21 @@
       "url": "https://on1xn.github.io/arozv/shf/uragirimono/"
     }
   ],
+  "media": [
+    {
+      "name": "Silent Hill f: accessibility mod Twitch stream",
+      "url": "https://www.twitch.tv/videos/2892692384",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.twitch.tv/zersiax",
+      "mediaType": "vod"
+    },
+    {
+      "name": "Silent Hill f: accessibility mod showcase audio",
+      "url": "https://audiopub.site/listen/b24e23c7-2971-452a-bfdd-4318ac03fe42",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio"
+    }
+  ],
   "releaseYear": "2025"
 }

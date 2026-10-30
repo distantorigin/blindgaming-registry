@@ -29,5 +29,14 @@
       "url": "https://www.blackboxpuzzles.com/press/"
     }
   ],
+  "media": [
+    {
+      "name": "BlackBox accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=D0NA2-3do6E",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2016"
 }

@@ -29,5 +29,21 @@
       "url": "https://forum.audiogames.net/topic/46814/"
     }
   ],
+  "media": [
+    {
+      "name": "God Of War Ragnarok - Accessibility Review (PS5, 2022)",
+      "url": "https://www.youtube.com/watch?v=m-RhVfNggkw",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    },
+    {
+      "name": "God of War Ragnarok accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=hCGEfc_cYp0",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2024"
 }

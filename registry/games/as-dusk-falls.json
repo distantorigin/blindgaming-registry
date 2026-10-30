@@ -37,5 +37,35 @@
       "url": "https://forum.audiogames.net/topic/45692/"
     }
   ],
+  "media": [
+    {
+      "name": "As Dusk Falls - Accessibility Review (Xbox Series X)",
+      "url": "https://www.youtube.com/watch?v=66RSJnVnN4Q",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    },
+    {
+      "name": "As Dusk Falls Episode 1A: The Shock of Unexpected Accessibility",
+      "url": "https://www.youtube.com/watch?v=PgLmVjZP4RI",
+      "creatorId": "superblindman",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCbJy3rXhAbRwG85D3yceS5A",
+      "mediaType": "video"
+    },
+    {
+      "name": "As Dusk Falls accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=vcjBU2n6TBU",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Blind Accessibility Impressions for As Dusk Falls: Another Game Changer!",
+      "url": "https://www.youtube.com/watch?v=iWHvn9axij4",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2022"
 }

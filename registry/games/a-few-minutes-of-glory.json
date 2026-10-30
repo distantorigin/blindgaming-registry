@@ -33,5 +33,14 @@
       "url": "https://www.applevis.com/apps/ios/games/few-minutes-glory"
     }
   ],
+  "media": [
+    {
+      "name": "A Few Minutes of Glory accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=Tio8L1VmNL4",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2019"
 }

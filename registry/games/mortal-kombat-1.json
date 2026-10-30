@@ -37,5 +37,28 @@
       "url": "https://forum.audiogames.net/topic/49655/"
     }
   ],
+  "media": [
+    {
+      "name": "MORTAL KOMBAT 1 is the BEST Fighting game for BLIND GAMERS! - Accessibility Review (Xbox Series X)",
+      "url": "https://www.youtube.com/watch?v=zrNnySYHruw",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    },
+    {
+      "name": "Mortal Kombat 1 accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=5eOsRwo8pNo",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Welcome to the New Era of Mortal Kombat 1 \\ Blind Accessibility Review",
+      "url": "https://www.youtube.com/watch?v=2OMD7qYxVq4",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2023"
 }

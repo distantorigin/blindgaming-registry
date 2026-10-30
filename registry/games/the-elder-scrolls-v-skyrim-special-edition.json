@@ -48,5 +48,21 @@
       "url": "https://www.nexusmods.com/skyrimspecialedition/mods/181131"
     }
   ],
+  "media": [
+    {
+      "name": "Skyrim accessibility mods: early first look (June 2026)",
+      "url": "https://www.youtube.com/watch?v=MDFHB4-2jio",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g",
+      "mediaType": "video"
+    },
+    {
+      "name": "Skyrim mod first look: audio archive (June 2026; variable intro volume)",
+      "url": "https://audiopub.site/listen/9f8bfe81-b1b9-486c-8211-bb5f40614a49",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio"
+    }
+  ],
   "releaseYear": "2016"
 }

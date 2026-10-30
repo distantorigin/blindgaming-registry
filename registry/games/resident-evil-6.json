@@ -29,5 +29,14 @@
       "url": "https://github.com/Molitvan/blind-accessible-games-list/blob/1f409f644a2d1f7cbe3f13daef54c9b48fc232ea/README.md"
     }
   ],
+  "media": [
+    {
+      "name": "Resident Evil 6: cooperative gameplay accessibility demonstration",
+      "url": "https://www.youtube.com/playlist?list=PLix0msHAV5DT87z_SKrHzuE16Ar799fod",
+      "creatorId": "superblindman",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCbJy3rXhAbRwG85D3yceS5A",
+      "mediaType": "playlist"
+    }
+  ],
   "releaseYear": "2013"
 }

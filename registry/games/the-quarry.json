@@ -30,5 +30,30 @@
       "url": "https://github.com/futyn-maker/the_quarry_access"
     }
   ],
+  "media": [
+    {
+      "name": "The Quarry playthrough",
+      "url": "https://www.youtube.com/playlist?list=PLYB1Ek4SYl6M",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g",
+      "mediaType": "playlist",
+      "startUrl": "https://www.youtube.com/watch?v=W85k8GZHBgQ",
+      "note": "Playlist is not in episode order; start with episode 1."
+    },
+    {
+      "name": "The Quarry: episode 1 Twitch stream",
+      "url": "https://www.twitch.tv/videos/2889915111",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.twitch.tv/zersiax",
+      "mediaType": "vod"
+    },
+    {
+      "name": "The Quarry: episode 1 audio",
+      "url": "https://audiopub.site/listen/4d31c9be-81a9-4ea0-8019-dc7314f56ee9",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://audiopub.site/user/@zersiax",
+      "mediaType": "audio"
+    }
+  ],
   "releaseYear": "2022"
 }

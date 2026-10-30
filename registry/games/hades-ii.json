@@ -25,5 +25,14 @@
       "url": "https://forum.audiogames.net/topic/53522/"
     }
   ],
+  "media": [
+    {
+      "name": "Hades II Totally Blind",
+      "url": "https://www.youtube.com/playlist?list=PLY55wZB4rRgFX28TmF7lJ0w7ZMmL9Cp2h",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC3yVjuZy4VzYhoYtPVtTz9Q",
+      "mediaType": "playlist"
+    }
+  ],
   "releaseYear": "2025"
 }

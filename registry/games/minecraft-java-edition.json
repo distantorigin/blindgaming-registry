@@ -31,6 +31,22 @@
       "url": "https://forum.audiogames.net/topic/60149/"
     }
   ],
+  "media": [
+    {
+      "name": "Minecraft Java: historical accessibility setup guide (older mods)",
+      "url": "https://www.youtube.com/playlist?list=PL2nN_7cg-MaGI_DRoAHApszzqDl-xuzzk",
+      "creatorId": "logicproxgaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCPBy8SaMtEat8TmNLP6bmKQ",
+      "mediaType": "playlist"
+    },
+    {
+      "name": "The TrueBlindCraft Guide - Minecraft: Java Edition with Minecraft Access",
+      "url": "https://www.youtube.com/playlist?list=PLXcBFfRlLcpiDpULQB3L2aX-AQb4-Atbq",
+      "creatorId": "trueblindgaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCCECECWmH0U0bwxnPYEXuKA",
+      "mediaType": "playlist"
+    }
+  ],
   "releaseYear": "2011",
   "archivedAt": "2026-09-07",
   "archiveReason": "Only sold outside supported storefronts; the Microsoft Store PC page is classified as Xbox"

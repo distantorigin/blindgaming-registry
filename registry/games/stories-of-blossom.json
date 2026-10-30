@@ -23,5 +23,21 @@
       "url": "https://forum.audiogames.net/topic/49307/"
     }
   ],
+  "media": [
+    {
+      "name": "Stories of Blossom accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=kDaHO_sgx1Y",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Stories of Blossom: gameplay",
+      "url": "https://www.youtube.com/watch?v=o9j_6ypBCHo",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2023"
 }

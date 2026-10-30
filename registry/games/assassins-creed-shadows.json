@@ -20,5 +20,21 @@
       "audio-description"
     ]
   },
+  "media": [
+    {
+      "name": "Assassin's Creed Shadows: accessibility showcase",
+      "url": "https://www.youtube.com/watch?v=zHaMsD3eWqE",
+      "creatorId": "zersiax",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC7uLYSknPG3pATnbhYyXE5g",
+      "mediaType": "video"
+    },
+    {
+      "name": "Ubisoft ALMOST Nailed It! Assassin’s Creed: Shadows Accessibility Review",
+      "url": "https://www.youtube.com/watch?v=EuGcyjsWY3c",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2025"
 }

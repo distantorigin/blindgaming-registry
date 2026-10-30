@@ -32,5 +32,14 @@
       "name": "Path of Adventure official accessibility information",
       "url": "https://www.pathofadventure.com/"
     }
+  ],
+  "media": [
+    {
+      "name": "Path of Adventure accessibility spotlight",
+      "url": "https://www.youtube.com/watch?v=MqsM77ZtVb0",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
   ]
 }

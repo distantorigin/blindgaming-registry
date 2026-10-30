@@ -32,5 +32,42 @@
       "url": "https://forum.audiogames.net/topic/47989/"
     }
   ],
+  "media": [
+    {
+      "name": "Diablo IV - Accessibility Review",
+      "url": "https://www.youtube.com/watch?v=Zqu6MQCz9cs",
+      "creatorId": "steve-saylor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCtWREyqj2spI0KiWHp09Fvg",
+      "mediaType": "video"
+    },
+    {
+      "name": "Diablo IV Blind Accessibility Review: So Much Progress Made!",
+      "url": "https://www.youtube.com/watch?v=WUynAuWHx_E",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCoZujToINVP7xax9BTc7s2g",
+      "mediaType": "video"
+    },
+    {
+      "name": "Diablo IV: first session",
+      "url": "https://www.youtube.com/watch?v=uyoV_m5ZkG4",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
+      "mediaType": "video"
+    },
+    {
+      "name": "Diablo IV: first session audio",
+      "url": "https://audiopub.site/listen/3477b83d-8d4c-48c1-aa03-a67a3b38f928",
+      "creatorId": "liamerven",
+      "creatorProfileUrl": "https://audiopub.site/user/@liamerven",
+      "mediaType": "audio"
+    },
+    {
+      "name": "TrueBlindGaming | Blind Gamer Plays Diablo IV::Accessibility Showcase(Mature-Rated) | Stream Replay",
+      "url": "https://www.youtube.com/watch?v=ELwYASw8MWY",
+      "creatorId": "trueblindgaming",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UCCECECWmH0U0bwxnPYEXuKA",
+      "mediaType": "video"
+    }
+  ],
   "releaseYear": "2023"
 }
