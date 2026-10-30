@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "pegfall-bounce-roguelite",
+  "status": "active",
+  "name": "Pegfall: Bounce Roguelite",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/pegfall-bounce-roguelite/id6785085590"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.birkinapps.pegfall"
+    }
+  ],
+  "accessibility": {
+    "description": "Built-in screen reader play turns on automatically with VoiceOver or TalkBack. Aim by named directions, fire with a double tap and hear each volley's results. A board scan, optional aim sounds and a practice tutorial support nonvisual play. AppleVis reports full VoiceOver accessibility on iOS. The developer reports labelled Workshop and Shop screens with spoken purchase confirmations. Android TalkBack support is developer-reported and has had less testing; independent blind-player verification of the Android build is not established.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Developer accessibility information",
+      "url": "https://birkinapps.com/pegfall/accessibility.html"
+    },
+    {
+      "name": "AppleVis accessibility review and player discussion",
+      "url": "https://www.applevis.com/apps/ios/games/pegfall-bounce-roguelite"
+    }
+  ],
+  "releaseYear": "2026"
+}
