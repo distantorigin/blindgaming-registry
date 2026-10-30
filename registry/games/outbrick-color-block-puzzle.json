@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "outbrick-color-block-puzzle",
+  "status": "active",
+  "name": "OutBrick: Color Block Puzzle",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/outbrick-color-block-puzzle/id6807997465"
+    }
+  ],
+  "accessibility": {
+    "description": "Developer-reported built-in VoiceOver support includes brick colour, shape and position descriptions and slide actions. Accessibility options are in Settings. Colour-blind glyphs and Reduce Motion are supported. AppleVis players report playable levels alongside exploration, focus and shop barriers in earlier versions. Complete accessibility of every screen has not been independently verified.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ],
+    "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/OutBrick:ColorBlockPuzzle/Blind"
+  },
+  "resources": [
+    {
+      "name": "AppleVis player discussion",
+      "url": "https://applevis.com/forum/ios-ipados-gaming/outbrick-voiceover-friendly-sliding-block-puzzle-no-timer"
+    },
+    {
+      "name": "Developer accessibility information",
+      "url": "https://www.outbrick.site/accessibility"
+    }
+  ]
+}
