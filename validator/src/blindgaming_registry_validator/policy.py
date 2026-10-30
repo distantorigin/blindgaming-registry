@@ -200,6 +200,28 @@ def url_policy_error(url: str, *, allow_nexus_description: bool = False) -> str 
     return "URL query parameters are not allowed for this field"
 
 
+_MEDIA_ID = r"[A-Za-z0-9_-]{1,128}"
+_MEDIA_WATCH_QUERY = re.compile(rf"v={_MEDIA_ID}")
+_MEDIA_START_QUERY = re.compile(rf"v={_MEDIA_ID}(?:&t=(?:0|[1-9][0-9]*))?")
+_MEDIA_PLAYLIST_QUERY = re.compile(rf"list={_MEDIA_ID}")
+
+
+def media_url_policy_error(url: str, *, start: bool = False) -> str | None:
+    """Apply the generic URL policy with a narrow YouTube recording exception."""
+    parsed, error = _split_https_url(url)
+    if error is not None:
+        return error
+    assert parsed is not None
+    if parsed.hostname == "www.youtube.com":
+        if parsed.path == "/watch":
+            pattern = _MEDIA_START_QUERY if start else _MEDIA_WATCH_QUERY
+            if pattern.fullmatch(parsed.query):
+                return None
+        elif parsed.path == "/playlist" and _MEDIA_PLAYLIST_QUERY.fullmatch(parsed.query):
+            return None
+    return url_policy_error(url)
+
+
 def classify_store_url(url: str) -> tuple[str, str] | None:
     """Return the exact supported store identity for one canonical HTTPS URL."""
     parsed, error = _split_https_url(url)

@@ -1231,3 +1231,243 @@ def test_mass_change_percentage_scales_above_the_hundred_record_floor(tmp_path, 
             "registry/games/game-0.json", "",
             "mass change modifies 102 records; limit is 101 without explicit authorization",
         ) in _errors(report)
+
+
+def _creator():
+    return {
+        "schemaVersion": 1, "id": "example-creator", "name": "Example Creator",
+        "profiles": [{"platform": "youtube", "url": "https://www.youtube.com/@example"}],
+    }
+
+
+def _media():
+    return {
+        "name": "Example recording", "url": "https://www.youtube.com/watch?v=example",
+        "creatorId": "example-creator", "creatorProfileUrl": "https://www.youtube.com/@example",
+        "mediaType": "video", "startUrl": "https://www.youtube.com/watch?v=example&t=12",
+        "note": "Historical release.",
+    }
+
+
+@pytest.mark.parametrize("field,value", [
+    ("name", None), ("url", None),
+    ("creatorId", None), ("creatorProfileUrl", None), ("mediaType", None),
+    ("creatorId", "missing-creator"), ("creatorProfileUrl", "https://www.youtube.com/@other"),
+    ("startUrl", "http://example.com/video"), ("note", "x" * 601),
+    ("note", "<b>not plain</b>"), ("unknown", "value"), ("mediaType", "stream"),
+])
+def test_media_rejects_incomplete_metadata_invalid_references_and_fields(tmp_path, field, value):
+    game = _game("media-game", "300")
+    media = _media()
+    if value is None:
+        del media[field]
+    else:
+        media[field] = value
+    game["media"] = [media]
+    _write(tmp_path, "creator", _creator())
+    _write(tmp_path, "game", game)
+
+    report = validate_snapshot(tmp_path)
+
+    assert not report.ok
+    assert any(d.path == "registry/games/media-game.json" and d.pointer.startswith("/media")
+               for d in report.diagnostics)
+
+
+@pytest.mark.parametrize("field", ["creatorId", "creatorProfileUrl", "mediaType", "note", "startUrl"])
+def test_ordinary_resource_cannot_have_media_only_fields(tmp_path, field):
+    game = _game("plain-game", "301")
+    game["resources"] = [{"name": "Resource", "url": "https://example.com/page", field: _media()[field]}]
+    _write(tmp_path, "game", game)
+    assert not validate_snapshot(tmp_path).ok
+
+
+@pytest.mark.parametrize("archived", [False, True])
+@pytest.mark.parametrize("keep_reference", [False, True])
+def test_creator_deletion_depends_on_remaining_active_and_archived_references(tmp_path, archived, keep_reference):
+    base, current = tmp_path / "base", tmp_path / "current"
+    creator = _creator()
+    game = _game("media-game", "302")
+    game["media"] = [_media()]
+    if archived:
+        _archive(game)
+    _write(base, "creator", creator)
+    _write(base, "game", game)
+    if not keep_reference:
+        game.pop("media")
+    _write(current, "game", game)
+
+    report = validate_snapshot(current, base_root=base)
+
+    assert report.ok is (not keep_reference), report.diagnostics
+    if keep_reference:
+        assert any(d.pointer == "/media/0/creatorId" for d in report.diagnostics)
+    assert not any(d.path.startswith("registry/creators/") and "deleted" in d.message
+                   for d in report.diagnostics)
+
+
+@pytest.mark.parametrize("kind", ["game", "mod"])
+def test_creator_deletion_exception_preserves_game_and_mod_history(tmp_path, kind):
+    base, current = tmp_path / "base", tmp_path / "current"
+    game = _game("history-game", "303")
+    mod = _mod("history-mod", "history-game")
+    _write(base, "creator", _creator())
+    _write(base, "game", game)
+    _write(base, "mod", mod)
+    _write(current, "mod" if kind == "game" else "game", mod if kind == "game" else game)
+    report = validate_snapshot(current, base_root=base)
+    assert any(d.path.startswith(f"registry/{kind}s/") and "deleted" in d.message
+               for d in report.diagnostics)
+
+
+@pytest.mark.parametrize("pair", ["resources", "media", "mixed"])
+def test_resource_and_media_urls_are_unique_within_each_game(tmp_path, pair):
+    game = _game("media-game", "304")
+    first, second = _media(), _media()
+    first["name"], second["name"] = "First", "Second"
+    if pair == "resources":
+        game["resources"] = [{"name": item["name"], "url": "https://example.com/recording"}
+                             for item in (first, second)]
+    elif pair == "media":
+        game["media"] = [first, second]
+    else:
+        game["resources"] = [{"name": "Guide", "url": "https://example.com/recording"}]
+        first["url"] = "https://example.com/recording"
+        game["media"] = [first]
+    _write(tmp_path, "creator", _creator())
+    _write(tmp_path, "game", game)
+    report = validate_snapshot(tmp_path)
+    prefix = "/resources/" if pair == "resources" else "/media/"
+    assert any(d.pointer.startswith(prefix) and "duplicate" in d.message for d in report.diagnostics)
+
+
+def test_media_url_can_be_shared_across_games(tmp_path):
+    _write(tmp_path, "creator", _creator())
+    for identifier, key in [("first-game", "305"), ("second-game", "306")]:
+        game = _game(identifier, key)
+        game["media"] = [_media()]
+        _write(tmp_path, "game", game)
+    report = validate_snapshot(tmp_path)
+    assert report.ok, report.diagnostics
+
+
+@pytest.mark.parametrize("names,valid", [
+    ((None, None), False), (("Main", None), False), (("Main", "main"), False),
+    (("Main Channel", "MAIN  CHANNEL"), False), (("Straße", "STRASSE"), False),
+    (("Main", "Clips"), True),
+])
+def test_repeated_platform_profiles_require_distinct_normalized_labels(tmp_path, names, valid):
+    creator = _creator()
+    creator["profiles"].append({"platform": "youtube", "url": "https://www.youtube.com/@clips"})
+    for profile, name in zip(creator["profiles"], names):
+        if name is not None:
+            profile["name"] = name
+    _write(tmp_path, "creator", creator)
+    report = validate_snapshot(tmp_path)
+    assert report.ok is valid, report.diagnostics
+
+
+@pytest.mark.parametrize("profile", [
+    {"platform": "website", "url": "https://www.youtube.com/@example"},
+    {"platform": "youtube", "url": "https://www.youtube.com/watch?v=example"},
+])
+def test_creator_profiles_reject_duplicate_urls_and_generic_policy_violations(tmp_path, profile):
+    creator = _creator()
+    if "?" in profile["url"]:
+        creator["profiles"] = [profile]
+    else:
+        creator["profiles"].append(profile)
+    _write(tmp_path, "creator", creator)
+    report = validate_snapshot(tmp_path)
+    assert any(d.pointer.endswith("/url") for d in report.diagnostics), report.diagnostics
+
+
+@pytest.mark.parametrize("invalid_alias", [1, None, False, {}, []])
+def test_malformed_creator_alias_returns_a_schema_diagnostic(tmp_path, invalid_alias):
+    creator = _creator()
+    creator["aliases"] = ["ExampleHandle", invalid_alias]
+    path = tmp_path / "registry" / "creators" / "example-creator.json"
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps(creator), encoding="utf-8")
+
+    report = validate_snapshot(tmp_path)
+
+    assert not report.ok
+    assert any(
+        diagnostic.level == "error"
+        and diagnostic.path == "registry/creators/example-creator.json"
+        and diagnostic.pointer == "/aliases/1"
+        and "not of type 'string'" in diagnostic.message
+        for diagnostic in report.diagnostics
+    ), report.diagnostics
+
+
+@pytest.mark.parametrize("invalid_media,pointer", [
+    (None, "/media"), (1, "/media"), ({}, "/media"),
+    ([None], "/media/0"), ([1], "/media/0"), ([[]], "/media/0"),
+    ([{"name": 1, "url": None}], "/media/0/name"),
+])
+def test_malformed_media_returns_schema_diagnostics_without_crashing(tmp_path, invalid_media, pointer):
+    game = _game("media-game", "307")
+    game["media"] = invalid_media
+    path = tmp_path / "registry" / "games" / "media-game.json"
+    path.parent.mkdir(parents=True)
+    path.write_text(json.dumps(game), encoding="utf-8")
+    report = validate_snapshot(tmp_path)
+    assert not report.ok
+    assert any(d.pointer == pointer for d in report.diagnostics), report.diagnostics
+
+
+@pytest.mark.parametrize("media_type", ["video", "playlist", "audio", "highlight", "vod"])
+def test_media_accepts_all_formats_without_optional_context(tmp_path, media_type):
+    game = _game("media-game", "308")
+    media = _media()
+    media["mediaType"] = media_type
+    del media["startUrl"], media["note"]
+    game["media"] = [media]
+    _write(tmp_path, "creator", _creator())
+    _write(tmp_path, "game", game)
+    report = validate_snapshot(tmp_path)
+    assert report.ok, report.diagnostics
+
+
+@pytest.mark.parametrize("collection,field,url,valid", [
+    ("resources", "url", "https://www.youtube.com/watch?v=example", False),
+    ("media", "url", "https://www.youtube.com/watch?v=example", True),
+    ("media", "url", "https://www.youtube.com/watch?v=example&t=12", False),
+    ("media", "startUrl", "https://www.youtube.com/watch?v=example&t=12", True),
+    ("media", "startUrl", "https://www.youtube.com/watch?v=example&extra=1", False),
+    ("media", "creatorProfileUrl", "https://www.youtube.com/watch?v=example", False),
+])
+def test_separate_collections_keep_their_url_policies(tmp_path, collection, field, url, valid):
+    game = _game("media-game", "309")
+    media = _media() if collection == "media" else {"name": "Guide", "url": "https://example.com/guide"}
+    media[field] = url
+    game[collection] = [media]
+    creator = _creator()
+    if field == "creatorProfileUrl":
+        creator["profiles"][0]["url"] = url
+    _write(tmp_path, "creator", creator)
+    _write(tmp_path, "game", game)
+    report = validate_snapshot(tmp_path)
+    assert report.ok is valid, report.diagnostics
+    if not valid:
+        assert any(d.pointer == f"/{collection}/0/{field}" for d in report.diagnostics)
+
+
+@pytest.mark.parametrize("archived", [False, True])
+def test_profile_removal_rejects_remaining_media_references(tmp_path, archived):
+    base, current = tmp_path / "base", tmp_path / "current"
+    creator = _creator()
+    game = _game("media-game", "310")
+    game["media"] = [_media()]
+    if archived:
+        _archive(game)
+    _write(base, "creator", creator)
+    _write(base, "game", game)
+    creator["profiles"][0]["url"] = "https://www.youtube.com/@replacement"
+    _write(current, "creator", creator)
+    _write(current, "game", game)
+    report = validate_snapshot(current, base_root=base)
+    assert not report.ok
+    assert any(d.pointer == "/media/0/creatorProfileUrl" for d in report.diagnostics)

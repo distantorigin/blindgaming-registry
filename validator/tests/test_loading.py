@@ -561,3 +561,74 @@ def test_git_attributes_do_not_change_registry_snapshot(tmp_path: Path):
 
     assert after == before
     assert snapshot_digest(after) == snapshot_digest(before)
+
+
+def test_load_creator_media_metadata_and_include_creator_changes_in_digest(tmp_path):
+    from blindgaming_registry_validator.validation import validate_snapshot
+
+    root = registry_root(tmp_path)
+    creator = {
+        "schemaVersion": 1,
+        "id": "example-creator",
+        "name": "Example Creator",
+        "profiles": [{"platform": "youtube", "url": "https://www.youtube.com/@example"}],
+    }
+    path = record_path(root, "creator", "example-creator")
+    path.parent.mkdir()
+    path.write_bytes(canonical_record_bytes(creator, "creator"))
+    media = {
+        "name": "Example playthrough",
+        "url": "https://www.youtube.com/playlist?list=PLExamplePlaylist",
+        "creatorId": "example-creator",
+        "creatorProfileUrl": "https://www.youtube.com/@example",
+        "mediaType": "playlist",
+        "startUrl": "https://www.youtube.com/watch?v=first",
+        "note": "Historical release; controls may differ.",
+    }
+    game = read_record(root, "game", "example-game")
+    game["media"] = [media]
+    write_record(root, "game", "example-game", game)
+
+    snapshot = load_snapshot(root)
+    report = validate_snapshot(root)
+    assert report.ok, report.diagnostics
+    assert snapshot.creators[0].name == "Example Creator"
+    assert snapshot.creators[0].aliases == ()
+    assert snapshot.creators[0].profiles[0].platform == "youtube"
+    assert snapshot.creators[0].profiles[0].name is None
+    from blindgaming_registry_validator.models import Media
+    loaded = snapshot.games[0].media[0]
+    assert isinstance(loaded, Media)
+    assert (loaded.creator_id, loaded.creator_profile_url, loaded.media_type,
+            loaded.start_url, loaded.note) == (
+        "example-creator", "https://www.youtube.com/@example", "playlist",
+        "https://www.youtube.com/watch?v=first", "Historical release; controls may differ.",
+    )
+    digest = snapshot_digest(snapshot)
+    game["media"][0]["note"] = "Updated context."
+    write_record(root, "game", "example-game", game)
+    assert snapshot_digest(load_snapshot(root)) != digest
+    digest = snapshot_digest(load_snapshot(root))
+    creator["name"] = "Updated Creator"
+    path.write_bytes(canonical_record_bytes(creator, "creator"))
+    assert snapshot_digest(load_snapshot(root)) != digest
+    creator["aliases"] = ["ExampleHandle"]
+    creator["profiles"][0]["name"] = "Main channel"
+    path.write_bytes(canonical_record_bytes(creator, "creator"))
+    loaded_creator = load_snapshot(root).creators[0]
+    assert loaded_creator.aliases == ("ExampleHandle",)
+    assert loaded_creator.profiles[0].name == "Main channel"
+
+
+def test_legacy_positional_game_constructor_and_plain_bytes_remain_valid(tmp_path):
+    from blindgaming_registry_validator.models import Accessibility, GameRecord, Resource
+
+    game = GameRecord(1, "game", "active", "Game", "steam", (), (), Accessibility(),
+                      (Resource("Guide", "https://example.com/guide"),), "2020", None, None, None)
+    assert game.release_year == "2020"
+    assert game.media == ()
+    root = registry_root(tmp_path)
+    snapshot = load_snapshot(root)
+    for path, contents in snapshot.files:
+        assert contents == (FIXTURE_ROOT / path).read_bytes()
+    assert snapshot_digest(snapshot) == "e7d20905eb607af0d193de4f60de44995774f96506622f6e47f6d6a469935298"

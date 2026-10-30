@@ -15,8 +15,11 @@ from .policy import classify_store_url
 from .schemas import REGISTRY_SCHEMA_VERSION
 from .models import (
     Accessibility,
+    CreatorProfile,
+    CreatorRecord,
     GameRecord,
     GuideRecord,
+    Media,
     ModLink,
     ModRecord,
     ReleaseSource,
@@ -146,7 +149,7 @@ def load_snapshot(root: Path) -> Snapshot:
             continue
         if not _is_record_path(relative):
             continue
-        kind = "game" if relative.startswith("registry/games/") else "mod"
+        kind = Path(relative).parts[1][:-1]
         try:
             contents = path.read_bytes()
         except OSError as error:
@@ -213,6 +216,10 @@ def load_snapshot(root: Path) -> Snapshot:
         mods=tuple(sorted(mods, key=lambda record: record.id)),
         files=files,
         guides=tuple(sorted((record for _, record, _ in guides), key=lambda record: record.id)),
+        creators=tuple(sorted(
+            (_creator_record(record) for _, kind, record, _ in records if kind == "creator"),
+            key=lambda record: record.id,
+        )),
     )
 
 
@@ -246,6 +253,7 @@ def _is_allowed_directory(relative: str) -> bool:
         "registry/games",
         "registry/mods",
         "registry/guides",
+        "registry/creators",
         "schemas",
         "schemas/v1",
         "validator",
@@ -259,6 +267,7 @@ def _is_allowed_directory(relative: str) -> bool:
         "validator/tests/fixtures/valid/registry",
         "validator/tests/fixtures/valid/registry/games",
         "validator/tests/fixtures/valid/registry/mods",
+        "validator/tests/fixtures/valid/registry/creators",
         ".github",
         ".github/ISSUE_TEMPLATE",
         ".github/scripts",
@@ -273,6 +282,7 @@ def _is_allowed_file(relative: str) -> bool:
         "registry/games/.gitkeep",
         "registry/mods/.gitkeep",
         "registry/guides/.gitkeep",
+        "registry/creators/.gitkeep",
     }:
         return True
     if _is_record_path(relative) or _is_guide_path(relative):
@@ -290,10 +300,12 @@ def _is_allowed_file(relative: str) -> bool:
 
 
 def _is_record_path(relative: str) -> bool:
+    parts = relative.split("/")
     return (
-        (relative.startswith("registry/games/") or relative.startswith("registry/mods/"))
-        and relative.endswith(".json")
-        and "/" not in relative.removeprefix("registry/games/").removeprefix("registry/mods/")
+        len(parts) == 3
+        and parts[0] == "registry"
+        and parts[1] in {"games", "mods", "creators"}
+        and parts[2].endswith(".json")
     )
 
 
@@ -463,6 +475,38 @@ def _resource_list(value: object) -> tuple[Resource, ...]:
     )
 
 
+def _media_list(value: object) -> tuple[Media, ...]:
+    return tuple(
+        Media(
+            name=_string(_mapping(entry)["name"]),
+            url=_string(_mapping(entry)["url"]),
+            creator_id=_string(_mapping(entry)["creatorId"]),
+            creator_profile_url=_string(_mapping(entry)["creatorProfileUrl"]),
+            media_type=_string(_mapping(entry)["mediaType"]),
+            start_url=_string(_mapping(entry)["startUrl"]) if "startUrl" in _mapping(entry) else None,
+            note=_string(_mapping(entry)["note"]) if "note" in _mapping(entry) else None,
+        )
+        for entry in _sequence(value)
+    )
+
+
+def _creator_record(source: Mapping[str, object]) -> CreatorRecord:
+    return CreatorRecord(
+        schema_version=source["schemaVersion"],
+        id=_string(source["id"]),
+        name=_string(source["name"]),
+        profiles=tuple(
+            CreatorProfile(
+                platform=_string(_mapping(profile)["platform"]),
+                url=_string(_mapping(profile)["url"]),
+                name=_string(_mapping(profile)["name"]) if "name" in _mapping(profile) else None,
+            )
+            for profile in _sequence(source["profiles"])
+        ),
+        aliases=tuple(_string(alias) for alias in _sequence(source.get("aliases", []))),
+    )
+
+
 def _release_source(value: object) -> ReleaseSource:
     source = _mapping(value)
     return ReleaseSource(
@@ -491,6 +535,7 @@ def _game_record(source: Mapping[str, object]) -> GameRecord:
         reserved_stores=_reserved_store_map(source.get("reservedStores", {})),
         accessibility=_accessibility(source["accessibility"]),
         resources=_resource_list(source.get("resources", [])),
+        media=_media_list(source.get("media", [])),
         release_year=_string(source["releaseYear"]) if "releaseYear" in source else None,
         archived_at=_string(source["archivedAt"]) if "archivedAt" in source else None,
         archive_reason=_string(source["archiveReason"]) if "archiveReason" in source else None,

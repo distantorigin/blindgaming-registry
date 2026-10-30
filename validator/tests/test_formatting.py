@@ -173,3 +173,95 @@ def test_canonical_guide_bytes_normalises_nfd_text_and_trailing_newlines():
     assert canonical == (
         f"---\ntitle: {unicodedata.normalize('NFC', 'Café guide')}\n---\n\nBody.\n"
     ).encode("utf-8")
+
+
+def test_creator_format_orders_properties_aliases_and_profiles():
+    record = {
+        "profiles": [
+            {"name": "Main", "url": "https://www.youtube.com/@main", "platform": "youtube"},
+            {"url": "https://example.com", "platform": "website"},
+        ],
+        "aliases": ["Zulu", "Alpha"], "name": "Creator", "id": "creator", "schemaVersion": 1,
+    }
+    expected = '''{
+  "schemaVersion": 1,
+  "id": "creator",
+  "name": "Creator",
+  "aliases": [
+    "Alpha",
+    "Zulu"
+  ],
+  "profiles": [
+    {
+      "platform": "website",
+      "url": "https://example.com"
+    },
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@main",
+      "name": "Main"
+    }
+  ]
+}
+'''
+    assert canonical_record_bytes(record, "creator") == expected.encode()
+
+
+def test_media_format_keeps_optional_keys_in_contract_order():
+    record = {"media": [{
+        "note": "Context", "startUrl": "https://example.com/start", "mediaType": "video",
+        "creatorProfileUrl": "https://example.com/profile", "creatorId": "creator",
+        "url": "https://example.com/recording", "name": "Recording",
+    }]}
+    formatted = json.loads(canonical_record_bytes(record, "game"))
+    assert list(formatted["media"][0]) == [
+        "name", "url", "creatorId", "creatorProfileUrl", "mediaType", "startUrl", "note",
+    ]
+
+
+@pytest.mark.parametrize("aliases", [
+    ["ExampleHandle", 1], ["ExampleHandle", None], ["ExampleHandle", False],
+    ["ExampleHandle", {}], ["ExampleHandle", []], 1,
+])
+def test_creator_format_preserves_invalid_alias_types_for_schema_validation(aliases):
+    record = {"schemaVersion": 1, "id": "creator", "name": "Creator", "aliases": aliases,
+              "profiles": [{"platform": "website", "url": "https://example.com"}]}
+
+    formatted = json.loads(canonical_record_bytes(record, "creator"))
+
+    assert formatted["aliases"] == aliases
+
+
+def test_media_format_orders_game_fields_entries_and_reports_media_pointer():
+    from blindgaming_registry_validator.formatting import canonical_format_pointer
+
+    record = {"releaseYear": "2020", "media": [
+        {"name": "Zulu", "url": "https://example.com/a"},
+        {"name": "Alpha", "url": "https://example.com/z"},
+        {"name": "Alpha", "url": "https://example.com/b"},
+    ], "resources": [{"name": "Guide", "url": "https://example.com/guide"}]}
+    formatted = json.loads(canonical_record_bytes(record, "game"))
+    assert list(formatted) == ["resources", "media", "releaseYear"]
+    assert [entry["url"] for entry in formatted["media"]] == [
+        "https://example.com/b", "https://example.com/z", "https://example.com/a"]
+    assert canonical_format_pointer(record, "game") == "/media"
+
+
+def test_plain_resource_order_preserves_existing_canonical_bytes():
+    record = {"resources": [
+        {"name": "Alpha", "url": "https://example.com/z"},
+        {"name": "Zulu", "url": "https://example.com/a"},
+    ]}
+    assert canonical_record_bytes(record, "game") == b'''{
+  "resources": [
+    {
+      "name": "Zulu",
+      "url": "https://example.com/a"
+    },
+    {
+      "name": "Alpha",
+      "url": "https://example.com/z"
+    }
+  ]
+}
+'''

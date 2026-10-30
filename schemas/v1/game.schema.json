@@ -33,6 +33,9 @@
     "resources": {
       "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/resourceList"
     },
+    "media": {
+      "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/mediaList"
+    },
     "releaseYear": {
       "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/releaseYear"
     },

@@ -190,7 +190,7 @@ def _format_diagnostics(root: Path, *, check: bool) -> tuple[int, tuple[Diagnost
             continue
         if not _is_record_path(relative):
             continue
-        kind = "game" if relative.startswith("registry/games/") else "mod"
+        kind = Path(relative).parts[1][:-1]
         try:
             contents = path.read_bytes()
             record = json.loads(

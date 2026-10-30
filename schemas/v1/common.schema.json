@@ -173,6 +173,59 @@
         "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/resourceEntry"
       }
     },
+    "mediaEntry": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+          "maxLength": 120
+        },
+        "url": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+        },
+        "creatorId": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/registryId"
+        },
+        "creatorProfileUrl": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+        },
+        "mediaType": {
+          "type": "string",
+          "enum": [
+            "video",
+            "playlist",
+            "audio",
+            "highlight",
+            "vod"
+          ]
+        },
+        "startUrl": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/httpsUrl"
+        },
+        "note": {
+          "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/displayText",
+          "maxLength": 600
+        }
+      },
+      "required": [
+        "name",
+        "url",
+        "creatorId",
+        "creatorProfileUrl",
+        "mediaType"
+      ],
+      "additionalProperties": false
+    },
+    "mediaList": {
+      "description": "Attributed recordings.",
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 32,
+      "uniqueItems": true,
+      "items": {
+        "$ref": "https://blindgaming.net/schemas/v1/common.schema.json#/$defs/mediaEntry"
+      }
+    },
     "accessibility": {
       "type": "object",
       "properties": {

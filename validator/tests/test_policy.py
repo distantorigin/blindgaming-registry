@@ -362,3 +362,48 @@ def test_validate_snapshot_rejects_other_markup_and_expression_forms(tmp_path, d
         and diagnostic.pointer == "/accessibility/description"
         for diagnostic in report.diagnostics
     )
+
+
+@pytest.mark.parametrize("url,start", [
+    ("https://www.youtube.com/watch?v=m-XXgeIzVGs", False),
+    ("https://www.youtube.com/playlist?list=PLExamplePlaylist", False),
+    ("https://www.youtube.com/watch?v=first", True),
+    ("https://www.youtube.com/playlist?list=A", True),
+    ("https://www.youtube.com/watch?v=x&t=3120", True),
+    ("https://www.youtube.com/watch?v=x&t=0", True),
+    ("https://youtu.be/recording", False),
+    ("https://audiopub.site/recording", False),
+])
+def test_typed_media_accepts_only_its_canonical_query_exception(url, start):
+    from blindgaming_registry_validator.policy import media_url_policy_error
+
+    assert media_url_policy_error(url, start=start) is None
+    if "?" in url:
+        assert url_policy_error(url) is not None
+
+
+@pytest.mark.parametrize("url,start", [
+    ("https://www.youtube.com/watch?v=x&t=3120", False),
+    *[("https://www.youtube.com/watch?" + query, True) for query in (
+        "v=x&v=y", "v=x&si=y", "v=x&feature=shared", "v=x&pp=y", "v=x&utm_source=y",
+        "v=", "%76=x", "v=%78", "v=x&t=-1", "v=x&t=01", "v=x&t=+1", "v=x&t=1.0",
+        "v=x&t=", "v=x&t=1&t=2", "t=1&v=x", "v=x&", "v=é", "v=" + "a" * 129,
+        "v=x&t=١", "v=x;t=1",
+    )],
+    ("https://www.youtube.com/playlist?list=", False),
+    ("https://www.youtube.com/playlist?list=x&list=y", False),
+    ("https://www.youtube.com/playlist?list=x&t=1", True),
+    ("https://www.youtube.com/watch?v=x#start", True),
+    ("https://user@www.youtube.com/watch?v=x", True),
+    ("https://localhost/watch?v=x", True),
+    ("https://127.0.0.1/watch?v=x", True),
+    ("https://www.youtube.com:8443/watch?v=x", True),
+    ("https://youtube.com/watch?v=x", False),
+    ("https://www.youtube.com/watch/?v=x", False),
+    ("https://www.youtube.com/%77atch?v=x", False),
+    ("https://www.youtube.com/watch?v=x%2fy", True),
+])
+def test_typed_media_rejects_noncanonical_or_unsafe_query_urls(url, start):
+    from blindgaming_registry_validator.policy import media_url_policy_error
+
+    assert media_url_policy_error(url, start=start) is not None
