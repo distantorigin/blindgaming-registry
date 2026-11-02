@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "timecrest",
-  "status": "active",
+  "status": "archived",
   "name": "Timecrest",
   "stores": [
     {
@@ -10,6 +10,11 @@
       "url": "https://apps.apple.com/us/app/timecrest/id1027546326"
     }
   ],
+  "reservedStores": {
+    "appstore": [
+      "id1027546326"
+    ]
+  },
   "accessibility": {
     "description": "The iOS interactive story supports VoiceOver for messages, choices, and menus. Accessibility includes descriptive help and speech tailored to fictional names; AppleVis reports full screen-reader usability. Story chapters share this single app, and some scenes progress on real-time timers.",
     "coverage": "full",
@@ -42,5 +47,7 @@
       "mediaType": "video"
     }
   ],
-  "releaseYear": "2015"
+  "releaseYear": "2015",
+  "archivedAt": "2026-11-02",
+  "archiveReason": "Removed from the App Store"
 }
