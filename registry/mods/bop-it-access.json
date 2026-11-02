@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "bop-it-access",
+  "status": "active",
+  "gameIds": [
+    "bop-it-the-video-game"
+  ],
+  "name": "Bop It Access",
+  "framework": "MelonLoader mod (Prism)",
+  "homeUrl": "https://github.com/Chris-E-Shaw/BopItAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Chris-E-Shaw/BopItAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "User's guide",
+      "url": "https://chris-e-shaw.github.io/BopItAccess/BopItAccess-user-guide.html",
+      "requiresPayment": false
+    },
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60592/bop-it-access-a-mod-for-bop-it-the-video-game/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Installer and releases",
+      "url": "https://github.com/Chris-E-Shaw/BopItAccess/releases",
+      "requiresPayment": false
+    }
+  ]
+}

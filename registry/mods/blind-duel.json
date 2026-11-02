@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "blind-duel",
-  "status": "active",
+  "status": "archived",
   "gameIds": [
     "yu-gi-oh-master-duel"
   ],
@@ -11,5 +11,8 @@
     "kind": "github",
     "repositoryUrl": "https://github.com/realamethyst/blindduel"
   },
-  "links": []
+  "links": [],
+  "archivedAt": "2026-11-02",
+  "archiveReason": "Original repository removed; development continues as Millennium Eye",
+  "replacedBy": "millennium-eye"
 }

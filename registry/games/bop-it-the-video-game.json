@@ -18,5 +18,11 @@
     ],
     "primaryModId": "blind-it"
   },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60592/bop-it-access-a-mod-for-bop-it-the-video-game/"
+    }
+  ],
   "releaseYear": "2025"
 }

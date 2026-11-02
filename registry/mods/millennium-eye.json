@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "millennium-eye",
+  "status": "active",
+  "gameIds": [
+    "yu-gi-oh-master-duel"
+  ],
+  "name": "Millennium Eye",
+  "framework": "MelonLoader mod (C#)",
+  "homeUrl": "https://github.com/buu420/MillenniumEye",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/buu420/MillenniumEye"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Releases",
+      "url": "https://github.com/buu420/MillenniumEye/releases",
+      "requiresPayment": false
+    }
+  ]
+}
