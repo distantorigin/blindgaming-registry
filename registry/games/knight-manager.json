@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "knight-manager",
+  "status": "active",
+  "name": "Knight Manager",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/knight-manager/id6760731941"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.knightmanager.chat"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer reports full VoiceOver support and Dynamic Type on iOS, and full TalkBack support with scalable text on Android, with accessibility audits by a blind consultant. The game began as an Alexa skill; playing it directly in the app through chat commands is described by the developer as experimental. AppleVis players report the app works well with VoiceOver, though the language may need to be set to English in the menu for buttons to read in English.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis player reports",
+      "url": "https://applevis.com/apps/ios/social-networking/knight-manager-chat"
+    },
+    {
+      "name": "Knight Manager news: play by chat in the app",
+      "url": "https://www.knight-manager.com/en/news"
+    }
+  ],
+  "releaseYear": "2026"
+}

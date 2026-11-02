@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "oath-ash",
+  "status": "active",
+  "name": "Oath & Ash",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/oath-ash/id6813987825"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.kroegoor.eidundasche"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer reports full playability with VoiceOver on iOS and TalkBack on Android: every card, value, enemy intent and result is announced, and nothing is timed. The battle log has one heading per round, audio cues signal your turn, hit strength and low health, and Settings > Learn the sounds lets you hear every sound and its meaning. Progress requires an iCloud sign-in on iOS, and battles, Expeditions and the Arena need an internet connection.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Oath & Ash official accessibility information",
+      "url": "https://oathandash.com/"
+    },
+    {
+      "name": "AppleVis: Oath & Ash accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/oath-ash"
+    }
+  ],
+  "releaseYear": "2026"
+}

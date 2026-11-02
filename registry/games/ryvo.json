@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ryvo",
+  "status": "active",
+  "name": "ryvo",
+  "stores": [
+    {
+      "store": "googleplay",
+      "primary": true,
+      "url": "https://play.google.com/store/apps/details?id=com.bananafinger.ryvo"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer lists screen reader support and voice announcements for game events in Ludo, Dominoes, Chess and Backgammon, with settings for voice and pronunciation and options to speak dice and domino numbers. Screen reader compatibility was improved with input from blind players.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60690/ryvo-games-that-bring-us-together-android-windows-ios-coming-soon/"
+    }
+  ],
+  "releaseYear": "2026"
+}

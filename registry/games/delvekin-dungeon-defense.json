@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "delvekin-dungeon-defense",
+  "status": "active",
+  "name": "DelveKin: Dungeon Defense",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/delvekin-dungeon-defense/id6797352090"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.cindercode.delvekin"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer lists VoiceOver support on iOS, and updates improved VoiceOver navigation during combat. An AppleVis player reports the game is accessible with VoiceOver and buttons are labeled, but navigation could be easier and the VoiceOver rotor is not supported. TalkBack support on Android is not documented.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60580/delvekin-dungeon-defense/"
+    },
+    {
+      "name": "AppleVis: DelveKin accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/delvekin-dungeon-defense"
+    }
+  ],
+  "releaseYear": "2026"
+}

@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "astonischika",
+  "status": "active",
+  "name": "Astonischika",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/astonischika/id6782404570"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.budbrain.astonischika"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer lists full VoiceOver and TalkBack support. Players report VoiceOver accessibility is solid and the developer responds to VoiceOver fixes; one AppleVis player found battle information lacking.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60606/iosandroid-astonischika-turnbased-roguelite-rpg/"
+    },
+    {
+      "name": "AppleVis: Astonischika accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/astonischika"
+    }
+  ],
+  "releaseYear": "2026"
+}

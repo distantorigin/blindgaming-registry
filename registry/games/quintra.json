@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "quintra",
+  "status": "active",
+  "name": "Quintra",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/quintra/id6809595343"
+    }
+  ],
+  "accessibility": {
+    "description": "Players report the game is fully accessible with VoiceOver and easy to navigate. Game Center turn-based play against friends has not been reported on.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis player reports",
+      "url": "https://applevis.com/apps/ios/games/quintra"
+    }
+  ],
+  "releaseYear": "2026"
+}

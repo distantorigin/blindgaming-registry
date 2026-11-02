@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "tindrift-merge-roguelike",
+  "status": "active",
+  "name": "Tindrift: Merge Roguelike",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/tindrift-merge-roguelike/id6789885889"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.birkinapps.tindrift"
+    }
+  ],
+  "accessibility": {
+    "description": "VoiceOver reads the board and re-announces it after every slide, and hazards are named rather than shown by colour alone. Move with a three-finger swipe or the Actions rotor, explore the board by touch, and use Magic Tap to read the board. Each tile has a sound panned by column, and a Field Manual explains the game. TalkBack support has had little testing. Full-screen ads can interrupt play; the developer can disable them for screen reader users on request.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60610/tindrift-slidemerge-tactics-game-for-voiceover-free/"
+    }
+  ],
+  "releaseYear": "2026"
+}

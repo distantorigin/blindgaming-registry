@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "arcflush-roguelike-solitaire",
+  "status": "active",
+  "name": "ArcFlush: Roguelike Solitaire",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/arcflush-roguelike-solitaire/id6792484651"
+    }
+  ],
+  "accessibility": {
+    "description": "VoiceOver support covers the whole game, and players report it is fully accessible and easy to navigate.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis player reports",
+      "url": "https://applevis.com/apps/ios/games/arcflush-roguelike-solitaire"
+    }
+  ],
+  "releaseYear": "2026"
+}

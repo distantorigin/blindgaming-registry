@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "crimlife-mafia-crime-rpg",
+  "status": "active",
+  "name": "CrimLife: Mafia Crime RPG",
+  "stores": [
+    {
+      "store": "googleplay",
+      "primary": true,
+      "url": "https://play.google.com/store/apps/details?id=com.crimlife.app"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer describes the text-based game as screen reader friendly with TalkBack. Version 10.1 fixed TalkBack labels in Crimes, Robbery and National Bank. The car racing minigame is visual and not yet accessible.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60542/crimlife-a-free-textbased-crime-rpg-now-on-android/"
+    }
+  ],
+  "releaseYear": "2026"
+}

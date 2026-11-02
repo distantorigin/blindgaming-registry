@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "quiz-king-duel",
+  "status": "active",
+  "name": "Quiz King – Duel",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/quiz-king-duel/id6822641325"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.kroegoor.quizkoenig"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer says the game is fully playable with VoiceOver and TalkBack: each new question is announced, answers are read directly, and time and score are a swipe away. Answer by tapping or by speaking. Without a screen reader, the quizmaster can read questions aloud. Blind players test each update.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60682/quiz-king-trivia-duels-for-iphone-and-android-voiceover-and-talkback/"
+    },
+    {
+      "name": "AppleVis: Quiz King – Duel accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/quiz-king-duel"
+    }
+  ],
+  "releaseYear": "2026"
+}
