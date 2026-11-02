@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "audiospeed",
+  "status": "active",
+  "name": "Audiospeed",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3669730/Audiospeed/"
+    }
+  ],
+  "accessibility": {
+    "description": "Designed to be played from start to finish without looking at the screen, with no screen reader needed: the game speaks every menu entry and race event and also shows them as subtitles. Stereo output is required, with headphones recommended, because track direction, opponents and hazards are conveyed by stereo positioning. Windows only.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60648/audiospeed-starship-racing-by-ear-early-access-nov-11-demo-out/"
+    }
+  ]
+}

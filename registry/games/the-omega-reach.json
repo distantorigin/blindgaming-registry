@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "the-omega-reach",
+  "status": "active",
+  "name": "THE OMEGA REACH",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/4638520/THE_OMEGA_REACH/"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer reports spatial audio, haptics and screen reader support. It can be played with a gamepad, keyboard alone, mouse alone, touchscreen or MIDI device, with skippable interactions and adjustable interface and difficulty settings.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60558/the-omega-reach-intergalactic-instrument-collector-demo-released/"
+    },
+    {
+      "name": "Source code",
+      "url": "https://github.com/nicross/the-omega-reach"
+    },
+    {
+      "name": "Game manual",
+      "url": "https://the-omega-reach.shiftbacktick.io/manual.html"
+    }
+  ]
+}

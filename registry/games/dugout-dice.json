@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "dugout-dice",
+  "status": "active",
+  "name": "Dugout Dice",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/5054570/Dugout_Dice/"
+    },
+    {
+      "store": "appstore",
+      "url": "https://apps.apple.com/us/app/dugout-dice/id6792083382"
+    }
+  ],
+  "accessibility": {
+    "description": "Screen reader compatibility is turned on from Settings > Accessibility in the main menu. A full season is playable with VoiceOver on iOS; select dice by exploring with one finger and double-tapping each, because focus moves to the swing zone. The Hat Trick arcade mini-game is not accessible.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60760/dugout-dice/"
+    },
+    {
+      "name": "AppleVis player reports",
+      "url": "https://www.applevis.com/apps/ios/games/dugout-dice"
+    }
+  ],
+  "releaseYear": "2026"
+}
