@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "a-monsters-expedition-access",
+  "status": "active",
+  "gameIds": [
+    "a-monsters-expedition"
+  ],
+  "name": "A Monster's Expedition Access",
+  "framework": "BepInEx 5 (C#)",
+  "homeUrl": "https://github.com/hasajaza/AMonstersExpedition-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/hasajaza/AMonstersExpedition-access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Mod downloads and release notes",
+      "url": "https://github.com/hasajaza/AMonstersExpedition-access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

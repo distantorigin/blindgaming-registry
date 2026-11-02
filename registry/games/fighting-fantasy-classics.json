@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "fighting-fantasy-classics",
+  "status": "active",
+  "name": "Fighting Fantasy Classics",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/856880/Fighting_Fantasy_Classics/"
+    }
+  ],
+  "accessibility": {
+    "description": "FFC Access reads the book shelf, menus and book sections through NVDA, JAWS or SAPI, with navigation by sentence, paragraph, word or letter. It announces choices, dice rolls, combat, Stamina changes, stats, inventory and trading, and lets you navigate maps by compass direction and distance. The free Bloodbones book has been tested; other books have not, and picture descriptions exist only for The Warlock of Firetop Mountain.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "ffc-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60556/ffc-access-a-mod-for-fighting-fantasy-classics/"
+    },
+    {
+      "name": "FFC Access readme",
+      "url": "https://github.com/Shehryar157/FFC-access"
+    }
+  ],
+  "releaseYear": "2018"
+}

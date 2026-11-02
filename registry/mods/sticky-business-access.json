@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "sticky-business-access",
+  "status": "active",
+  "gameIds": [
+    "sticky-business"
+  ],
+  "name": "Sticky Business Access",
+  "framework": "BepInEx plugin (C#)",
+  "homeUrl": "https://github.com/MiloSummers/StickyBusinessAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/MiloSummers/StickyBusinessAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Discord",
+      "url": "https://discord.gg/aD6Hmfzy53",
+      "requiresPayment": false
+    },
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60522/sticky-access-a-mod-for-sticky-business/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Player package and releases",
+      "url": "https://github.com/MiloSummers/StickyBusinessAccess/releases",
+      "requiresPayment": false
+    }
+  ]
+}

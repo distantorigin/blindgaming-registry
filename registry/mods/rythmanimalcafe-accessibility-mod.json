@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "rythmanimalcafe-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "rhythm-animal-cafe"
+  ],
+  "name": "RythmAnimalCafe Accessibility Mod",
+  "framework": "BepInEx plugin",
+  "homeUrl": "https://chikutaku-luyi.itch.io/raca",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60618/rythmanimalcafe-accessibility-mod/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "itch.io download",
+      "url": "https://chikutaku-luyi.itch.io/raca",
+      "requiresPayment": false
+    }
+  ]
+}

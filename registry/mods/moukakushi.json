@@ -1,0 +1,51 @@
+{
+  "schemaVersion": 1,
+  "id": "moukakushi",
+  "status": "active",
+  "gameIds": [
+    "higurashi-when-they-cry-hou-ch-1-onikakushi",
+    "higurashi-when-they-cry-hou-ch-2-watanagashi",
+    "higurashi-when-they-cry-hou-ch-3-tatarigoroshi",
+    "higurashi-when-they-cry-hou-ch-4-himatsubushi",
+    "higurashi-when-they-cry-hou-ch-5-meakashi",
+    "higurashi-when-they-cry-hou-ch-6-tsumihoroboshi",
+    "higurashi-when-they-cry-hou-ch-7-minagoroshi",
+    "higurashi-when-they-cry-hou-ch-8-matsuribayashi",
+    "higurashi-when-they-cry-hou-plus",
+    "higurashi-when-they-cry-hou-rei"
+  ],
+  "name": "Moukakushi",
+  "homeUrl": "https://on1xn.github.io/arozv/higurashi/moukakushi/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Autonomous Republic of Zero-Vis Discord",
+      "url": "https://discord.gg/4xGg4gGW9a",
+      "requiresPayment": false
+    },
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60793/higurashi-no-naku-koro-ni-hou-a-heartwarming-visual-novel/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Moukakushi downloads (Google Drive)",
+      "url": "https://drive.google.com/drive/folders/1FfuDbdrqtIo1E8PmBTZt80e2rScM2kuJ",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/on1xn",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "ON1XN on Patreon",
+      "url": "https://www.patreon.com/on1xn/",
+      "requiresPayment": false
+    }
+  ]
+}

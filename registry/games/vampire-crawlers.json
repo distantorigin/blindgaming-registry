@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "vampire-crawlers",
+  "status": "active",
+  "name": "Vampire Crawlers: The Turbo Wildcard from Vampire Survivors",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3265700/Vampire_Crawlers_The_Turbo_Wildcard_from_Vampire_Survivors/"
+    }
+  ],
+  "accessibility": {
+    "description": "The Vampire Crawlers Accessibility mod reads menus, dialogue, shops, reward screens, popups and battles (cards, damage, HP, mana and enemy intents) through NVDA or Windows SAPI, and adds stereo audio cues for nearby dungeon objects. Since version 1.2 the whole game is playable, with a tracker that lists everything on the floor and guides you to a chosen target along walkable routes, plus info keys for status, facing and the nearest unexplored tile, breakable or pickup. It works with keyboard or controller, mod speech is translated into the game's languages, and it targets the Steam version.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "vampire-crawlers-accessibility"
+  },
+  "resources": [
+    {
+      "name": "Accessibility mod keys and audio cues",
+      "url": "https://github.com/Lirin111/VampireCrawlersAccessibility"
+    }
+  ],
+  "releaseYear": "2026"
+}

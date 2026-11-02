@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "higurashi-when-they-cry-hou-ch-2-watanagashi",
+  "status": "active",
+  "name": "Higurashi When They Cry Hou - Ch.2 Watanagashi",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/410890/Higurashi_When_They_Cry_Hou_Ch2_Watanagashi/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/higurashi_when_they_cry_hou_ch2_watanagashi"
+    }
+  ],
+  "accessibility": {
+    "description": "Moukakushi reads story text, choices, menus and confirmation prompts, with keyboard and controller navigation of menus and settings. It speaks save slots for saving, loading, overwriting and deleting, can repeat the current line, keeps a history of the last 50 spoken entries, and switches between automatic and manual reading. Each episode needs its own copy of the mod installed in its game folder; the Steam and GOG versions are supported, as are the 07th-Mod and Console Arcs mods. It is a public test reported to be enough to finish all ten episodes, but not everything has been tested, and PlayStation controllers may need Steam Input enabled.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "moukakushi"
+  },
+  "resources": [
+    {
+      "name": "Moukakushi documentation",
+      "url": "https://on1xn.github.io/arozv/higurashi/moukakushi/"
+    }
+  ],
+  "releaseYear": "2015"
+}

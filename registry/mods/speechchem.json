@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "speechchem",
+  "status": "active",
+  "gameIds": [
+    "spacechem"
+  ],
+  "name": "SpeechChem",
+  "framework": "C# (.NET)",
+  "homeUrl": "https://github.com/amerikrainian/speechchem",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/amerikrainian/speechchem"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60563/speechchem-an-accessibility-mod-for-spacechem/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Releases",
+      "url": "https://github.com/amerikrainian/speechchem/releases",
+      "requiresPayment": false
+    }
+  ]
+}

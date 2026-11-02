@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "gwent-access",
+  "status": "active",
+  "gameIds": [
+    "gwent-the-witcher-card-game"
+  ],
+  "name": "Gwent Access",
+  "framework": "BepInEx 6 IL2CPP plugin (C#)",
+  "homeUrl": "https://github.com/smoovgunner/gwent-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/smoovgunner/gwent-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60771/gwent-the-witcher-3-card-game/",
+      "requiresPayment": false
+    }
+  ]
+}

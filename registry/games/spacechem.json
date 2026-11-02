@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "spacechem",
+  "status": "active",
+  "name": "SpaceChem",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/92800/SpaceChem/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/spacechem"
+    }
+  ],
+  "accessibility": {
+    "description": "SpeechChem makes SpaceChem playable with a screen reader, with keyboard commands to read and edit the reactor grid, place instructions and pipes, run and debug solutions, switch reactors, and build pipelines in production levels. DLC levels are covered, speech can be configured per event, and the first two levels include a step-by-step tutorial. The mod comes with an installer and targets the Steam version; it is still in early development.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "speechchem"
+  },
+  "resources": [
+    {
+      "name": "SpeechChem manual",
+      "url": "https://amerikrainian.com/speechchem/"
+    },
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60563/speechchem-an-accessibility-mod-for-spacechem/"
+    }
+  ],
+  "releaseYear": "2011"
+}

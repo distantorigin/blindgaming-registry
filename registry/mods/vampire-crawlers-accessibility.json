@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "vampire-crawlers-accessibility",
+  "status": "active",
+  "gameIds": [
+    "vampire-crawlers"
+  ],
+  "name": "Vampire Crawlers Accessibility",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/Lirin111/VampireCrawlersAccessibility",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Lirin111/VampireCrawlersAccessibility"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Mod downloads and changelog",
+      "url": "https://github.com/Lirin111/VampireCrawlersAccessibility/releases",
+      "requiresPayment": false
+    }
+  ]
+}

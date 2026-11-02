@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "sticky-business",
+  "status": "active",
+  "name": "Sticky Business",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2303350/Sticky_Business/"
+    }
+  ],
+  "accessibility": {
+    "description": "Sticky Business Access adds keyboard navigation and screen reader speech through Prism, tested with NVDA. It covers menus, settings, the tutorial, sticker creation in the Creative Corner, placing stickers on sheets and in packing boxes, orders, the shop, upgrades and messages, with live coin, heart and time readouts and an adjustable day length. It is a work in progress and supports only the Steam version on 64-bit Windows.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "sticky-business-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60522/sticky-access-a-mod-for-sticky-business/"
+    }
+  ],
+  "releaseYear": "2023"
+}

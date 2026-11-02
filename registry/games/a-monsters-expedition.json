@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "a-monsters-expedition",
+  "status": "active",
+  "name": "A Monster's Expedition",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1052990/A_Monsters_Expedition/"
+    }
+  ],
+  "accessibility": {
+    "description": "A Monster's Expedition Access speaks your position, the terrain on all four sides and distance scans, and offers an island survey, a review cursor with walking directions, bookmarks, all museum exhibit plaques and the menus through JAWS, NVDA or Windows SAPI. Since version 1.2 the whole game can be played on a controller, tiles can be reported with directional sounds instead of speech, and the warp map lists postbox destinations with distance, direction, visited state and whether they are on the main route. It is a BepInEx 5 (32-bit) plugin for the Windows build of the game.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "a-monsters-expedition-access"
+  },
+  "resources": [
+    {
+      "name": "Accessibility mod keyboard reference",
+      "url": "https://github.com/hasajaza/AMonstersExpedition-access/blob/main/docs/KEYBOARD.md"
+    }
+  ],
+  "releaseYear": "2020"
+}

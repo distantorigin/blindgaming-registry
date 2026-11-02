@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "rhythm-animal-cafe",
+  "status": "active",
+  "name": "Rhythm Animal Café",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3859210/Rhythm_Animal_Caf%C3%A9/"
+    }
+  ],
+  "accessibility": {
+    "description": "The accessibility mod speaks through a screen reader or the Windows voice and supports all of the game's content, including descriptions of each level and a description of the opening cinematic written with the development team. It is available in Simplified Chinese, Traditional Chinese, English and Japanese, and is installed by extracting it into the Steam game folder next to GameLobby.exe. Speech cannot yet be turned off with a key.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "rythmanimalcafe-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "Accessibility mod page and installation",
+      "url": "https://chikutaku-luyi.itch.io/raca"
+    },
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60618/rythmanimalcafe-accessibility-mod/"
+    }
+  ],
+  "releaseYear": "2026"
+}

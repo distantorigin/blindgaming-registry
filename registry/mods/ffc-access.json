@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ffc-access",
+  "status": "active",
+  "gameIds": [
+    "fighting-fantasy-classics"
+  ],
+  "name": "FFC Access",
+  "framework": "BepInEx 5 plugin (C#)",
+  "homeUrl": "https://github.com/Shehryar157/FFC-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Shehryar157/FFC-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60556/ffc-access-a-mod-for-fighting-fantasy-classics/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Installer and releases",
+      "url": "https://github.com/Shehryar157/FFC-access/releases",
+      "requiresPayment": false
+    }
+  ]
+}
