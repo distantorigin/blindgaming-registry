@@ -8,10 +8,14 @@
       "store": "appstore",
       "primary": true,
       "url": "https://apps.apple.com/us/app/restaurant-rush-cook-serve/id6773167802"
+    },
+    {
+      "store": "googleplay",
+      "url": "https://play.google.com/store/apps/details?id=com.birkinapps.restaurant_rush"
     }
   ],
   "accessibility": {
-    "description": "Built-in VoiceOver support announces guests, orders, cooking states and warnings. Sound cues, adjustable announcement detail and relaxed or custom pace settings support real-time gameplay. AppleVis reports full VoiceOver accessibility, with readable interface elements and clearly labelled buttons.",
+    "description": "Built-in VoiceOver support announces guests, orders, cooking states and warnings. Sound cues, adjustable announcement detail and relaxed or custom pace settings support real-time gameplay. AppleVis reports full VoiceOver accessibility, with readable interface elements and clearly labelled buttons. The Android version supports TalkBack.",
     "coverage": "full",
     "confidence": "verified",
     "accessVia": "native",

@@ -22,6 +22,10 @@
   },
   "resources": [
     {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60577/leaccess-an-accessibility-mod-for-last-epoch-first-test-release/"
+    },
+    {
       "name": "LeAccess installation, controls and known limitations",
       "url": "https://github.com/Ali-Bueno/LeAccess"
     }

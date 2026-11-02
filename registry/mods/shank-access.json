@@ -20,6 +20,12 @@
       "requiresPayment": false
     },
     {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60504/shank-accessibility-mod-v04-released/",
+      "requiresPayment": false
+    },
+    {
       "kind": "download",
       "label": "Mod releases and beta installer",
       "url": "https://github.com/KarlBelanger/shank_access/releases",

@@ -16,6 +16,12 @@
       "requiresPayment": false
     },
     {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60490/beacon-pines-access-mod/",
+      "requiresPayment": false
+    },
+    {
       "kind": "download",
       "label": "Patreon download",
       "url": "https://www.patreon.com/prismaccess/posts/beacon-pines-ii-168322377",

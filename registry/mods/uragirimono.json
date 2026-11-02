@@ -10,6 +10,12 @@
   "homeUrl": "https://on1xn.github.io/arozv/shf/uragirimono/",
   "links": [
     {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60519/silent-hill-f-uragirimono-v0100-public-test/",
+      "requiresPayment": false
+    },
+    {
       "kind": "download",
       "label": "Uragirimono downloads (Google Drive)",
       "url": "https://drive.google.com/drive/folders/1H9rlDb49S9YgLbquQcQ_bnhLvRtxqTTA",

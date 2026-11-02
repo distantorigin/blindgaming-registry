@@ -28,6 +28,10 @@
   },
   "resources": [
     {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60737/access-delicious-2-an-accessibility-mod-for-cook-serve-delicious-2/"
+    },
+    {
       "name": "Rubber Magpie accessibility mods and release information",
       "url": "https://rubbermagpie.com/"
     }

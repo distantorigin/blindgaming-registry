@@ -14,6 +14,12 @@
   },
   "links": [
     {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60577/leaccess-an-accessibility-mod-for-last-epoch-first-test-release/",
+      "requiresPayment": false
+    },
+    {
       "kind": "download",
       "label": "Latest release and installation package",
       "url": "https://github.com/Ali-Bueno/LeAccess/releases/latest",

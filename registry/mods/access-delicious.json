@@ -15,6 +15,12 @@
       "requiresPayment": false
     },
     {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60496/access-delicious-an-accessibility-mod-for-cook-serve-delicious-iii/",
+      "requiresPayment": false
+    },
+    {
       "kind": "download",
       "label": "Free Ko-fi download",
       "url": "https://ko-fi.com/s/2fe74e40f5",

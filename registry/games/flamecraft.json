@@ -24,6 +24,10 @@
   },
   "resources": [
     {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60661/wyrmy-words-an-accessibility-mod-for-flamecraft/"
+    },
+    {
       "name": "Rubber Magpie accessibility mods and release information",
       "url": "https://rubbermagpie.com/"
     }

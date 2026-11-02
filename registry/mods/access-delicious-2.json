@@ -15,6 +15,12 @@
       "requiresPayment": false
     },
     {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60737/access-delicious-2-an-accessibility-mod-for-cook-serve-delicious-2/",
+      "requiresPayment": false
+    },
+    {
       "kind": "download",
       "label": "Ko-fi early access; free release planned for November 9, 2026",
       "url": "https://ko-fi.com/s/caf789d009",

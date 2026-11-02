@@ -11,5 +11,12 @@
     "kind": "github",
     "repositoryUrl": "https://github.com/liliancoghlan1-tech/dressmaker-access"
   },
-  "links": []
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60500/dressmaker-access/",
+      "requiresPayment": false
+    }
+  ]
 }

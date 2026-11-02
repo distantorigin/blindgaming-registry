@@ -15,6 +15,12 @@
       "requiresPayment": false
     },
     {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60661/wyrmy-words-an-accessibility-mod-for-flamecraft/",
+      "requiresPayment": false
+    },
+    {
       "kind": "download",
       "label": "Ko-fi early access; free release planned for October 31, 2026",
       "url": "https://ko-fi.com/s/94d1ce644e",

@@ -22,5 +22,11 @@
     ],
     "primaryModId": "dressmaker-access"
   },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60500/dressmaker-access/"
+    }
+  ],
   "releaseYear": "2026"
 }
