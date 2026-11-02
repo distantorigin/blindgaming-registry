@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ssvs-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "samurai-shodown-v-special"
+  ],
+  "name": "SSVS Accessibility Mod",
+  "framework": "External memory-reading narrator (C#)",
+  "homeUrl": "https://github.com/ohackercego/ssvs-accessibility-mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ohackercego/ssvs-accessibility-mod"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60680/samurai-shodown-v-special-accessibility-screen-reader-mod/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Releases",
+      "url": "https://github.com/ohackercego/ssvs-accessibility-mod/releases",
+      "requiresPayment": false
+    }
+  ]
+}

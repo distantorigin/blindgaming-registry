@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "street-fighter-v",
+  "status": "active",
+  "name": "Street Fighter V",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/310950/Street_Fighter_V/"
+    }
+  ],
+  "accessibility": {
+    "description": "Street Fighter V Access speaks menus, character and stage select, arcade, versus, training, trials, story, survival, the shop, online play, CFN and replays through Prism, using NVDA or Windows voices. During fights it plays health beeps and counter-hit and crossup sounds, and Alt+H reads health and V-Trigger. It reads game memory from outside the process, so a game update can break it; it is distributed as test builds.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "street-fighter-v-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60524/streetfightervaccess-a-mod-for-street-fighter-v-on-steam/"
+    },
+    {
+      "name": "Street Fighter V Access readme",
+      "url": "https://github.com/Kongster90/Street-Fighter-V-Access"
+    }
+  ],
+  "releaseYear": "2016"
+}

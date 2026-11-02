@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "mk-legacy-kollection-accessibility-reader",
+  "status": "active",
+  "gameIds": [
+    "mortal-kombat-legacy-kollection"
+  ],
+  "name": "MK Legacy Kollection Accessibility Reader",
+  "framework": "External OCR reader (Python)",
+  "homeUrl": "https://github.com/Zatoichi420/mk-legacy-kollection-accessibility-mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Zatoichi420/mk-legacy-kollection-accessibility-mod"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60744/mortal-kombat-legacy-kollection-accessibility-testers-needed/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Installer and releases",
+      "url": "https://github.com/Zatoichi420/mk-legacy-kollection-accessibility-mod/releases",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "street-fighter-v-access",
+  "status": "active",
+  "gameIds": [
+    "street-fighter-v"
+  ],
+  "name": "Street Fighter V Access",
+  "framework": "External memory reader (Python, Prism)",
+  "homeUrl": "https://github.com/Kongster90/Street-Fighter-V-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Kongster90/Street-Fighter-V-Access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60524/streetfightervaccess-a-mod-for-street-fighter-v-on-steam/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Test releases",
+      "url": "https://github.com/Kongster90/Street-Fighter-V-Access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "samurai-shodown-v-special",
+  "status": "active",
+  "name": "SAMURAI SHODOWN V SPECIAL",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1076550/SAMURAI_SHODOWN_V_SPECIAL/"
+    }
+  ],
+  "accessibility": {
+    "description": "The SSVS accessibility mod is an external narrator that reads the game's memory, with no injection or file changes, and speaks through NVDA or Prism. It reads the main menu and modes, settings, pause menu and confirmation dialogs, lobby screens, and the character select grid for both players, including Slash/Bust style choice and lock-in. Gallery and ranking screens are incomplete. It supports only the Steam version.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "ssvs-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60680/samurai-shodown-v-special-accessibility-screen-reader-mod/"
+    }
+  ],
+  "releaseYear": "2019"
+}

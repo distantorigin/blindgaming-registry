@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "mortal-kombat-legacy-kollection",
+  "status": "active",
+  "name": "Mortal Kombat: Legacy Kollection",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3454980/Mortal_Kombat_Legacy_Kollection/"
+    }
+  ],
+  "accessibility": {
+    "description": "The MK Legacy Kollection Accessibility Reader uses screen matching and Windows OCR to read the launcher menus, options, the Krypt, the game library, each game's pause menu, and fighter names on character select in arcade Mortal Kombat and Mortal Kombat II, through NVDA, JAWS or the Windows voice. Character select from Mortal Kombat 3 onward does not name fighters yet, online modes are untested, a 16:9 resolution is required, and version 1.0 has only been tested by its author.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "mk-legacy-kollection-accessibility-reader"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60744/mortal-kombat-legacy-kollection-accessibility-testers-needed/"
+    },
+    {
+      "name": "Accessibility reader readme",
+      "url": "https://github.com/Zatoichi420/mk-legacy-kollection-accessibility-mod"
+    }
+  ],
+  "releaseYear": "2025"
+}
