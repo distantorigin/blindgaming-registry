@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "beam-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "beamng-drive"
+  ],
+  "name": "BEAM Accessibility Mod",
+  "framework": "BeamNG Lua mod with companion app",
+  "homeUrl": "https://github.com/ironcross32/BeamNG-Accessibility-Mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ironcross32/BeamNG-Accessibility-Mod"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Mod and beamtel releases",
+      "url": "https://github.com/ironcross32/BeamNG-Accessibility-Mod/releases",
+      "requiresPayment": false
+    }
+  ]
+}

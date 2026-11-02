@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "fallout-3-access",
+  "status": "active",
+  "gameIds": [
+    "fallout-3"
+  ],
+  "name": "Fallout 3 Access",
+  "framework": "FOSE plugin (C++)",
+  "homeUrl": "https://github.com/Bruticus2131/fallout3-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Bruticus2131/fallout3-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60678/fallout3access-an-accessibility-mod-for-fallout3-in-progress/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Releases",
+      "url": "https://github.com/Bruticus2131/fallout3-access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

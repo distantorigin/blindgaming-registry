@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "gta-access",
+  "status": "active",
+  "gameIds": [
+    "grand-theft-auto-v-legacy"
+  ],
+  "name": "GTA Access",
+  "framework": "Script Hook V script (.NET)",
+  "homeUrl": "https://madnessinnsmouth.com/gta-access/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Discord",
+      "url": "https://discord.gg/7Tstwn8f7S",
+      "requiresPayment": false
+    },
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60643/gta-v-legacy-accessibility-mod/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "GTA Access setup",
+      "url": "https://madnessinnsmouth.com/gta-access/",
+      "requiresPayment": false
+    }
+  ]
+}

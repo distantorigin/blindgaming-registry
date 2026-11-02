@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "final-fantasy-xiv-online",
+  "status": "active",
+  "name": "Final Fantasy XIV Online",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/39210/FINAL_FANTASY_XIV_Online/"
+    }
+  ],
+  "accessibility": {
+    "description": "FF14 Accessibility is a Dalamud plugin, loaded through XIVLauncher, that reads menus, character creation, dialogue, quests, chat, inventory, gear, hotbars and combat through NVDA with braille display output, and adds an object browser with distance and direction, audio cues and automatic walking (optionally using the vnavmesh plugin). Recent versions add a category inventory on Ctrl+F3, the player trade and Aether Current windows, a quest-object category and FATE locations; the author notes several of these newer windows have not yet been tested in play. Plugin announcements are in English and German, and running Dalamud is outside Square Enix's terms of service.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "ff14-accessibility"
+  },
+  "resources": [
+    {
+      "name": "Accessibility plugin documentation (English)",
+      "url": "https://github.com/derbruedi/ff14-accessibility/blob/main/README.en.md"
+    }
+  ],
+  "releaseYear": "2014"
+}

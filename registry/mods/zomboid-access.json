@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "zomboid-access",
+  "status": "active",
+  "gameIds": [
+    "project-zomboid"
+  ],
+  "name": "Zomboid Access",
+  "framework": "Lua mod with a Prism speech bridge",
+  "homeUrl": "https://github.com/liliancoghlan1-tech/zomboid-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/liliancoghlan1-tech/zomboid-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60631/zomboid-access-accessibility-mod-for-project-zomboid/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Installer and releases",
+      "url": "https://github.com/liliancoghlan1-tech/zomboid-access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

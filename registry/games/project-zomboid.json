@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "project-zomboid",
+  "status": "active",
+  "name": "Project Zomboid",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/108600/Project_Zomboid/"
+    }
+  ],
+  "accessibility": {
+    "description": "Zomboid Access speaks through Prism (NVDA, JAWS and others) and covers menus, character creation, a categorised scanner with auto-walk, zombie warnings, health and moodles, combat with optional lock-on, inventory and looting, cooking, farming, foraging, fishing, crafting, driving with a steering tone or autodrive, and an interactive tutorial. Menus and character creation require a controller (keyboard keys work only in the world), multiplayer is not supported yet, and the mod is English only. It targets Build 42 and its installer, which also handles updates, sets the Steam launch option, so only the Steam version is supported. It is an early version: driving is the weakest part and newer features are lightly tested.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "zomboid-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60631/zomboid-access-accessibility-mod-for-project-zomboid/"
+    }
+  ],
+  "releaseYear": "2013"
+}

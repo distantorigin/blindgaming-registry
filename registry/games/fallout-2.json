@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "fallout-2",
+  "status": "active",
+  "name": "Fallout 2",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/38410/Fallout_2_A_Post_Nuclear_Role_Playing_Game/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/fallout_2"
+    }
+  ],
+  "accessibility": {
+    "description": "Access Never Changes speaks through NVDA or Windows voices and adds keyboard access to menus, character creation, dialogue, barter, the inventory, the Pip-Boy, turn-based combat and the world map, plus hex-by-hex exploration with a scanner and an action menu. It requires the Fallout 2 Restoration Project (RPU) and a physical numpad, which drives movement and map functions; overhaul mods such as Fallout Nevada or Sonora are unlikely to work. Tested on the Steam version (GOG should work but is untested). The mod is still in progress: the opening main menu uses its own single-key controls rather than arrows, opening cinematics are undescribed, some error screens are not yet accessible, and driving the Highwayman is not yet supported.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "access-never-changes"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60707/access-never-changes-an-accessibility-mod-for-fallout2/"
+    }
+  ],
+  "releaseYear": "1998"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "beamng-drive",
+  "status": "active",
+  "name": "BeamNG.drive",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/284160/BeamNGdrive/"
+    }
+  ],
+  "accessibility": {
+    "description": "The BEAM Accessibility Mod pairs an in-game mod with a companion app (beamtel) that speaks most game screens, vehicle selection, parts and tuning, map selection, and telemetry readouts such as speed, speed limit, RPM, gear and heading through layered F9 and F10 key commands. Road guidance gives spatial tones for staying on the road, junction and dead-end announcements, stop-sign and traffic-light alerts, and an experimental driving assistant (F10 then H) steers along roads while you keep throttle, brakes and gears. Drift scoring and drift zones are spoken. Game updates can break the mod until it is updated, and after an update mods must be re-activated in the repository's mod manager with OCR.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "beam-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "Accessibility mod commands and setup",
+      "url": "https://github.com/ironcross32/BeamNG-Accessibility-Mod"
+    }
+  ],
+  "releaseYear": "2015"
+}

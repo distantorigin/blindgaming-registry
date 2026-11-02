@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "grand-theft-auto-v-legacy",
+  "status": "active",
+  "name": "Grand Theft Auto V Legacy",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/271590/Grand_Theft_Auto_V_Legacy/"
+    }
+  ],
+  "accessibility": {
+    "description": "GTA Access speaks through NVDA and reads menus, the phone, shops, subtitles and mission instructions, with a scanner for nearby people, vehicles, doors and places, a spoken map, walking and driving autopilot, a walking beacon, driving cues, status readouts, and targeting and cover help; an optional auto-mission mode can play mission steps. It is a tester build in active development and coverage is partial: only some missions are handled well, long fights against enemies in cover can fail, losing the police on autopilot often fails, traffic lights cannot be read, and the Rockstar overlay is only partly read. It requires Script Hook V and supports the Legacy edition only, not Enhanced.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "gta-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60643/gta-v-legacy-accessibility-mod/"
+    }
+  ],
+  "releaseYear": "2015"
+}

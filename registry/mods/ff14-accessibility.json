@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ff14-accessibility",
+  "status": "active",
+  "gameIds": [
+    "final-fantasy-xiv-online"
+  ],
+  "name": "FF14 Accessibility",
+  "framework": "Dalamud plugin (C#)",
+  "homeUrl": "https://github.com/derbruedi/ff14-accessibility",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/derbruedi/ff14-accessibility"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Installer and plugin releases",
+      "url": "https://github.com/derbruedi/ff14-accessibility/releases",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "access-never-changes",
+  "status": "active",
+  "gameIds": [
+    "fallout-2"
+  ],
+  "name": "Access Never Changes",
+  "framework": "sfall scripts with a Python companion (NVDA)",
+  "homeUrl": "https://github.com/DoctorBoomstick/Access-Never-Changes",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/DoctorBoomstick/Access-Never-Changes"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60707/access-never-changes-an-accessibility-mod-for-fallout2/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Installer and release notes",
+      "url": "https://github.com/DoctorBoomstick/Access-Never-Changes/releases",
+      "requiresPayment": false
+    }
+  ]
+}

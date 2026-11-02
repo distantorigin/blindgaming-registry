@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "fallout-3",
+  "status": "active",
+  "name": "Fallout 3",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/22370/Fallout_3_Game_of_the_Year_Edition/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/fallout_3_game_of_the_year_edition"
+    }
+  ],
+  "accessibility": {
+    "description": "Fallout 3 Access speaks through Prism (NVDA, JAWS and other screen readers, with Windows voices as a fallback) and covers menus and character creation, the Pip-Boy, dialogue, barter, containers, keyboard-driven VATS with aim tones, terminals and the hacking minigame, lockpicking with audio cues, a status readout, the world map with fast travel, and the console. World navigation offers an object and quest-object scanner, audio beacons and auto-walk that routes through doors across cells, including the five DLCs. The opening film and Vault 101 prologue are audio described. The mod speaks English, Polish or Russian and requires patch 1.7.0.3. It is in progress: DLC support has been tested mostly offline, and auto-walk can get stuck on difficult terrain.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "fallout-3-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60678/fallout3access-an-accessibility-mod-for-fallout3-in-progress/"
+    }
+  ],
+  "releaseYear": "2009"
+}

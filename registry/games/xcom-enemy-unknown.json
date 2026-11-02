@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "xcom-enemy-unknown",
+  "status": "active",
+  "name": "XCOM: Enemy Unknown",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/200510/XCOM_Enemy_Unknown/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/xcom_enemy_unknown_complete_pack"
+    }
+  ],
+  "accessibility": {
+    "description": "Squadsight reads the game's screens and base menus through a screen reader via Tolk or SAPI, with braille output, and adds a keyboard tile cursor for the tactical map, a scanner of nearby points of interest, squad status and an ability menu, plus audio cues for walls, doors, windows and units. It is reported playable from start to finish, mainly tested with Enemy Within; plain Enemy Unknown may have more bugs. It runs from its own auto-updating launcher, supports the Steam version and the GOG Complete Pack, and needs Num Lock on.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "squadsight"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60757/squadsight-xcom-enemy-unknown-accessibility-mod/"
+    },
+    {
+      "name": "Squadsight readme",
+      "url": "https://github.com/Berenion/Squadsight-XCOM-Accessibility-Mod"
+    }
+  ],
+  "releaseYear": "2012"
+}

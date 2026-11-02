@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "squadsight",
+  "status": "active",
+  "gameIds": [
+    "xcom-enemy-unknown"
+  ],
+  "name": "Squadsight",
+  "framework": "Launcher-injected mod (Tolk)",
+  "homeUrl": "https://github.com/Berenion/Squadsight-XCOM-Accessibility-Mod",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Berenion/Squadsight-XCOM-Accessibility-Mod"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Accessibility Disco Discord",
+      "url": "https://discord.gg/gUJ6t7pZjh",
+      "requiresPayment": false
+    },
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60757/squadsight-xcom-enemy-unknown-accessibility-mod/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Installer and releases",
+      "url": "https://github.com/Berenion/Squadsight-XCOM-Accessibility-Mod/releases",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Ko-fi",
+      "url": "https://ko-fi.com/berenion",
+      "requiresPayment": false
+    }
+  ]
+}
