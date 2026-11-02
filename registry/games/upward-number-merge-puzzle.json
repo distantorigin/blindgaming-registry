@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "upward-number-merge-puzzle",
+  "status": "active",
+  "name": "Upward: Number Merge Puzzle",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/upward-number-merge-puzzle/id6775192115"
+    }
+  ],
+  "accessibility": {
+    "description": "VoiceOver reads all elements and buttons are labelled. Some players found the rules unclear.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Upward accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/upward-number-merge-puzzle"
+    }
+  ],
+  "releaseYear": "2026"
+}

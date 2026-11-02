@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ringbloom-the-garden-puzzle",
+  "status": "active",
+  "name": "Ringbloom: The Garden Puzzle",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/ringbloom-the-garden-puzzle/id6789952808"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer reports VoiceOver support with labelled controls, plus Undo and Hint options. Distinct glyphs are shown alongside colour, and Larger Text layouts and Reduce Motion are supported.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis listing",
+      "url": "https://applevis.com/apps/ios/games/ringbloom-garden-puzzle"
+    }
+  ],
+  "releaseYear": "2026"
+}

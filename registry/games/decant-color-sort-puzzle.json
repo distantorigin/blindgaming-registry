@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "decant-color-sort-puzzle",
+  "status": "active",
+  "name": "Decant: Color Sort Puzzle",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/decant-color-sort-puzzle/id6796488452"
+    }
+  ],
+  "accessibility": {
+    "description": "VoiceOver reads all elements and buttons are labelled. Nothing is timed, and liquid symbols, a high-contrast palette, and sound, haptic and motion settings are available.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: Decant accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/decant-color-sort-puzzle"
+    }
+  ],
+  "releaseYear": "2026"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "word-tack",
+  "status": "active",
+  "name": "Word Tack",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/word-tack/id6776380313"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer documents VoiceOver play: double-tap two cards to swap them, or move a card up or down a row from the Actions rotor. Solved rows are announced, and a two-finger double-tap reads the words that are left. Reduce Motion is supported. AppleVis players report that VoiceOver sometimes does not register a card's new position after a swap until the spot is touched again.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis player reports",
+      "url": "https://applevis.com/apps/ios/games/word-tack"
+    }
+  ],
+  "releaseYear": "2026"
+}

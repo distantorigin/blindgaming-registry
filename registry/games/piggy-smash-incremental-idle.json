@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "piggy-smash-incremental-idle",
+  "status": "active",
+  "name": "Piggy Smash: Incremental Idle",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/piggy-smash-incremental-idle/id6796205787"
+    }
+  ],
+  "accessibility": {
+    "description": "Playable with VoiceOver on iPhone and iPad: every piggy is read out and every swing lands with no timing needed. Optional beat timing with an adjustable swing window adds a timing challenge.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "releaseYear": "2026"
+}

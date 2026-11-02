@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "dog-genome",
+  "status": "active",
+  "name": "Dog Genome",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/dog-genome/id6782705874"
+    }
+  ],
+  "accessibility": {
+    "description": "A developer-documented VoiceOver mode makes each dog, event, show, store item and exchange listing one stop with its name first. Double-tap a competitor, tier, theme or breeding parent to choose from a list; Details, Compare and Favorite are in the Actions rotor. Settings > VoiceOver offers Brief or Detailed screen reading and optional confirmation before coin purchases. Puppy Rescue has no timer, and Settings includes recent messages and an Accessibility Guide. AppleVis players report it as fully accessible with VoiceOver.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Dog Genome developer site",
+      "url": "https://petgenomegame.com/dog/"
+    },
+    {
+      "name": "AppleVis: Dog Genome accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/dog-genome"
+    }
+  ],
+  "releaseYear": "2026"
+}

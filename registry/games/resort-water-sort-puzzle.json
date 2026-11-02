@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "resort-water-sort-puzzle",
+  "status": "active",
+  "name": "ReSort: Water Sort Puzzle",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/resort-water-sort-puzzle/id6819550779"
+    }
+  ],
+  "accessibility": {
+    "description": "Developer-reported VoiceOver support reads the colours and order in each tube, identifies valid pour targets, and offers adjustable move announcement verbosity. The game can also be played with a keyboard, with optional colour symbols, sounds and haptic feedback. Accessibility features are free.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Forali accessibility statement",
+      "url": "https://forali.app/en/accessibility/"
+    },
+    {
+      "name": "ReSort official accessibility and feature information",
+      "url": "https://forali.app/en/resort/"
+    },
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60748/resort-11-water-sorting-puzzles-with-voiceover-and-daily-challenges/"
+    }
+  ],
+  "releaseYear": "2026"
+}

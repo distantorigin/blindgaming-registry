@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "cat-genome",
+  "status": "active",
+  "name": "Cat Genome",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/cat-genome/id6782740699"
+    }
+  ],
+  "accessibility": {
+    "description": "A developer-documented VoiceOver mode makes each cat, event, show, store item and exchange listing one stop with its name first. Double-tap a competitor, tier, theme or breeding parent to choose from a list; Details, Compare and Favorite are in the Actions rotor. Settings > VoiceOver offers Brief or Detailed screen reading and optional confirmation before coin purchases. Kitten Rescue has no timer, and Settings includes recent messages and an Accessibility Guide. AppleVis players report it as fully accessible with VoiceOver.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "Cat Genome developer site",
+      "url": "https://petgenomegame.com/cat/"
+    },
+    {
+      "name": "AppleVis: Cat Genome accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/cat-genome"
+    }
+  ],
+  "releaseYear": "2026"
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "pocket-kitchen-cozy-cafe",
+  "status": "active",
+  "name": "Pocket Kitchen: Cozy Cafe",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/pocket-kitchen-cozy-cafe/id6761682033"
+    }
+  ],
+  "accessibility": {
+    "description": "The developer lists VoiceOver support, and AppleVis players report it is fully playable with VoiceOver; VoiceOver hints explain what to do. Reported issues include landscape mode on iPad breaking play, some cooking steps (pancake mixing, juicer, closing a wrap) stalling until a double-tap and hold, and small flip and stop buttons at the screen edge.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60495/pocket-kitchen-a-fully-accessible-cooking-game-for-ios/"
+    },
+    {
+      "name": "AppleVis: Pocket Kitchen accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/pocket-kitchen-cozy-cafe"
+    }
+  ],
+  "releaseYear": "2026"
+}

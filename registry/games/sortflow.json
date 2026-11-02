@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "sortflow",
+  "status": "active",
+  "name": "SortFlow",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/sortflow/id6760651183"
+    }
+  ],
+  "accessibility": {
+    "description": "Supports VoiceOver, Differentiate Without Colour, Reduced Motion and larger text. VoiceOver reads all elements and buttons are labelled.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "AppleVis: SortFlow accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/sortflow-relaxing-water-sort-puzzles"
+    }
+  ],
+  "releaseYear": "2026"
+}

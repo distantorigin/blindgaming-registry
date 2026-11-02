@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "gemgame-cozy-match-3-puzzle",
+  "status": "active",
+  "name": "GemGame: Cozy Match 3 Puzzle",
+  "stores": [
+    {
+      "store": "appstore",
+      "primary": true,
+      "url": "https://apps.apple.com/us/app/gemgame-cozy-match-3-puzzle/id6761720994"
+    }
+  ],
+  "accessibility": {
+    "description": "Developer-reported VoiceOver support gives every gem and obstacle a spoken label, with Board status and Special gems elements counting obstacles, ingredients and specials, and VoiceOver rotors for faster board navigation. Swap by selecting a gem and double-tapping a neighbour. Each move is summarised after it settles, including chain depth; hints name the exact pair to swap, and rejected moves explain why without spending a move. AppleVis players report it as very accessible.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "native",
+    "tags": [
+      "blind"
+    ]
+  },
+  "resources": [
+    {
+      "name": "GemGame developer site",
+      "url": "https://georgepwall1991.github.io/fleet-commander-site/gemgame/"
+    },
+    {
+      "name": "AppleVis: GemGame accessibility report",
+      "url": "https://www.applevis.com/apps/ios/games/gemgame-cozy-match-3-puzzle"
+    }
+  ],
+  "releaseYear": "2026"
+}
