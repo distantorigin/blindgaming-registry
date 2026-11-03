@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "vaudeville-access",
+  "status": "active",
+  "gameIds": [
+    "vaudeville"
+  ],
+  "name": "Vaudeville Access",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/ObjectInSpace/vaudeville-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ObjectInSpace/vaudeville-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60819/vaudville-access-mod/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Patreon",
+      "url": "https://www.patreon.com/prismaccess",
+      "requiresPayment": false
+    }
+  ]
+}

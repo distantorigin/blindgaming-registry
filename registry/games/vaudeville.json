@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "vaudeville",
+  "status": "active",
+  "name": "Vaudeville",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2240920/Vaudeville/"
+    }
+  ],
+  "accessibility": {
+    "description": "Vaudeville Access adds screen reader support for NVDA, JAWS and Narrator, covering menus, the Studio, conversations, the notebook and the accusation. It is an early release and supports only the Windows Steam version. It turns off vsync by default, because vsync can hold the game near 13 fps and make each announcement take seconds.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "vaudeville-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60819/vaudville-access-mod/"
+    }
+  ],
+  "releaseYear": "2025"
+}
