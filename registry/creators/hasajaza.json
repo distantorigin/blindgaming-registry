@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "hasajaza",
+  "name": "Hasajaza",
+  "profiles": [
+    {
+      "platform": "youtube",
+      "url": "https://www.youtube.com/@hasajazajazairli8122"
+    }
+  ]
+}

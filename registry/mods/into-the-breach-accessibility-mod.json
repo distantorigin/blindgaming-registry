@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "into-the-breach-accessibility-mod",
+  "status": "active",
+  "gameIds": [
+    "into-the-breach"
+  ],
+  "name": "ITB Access Speech",
+  "framework": "Lua mod with a Windows PowerShell speech companion",
+  "homeUrl": "https://forum.audiogames.net/topic/60870/into-the-breach-accessibility-mod-public-beta-release/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net public beta release thread",
+      "url": "https://forum.audiogames.net/topic/60870/into-the-breach-accessibility-mod-public-beta-release/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Accessibility mod installer (Google Drive)",
+      "url": "https://drive.google.com/file/d/1sfatbZ9idV6Juqu-0rF6CpCPMtaVTKjd/view",
+      "requiresPayment": false
+    }
+  ]
+}

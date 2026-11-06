@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "id": "into-the-breach",
+  "status": "active",
+  "name": "Into the Breach",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/590380/Into_the_Breach/"
+    },
+    {
+      "store": "gog",
+      "url": "https://www.gog.com/en/game/into_the_breach"
+    },
+    {
+      "store": "humble",
+      "url": "https://www.humblebundle.com/store/into-the-breach"
+    }
+  ],
+  "accessibility": {
+    "description": "Beta mod for the Windows Steam build 1.2.93, requiring Mod Loader 2.9.5 or newer. Adds keyboard navigation and speech through JAWS, NVDA, or SAPI. Full campaigns are reported playable by the author; pilot selection and Global achievements have reading limitations. Tested at 1920x1080 and 1280x720; other aspect ratios, windowed mode, different interface scales, and GOG builds are unverified.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "into-the-breach-accessibility-mod"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net public beta release thread",
+      "url": "https://forum.audiogames.net/topic/60870/into-the-breach-accessibility-mod-public-beta-release/"
+    }
+  ],
+  "media": [
+    {
+      "name": "Into the breach access mod",
+      "url": "https://www.youtube.com/watch?v=Z8xuO9iX6PI",
+      "creatorId": "hasajaza",
+      "creatorProfileUrl": "https://www.youtube.com/@hasajazajazairli8122",
+      "mediaType": "video",
+      "note": "The creator describes this video as a mission played using the accessibility mod."
+    }
+  ],
+  "releaseYear": "2018"
+}
