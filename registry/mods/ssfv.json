@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "ssfv",
+  "status": "active",
+  "gameIds": [
+    "street-fighter-v"
+  ],
+  "name": "SSFV",
+  "framework": "Native C++ mod (XInput DLL)",
+  "homeUrl": "https://github.com/seedy60/SSFV",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/seedy60/SSFV"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download SSFV for Windows",
+      "url": "https://github.com/seedy60/SSFV/releases/latest/download/SSFV.zip",
+      "requiresPayment": false
+    }
+  ]
+}

@@ -11,7 +11,7 @@
     }
   ],
   "accessibility": {
-    "description": "Street Fighter V Access speaks menus, character and stage select, arcade, versus, training, trials, story, survival, the shop, online play, CFN and replays through Prism, using NVDA or Windows voices. During fights it plays health beeps and counter-hit and crossup sounds, and Alt+H reads health and V-Trigger. It reads game memory from outside the process, so a game update can break it; it is distributed as test builds.",
+    "description": "Street Fighter V Access speaks menus, character and stage select, arcade, versus, training, trials, story, survival, the shop, online play, CFN and replays through Prism, using NVDA or Windows voices. During fights it plays health beeps and counter-hit and crossup sounds, and Alt+H reads health and V-Trigger. It reads game memory from outside the process, so a game update can break it; it is distributed as test builds. SSFV is an alternative mod with menu and on-screen text narration, an opponent radar, spoken fighter health and meters, accessible controller mapping, and optional macros for complex inputs. Its Windows release includes an installer and the speech libraries; extract it and run install.exe before launching the game normally.",
     "coverage": "mostly",
     "confidence": "reported",
     "accessVia": "mod",
@@ -28,6 +28,10 @@
     {
       "name": "Street Fighter V Access readme",
       "url": "https://github.com/Kongster90/Street-Fighter-V-Access"
+    },
+    {
+      "name": "SSFV features and installation",
+      "url": "https://github.com/seedy60/SSFV"
     }
   ],
   "releaseYear": "2016"
