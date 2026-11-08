@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "yu-gi-oh-legacy-of-the-duelist-link-evolution",
+  "status": "active",
+  "name": "Yu-Gi-Oh! Legacy of the Duelist : Link Evolution",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1150640/YuGiOh_Legacy_of_the_Duelist_Link_Evolution/"
+    }
+  ],
+  "accessibility": {
+    "description": "The mod for the Windows Steam version reads menus, campaign story dialogue, the deck editor, the shop, and duels through NVDA, JAWS, or Windows speech. It adds hotkeys for reviewing the field, hands, Graveyards, banished cards, Extra Decks, and life points. The game already supports keyboard and controller. Online duels have not been tested with the mod.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "ygol-access"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60821/yugioh-legacy-of-the-duelist-link-evolution-accessibility-mod/"
+    }
+  ],
+  "releaseYear": "2020"
+}

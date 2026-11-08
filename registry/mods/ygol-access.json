@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ygol-access",
+  "status": "active",
+  "gameIds": [
+    "yu-gi-oh-legacy-of-the-duelist-link-evolution"
+  ],
+  "name": "ygol-access",
+  "framework": "C++ DLL proxy mod using Prism for speech",
+  "homeUrl": "https://github.com/Leos-Khai/ygol-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Leos-Khai/ygol-access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60821/yugioh-legacy-of-the-duelist-link-evolution-accessibility-mod/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/Leos-Khai/ygol-access/releases",
+      "requiresPayment": false
+    }
+  ]
+}
