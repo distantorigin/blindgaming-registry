@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "the-sims-legacy-collection",
+  "status": "active",
+  "name": "The Sims Legacy Collection",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3314060/The_Sims_Legacy_Collection/"
+    }
+  ],
+  "accessibility": {
+    "description": "The free Sims Accessibility mod adds keyboard navigation and screen reader speech through NVDA, JAWS or Narrator for the Windows Steam version. It supports creating families and Sims, live mode, object interactions, buying and building, with a house map and narration of visual events. Vacation, Superstar and Makin' Magic trips and screens are not fully covered; photo and camera mode and the family album remain visual only. Start your screen reader before the game. Game updates may require a compatible mod update.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "sims-accessibility"
+  },
+  "resources": [
+    {
+      "name": "AudioGames.net: The Sims 1 Legacy Collection mod",
+      "url": "https://forum.audiogames.net/topic/60874/the-sims-1-legacy-collection-mod-is-here/"
+    },
+    {
+      "name": "Sims Accessibility manual",
+      "url": "https://github.com/gomods1/sims1_access/blob/main/docs/manual/en.md"
+    },
+    {
+      "name": "Oriol Gomez: mod announcement and audio demonstration",
+      "url": "https://www.patreon.com/oriolgomez/posts/sims-1-legacy-is-174538819"
+    }
+  ],
+  "releaseYear": "2025"
+}

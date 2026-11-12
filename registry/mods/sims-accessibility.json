@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "sims-accessibility",
+  "status": "active",
+  "gameIds": [
+    "the-sims-legacy-collection"
+  ],
+  "name": "Sims Accessibility",
+  "homeUrl": "https://github.com/gomods1/sims1_access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/gomods1/sims1_access"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "Oriol Gomez: mod announcement and audio demonstration",
+      "url": "https://www.patreon.com/oriolgomez/posts/sims-1-legacy-is-174538819",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Mod installer, downloads and release notes",
+      "url": "https://github.com/gomods1/sims1_access/releases",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Support Oriol Gomez on Patreon",
+      "url": "https://www.patreon.com/oriolgomez",
+      "requiresPayment": false
+    }
+  ]
+}
