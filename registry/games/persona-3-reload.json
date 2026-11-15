@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "persona-3-reload",
+  "status": "active",
+  "name": "Persona 3 Reload",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2161700/Persona_3_Reload/"
+    }
+  ],
+  "accessibility": {
+    "description": "Arcana reads menus and game text aloud and adds navigation sounds, automatic walking and audio description. It supports English in the current full Steam release on Windows 10 or 11. The demo and older versions have reduced support, and name entry requires a keyboard. The mod is in alpha. Its author reports that most of the game is accessible, but nobody has completed a full playthrough with it. Late-game content and Episode Aigis have had limited testing.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "audio-description",
+      "blind"
+    ],
+    "primaryModId": "arcana"
+  },
+  "resources": [
+    {
+      "name": "Arcana discussion on AudioGames.net",
+      "url": "https://forum.audiogames.net/topic/60975/arcana-persona-3-reload/"
+    },
+    {
+      "name": "Arcana documentation",
+      "url": "https://github.com/ChipsAhoiMcCoy/arcana"
+    },
+    {
+      "name": "Arcana known issues and testing limitations",
+      "url": "https://github.com/ChipsAhoiMcCoy/arcana/blob/main/KNOWN_ISSUES.md"
+    }
+  ],
+  "releaseYear": "2024"
+}

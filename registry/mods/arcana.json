@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "arcana",
+  "status": "active",
+  "gameIds": [
+    "persona-3-reload"
+  ],
+  "name": "Arcana",
+  "homeUrl": "https://github.com/ChipsAhoiMcCoy/arcana",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/ChipsAhoiMcCoy/arcana"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60975/arcana-persona-3-reload/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Releases including alpha builds",
+      "url": "https://github.com/ChipsAhoiMcCoy/arcana/releases",
+      "requiresPayment": false
+    }
+  ]
+}
