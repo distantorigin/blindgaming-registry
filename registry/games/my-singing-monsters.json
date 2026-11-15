@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "my-singing-monsters",
+  "status": "active",
+  "name": "My Singing Monsters",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1419170/My_Singing_Monsters/"
+    }
+  ],
+  "accessibility": {
+    "description": "My Singing Monsters Access adds keyboard navigation and speech for menus, buttons, dialogs, island objects and grid placement. It runs on Windows 10 or 11 and is tested with NVDA; Windows speech is available without a screen reader. The mod is experimental. Some screens lack labels, announcements can be wrong, and the game can crash. Incorrect button presses may spend diamonds or real money. The author also warns that using mods may lead to account penalties. Run the installer again after game updates.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "my-singing-monsters-access"
+  },
+  "resources": [
+    {
+      "name": "My Singing Monsters Access discussion on AudioGames.net",
+      "url": "https://forum.audiogames.net/topic/60889/my-singing-monsters-access/"
+    },
+    {
+      "name": "My Singing Monsters Access documentation",
+      "url": "https://github.com/tunmi13productions/MySingingMonstersAccess"
+    }
+  ],
+  "releaseYear": "2021"
+}

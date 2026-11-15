@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "my-singing-monsters-access",
+  "status": "active",
+  "gameIds": [
+    "my-singing-monsters"
+  ],
+  "name": "My Singing Monsters Access",
+  "framework": "Jeode",
+  "homeUrl": "https://github.com/tunmi13productions/MySingingMonstersAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/tunmi13productions/MySingingMonstersAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60889/my-singing-monsters-access/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/tunmi13productions/MySingingMonstersAccess/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}
