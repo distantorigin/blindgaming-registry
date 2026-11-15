@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "resident-access-hd",
+  "status": "active",
+  "gameIds": [
+    "resident-evil"
+  ],
+  "name": "Resident Access HD",
+  "homeUrl": "https://github.com/RetroSanity/Resident-Access-HD",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/RetroSanity/Resident-Access-HD"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60968/enter-the-survival-horror-resident-evil-one-access/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/RetroSanity/Resident-Access-HD/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}

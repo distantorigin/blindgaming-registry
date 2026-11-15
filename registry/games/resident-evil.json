@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "resident-evil",
+  "status": "active",
+  "name": "Resident Evil",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/304240/Resident_Evil/"
+    }
+  ],
+  "accessibility": {
+    "description": "According to its author, Resident Access HD lets blind players complete the Steam HD remaster as Jill or Chris. It reads menus, subtitles, inventory, files and puzzles aloud. Room object lists, automatic navigation, directional audio beacons and aiming cues help with exploration and combat. The mod requires Windows 10 or 11 and an Xbox-compatible controller. Speech comes from a supported screen reader or Windows voices.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "resident-access-hd"
+  },
+  "resources": [
+    {
+      "name": "Resident Evil One Access discussion on AudioGames.net",
+      "url": "https://forum.audiogames.net/topic/60968/enter-the-survival-horror-resident-evil-one-access/"
+    },
+    {
+      "name": "Resident Access HD documentation",
+      "url": "https://github.com/RetroSanity/Resident-Access-HD"
+    }
+  ],
+  "releaseYear": "2015"
+}
