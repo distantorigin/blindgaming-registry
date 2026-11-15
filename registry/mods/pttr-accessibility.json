@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "pttr-accessibility",
+  "status": "active",
+  "gameIds": [
+    "paint-the-town-red"
+  ],
+  "name": "PTTR Accessibility",
+  "homeUrl": "https://forum.audiogames.net/topic/60981/paint-the-town-red-pttr-accessibility-mode/",
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60981/paint-the-town-red-pttr-accessibility-mode/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Download from Google Drive",
+      "url": "https://drive.google.com/file/d/18VYZuPsgckl9XTsr40r6abHXfapS3sT7/view",
+      "requiresPayment": false
+    }
+  ]
+}

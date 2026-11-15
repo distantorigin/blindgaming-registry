@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "paint-the-town-red",
+  "status": "active",
+  "name": "Paint the Town Red",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/337320/Paint_the_Town_Red/"
+    }
+  ],
+  "accessibility": {
+    "description": "Blind access uses the PTTR Accessibility mod. Coverage and limitations are unconfirmed.",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "pttr-accessibility"
+  },
+  "resources": [
+    {
+      "name": "PTTR Accessibility discussion on AudioGames.net",
+      "url": "https://forum.audiogames.net/topic/60981/paint-the-town-red-pttr-accessibility-mode/"
+    }
+  ],
+  "releaseYear": "2021"
+}
