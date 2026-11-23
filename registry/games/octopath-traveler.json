@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "octopath-traveler",
+  "status": "active",
+  "name": "Octopath Traveler",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/921570/OCTOPATH_TRAVELER/"
+    }
+  ],
+  "accessibility": {
+    "description": "OP1 Access speaks menus, dialogue, battles and path actions through NVDA, JAWS, ZoomText and other screen readers, or Windows voices when none is running. It adds a 3D audio radar, a navigator that names and points to nearby objects, and a walker that takes you there. It supports English and German on Windows 10 or 11. The mod is early but playable, and places and fights that nobody has tried yet may have rough edges.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "op1-access"
+  },
+  "resources": [
+    {
+      "name": "OP1 Access documentation",
+      "url": "https://github.com/Timtam/op1-access"
+    },
+    {
+      "name": "OP1 Access known issues",
+      "url": "https://github.com/Timtam/op1-access/blob/main/docs/known-issues.md"
+    }
+  ],
+  "releaseYear": "2019"
+}

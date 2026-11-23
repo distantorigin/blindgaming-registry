@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "op1-access",
+  "status": "active",
+  "gameIds": [
+    "octopath-traveler"
+  ],
+  "name": "OP1 Access",
+  "framework": "Unreal Engine 4",
+  "homeUrl": "https://github.com/Timtam/op1-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Timtam/op1-access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "OP1 Access Installer",
+      "url": "https://github.com/Timtam/op1-access/releases/latest/download/OP1AccessInstaller.exe",
+      "requiresPayment": false
+    }
+  ]
+}
