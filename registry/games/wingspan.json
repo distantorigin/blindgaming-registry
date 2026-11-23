@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "wingspan",
+  "status": "active",
+  "name": "Wingspan",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1054490/Wingspan/"
+    }
+  ],
+  "accessibility": {
+    "description": "Wingspan Access speaks menus, popups and game events through NVDA, JAWS, ZoomText and other screen readers, or Windows voices when none is running, and adds full keyboard control. It reads bird cards in full, lets you jump between zones with the number keys, summarizes other players' turns and plays bird calls. The tutorial, games against AI players and online games between blind players work. Many bird powers and expansion features have not been tested yet. The mod is in early development and supports Windows 10 or 11.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "wingspan-access"
+  },
+  "resources": [
+    {
+      "name": "Wingspan Access documentation",
+      "url": "https://github.com/Timtam/wingspan-access"
+    }
+  ],
+  "releaseYear": "2020"
+}

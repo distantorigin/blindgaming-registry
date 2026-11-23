@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "wingspan-access",
+  "status": "active",
+  "gameIds": [
+    "wingspan"
+  ],
+  "name": "Wingspan Access",
+  "framework": "Unity",
+  "homeUrl": "https://github.com/Timtam/wingspan-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Timtam/wingspan-access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Wingspan Access Installer",
+      "url": "https://github.com/Timtam/wingspan-access/releases/latest/download/WingspanAccessInstaller.exe",
+      "requiresPayment": false
+    }
+  ]
+}
