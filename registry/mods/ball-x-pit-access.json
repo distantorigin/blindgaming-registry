@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ball-x-pit-access",
+  "status": "active",
+  "gameIds": [
+    "ball-x-pit"
+  ],
+  "name": "BALL x PIT Access",
+  "framework": "MelonLoader (Prism)",
+  "homeUrl": "https://github.com/gomods1/BallPitAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/gomods1/BallPitAccess"
+  },
+  "links": [
+    {
+      "kind": "discussion",
+      "label": "AudioGames.net forum thread",
+      "url": "https://forum.audiogames.net/topic/60995/initial-version-of-a-mod-for-ballxpit-a-roguelite-with-breakout-mecha/",
+      "requiresPayment": false
+    },
+    {
+      "kind": "download",
+      "label": "Latest release",
+      "url": "https://github.com/gomods1/BallPitAccess/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}

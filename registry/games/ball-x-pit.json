@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "ball-x-pit",
+  "status": "active",
+  "name": "BALL x PIT",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2062430/BALL_x_PIT/"
+    }
+  ],
+  "accessibility": {
+    "description": "BALL x PIT Access speaks every menu through the screen reader and makes the whole game playable by keyboard. Battle is turned into positional audio, with distinct sounds for enemies, your balls, enemy shots, XP crystals and special items. It adds optional auto walk to find enemies, optional aim assist, key remapping and sound filters. A built-in sound guide plays and explains every battle sound, and F1 opens in-game help. It covers the Risen Ballbylon DLC and the game's languages. It runs on Windows and is tested with NVDA. The mod is an early test version and the battle sounds are not yet tuned with players. The idle launcher in the base still needs the mouse.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "ball-x-pit-access"
+  },
+  "resources": [
+    {
+      "name": "BALL x PIT Access discussion on AudioGames.net",
+      "url": "https://forum.audiogames.net/topic/60995/initial-version-of-a-mod-for-ballxpit-a-roguelite-with-breakout-mecha/"
+    },
+    {
+      "name": "BALL x PIT Access documentation",
+      "url": "https://github.com/gomods1/BallPitAccess"
+    }
+  ],
+  "releaseYear": "2025"
+}
