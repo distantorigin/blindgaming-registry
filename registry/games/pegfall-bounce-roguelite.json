@@ -33,5 +33,14 @@
       "url": "https://www.applevis.com/apps/ios/games/pegfall-bounce-roguelite"
     }
   ],
-  "releaseYear": "2026"
+  "releaseYear": "2026",
+  "media": [
+    {
+      "name": "iOS Accessible Game Spotlight - Pegfall",
+      "url": "https://www.youtube.com/watch?v=bYpUe6EhbHk",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
+  ]
 }

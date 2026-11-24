@@ -33,5 +33,14 @@
       "name": "Developer accessibility information",
       "url": "https://www.outbrick.site/accessibility"
     }
+  ],
+  "media": [
+    {
+      "name": "iOS Accessible Game Spotlight - OutBrick: Slide Block Puzzle",
+      "url": "https://www.youtube.com/watch?v=BLlIv-5OYl0",
+      "creatorId": "illegallysighted",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC0ZrgEzJQeZgEo5A2ERu0NA",
+      "mediaType": "video"
+    }
   ]
 }
