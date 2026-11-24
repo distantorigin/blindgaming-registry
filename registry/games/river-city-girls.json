@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "river-city-girls",
+  "status": "active",
+  "name": "River City Girls",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1049320/River_City_Girls/"
+    }
+  ],
+  "accessibility": {
+    "description": "RCGAccess speaks menus, dialogue, the pause-menu phone, shops and pop-ups through NVDA, JAWS and other screen readers, or Windows voices when none is running. It adds an enemy radar, attack warnings, tones for damage, health and pickups, boss locator sounds, and a navigator with beacon tones, guided walking and automatic guiding to exits, doors and quest goals. Optional damage protection and boss help are included. It supports the game's languages on Windows 10 or 11. The mod is a beta tested through the third area and the boss Hibari, so later areas may have rough edges. Only the 2019 game is supported, not River City Girls Zero or River City Girls 2.",
+    "coverage": "partial",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "rcgaccess"
+  },
+  "resources": [
+    {
+      "name": "RCGAccess documentation",
+      "url": "https://github.com/grybyx/rcgaccess"
+    }
+  ],
+  "releaseYear": "2019"
+}
