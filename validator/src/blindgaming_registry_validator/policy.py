@@ -173,7 +173,9 @@ def _split_https_url(url: str) -> tuple[SplitResult | None, str | None]:
     return parsed, None
 
 
-def url_policy_error(url: str, *, allow_nexus_description: bool = False) -> str | None:
+def url_policy_error(
+    url: str, *, allow_nexus_description: bool = False, allow_query: bool = False
+) -> str | None:
     """Return a stable reason when an external URL violates registry policy."""
     parsed, error = _split_https_url(url)
     if error is not None:
@@ -186,6 +188,8 @@ def url_policy_error(url: str, *, allow_nexus_description: bool = False) -> str 
     query_names = [part.partition("=")[0].casefold() for part in parsed.query.split("&")]
     if any(name.startswith("utm_") or name in _TRACKING_PARAMETERS for name in query_names):
         return "URL tracking and affiliate parameters are forbidden"
+    if allow_query:
+        return None
     host = (parsed.hostname or "").casefold().rstrip(".")
     if (
         allow_nexus_description

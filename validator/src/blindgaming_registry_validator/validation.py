@@ -255,7 +255,7 @@ def _validate_mod(mod: ModRecord) -> list[Diagnostic]:
         diagnostic = _text_diagnostic(path, pointer, value)
         if diagnostic is not None:
             diagnostics.append(diagnostic)
-    error = url_policy_error(mod.home_url, allow_nexus_description=True)
+    error = url_policy_error(mod.home_url, allow_query=True)
     if error is not None:
         diagnostics.append(_diagnostic(path, "/homeUrl", error))
     if mod.release_source is not None:
@@ -265,7 +265,7 @@ def _validate_mod(mod: ModRecord) -> list[Diagnostic]:
         if error is not None:
             diagnostics.append(_diagnostic(path, "/releaseSource/repositoryUrl", error))
     for index, link in enumerate(mod.links):
-        error = url_policy_error(link.url, allow_nexus_description=True)
+        error = url_policy_error(link.url, allow_query=True)
         if error is not None:
             diagnostics.append(_diagnostic(path, f"/links/{index}/url", error))
     archive_date_diagnostic = _archive_date_diagnostic(path, mod.archived_at)

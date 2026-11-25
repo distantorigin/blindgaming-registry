@@ -99,6 +99,15 @@ def test_google_play_id_query_is_allowed_by_url_policy():
     ) == "URL query parameters are not allowed for this field"
 
 
+def test_mod_urls_may_carry_queries_but_not_tracking_parameters():
+    dropbox = "https://www.dropbox.com/scl/fi/abc/file.zip?rlkey=secret&dl=0"
+    assert url_policy_error(dropbox) == "URL query parameters are not allowed for this field"
+    assert url_policy_error(dropbox, allow_query=True) is None
+    assert url_policy_error(
+        "https://example.com/page?utm_source=x", allow_query=True
+    ) == "URL tracking and affiliate parameters are forbidden"
+
+
 def test_store_platform_map_covers_every_store_in_the_schema():
     common = json.loads(
         (Path(__file__).parents[2] / "schemas" / "v1" / "common.schema.json").read_text()
@@ -272,17 +281,6 @@ def test_mod_with_nexus_release_source_validates(tmp_path: Path):
                         "kind": "funding",
                     "label": "Tracked",
                     "url": "https://example.com/file?utm_source=test",
-                    "requiresPayment": False,
-                }
-            ),
-            "/links/1/url",
-        ),
-        (
-                lambda game, mod: mod["links"].append(
-                    {
-                        "kind": "funding",
-                    "label": "Unknown query",
-                    "url": "https://example.com/file?tab=description",
                     "requiresPayment": False,
                 }
             ),
