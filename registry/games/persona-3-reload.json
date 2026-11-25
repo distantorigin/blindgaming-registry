@@ -35,7 +35,6 @@
       "url": "https://github.com/ChipsAhoiMcCoy/arcana/blob/main/KNOWN_ISSUES.md"
     }
   ],
-  "releaseYear": "2024",
   "media": [
     {
       "name": "Persona 3 Reload for November 22, 2026",
@@ -44,5 +43,6 @@
       "creatorProfileUrl": "https://www.youtube.com/channel/UCA7_B-RG107SJERCEDN_slA",
       "mediaType": "video"
     }
-  ]
+  ],
+  "releaseYear": "2024"
 }

@@ -18,21 +18,21 @@
     ],
     "wikiRatingUrl": "https://accessiblegaming.wiki/AccessibilityRating/Marvel%27sWolverine/Blind"
   },
-  "releaseYear": "2026",
   "media": [
-    {
-      "name": "Totally Blind Gamer Faces Final Boss in Marvel's Wolverine",
-      "url": "https://www.youtube.com/watch?v=LgNhkkS4oaM",
-      "creatorId": "ross-minor",
-      "creatorProfileUrl": "https://www.youtube.com/channel/UC3yVjuZy4VzYhoYtPVtTz9Q",
-      "mediaType": "video"
-    },
     {
       "name": "Gamer Without Sight Plays More Marvel's Wolverine! Hardest Difficulty",
       "url": "https://www.youtube.com/watch?v=hp8kSCRokg0",
       "creatorId": "sightlesskombat",
       "creatorProfileUrl": "https://www.youtube.com/channel/UCTYyCwuvR_3FPvtUDOmz_1Q",
       "mediaType": "video"
+    },
+    {
+      "name": "Totally Blind Gamer Faces Final Boss in Marvel's Wolverine",
+      "url": "https://www.youtube.com/watch?v=LgNhkkS4oaM",
+      "creatorId": "ross-minor",
+      "creatorProfileUrl": "https://www.youtube.com/channel/UC3yVjuZy4VzYhoYtPVtTz9Q",
+      "mediaType": "video"
     }
-  ]
+  ],
+  "releaseYear": "2026"
 }
