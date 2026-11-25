@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "until-dawn",
+  "status": "active",
+  "name": "Until Dawn",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2172010/Until_Dawn/"
+    }
+  ],
+  "accessibility": {
+    "description": "Dawn Access speaks menus, settings, subtitles with speaker names, dialogue history, objectives, collectibles and status pages through NVDA, JAWS, Narrator or SAPI, with braille support. Choices, timed choices, quick-time events and Don't Move are announced with the key to press and directional tones. Exploration offers a list of reachable things, room names, a sound beacon and automatic walking; aiming has a lock-on key and tones. Photos, documents and film scenes are described. Keyboard and Xbox, DualSense and DualShock 4 controller keys are included. It covers all 20 game languages on Windows and requires the PC remake.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "dawn-access"
+  },
+  "resources": [
+    {
+      "name": "Dawn Access documentation",
+      "url": "https://github.com/Futyn-Maker/dawn_access"
+    }
+  ],
+  "releaseYear": "2024"
+}

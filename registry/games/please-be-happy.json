@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "please-be-happy",
+  "status": "active",
+  "name": "Please Be Happy",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/844670/Please_Be_Happy/"
+    }
+  ],
+  "accessibility": {
+    "description": "Please Be Happy Access reads the story, choices and every menu through NVDA, JAWS and other screen readers, or Windows voices when none is running, and sends speech to a braille display. Menus work from the keyboard. It describes every background and illustration, and describes each character the first time they appear, waiting for the voice actors to finish before describing a scene. Descriptions are available in all five of the game's languages, though the full game offers only English. It needs the 64-bit Windows version of the game, from Steam, itch.io or GOG, and also works with the demo. GOG is untested.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "please-be-happy-access"
+  },
+  "resources": [
+    {
+      "name": "Please Be Happy Access documentation",
+      "url": "https://github.com/shaysters/please-be-happy-access"
+    }
+  ],
+  "releaseYear": "2022"
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "ace-attorney-investigations-collection",
+  "status": "active",
+  "name": "Ace Attorney Investigations Collection",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2401970/Ace_Attorney_Investigations_Collection/"
+    }
+  ],
+  "accessibility": {
+    "description": "AAI Access speaks dialogue, menus, the Organizer, Logic, investigations, examinations, deductions, 3D evidence, Logic Chess, the security video, luminol and fingerprint tests through NVDA, JAWS and other screen readers, or the Windows voice when none is running. In investigations, bracket keys pick the nearest person or object, with a key to walk there automatically and another to track it by sound. Help, repeat, screen status, room name and truth gauge have hotkeys. It supports keyboard and controllers, names buttons per controller type, and follows the game's seven text languages. The free demo works too. Windows only.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "aai-access"
+  },
+  "resources": [
+    {
+      "name": "AAI Access documentation",
+      "url": "https://github.com/Hattans-mods/AIA-Access"
+    }
+  ],
+  "releaseYear": "2024"
+}

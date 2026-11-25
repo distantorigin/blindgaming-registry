@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "aai-access",
+  "status": "active",
+  "gameIds": [
+    "ace-attorney-investigations-collection"
+  ],
+  "name": "AAI Access",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/Hattans-mods/AIA-Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Hattans-mods/AIA-Access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/Hattans-mods/AIA-Access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

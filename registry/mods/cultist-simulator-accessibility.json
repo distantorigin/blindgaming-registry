@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "cultist-simulator-accessibility",
+  "status": "active",
+  "gameIds": [
+    "cultist-simulator"
+  ],
+  "name": "Cultist Simulator Accessibility",
+  "framework": "BepInEx 5 x86 (C#)",
+  "homeUrl": "https://github.com/gomods1/verbally_blind_cultist",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/gomods1/verbally_blind_cultist"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/gomods1/verbally_blind_cultist/releases/latest",
+      "requiresPayment": false
+    }
+  ]
+}

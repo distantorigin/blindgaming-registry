@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "the-lord-of-the-rings-adventure-card-game-definitive-edition",
+  "status": "active",
+  "name": "The Lord of the Rings: Adventure Card Game - Definitive Edition",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/509580/The_Lord_of_the_Rings_Adventure_Card_Game__Definitive_Edition/"
+    }
+  ],
+  "accessibility": {
+    "description": "LOTR Access speaks menus, cards, the board, story texts, objectives and reward screens through NVDA. The whole game plays with an Xbox controller or the keyboard. Function keys give help, a summary of resources, threat and phase, your hand, the current request or objective, full card details, repeat, and a read-out of the whole screen, with optional navigation sounds. The deck builder is replaced by a simple menu with card and Sauron galleries, card purchases and deck editing. Announcements are in English or French. The first launch is long and needs an internet connection. Windows only.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "lotr-access"
+  },
+  "resources": [
+    {
+      "name": "LOTR Access download and instructions",
+      "url": "https://www.dropbox.com/scl/fi/2mj107lc9cv3xkf7fpzxs/LOTR-Access-1.0.zip?rlkey=b2q9uir6q16ynn3q4dddticxc&dl=0"
+    }
+  ],
+  "releaseYear": "2019"
+}

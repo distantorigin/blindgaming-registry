@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "d2r-access",
+  "status": "active",
+  "gameIds": [
+    "diablo-ii-resurrected"
+  ],
+  "name": "D2R Access",
+  "framework": "D2RLoader plugin",
+  "homeUrl": "https://github.com/Ali-Bueno/d2r-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Ali-Bueno/d2r-access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/Ali-Bueno/d2r-access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

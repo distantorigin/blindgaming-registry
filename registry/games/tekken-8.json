@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "tekken-8",
+  "status": "active",
+  "name": "Tekken 8",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1778820/TEKKEN_8/"
+    }
+  ],
+  "accessibility": {
+    "description": "Tekken 8 Access speaks menus, side, character and stage select, practice menus, move lists in Tekken notation, story subtitles and timed prompts, Arcade Quest, Super Ghost Battle, the Jukebox and result screens through your screen reader or the Windows voice. In fights, an opponent beacon conveys side, distance and sidestep depth, with attack height sounds, throw break cues, wall hums and spoken health. F5 gives distances in words. It works on the Steam PC version with a keyboard and has its own hotkeys. Play one offline match before going online so it can identify your side.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "tekken-8-access"
+  },
+  "resources": [
+    {
+      "name": "Tekken 8 Access documentation",
+      "url": "https://github.com/BlindChallengerX/Tekken8Access"
+    }
+  ],
+  "releaseYear": "2024"
+}

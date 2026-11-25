@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "cultist-simulator",
+  "status": "active",
+  "name": "Cultist Simulator",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/718670/Cultist_Simulator/"
+    }
+  ],
+  "accessibility": {
+    "description": "The Cultist Simulator Accessibility mod makes the whole game playable by keyboard and screen reader: menus, the table of cards and verbs, verb windows, the Mansus, endings and new legacies. Speech goes to NVDA, JAWS and other screen readers through Prism, or Windows speech when none is running. Arrow keys move through items, with F1 help, adjustable verbosity, an inspect key, and review buffers for events, details and story. Cards are grouped into sections you can rearrange, and beeps mark cards a verb accepts. Status and timers have hotkeys. Windows only, Steam or GOG.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "cultist-simulator-accessibility"
+  },
+  "resources": [
+    {
+      "name": "Cultist Simulator Accessibility documentation",
+      "url": "https://github.com/gomods1/verbally_blind_cultist"
+    }
+  ],
+  "releaseYear": "2018"
+}

@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "dawn-access",
+  "status": "active",
+  "gameIds": [
+    "until-dawn"
+  ],
+  "name": "Dawn Access",
+  "framework": "UE4SS",
+  "homeUrl": "https://github.com/Futyn-Maker/dawn_access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Futyn-Maker/dawn_access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/Futyn-Maker/dawn_access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

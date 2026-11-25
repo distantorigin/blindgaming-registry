@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "twd-access",
+  "status": "active",
+  "gameIds": [
+    "the-walking-dead-the-telltale-definitive-series"
+  ],
+  "name": "TWD Access",
+  "framework": "Windows launcher (Prism)",
+  "homeUrl": "https://github.com/Kongster90/TWDAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/Kongster90/TWDAccess"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/Kongster90/TWDAccess/releases",
+      "requiresPayment": false
+    }
+  ]
+}

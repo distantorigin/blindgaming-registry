@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "tekken-8-access",
+  "status": "active",
+  "gameIds": [
+    "tekken-8"
+  ],
+  "name": "Tekken 8 Access",
+  "framework": "UE4SS (Lua)",
+  "homeUrl": "https://github.com/BlindChallengerX/Tekken8Access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/BlindChallengerX/Tekken8Access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/BlindChallengerX/Tekken8Access/releases",
+      "requiresPayment": false
+    }
+  ]
+}

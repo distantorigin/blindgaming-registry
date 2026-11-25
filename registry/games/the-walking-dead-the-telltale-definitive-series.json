@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "the-walking-dead-the-telltale-definitive-series",
+  "status": "active",
+  "name": "The Walking Dead: The Telltale Definitive Series",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1449690/The_Walking_Dead_The_Telltale_Definitive_Series/"
+    }
+  ],
+  "accessibility": {
+    "description": "TWD Access reads menus, settings, save screens, dialog choices, the things you can look at, use or walk to, quick-time events, struggles, fights, aiming by tone, notices and each episode's end choices through NVDA, JAWS and other screen readers, or Windows voices. It covers every season, including Season One, 400 Days, Season Two, A New Frontier, The Final Season and Michonne. Tab cycles nearby things with distance and reach, F6 describes the screen, and timed choices can be held. Character subtitles are off by default. Run TWDAccess.exe to launch the game through Steam. Windows 10 or 11 only.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "twd-access"
+  },
+  "resources": [
+    {
+      "name": "TWD Access documentation",
+      "url": "https://github.com/Kongster90/TWDAccess"
+    }
+  ],
+  "releaseYear": "2020"
+}

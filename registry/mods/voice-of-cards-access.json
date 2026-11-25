@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-of-cards-access",
+  "status": "active",
+  "gameIds": [
+    "voice-of-cards-the-isle-dragon-roars"
+  ],
+  "name": "Voice of Cards Access",
+  "framework": "MelonLoader (C#)",
+  "homeUrl": "https://github.com/jeremdo95/VoiceOfCardsAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/jeremdo95/VoiceOfCardsAccess"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/jeremdo95/VoiceOfCardsAccess/releases",
+      "requiresPayment": false
+    }
+  ]
+}

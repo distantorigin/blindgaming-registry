@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "please-be-happy-access",
+  "status": "active",
+  "gameIds": [
+    "please-be-happy"
+  ],
+  "name": "Please Be Happy Access",
+  "framework": "BepInEx 5 (C#)",
+  "homeUrl": "https://github.com/shaysters/please-be-happy-access",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/shaysters/please-be-happy-access"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/shaysters/please-be-happy-access/releases",
+      "requiresPayment": false
+    },
+    {
+      "kind": "funding",
+      "label": "Support shaysters on Ko-fi",
+      "url": "https://ko-fi.com/shaysters",
+      "requiresPayment": false
+    }
+  ]
+}

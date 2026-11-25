@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "the-wolf-among-us-remastered",
+  "status": "active",
+  "name": "The Wolf Among Us Remastered",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/3884860/The_Wolf_Among_Us_Remastered/"
+    }
+  ],
+  "accessibility": {
+    "description": "WolfAccess speaks menus, settings, save slots, pop-ups, subtitles with optional speaker names and dialogue choices through NVDA, JAWS or Narrator. A scanner lists nearby things and characters with distance and actions, and can walk Bigby to them. It also covers zones, close-ups, location choices, fight guidance with sounds, mashing prompts and optional audio description of scenes. It works with a keyboard or an Xbox-style controller and follows the game's language, including French, Spanish, German, Italian and Polish, plus Russian with a fan translation. It supports Windows only.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "wolfaccess"
+  },
+  "resources": [
+    {
+      "name": "WolfAccess documentation",
+      "url": "https://github.com/jeremdo95/WolfAmongUsAccess"
+    }
+  ],
+  "releaseYear": "2026"
+}

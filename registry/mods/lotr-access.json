@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "lotr-access",
+  "status": "active",
+  "gameIds": [
+    "the-lord-of-the-rings-adventure-card-game-definitive-edition"
+  ],
+  "name": "LOTR Access",
+  "framework": "BepInEx 6 (IL2CPP)",
+  "homeUrl": "https://www.dropbox.com/scl/fi/2mj107lc9cv3xkf7fpzxs/LOTR-Access-1.0.zip?rlkey=b2q9uir6q16ynn3q4dddticxc&dl=0",
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download LOTR Access 1.0 from Dropbox",
+      "url": "https://www.dropbox.com/scl/fi/2mj107lc9cv3xkf7fpzxs/LOTR-Access-1.0.zip?rlkey=b2q9uir6q16ynn3q4dddticxc&dl=0",
+      "requiresPayment": false
+    }
+  ]
+}

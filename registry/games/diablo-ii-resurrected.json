@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "diablo-ii-resurrected",
+  "status": "active",
+  "name": "Diablo II: Resurrected",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/2536520/Diablo_II_Resurrected__Infernal_Edition/"
+    }
+  ],
+  "accessibility": {
+    "description": "D2R Access speaks menus, character creation, towns, shops, dungeons, quest puzzles and act cinematics through NVDA, JAWS or the Windows voice. Spatial sounds convey walls, passages, loot, exits, chests, doors and monsters. A scanner lists nearby things by category, nearest first, a beacon can follow its target, and a route can be spoken to it. It plays with a controller or keyboard and speaks the game's thirteen languages. Testers have reported finishing the whole game, Act I to Act V. Windows 10 or 11 only. It needs D2RLoader, included in the package, and starts through its own launcher.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "d2r-access"
+  },
+  "resources": [
+    {
+      "name": "D2R Access documentation",
+      "url": "https://github.com/Ali-Bueno/d2r-access"
+    }
+  ],
+  "releaseYear": "2021"
+}

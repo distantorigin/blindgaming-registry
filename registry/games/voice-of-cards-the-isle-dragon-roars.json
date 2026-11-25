@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "voice-of-cards-the-isle-dragon-roars",
+  "status": "active",
+  "name": "Voice of Cards: The Isle Dragon Roars",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1113570/Voice_of_Cards_The_Isle_Dragon_Roars/"
+    }
+  ],
+  "accessibility": {
+    "description": "Voice of Cards Access speaks menus, story cards, battles, shops and the card game through a screen reader. A board scanner lists exits, people, shops, chests and other items nearest first, each with the walk to reach it, such as 2 left, 1 up. Keys report your current card and its neighbours, the objective, battle units, hit points, gems, gold, your hand, the pot and scores. It works with a keyboard or an Xbox gamepad and has in-game help. It speaks English or French following the game's language, and the game master's lines are read only while subtitles are on. Tested with NVDA only.",
+    "coverage": "full",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "voice-of-cards-access"
+  },
+  "resources": [
+    {
+      "name": "Voice of Cards Access documentation",
+      "url": "https://github.com/jeremdo95/VoiceOfCardsAccess"
+    }
+  ],
+  "releaseYear": "2021"
+}

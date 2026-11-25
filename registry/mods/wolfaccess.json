@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "wolfaccess",
+  "status": "active",
+  "gameIds": [
+    "the-wolf-among-us-remastered"
+  ],
+  "name": "WolfAccess",
+  "framework": "Game-specific",
+  "homeUrl": "https://github.com/jeremdo95/WolfAmongUsAccess",
+  "releaseSource": {
+    "kind": "github",
+    "repositoryUrl": "https://github.com/jeremdo95/WolfAmongUsAccess"
+  },
+  "links": [
+    {
+      "kind": "download",
+      "label": "Download from GitHub releases",
+      "url": "https://github.com/jeremdo95/WolfAmongUsAccess/releases",
+      "requiresPayment": false
+    }
+  ]
+}
