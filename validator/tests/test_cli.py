@@ -366,6 +366,21 @@ def test_validate_keeps_io_exit_status_when_fallback_also_reports_invalid_json(t
         unreadable.chmod(0o644)
 
 
+def test_validate_ignores_files_the_checkout_git_ignores(tmp_path, capsys):
+    import subprocess
+
+    root = _registry_root(tmp_path)
+    subprocess.run(["git", "init", "--quiet", str(root)], check=True)
+    (root / ".gitignore").write_text(".DS_Store\n.tools/\nlocal-notes.json\n", encoding="utf-8")
+    (root / "local-notes.json").write_text("{}\n", encoding="utf-8")
+    (root / ".DS_Store").write_bytes(b"\x00junk")
+    (root / ".tools").mkdir()
+    (root / ".tools" / "anything.bin").write_bytes(b"\x00")
+
+    assert main(["validate", "--root", str(root)]) == 0
+    assert "local-notes.json" not in capsys.readouterr().out
+
+
 def test_validate_escapes_control_characters_in_untrusted_diagnostic_paths(tmp_path, capsys):
     root = _registry_root(tmp_path)
     try:

@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import re
 from collections.abc import Mapping, Sequence
+import subprocess
 from pathlib import Path
 
 from .formatting import (
@@ -223,12 +224,39 @@ def load_snapshot(root: Path) -> Snapshot:
     )
 
 
+def _git_ignored_paths(root: Path) -> frozenset[str]:
+    """Paths this checkout's own git ignore rules cover; empty outside a git checkout."""
+    try:
+        result = subprocess.run(
+            ["git", "-C", str(root), "ls-files", "-z", "--others", "--ignored",
+             "--exclude-standard", "--directory"],
+            capture_output=True,
+            check=True,
+            timeout=30,
+        )
+    except (OSError, subprocess.SubprocessError):
+        return frozenset()
+    return frozenset(
+        item.decode("utf-8", "surrogateescape").rstrip("/")
+        for item in result.stdout.split(b"\0")
+        if item
+    )
+
+
+def _is_git_ignored(relative: str, ignored: frozenset[str]) -> bool:
+    parts = relative.split("/")
+    return any("/".join(parts[:length]) in ignored for length in range(1, len(parts) + 1))
+
+
 def _repository_paths(root: Path) -> tuple[tuple[str, Path], ...]:
     entries: list[tuple[str, Path]] = []
+    ignored = _git_ignored_paths(root)
     casefolded: dict[str, str] = {}
     for path in sorted(root.rglob("*"), key=lambda item: item.relative_to(root).as_posix().encode("utf-8")):
         relative = path.relative_to(root).as_posix()
         if relative == ".git" or relative.startswith(".git/"):
+            continue
+        if _is_git_ignored(relative, ignored):
             continue
         if path.is_symlink():
             raise UnexpectedPathError(relative, "", "symbolic links are not permitted")
