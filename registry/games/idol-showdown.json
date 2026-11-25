@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "idol-showdown",
+  "status": "active",
+  "name": "Idol Showdown",
+  "stores": [
+    {
+      "store": "steam",
+      "primary": true,
+      "url": "https://store.steampowered.com/app/1742020/Idol_Showdown/"
+    }
+  ],
+  "accessibility": {
+    "description": "Idol Showdown Access speaks menus, settings, character select, pop-ups, dialogue, tutorial tasks and victory texts through Windows SAPI voices or your screen reader. Character select announces the character, costume, collab partner and ready state. In fights, a stereo opponent locator gets faster as they near, with cues for airborne, adjacent and side switches, plus projectile warnings, a heartbeat at critical health and spoken round, score and result announcements. It works with a keyboard or an Xbox or PlayStation controller, follows the game's English or German language, and has its own mod menu. Chat and superchat overlays are not read.",
+    "coverage": "mostly",
+    "confidence": "reported",
+    "accessVia": "mod",
+    "tags": [
+      "blind"
+    ],
+    "primaryModId": "idol-showdown-access"
+  },
+  "resources": [
+    {
+      "name": "Idol Showdown Access documentation",
+      "url": "https://github.com/grybyx/Idol-Showdown-Access"
+    }
+  ],
+  "releaseYear": "2023"
+}
